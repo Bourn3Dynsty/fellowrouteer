@@ -1,0 +1,3144 @@
+{
+	"id": "the-heart-of-tuzari",
+	"slug": "the-heart-of-tuzari",
+	"name": "The Heart of Tuzari",
+	"internalName": "DemonicRitual",
+	"kind": "capstone",
+	"requiredScore": 238,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Start",
+			"image": "/maps/the-heart-of-tuzari/f1.webp",
+			"texture": "T_Map_Demonicritual_Start",
+			"worldSize": [
+				56000,
+				28000
+			]
+		},
+		{
+			"id": "f2",
+			"label": "Interior",
+			"image": "/maps/the-heart-of-tuzari/f2.webp",
+			"texture": "T_Map_Demonicritual_UpperFloor",
+			"worldSize": [
+				56000,
+				28000
+			]
+		},
+		{
+			"id": "f3",
+			"label": "Ending",
+			"image": "/maps/the-heart-of-tuzari/f3.webp",
+			"texture": "T_Map_Demonicritual_End",
+			"worldSize": [
+				64000,
+				32000
+			]
+		},
+		{
+			"id": "f4",
+			"label": "Lower floor",
+			"image": "/maps/the-heart-of-tuzari/f4.webp",
+			"texture": "T_Map_Demonicritual_LowerFloor",
+			"worldSize": [
+				56000,
+				28000
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "vv-sootstainedarsonist",
+			"name": "Ashen Arsonist",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.309,
+			"gameId": "VV_SootstainedArsonist",
+			"classes": [
+				"BP_NPC_VV_SootstainedArsonist"
+			],
+			"abilities": [
+				{
+					"name": "Flame Blast",
+					"interruptible": true,
+					"school": "Fire"
+				},
+				{
+					"name": "Big Oogha Flame",
+					"interruptible": true,
+					"school": "Fire"
+				}
+			],
+			"icon": "/icons/enemies/vv-sootstainedarsonist.webp"
+		},
+		{
+			"id": "pr-barbarouslasher",
+			"name": "Barbarous Lasher",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.143,
+			"gameId": "PR_BarbarousLasher",
+			"classes": [
+				"BP_NPC_PR_BarbarousLasher"
+			],
+			"icon": "/icons/enemies/pr-barbarouslasher.webp"
+		},
+		{
+			"id": "dr-bloodfangmauler",
+			"name": "Bloodfang",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.261,
+			"gameId": "DR_BloodfangMauler",
+			"classes": [
+				"BP_NPC_DR_BloodfangMauler"
+			],
+			"abilities": [
+				{
+					"name": "Shred",
+					"school": "Physical"
+				},
+				{
+					"name": "Pounce",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/dr-bloodfangmauler.webp"
+		},
+		{
+			"id": "dr-mancatcher",
+			"name": "Bloodfang Raider",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.33,
+			"gameId": "DR_Mancatcher",
+			"classes": [
+				"BP_NPC_DR_Mancatcher"
+			],
+			"abilities": [
+				{
+					"name": "Grip"
+				},
+				{
+					"name": "Shred"
+				}
+			],
+			"icon": "/icons/enemies/dr-mancatcher.webp"
+		},
+		{
+			"id": "dr-dangerousbrute",
+			"name": "Executioner",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.391,
+			"gameId": "DR_DangerousBrute",
+			"classes": [
+				"BP_NPC_DR_DangerousBrute"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/dr-dangerousbrute.webp"
+		},
+		{
+			"id": "dr-cultistmajorcaster",
+			"name": "Hellcaller",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 3.088,
+			"gameId": "DR_CultistMajorCaster",
+			"classes": [
+				"BP_NPC_DR_CultistMajorCaster"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Demonic Lash",
+					"interruptible": true,
+					"school": "Demonic"
+				},
+				{
+					"name": "Armaggedon",
+					"interruptible": true
+				},
+				{
+					"name": "Restore Vitality",
+					"interruptible": true,
+					"school": "Demonic"
+				}
+			],
+			"icon": "/icons/enemies/dr-cultistmajorcaster.webp"
+		},
+		{
+			"id": "dr-horneddemon",
+			"name": "Hulking Bulgore",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 3.59,
+			"gameId": "DR_HornedDemon",
+			"classes": [
+				"BP_NPC_DR_HornedDemon"
+			],
+			"abilities": [
+				{
+					"name": "Summon Portal"
+				},
+				{
+					"name": "Impale",
+					"school": "Physical"
+				},
+				{
+					"name": "Enrage"
+				}
+			],
+			"icon": "/icons/enemies/dr-horneddemon.webp"
+		},
+		{
+			"id": "dr-cultistinitiate",
+			"name": "Initiate",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 0.669,
+			"gameId": "DR_CultistInitiate",
+			"classes": [
+				"BP_NPC_DR_CultistSickle_Praying"
+			],
+			"icon": "/icons/enemies/dr-cultistinitiate.webp"
+		},
+		{
+			"id": "np-halfmancatcher",
+			"name": "Mancatcher",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.494,
+			"gameId": "NP_HalfMancatcher",
+			"classes": [
+				"BP_NPC_NP_HalfMancatcher"
+			],
+			"icon": "/icons/enemies/np-halfmancatcher.webp"
+		},
+		{
+			"id": "vv-blackmistcutthroat",
+			"name": "Nightmist Cutthroat",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 1.795,
+			"gameId": "VV_BlackmistCutthroat",
+			"classes": [
+				"BP_NPC_VV_BlackmistCutthroat"
+			],
+			"abilities": [
+				{
+					"name": "Backstab",
+					"school": "Physical",
+					"ccOnly": true,
+					"channel": true
+				},
+				{
+					"name": "Mist Step",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/vv-blackmistcutthroat.webp"
+		},
+		{
+			"id": "dr-cultistcaster",
+			"name": "Profane Invoker",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.501,
+			"gameId": "DR_CultistCaster",
+			"classes": [
+				"BP_NPC_DR_CultistCaster"
+			],
+			"abilities": [
+				{
+					"name": "Wither",
+					"interruptible": true
+				},
+				{
+					"name": "Shadow Bolt",
+					"interruptible": true,
+					"school": "Shadow"
+				}
+			],
+			"icon": "/icons/enemies/dr-cultistcaster.webp"
+		},
+		{
+			"id": "vv-icebitepillager",
+			"name": "Raging Pillager",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 2.665,
+			"gameId": "VV_IcebitePillager",
+			"classes": [
+				"BP_NPC_VV_IcebitePillager"
+			],
+			"icon": "/icons/enemies/vv-icebitepillager.webp"
+		},
+		{
+			"id": "dr-ruinslasher",
+			"name": "Ruins Lasher",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.353,
+			"gameId": "DR_RuinsLasher",
+			"classes": [
+				"BP_NPC_DR_RuinsLasher"
+			],
+			"abilities": [
+				{
+					"name": "Acidic Sap"
+				}
+			],
+			"icon": "/icons/enemies/dr-ruinslasher.webp"
+		},
+		{
+			"id": "dr-cultistsickle",
+			"name": "Sickle",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.288,
+			"gameId": "DR_CultistSickle",
+			"classes": [
+				"BP_NPC_DR_CultistSickle"
+			],
+			"abilities": [
+				{
+					"name": "Throw Dagger",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/dr-cultistsickle.webp"
+		},
+		{
+			"id": "dr-slaughtervine",
+			"name": "Slaughtervine",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.44,
+			"gameId": "DR_Slaughtervine",
+			"classes": [
+				"BP_NPC_DR_Slaughtervine"
+			],
+			"icon": "/icons/enemies/dr-slaughtervine.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "the-heart-of-tuzari-51",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6453,
+			"y": 0.4662,
+			"pack": 24
+		},
+		{
+			"id": "the-heart-of-tuzari-52",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6516,
+			"y": 0.4645,
+			"pack": 24
+		},
+		{
+			"id": "the-heart-of-tuzari-53",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6574,
+			"y": 0.4586,
+			"pack": 24
+		},
+		{
+			"id": "the-heart-of-tuzari-54",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6491,
+			"y": 0.4568,
+			"pack": 24
+		},
+		{
+			"id": "the-heart-of-tuzari-57",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6299,
+			"y": 0.5127,
+			"pack": 27
+		},
+		{
+			"id": "the-heart-of-tuzari-58",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6314,
+			"y": 0.5014,
+			"pack": 27
+		},
+		{
+			"id": "the-heart-of-tuzari-59",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6363,
+			"y": 0.4972,
+			"pack": 27
+		},
+		{
+			"id": "the-heart-of-tuzari-60",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.635,
+			"y": 0.5338,
+			"pack": 27
+		},
+		{
+			"id": "the-heart-of-tuzari-61",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.618,
+			"y": 0.5204,
+			"pack": 27
+		},
+		{
+			"id": "the-heart-of-tuzari-62",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6224,
+			"y": 0.5195,
+			"pack": 27
+		},
+		{
+			"id": "the-heart-of-tuzari-63",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6228,
+			"y": 0.5081,
+			"pack": 27
+		},
+		{
+			"id": "the-heart-of-tuzari-64",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6177,
+			"y": 0.5092,
+			"pack": 27
+		},
+		{
+			"id": "the-heart-of-tuzari-66",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6731,
+			"y": 0.6146,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-67",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6541,
+			"y": 0.5466,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-68",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6321,
+			"y": 0.5815,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-69",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6356,
+			"y": 0.5881,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-70",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6489,
+			"y": 0.599,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-72",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6308,
+			"y": 0.5942,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-73",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6764,
+			"y": 0.5346,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-74",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6793,
+			"y": 0.5248,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-75",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6722,
+			"y": 0.5306,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-76",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6749,
+			"y": 0.5121,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-77",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6739,
+			"y": 0.522,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-78",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6563,
+			"y": 0.5157,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-79",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6508,
+			"y": 0.5494,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-81",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6607,
+			"y": 0.6255,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-82",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.672,
+			"y": 0.6277,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-83",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6674,
+			"y": 0.6235,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-84",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6267,
+			"y": 0.6279,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-85",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.631,
+			"y": 0.6216,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-86",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6292,
+			"y": 0.6131,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-87",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6351,
+			"y": 0.6132,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-88",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6292,
+			"y": 0.604,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-94",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6592,
+			"y": 0.5198,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-96",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6655,
+			"y": 0.59,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-97",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6593,
+			"y": 0.5743,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-98",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.657,
+			"y": 0.5706,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-99",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6623,
+			"y": 0.5956,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-100",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f2",
+			"x": 0.6741,
+			"y": 0.5424,
+			"pack": 28
+		},
+		{
+			"id": "the-heart-of-tuzari-108",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6016,
+			"y": 0.5549,
+			"pack": 30
+		},
+		{
+			"id": "the-heart-of-tuzari-109",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6042,
+			"y": 0.5466,
+			"pack": 30
+		},
+		{
+			"id": "the-heart-of-tuzari-110",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6039,
+			"y": 0.5553,
+			"pack": 30
+		},
+		{
+			"id": "the-heart-of-tuzari-126",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6335,
+			"y": 0.7089,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-127",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6339,
+			"y": 0.7014,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-129",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6378,
+			"y": 0.7192,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-130",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6471,
+			"y": 0.7214,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-133",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6248,
+			"y": 0.7039,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-134",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.653,
+			"y": 0.7201,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-135",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6487,
+			"y": 0.705,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-136",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6451,
+			"y": 0.7064,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-138",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6421,
+			"y": 0.7246,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-139",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f2",
+			"x": 0.6129,
+			"y": 0.7246,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-143",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6236,
+			"y": 0.8032,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-144",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6306,
+			"y": 0.791,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-145",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6299,
+			"y": 0.7837,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-146",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6301,
+			"y": 0.7632,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-147",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6329,
+			"y": 0.7692,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-148",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.626,
+			"y": 0.7569,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-149",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6552,
+			"y": 0.763,
+			"pack": 46
+		},
+		{
+			"id": "the-heart-of-tuzari-150",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6503,
+			"y": 0.7625,
+			"pack": 46
+		},
+		{
+			"id": "the-heart-of-tuzari-151",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.65,
+			"y": 0.7931,
+			"pack": 46
+		},
+		{
+			"id": "the-heart-of-tuzari-152",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6513,
+			"y": 0.7697,
+			"pack": 46
+		},
+		{
+			"id": "the-heart-of-tuzari-153",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6527,
+			"y": 0.8001,
+			"pack": 46
+		},
+		{
+			"id": "the-heart-of-tuzari-166",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6225,
+			"y": 0.8408,
+			"pack": 52
+		},
+		{
+			"id": "the-heart-of-tuzari-167",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.6193,
+			"y": 0.8407,
+			"pack": 52
+		},
+		{
+			"id": "the-heart-of-tuzari-263",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f1",
+			"x": 0.5793,
+			"y": 0.3051,
+			"pack": 1
+		},
+		{
+			"id": "the-heart-of-tuzari-264",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f1",
+			"x": 0.5764,
+			"y": 0.2984,
+			"pack": 1
+		},
+		{
+			"id": "the-heart-of-tuzari-265",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4887,
+			"y": 0.3375,
+			"pack": 2
+		},
+		{
+			"id": "the-heart-of-tuzari-266",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.5051,
+			"y": 0.3369,
+			"pack": 2
+		},
+		{
+			"id": "the-heart-of-tuzari-267",
+			"enemyId": "dr-cultistmajorcaster",
+			"floor": "f1",
+			"x": 0.4967,
+			"y": 0.3552,
+			"pack": 2
+		},
+		{
+			"id": "the-heart-of-tuzari-268",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3303,
+			"y": 0.3576,
+			"pack": 3
+		},
+		{
+			"id": "the-heart-of-tuzari-269",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3344,
+			"y": 0.3566,
+			"pack": 3
+		},
+		{
+			"id": "the-heart-of-tuzari-270",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3215,
+			"y": 0.3491,
+			"pack": 3
+		},
+		{
+			"id": "the-heart-of-tuzari-271",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3317,
+			"y": 0.3491,
+			"pack": 3
+		},
+		{
+			"id": "the-heart-of-tuzari-272",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.319,
+			"y": 0.3548,
+			"pack": 3
+		},
+		{
+			"id": "the-heart-of-tuzari-273",
+			"enemyId": "dr-cultistmajorcaster",
+			"floor": "f1",
+			"x": 0.3272,
+			"y": 0.3476,
+			"pack": 3
+		},
+		{
+			"id": "the-heart-of-tuzari-274",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.3186,
+			"y": 0.4232,
+			"pack": 4,
+			"empowered": true
+		},
+		{
+			"id": "the-heart-of-tuzari-275",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.324,
+			"y": 0.429,
+			"pack": 4
+		},
+		{
+			"id": "the-heart-of-tuzari-276",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.3247,
+			"y": 0.4191,
+			"pack": 4
+		},
+		{
+			"id": "the-heart-of-tuzari-277",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f1",
+			"x": 0.5409,
+			"y": 0.4694,
+			"pack": 5
+		},
+		{
+			"id": "the-heart-of-tuzari-278",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f1",
+			"x": 0.5405,
+			"y": 0.4886,
+			"pack": 5
+		},
+		{
+			"id": "the-heart-of-tuzari-279",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.5374,
+			"y": 0.4795,
+			"pack": 5
+		},
+		{
+			"id": "the-heart-of-tuzari-280",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.5718,
+			"y": 0.4812,
+			"pack": 6
+		},
+		{
+			"id": "the-heart-of-tuzari-281",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f1",
+			"x": 0.572,
+			"y": 0.4736,
+			"pack": 6
+		},
+		{
+			"id": "the-heart-of-tuzari-282",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f1",
+			"x": 0.572,
+			"y": 0.4902,
+			"pack": 6
+		},
+		{
+			"id": "the-heart-of-tuzari-283",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.3418,
+			"y": 0.5034,
+			"pack": 7
+		},
+		{
+			"id": "the-heart-of-tuzari-284",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.3381,
+			"y": 0.5114,
+			"pack": 7
+		},
+		{
+			"id": "the-heart-of-tuzari-285",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4705,
+			"y": 0.511,
+			"pack": 8
+		},
+		{
+			"id": "the-heart-of-tuzari-286",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4613,
+			"y": 0.5125,
+			"pack": 8
+		},
+		{
+			"id": "the-heart-of-tuzari-287",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4659,
+			"y": 0.5035,
+			"pack": 8
+		},
+		{
+			"id": "the-heart-of-tuzari-288",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f1",
+			"x": 0.4758,
+			"y": 0.5316,
+			"pack": 8
+		},
+		{
+			"id": "the-heart-of-tuzari-289",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.4054,
+			"y": 0.5117,
+			"pack": 9
+		},
+		{
+			"id": "the-heart-of-tuzari-290",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.4151,
+			"y": 0.5117,
+			"pack": 9
+		},
+		{
+			"id": "the-heart-of-tuzari-291",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.4113,
+			"y": 0.5156,
+			"pack": 9
+		},
+		{
+			"id": "the-heart-of-tuzari-292",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.313,
+			"y": 0.5439,
+			"pack": 10
+		},
+		{
+			"id": "the-heart-of-tuzari-293",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3094,
+			"y": 0.5354,
+			"pack": 10
+		},
+		{
+			"id": "the-heart-of-tuzari-294",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3065,
+			"y": 0.5433,
+			"pack": 10
+		},
+		{
+			"id": "the-heart-of-tuzari-295",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.2981,
+			"y": 0.5147,
+			"pack": 10
+		},
+		{
+			"id": "the-heart-of-tuzari-296",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3023,
+			"y": 0.5276,
+			"pack": 10
+		},
+		{
+			"id": "the-heart-of-tuzari-297",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f1",
+			"x": 0.2987,
+			"y": 0.5251,
+			"pack": 10,
+			"empowered": true
+		},
+		{
+			"id": "the-heart-of-tuzari-298",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.3053,
+			"y": 0.5166,
+			"pack": 10
+		},
+		{
+			"id": "the-heart-of-tuzari-299",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.5232,
+			"y": 0.559,
+			"pack": 11
+		},
+		{
+			"id": "the-heart-of-tuzari-300",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.5156,
+			"y": 0.5696,
+			"pack": 11
+		},
+		{
+			"id": "the-heart-of-tuzari-301",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.522,
+			"y": 0.5707,
+			"pack": 11
+		},
+		{
+			"id": "the-heart-of-tuzari-302",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.5145,
+			"y": 0.5421,
+			"pack": 11
+		},
+		{
+			"id": "the-heart-of-tuzari-303",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f1",
+			"x": 0.4922,
+			"y": 0.5513,
+			"pack": 12
+		},
+		{
+			"id": "the-heart-of-tuzari-304",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.3704,
+			"y": 0.5866,
+			"pack": 13,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-305",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.3672,
+			"y": 0.581,
+			"pack": 13
+		},
+		{
+			"id": "the-heart-of-tuzari-306",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.3419,
+			"y": 0.6273,
+			"pack": 14
+		},
+		{
+			"id": "the-heart-of-tuzari-307",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.3372,
+			"y": 0.6169,
+			"pack": 14
+		},
+		{
+			"id": "the-heart-of-tuzari-308",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f1",
+			"x": 0.4767,
+			"y": 0.6317,
+			"pack": 15
+		},
+		{
+			"id": "the-heart-of-tuzari-309",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f1",
+			"x": 0.4812,
+			"y": 0.624,
+			"pack": 15
+		},
+		{
+			"id": "the-heart-of-tuzari-310",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.4775,
+			"y": 0.6218,
+			"pack": 15
+		},
+		{
+			"id": "the-heart-of-tuzari-311",
+			"enemyId": "dr-cultistmajorcaster",
+			"floor": "f1",
+			"x": 0.4146,
+			"y": 0.6789,
+			"pack": 16
+		},
+		{
+			"id": "the-heart-of-tuzari-312",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4173,
+			"y": 0.6746,
+			"pack": 16
+		},
+		{
+			"id": "the-heart-of-tuzari-313",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4105,
+			"y": 0.6771,
+			"pack": 16
+		},
+		{
+			"id": "the-heart-of-tuzari-314",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4244,
+			"y": 0.6554,
+			"pack": 16
+		},
+		{
+			"id": "the-heart-of-tuzari-315",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4025,
+			"y": 0.6591,
+			"pack": 16
+		},
+		{
+			"id": "the-heart-of-tuzari-316",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.4222,
+			"y": 0.6629,
+			"pack": 16,
+			"empowered": true
+		},
+		{
+			"id": "the-heart-of-tuzari-317",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.4049,
+			"y": 0.6647,
+			"pack": 16
+		},
+		{
+			"id": "the-heart-of-tuzari-318",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.5327,
+			"y": 0.1473,
+			"pack": 17
+		},
+		{
+			"id": "the-heart-of-tuzari-319",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.5491,
+			"y": 0.1747,
+			"pack": 17
+		},
+		{
+			"id": "the-heart-of-tuzari-320",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.5464,
+			"y": 0.1441,
+			"pack": 17
+		},
+		{
+			"id": "the-heart-of-tuzari-321",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.5382,
+			"y": 0.123,
+			"pack": 17
+		},
+		{
+			"id": "the-heart-of-tuzari-322",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.5323,
+			"y": 0.1236,
+			"pack": 17
+		},
+		{
+			"id": "the-heart-of-tuzari-323",
+			"enemyId": "dr-cultistmajorcaster",
+			"floor": "f2",
+			"x": 0.5043,
+			"y": 0.1431,
+			"pack": 18,
+			"empowered": true
+		},
+		{
+			"id": "the-heart-of-tuzari-324",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f2",
+			"x": 0.495,
+			"y": 0.1884,
+			"pack": 19
+		},
+		{
+			"id": "the-heart-of-tuzari-325",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f2",
+			"x": 0.5048,
+			"y": 0.1972,
+			"pack": 19
+		},
+		{
+			"id": "the-heart-of-tuzari-326",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f2",
+			"x": 0.5145,
+			"y": 0.1898,
+			"pack": 19
+		},
+		{
+			"id": "the-heart-of-tuzari-327",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.4554,
+			"y": 0.2391,
+			"pack": 20
+		},
+		{
+			"id": "the-heart-of-tuzari-328",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.4607,
+			"y": 0.2457,
+			"pack": 20
+		},
+		{
+			"id": "the-heart-of-tuzari-329",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.5029,
+			"y": 0.246,
+			"pack": 21
+		},
+		{
+			"id": "the-heart-of-tuzari-330",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.5085,
+			"y": 0.2461,
+			"pack": 21
+		},
+		{
+			"id": "the-heart-of-tuzari-331",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.369,
+			"y": 0.4492,
+			"pack": 22
+		},
+		{
+			"id": "the-heart-of-tuzari-332",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.3658,
+			"y": 0.4436,
+			"pack": 22
+		},
+		{
+			"id": "the-heart-of-tuzari-333",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f2",
+			"x": 0.5121,
+			"y": 0.4568,
+			"pack": 23
+		},
+		{
+			"id": "the-heart-of-tuzari-334",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f2",
+			"x": 0.4978,
+			"y": 0.4599,
+			"pack": 23
+		},
+		{
+			"id": "the-heart-of-tuzari-335",
+			"enemyId": "dr-dangerousbrute",
+			"floor": "f2",
+			"x": 0.505,
+			"y": 0.463,
+			"pack": 23
+		},
+		{
+			"id": "the-heart-of-tuzari-336",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.3213,
+			"y": 0.4788,
+			"pack": 25
+		},
+		{
+			"id": "the-heart-of-tuzari-337",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.3279,
+			"y": 0.463,
+			"pack": 25
+		},
+		{
+			"id": "the-heart-of-tuzari-338",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f2",
+			"x": 0.3254,
+			"y": 0.472,
+			"pack": 25
+		},
+		{
+			"id": "the-heart-of-tuzari-339",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f2",
+			"x": 0.3327,
+			"y": 0.4801,
+			"pack": 25
+		},
+		{
+			"id": "the-heart-of-tuzari-340",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f2",
+			"x": 0.5134,
+			"y": 0.4951,
+			"pack": 26
+		},
+		{
+			"id": "the-heart-of-tuzari-341",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f2",
+			"x": 0.5049,
+			"y": 0.4928,
+			"pack": 26
+		},
+		{
+			"id": "the-heart-of-tuzari-342",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f2",
+			"x": 0.3888,
+			"y": 0.5314,
+			"pack": 29
+		},
+		{
+			"id": "the-heart-of-tuzari-343",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f2",
+			"x": 0.3672,
+			"y": 0.5582,
+			"pack": 31
+		},
+		{
+			"id": "the-heart-of-tuzari-344",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f2",
+			"x": 0.3672,
+			"y": 0.6123,
+			"pack": 31
+		},
+		{
+			"id": "the-heart-of-tuzari-345",
+			"enemyId": "dr-horneddemon",
+			"floor": "f2",
+			"x": 0.3675,
+			"y": 0.5852,
+			"pack": 31,
+			"empowered": true
+		},
+		{
+			"id": "the-heart-of-tuzari-346",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f2",
+			"x": 0.4494,
+			"y": 0.576,
+			"pack": 32
+		},
+		{
+			"id": "the-heart-of-tuzari-347",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f2",
+			"x": 0.4432,
+			"y": 0.5746,
+			"pack": 32
+		},
+		{
+			"id": "the-heart-of-tuzari-348",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f2",
+			"x": 0.4422,
+			"y": 0.5926,
+			"pack": 32
+		},
+		{
+			"id": "the-heart-of-tuzari-349",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f2",
+			"x": 0.4484,
+			"y": 0.5939,
+			"pack": 32
+		},
+		{
+			"id": "the-heart-of-tuzari-350",
+			"enemyId": "dr-cultistcaster",
+			"floor": "f2",
+			"x": 0.327,
+			"y": 0.6015,
+			"pack": 33
+		},
+		{
+			"id": "the-heart-of-tuzari-351",
+			"enemyId": "dr-cultistcaster",
+			"floor": "f2",
+			"x": 0.327,
+			"y": 0.576,
+			"pack": 33
+		},
+		{
+			"id": "the-heart-of-tuzari-352",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f2",
+			"x": 0.3258,
+			"y": 0.5899,
+			"pack": 33
+		},
+		{
+			"id": "the-heart-of-tuzari-353",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6084,
+			"y": 0.5891,
+			"pack": 34
+		},
+		{
+			"id": "the-heart-of-tuzari-354",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6064,
+			"y": 0.6113,
+			"pack": 34
+		},
+		{
+			"id": "the-heart-of-tuzari-355",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f2",
+			"x": 0.6054,
+			"y": 0.5989,
+			"pack": 34
+		},
+		{
+			"id": "the-heart-of-tuzari-356",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f2",
+			"x": 0.5987,
+			"y": 0.6049,
+			"pack": 34
+		},
+		{
+			"id": "the-heart-of-tuzari-357",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f2",
+			"x": 0.5987,
+			"y": 0.5871,
+			"pack": 34
+		},
+		{
+			"id": "the-heart-of-tuzari-358",
+			"enemyId": "dr-cultistmajorcaster",
+			"floor": "f2",
+			"x": 0.3846,
+			"y": 0.5889,
+			"pack": 35
+		},
+		{
+			"id": "the-heart-of-tuzari-359",
+			"enemyId": "dr-cultistcaster",
+			"floor": "f2",
+			"x": 0.5224,
+			"y": 0.6324,
+			"pack": 36
+		},
+		{
+			"id": "the-heart-of-tuzari-360",
+			"enemyId": "dr-cultistcaster",
+			"floor": "f2",
+			"x": 0.5274,
+			"y": 0.6426,
+			"pack": 36
+		},
+		{
+			"id": "the-heart-of-tuzari-361",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f2",
+			"x": 0.5243,
+			"y": 0.6478,
+			"pack": 36
+		},
+		{
+			"id": "the-heart-of-tuzari-362",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f2",
+			"x": 0.5201,
+			"y": 0.6363,
+			"pack": 36
+		},
+		{
+			"id": "the-heart-of-tuzari-363",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.5192,
+			"y": 0.646,
+			"pack": 36
+		},
+		{
+			"id": "the-heart-of-tuzari-364",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f2",
+			"x": 0.39,
+			"y": 0.6457,
+			"pack": 37
+		},
+		{
+			"id": "the-heart-of-tuzari-365",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6114,
+			"y": 0.6533,
+			"pack": 38
+		},
+		{
+			"id": "the-heart-of-tuzari-366",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.614,
+			"y": 0.6634,
+			"pack": 38
+		},
+		{
+			"id": "the-heart-of-tuzari-367",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f2",
+			"x": 0.4028,
+			"y": 0.6868,
+			"pack": 39
+		},
+		{
+			"id": "the-heart-of-tuzari-368",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f2",
+			"x": 0.3999,
+			"y": 0.6962,
+			"pack": 39
+		},
+		{
+			"id": "the-heart-of-tuzari-369",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f2",
+			"x": 0.5424,
+			"y": 0.7027,
+			"pack": 40
+		},
+		{
+			"id": "the-heart-of-tuzari-370",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f2",
+			"x": 0.537,
+			"y": 0.6914,
+			"pack": 40
+		},
+		{
+			"id": "the-heart-of-tuzari-371",
+			"enemyId": "dr-mancatcher",
+			"floor": "f2",
+			"x": 0.5412,
+			"y": 0.694,
+			"pack": 40
+		},
+		{
+			"id": "the-heart-of-tuzari-372",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6105,
+			"y": 0.7337,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-373",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6132,
+			"y": 0.7082,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-374",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f2",
+			"x": 0.6201,
+			"y": 0.7282,
+			"pack": 41
+		},
+		{
+			"id": "the-heart-of-tuzari-375",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.4844,
+			"y": 0.7082,
+			"pack": 42,
+			"empowered": true
+		},
+		{
+			"id": "the-heart-of-tuzari-376",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.5251,
+			"y": 0.7082,
+			"pack": 43
+		},
+		{
+			"id": "the-heart-of-tuzari-377",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.3165,
+			"y": 0.7491,
+			"pack": 44
+		},
+		{
+			"id": "the-heart-of-tuzari-378",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.3107,
+			"y": 0.7362,
+			"pack": 44
+		},
+		{
+			"id": "the-heart-of-tuzari-379",
+			"enemyId": "dr-cultistmajorcaster",
+			"floor": "f2",
+			"x": 0.5048,
+			"y": 0.7407,
+			"pack": 45
+		},
+		{
+			"id": "the-heart-of-tuzari-380",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.3729,
+			"y": 0.7894,
+			"pack": 47
+		},
+		{
+			"id": "the-heart-of-tuzari-381",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.3677,
+			"y": 0.7917,
+			"pack": 47
+		},
+		{
+			"id": "the-heart-of-tuzari-382",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.3704,
+			"y": 0.8032,
+			"pack": 47
+		},
+		{
+			"id": "the-heart-of-tuzari-383",
+			"enemyId": "dr-cultistcaster",
+			"floor": "f2",
+			"x": 0.4462,
+			"y": 0.8188,
+			"pack": 48
+		},
+		{
+			"id": "the-heart-of-tuzari-384",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.4411,
+			"y": 0.825,
+			"pack": 48
+		},
+		{
+			"id": "the-heart-of-tuzari-385",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.4435,
+			"y": 0.8054,
+			"pack": 48
+		},
+		{
+			"id": "the-heart-of-tuzari-386",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f2",
+			"x": 0.5545,
+			"y": 0.8118,
+			"pack": 49
+		},
+		{
+			"id": "the-heart-of-tuzari-387",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f2",
+			"x": 0.5595,
+			"y": 0.8163,
+			"pack": 49
+		},
+		{
+			"id": "the-heart-of-tuzari-388",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5595,
+			"y": 0.808,
+			"pack": 49
+		},
+		{
+			"id": "the-heart-of-tuzari-389",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5819,
+			"y": 0.8355,
+			"pack": 50
+		},
+		{
+			"id": "the-heart-of-tuzari-390",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5819,
+			"y": 0.8113,
+			"pack": 50
+		},
+		{
+			"id": "the-heart-of-tuzari-391",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f2",
+			"x": 0.578,
+			"y": 0.8143,
+			"pack": 50
+		},
+		{
+			"id": "the-heart-of-tuzari-392",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f2",
+			"x": 0.5774,
+			"y": 0.8351,
+			"pack": 50,
+			"empowered": true,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-393",
+			"enemyId": "dr-cultistcaster",
+			"floor": "f2",
+			"x": 0.5039,
+			"y": 0.8236,
+			"pack": 51
+		},
+		{
+			"id": "the-heart-of-tuzari-394",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.496,
+			"y": 0.8325,
+			"pack": 51
+		},
+		{
+			"id": "the-heart-of-tuzari-395",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.5129,
+			"y": 0.8308,
+			"pack": 51
+		},
+		{
+			"id": "the-heart-of-tuzari-396",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.5734,
+			"y": 0.8799,
+			"pack": 53,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-397",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.5651,
+			"y": 0.8936,
+			"pack": 53
+		},
+		{
+			"id": "the-heart-of-tuzari-398",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f2",
+			"x": 0.5688,
+			"y": 0.8825,
+			"pack": 53
+		},
+		{
+			"id": "the-heart-of-tuzari-399",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.4452,
+			"y": 0.8928,
+			"pack": 54
+		},
+		{
+			"id": "the-heart-of-tuzari-400",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.4435,
+			"y": 0.8849,
+			"pack": 54
+		},
+		{
+			"id": "the-heart-of-tuzari-401",
+			"enemyId": "dr-cultistcaster",
+			"floor": "f3",
+			"x": 0.5315,
+			"y": 0.2722,
+			"pack": 55,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-402",
+			"enemyId": "dr-cultistcaster",
+			"floor": "f3",
+			"x": 0.5303,
+			"y": 0.2956,
+			"pack": 55,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-403",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f3",
+			"x": 0.5189,
+			"y": 0.2955,
+			"pack": 55,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-404",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f3",
+			"x": 0.5553,
+			"y": 0.2883,
+			"pack": 56,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-405",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f3",
+			"x": 0.5592,
+			"y": 0.2946,
+			"pack": 56,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-406",
+			"enemyId": "dr-horneddemon",
+			"floor": "f3",
+			"x": 0.568,
+			"y": 0.2874,
+			"pack": 56,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-407",
+			"enemyId": "dr-horneddemon",
+			"floor": "f3",
+			"x": 0.5569,
+			"y": 0.2724,
+			"pack": 56,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-408",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f3",
+			"x": 0.6239,
+			"y": 0.3306,
+			"pack": 57,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-409",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f3",
+			"x": 0.6297,
+			"y": 0.3316,
+			"pack": 57,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-410",
+			"enemyId": "dr-horneddemon",
+			"floor": "f3",
+			"x": 0.6206,
+			"y": 0.3194,
+			"pack": 57,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-411",
+			"enemyId": "dr-horneddemon",
+			"floor": "f3",
+			"x": 0.6338,
+			"y": 0.3269,
+			"pack": 57,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-412",
+			"enemyId": "dr-mancatcher",
+			"floor": "f3",
+			"x": 0.593,
+			"y": 0.3307,
+			"pack": 58,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-413",
+			"enemyId": "dr-mancatcher",
+			"floor": "f3",
+			"x": 0.5944,
+			"y": 0.3259,
+			"pack": 58,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-414",
+			"enemyId": "dr-dangerousbrute",
+			"floor": "f3",
+			"x": 0.5805,
+			"y": 0.3631,
+			"pack": 59,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-415",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f3",
+			"x": 0.5855,
+			"y": 0.3642,
+			"pack": 59,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-416",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f3",
+			"x": 0.5783,
+			"y": 0.358,
+			"pack": 59,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-417",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f3",
+			"x": 0.5069,
+			"y": 0.3978,
+			"pack": 60,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-418",
+			"enemyId": "dr-mancatcher",
+			"floor": "f3",
+			"x": 0.5005,
+			"y": 0.3976,
+			"pack": 60,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-419",
+			"enemyId": "dr-mancatcher",
+			"floor": "f3",
+			"x": 0.5067,
+			"y": 0.3876,
+			"pack": 60,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-420",
+			"enemyId": "dr-mancatcher",
+			"floor": "f3",
+			"x": 0.5015,
+			"y": 0.3889,
+			"pack": 60,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-421",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f3",
+			"x": 0.6317,
+			"y": 0.3935,
+			"pack": 61,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-422",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f3",
+			"x": 0.6217,
+			"y": 0.3919,
+			"pack": 61,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-423",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f3",
+			"x": 0.5475,
+			"y": 0.5143,
+			"pack": 62,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-424",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f3",
+			"x": 0.5443,
+			"y": 0.4915,
+			"pack": 62,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-425",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f3",
+			"x": 0.5616,
+			"y": 0.5077,
+			"pack": 62,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-426",
+			"enemyId": "dr-cultistmajorcaster",
+			"floor": "f3",
+			"x": 0.5621,
+			"y": 0.4935,
+			"pack": 62,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-427",
+			"enemyId": "dr-cultistmajorcaster",
+			"floor": "f3",
+			"x": 0.5502,
+			"y": 0.48,
+			"pack": 62,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-428",
+			"enemyId": "dr-horneddemon",
+			"floor": "f3",
+			"x": 0.5536,
+			"y": 0.4973,
+			"pack": 62,
+			"empowered": true,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-429",
+			"enemyId": "dr-mancatcher",
+			"floor": "f3",
+			"x": 0.4893,
+			"y": 0.5326,
+			"pack": 63,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-430",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f3",
+			"x": 0.489,
+			"y": 0.5246,
+			"pack": 63,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-431",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f3",
+			"x": 0.4868,
+			"y": 0.538,
+			"pack": 63,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-432",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f3",
+			"x": 0.4843,
+			"y": 0.5242,
+			"pack": 63,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-433",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f3",
+			"x": 0.4819,
+			"y": 0.5352,
+			"pack": 63,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-434",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5355,
+			"y": 0.1043,
+			"pack": 64
+		},
+		{
+			"id": "the-heart-of-tuzari-435",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5405,
+			"y": 0.0839,
+			"pack": 64
+		},
+		{
+			"id": "the-heart-of-tuzari-436",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f4",
+			"x": 0.5048,
+			"y": 0.0855,
+			"pack": 65
+		},
+		{
+			"id": "the-heart-of-tuzari-437",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5117,
+			"y": 0.1017,
+			"pack": 65
+		},
+		{
+			"id": "the-heart-of-tuzari-438",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5,
+			"y": 0.1017,
+			"pack": 65
+		},
+		{
+			"id": "the-heart-of-tuzari-439",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f4",
+			"x": 0.5049,
+			"y": 0.0991,
+			"pack": 65
+		},
+		{
+			"id": "the-heart-of-tuzari-440",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f4",
+			"x": 0.5106,
+			"y": 0.0912,
+			"pack": 65
+		},
+		{
+			"id": "the-heart-of-tuzari-441",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f4",
+			"x": 0.4976,
+			"y": 0.0912,
+			"pack": 65
+		},
+		{
+			"id": "the-heart-of-tuzari-442",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5722,
+			"y": 0.2668,
+			"pack": 66
+		},
+		{
+			"id": "the-heart-of-tuzari-443",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5778,
+			"y": 0.2541,
+			"pack": 66
+		},
+		{
+			"id": "the-heart-of-tuzari-444",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5729,
+			"y": 0.2385,
+			"pack": 66
+		},
+		{
+			"id": "the-heart-of-tuzari-445",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f4",
+			"x": 0.5703,
+			"y": 0.2486,
+			"pack": 66
+		},
+		{
+			"id": "the-heart-of-tuzari-446",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f4",
+			"x": 0.5638,
+			"y": 0.2441,
+			"pack": 66
+		},
+		{
+			"id": "the-heart-of-tuzari-447",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f4",
+			"x": 0.5633,
+			"y": 0.2657,
+			"pack": 66
+		},
+		{
+			"id": "the-heart-of-tuzari-448",
+			"enemyId": "dr-cultistcaster",
+			"floor": "f4",
+			"x": 0.4358,
+			"y": 0.2469,
+			"pack": 67
+		},
+		{
+			"id": "the-heart-of-tuzari-449",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f4",
+			"x": 0.4394,
+			"y": 0.2454,
+			"pack": 67
+		},
+		{
+			"id": "the-heart-of-tuzari-450",
+			"enemyId": "dr-cultistsickle",
+			"floor": "f4",
+			"x": 0.4346,
+			"y": 0.255,
+			"pack": 67
+		},
+		{
+			"id": "the-heart-of-tuzari-451",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5722,
+			"y": 0.3241,
+			"pack": 68
+		},
+		{
+			"id": "the-heart-of-tuzari-452",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5778,
+			"y": 0.3114,
+			"pack": 68
+		},
+		{
+			"id": "the-heart-of-tuzari-453",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f4",
+			"x": 0.4311,
+			"y": 0.3331,
+			"pack": 69
+		},
+		{
+			"id": "the-heart-of-tuzari-454",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f4",
+			"x": 0.4347,
+			"y": 0.3397,
+			"pack": 69
+		},
+		{
+			"id": "the-heart-of-tuzari-455",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.4803,
+			"y": 0.3849,
+			"pack": 70
+		},
+		{
+			"id": "the-heart-of-tuzari-456",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.4729,
+			"y": 0.3784,
+			"pack": 70
+		},
+		{
+			"id": "the-heart-of-tuzari-457",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.4584,
+			"y": 0.3909,
+			"pack": 70
+		},
+		{
+			"id": "the-heart-of-tuzari-458",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.4621,
+			"y": 0.3848,
+			"pack": 70
+		},
+		{
+			"id": "the-heart-of-tuzari-459",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f4",
+			"x": 0.5434,
+			"y": 0.4114,
+			"pack": 71
+		},
+		{
+			"id": "the-heart-of-tuzari-460",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f4",
+			"x": 0.5495,
+			"y": 0.4124,
+			"pack": 71
+		},
+		{
+			"id": "the-heart-of-tuzari-461",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f4",
+			"x": 0.5469,
+			"y": 0.3937,
+			"pack": 71
+		},
+		{
+			"id": "the-heart-of-tuzari-462",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5418,
+			"y": 0.3882,
+			"pack": 71
+		},
+		{
+			"id": "the-heart-of-tuzari-463",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5489,
+			"y": 0.4002,
+			"pack": 71
+		},
+		{
+			"id": "the-heart-of-tuzari-464",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5537,
+			"y": 0.4036,
+			"pack": 71
+		},
+		{
+			"id": "the-heart-of-tuzari-465",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f4",
+			"x": 0.5414,
+			"y": 0.4009,
+			"pack": 71
+		},
+		{
+			"id": "the-heart-of-tuzari-466",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f4",
+			"x": 0.5554,
+			"y": 0.4128,
+			"pack": 71
+		},
+		{
+			"id": "the-heart-of-tuzari-467",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f4",
+			"x": 0.4411,
+			"y": 0.4339,
+			"pack": 72
+		},
+		{
+			"id": "the-heart-of-tuzari-468",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.4478,
+			"y": 0.4261,
+			"pack": 72
+		},
+		{
+			"id": "the-heart-of-tuzari-469",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.4378,
+			"y": 0.4424,
+			"pack": 72
+		},
+		{
+			"id": "the-heart-of-tuzari-470",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.4465,
+			"y": 0.4367,
+			"pack": 72
+		},
+		{
+			"id": "the-heart-of-tuzari-471",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f4",
+			"x": 0.4495,
+			"y": 0.4427,
+			"pack": 72
+		},
+		{
+			"id": "the-heart-of-tuzari-472",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f4",
+			"x": 0.5157,
+			"y": 0.4372,
+			"pack": 73
+		},
+		{
+			"id": "the-heart-of-tuzari-473",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f4",
+			"x": 0.5104,
+			"y": 0.4316,
+			"pack": 73
+		},
+		{
+			"id": "the-heart-of-tuzari-474",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f4",
+			"x": 0.4936,
+			"y": 0.4372,
+			"pack": 73
+		},
+		{
+			"id": "the-heart-of-tuzari-475",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f4",
+			"x": 0.4993,
+			"y": 0.4316,
+			"pack": 73
+		},
+		{
+			"id": "the-heart-of-tuzari-476",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f4",
+			"x": 0.5053,
+			"y": 0.4281,
+			"pack": 73
+		},
+		{
+			"id": "the-heart-of-tuzari-477",
+			"enemyId": "dr-cultistmajorcaster",
+			"floor": "f4",
+			"x": 0.5052,
+			"y": 0.4508,
+			"pack": 73
+		},
+		{
+			"id": "the-heart-of-tuzari-478",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f4",
+			"x": 0.8332,
+			"y": 0.4281,
+			"pack": 74,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-479",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f4",
+			"x": 0.8338,
+			"y": 0.4402,
+			"pack": 74,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-480",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f4",
+			"x": 0.8271,
+			"y": 0.4283,
+			"pack": 74,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-481",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f4",
+			"x": 0.5635,
+			"y": 0.4552,
+			"pack": 75
+		},
+		{
+			"id": "the-heart-of-tuzari-482",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f4",
+			"x": 0.5677,
+			"y": 0.4629,
+			"pack": 75
+		},
+		{
+			"id": "the-heart-of-tuzari-483",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5741,
+			"y": 0.4306,
+			"pack": 75
+		},
+		{
+			"id": "the-heart-of-tuzari-484",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5741,
+			"y": 0.4496,
+			"pack": 75
+		},
+		{
+			"id": "the-heart-of-tuzari-485",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.5698,
+			"y": 0.4387,
+			"pack": 75
+		},
+		{
+			"id": "the-heart-of-tuzari-486",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f4",
+			"x": 0.8066,
+			"y": 0.5178,
+			"pack": 76,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-487",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f4",
+			"x": 0.8006,
+			"y": 0.4971,
+			"pack": 76,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-488",
+			"enemyId": "dr-horneddemon",
+			"floor": "f4",
+			"x": 0.8135,
+			"y": 0.4876,
+			"pack": 76,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-489",
+			"enemyId": "dr-mancatcher",
+			"floor": "f4",
+			"x": 0.8052,
+			"y": 0.4724,
+			"pack": 76,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-490",
+			"enemyId": "dr-mancatcher",
+			"floor": "f4",
+			"x": 0.8161,
+			"y": 0.5115,
+			"pack": 76,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-491",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.435,
+			"y": 0.4829,
+			"pack": 77
+		},
+		{
+			"id": "the-heart-of-tuzari-492",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f4",
+			"x": 0.4402,
+			"y": 0.5258,
+			"pack": 78
+		},
+		{
+			"id": "the-heart-of-tuzari-493",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f4",
+			"x": 0.4357,
+			"y": 0.5188,
+			"pack": 78
+		},
+		{
+			"id": "the-heart-of-tuzari-494",
+			"enemyId": "dr-cultistcaster",
+			"floor": "f4",
+			"x": 0.8195,
+			"y": 0.6837,
+			"pack": 79,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-495",
+			"enemyId": "dr-cultistcaster",
+			"floor": "f4",
+			"x": 0.8255,
+			"y": 0.6814,
+			"pack": 79,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-496",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f4",
+			"x": 0.8159,
+			"y": 0.6721,
+			"pack": 79,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-497",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f4",
+			"x": 0.8318,
+			"y": 0.6721,
+			"pack": 79,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-498",
+			"enemyId": "dr-horneddemon",
+			"floor": "f4",
+			"x": 0.8248,
+			"y": 0.6621,
+			"pack": 79,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-499",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.7681,
+			"y": 0.7178,
+			"pack": 80,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-500",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.769,
+			"y": 0.687,
+			"pack": 80,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-501",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.7531,
+			"y": 0.708,
+			"pack": 80,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-502",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.7651,
+			"y": 0.7016,
+			"pack": 80,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-503",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f4",
+			"x": 0.7531,
+			"y": 0.6934,
+			"pack": 80,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-504",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f4",
+			"x": 0.7724,
+			"y": 0.7142,
+			"pack": 80,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-505",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f4",
+			"x": 0.769,
+			"y": 0.701,
+			"pack": 80,
+			"promoted": true
+		},
+		{
+			"id": "the-heart-of-tuzari-506",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f4",
+			"x": 0.7724,
+			"y": 0.6853,
+			"pack": 80,
+			"promoted": true
+		}
+	],
+	"minibosses": [
+		{
+			"affix": "eira",
+			"floor": "f2",
+			"x": 0.3681,
+			"y": 0.5845,
+			"radius": 2000,
+			"replaces": [
+				"the-heart-of-tuzari-342",
+				"the-heart-of-tuzari-343",
+				"the-heart-of-tuzari-344",
+				"the-heart-of-tuzari-345",
+				"the-heart-of-tuzari-358"
+			]
+		},
+		{
+			"affix": "ghorn",
+			"floor": "f1",
+			"x": 0.3665,
+			"y": 0.6284,
+			"radius": 2000,
+			"replaces": [
+				"the-heart-of-tuzari-304",
+				"the-heart-of-tuzari-305",
+				"the-heart-of-tuzari-306",
+				"the-heart-of-tuzari-307"
+			]
+		}
+	],
+	"start": {
+		"floor": "f1",
+		"x": 0.6768,
+		"y": 0.593
+	},
+	"checkpoints": [
+		{
+			"floor": "f1",
+			"x": 0.5179,
+			"y": 0.5564
+		},
+		{
+			"floor": "f3",
+			"x": 0.4841,
+			"y": 0.5308
+		},
+		{
+			"floor": "f2",
+			"x": 0.5678,
+			"y": 0.7208
+		},
+		{
+			"floor": "f2",
+			"x": 0.4472,
+			"y": 0.4469
+		}
+	],
+	"patrols": [
+		{
+			"id": "the-heart-of-tuzari-p1",
+			"floor": "f1",
+			"points": [
+				[
+					0.3243,
+					0.424
+				],
+				[
+					0.3237,
+					0.5083
+				],
+				[
+					0.4113,
+					0.6411
+				],
+				[
+					0.4804,
+					0.5547
+				],
+				[
+					0.5027,
+					0.4484
+				],
+				[
+					0.4114,
+					0.6437
+				],
+				[
+					0.3221,
+					0.5034
+				]
+			],
+			"spawns": [
+				"the-heart-of-tuzari-274",
+				"the-heart-of-tuzari-275",
+				"the-heart-of-tuzari-276"
+			]
+		},
+		{
+			"id": "the-heart-of-tuzari-p2",
+			"floor": "f2",
+			"points": [
+				[
+					0.5057,
+					0.2449
+				],
+				[
+					0.5055,
+					0.4132
+				]
+			],
+			"spawns": [
+				"the-heart-of-tuzari-329",
+				"the-heart-of-tuzari-330"
+			]
+		},
+		{
+			"id": "the-heart-of-tuzari-p3",
+			"floor": "f2",
+			"points": [
+				[
+					0.4464,
+					0.5736
+				],
+				[
+					0.4468,
+					0.6419
+				],
+				[
+					0.4686,
+					0.7083
+				]
+			],
+			"spawns": [
+				"the-heart-of-tuzari-346",
+				"the-heart-of-tuzari-347",
+				"the-heart-of-tuzari-348",
+				"the-heart-of-tuzari-349"
+			]
+		},
+		{
+			"id": "the-heart-of-tuzari-p4",
+			"floor": "f2",
+			"points": [
+				[
+					0.5249,
+					0.6375
+				],
+				[
+					0.531,
+					0.6062
+				],
+				[
+					0.5273,
+					0.5701
+				],
+				[
+					0.5046,
+					0.5476
+				],
+				[
+					0.4857,
+					0.5665
+				],
+				[
+					0.4764,
+					0.6022
+				],
+				[
+					0.4871,
+					0.6472
+				],
+				[
+					0.5053,
+					0.6565
+				]
+			],
+			"spawns": [
+				"the-heart-of-tuzari-359",
+				"the-heart-of-tuzari-360",
+				"the-heart-of-tuzari-361",
+				"the-heart-of-tuzari-362",
+				"the-heart-of-tuzari-363"
+			]
+		},
+		{
+			"id": "the-heart-of-tuzari-p5",
+			"floor": "f2",
+			"points": [
+				[
+					0.5388,
+					0.6987
+				],
+				[
+					0.5662,
+					0.6058
+				]
+			],
+			"spawns": [
+				"the-heart-of-tuzari-369",
+				"the-heart-of-tuzari-370",
+				"the-heart-of-tuzari-371"
+			]
+		},
+		{
+			"id": "the-heart-of-tuzari-p6",
+			"floor": "f2",
+			"points": [
+				[
+					0.3702,
+					0.7892
+				],
+				[
+					0.4068,
+					0.8167
+				],
+				[
+					0.4305,
+					0.821
+				]
+			],
+			"spawns": [
+				"the-heart-of-tuzari-380",
+				"the-heart-of-tuzari-381",
+				"the-heart-of-tuzari-382"
+			]
+		},
+		{
+			"id": "the-heart-of-tuzari-p7",
+			"floor": "f3",
+			"points": [
+				[
+					0.5937,
+					0.3283
+				],
+				[
+					0.5466,
+					0.332
+				],
+				[
+					0.5336,
+					0.4339
+				],
+				[
+					0.5775,
+					0.4825
+				],
+				[
+					0.6149,
+					0.407
+				]
+			],
+			"spawns": [
+				"the-heart-of-tuzari-412",
+				"the-heart-of-tuzari-413"
+			]
+		},
+		{
+			"id": "the-heart-of-tuzari-p8",
+			"floor": "f4",
+			"points": [
+				[
+					0.8298,
+					0.4356
+				],
+				[
+					0.8739,
+					0.3286
+				]
+			],
+			"spawns": [
+				"the-heart-of-tuzari-478",
+				"the-heart-of-tuzari-479",
+				"the-heart-of-tuzari-480"
+			]
+		}
+	],
+	"art": {
+		"codex": "/art/codex/the-heart-of-tuzari.webp",
+		"banner": "/art/banner/the-heart-of-tuzari.webp"
+	}
+}

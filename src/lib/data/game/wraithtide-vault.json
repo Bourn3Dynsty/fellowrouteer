@@ -1,0 +1,2751 @@
+{
+	"id": "wraithtide-vault",
+	"slug": "wraithtide-vault",
+	"name": "Wraithtide Vault",
+	"internalName": "PirateRaid",
+	"kind": "capstone",
+	"requiredScore": 281,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Start + village",
+			"image": "/maps/wraithtide-vault/f1.webp",
+			"texture": "T_Map_PirateRaid_Lower",
+			"worldSize": [
+				78000,
+				39000
+			]
+		},
+		{
+			"id": "f2",
+			"label": "Upper island",
+			"image": "/maps/wraithtide-vault/f2.webp",
+			"texture": "T_Map_PirateRaid_Upper",
+			"worldSize": [
+				74000,
+				37000
+			]
+		},
+		{
+			"id": "f3",
+			"label": "Ship interior",
+			"image": "/maps/wraithtide-vault/f3.webp",
+			"texture": "T_Map_PirateRaid_Ship",
+			"worldSize": [
+				36000,
+				18000
+			]
+		},
+		{
+			"id": "f4",
+			"label": "Jungle",
+			"image": "/maps/wraithtide-vault/f4.webp",
+			"texture": "T_Map_PirateRaid_JungleArea",
+			"worldSize": [
+				58000,
+				29000
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "pr-barbarouslasher",
+			"name": "Barbarous Lasher",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.143,
+			"gameId": "PR_BarbarousLasher",
+			"classes": [
+				"BP_NPC_PR_BarbarousLasher"
+			],
+			"icon": "/icons/enemies/pr-barbarouslasher.webp"
+		},
+		{
+			"id": "pr-bilgerat",
+			"name": "Bilgerat",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 2.276,
+			"gameId": "PR_Bilgerat",
+			"classes": [
+				"BP_NPC_PR_Bilgerat"
+			],
+			"abilities": [
+				{
+					"name": "Vermin Tide",
+					"interruptible": true,
+					"channel": true
+				},
+				{
+					"name": "Leaderless",
+					"interruptible": true,
+					"channel": true
+				}
+			],
+			"icon": "/icons/enemies/pr-bilgerat.webp"
+		},
+		{
+			"id": "pr-swashbuckler",
+			"name": "Bleachbone Brute",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 3.477,
+			"gameId": "PR_Swashbuckler",
+			"classes": [
+				"BP_NPC_PR_Swashbuckler"
+			],
+			"abilities": [
+				{
+					"name": "Bonebreaker",
+					"ccOnly": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Rupture Earth",
+					"ccOnly": true,
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/pr-swashbuckler.webp"
+		},
+		{
+			"id": "uc-evilspirit",
+			"name": "Dire Rat",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 0.703,
+			"gameId": "UC_EvilSpirit",
+			"classes": [
+				"BP_NPC_UC_EvilSpirit"
+			],
+			"abilities": [
+				{
+					"name": "Frenzy"
+				}
+			],
+			"icon": "/icons/enemies/uc-evilspirit.webp"
+		},
+		{
+			"id": "pr-pirategrunt",
+			"name": "Gravescythe",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.325,
+			"gameId": "PR_PirateGrunt",
+			"classes": [
+				"BP_NPC_PR_PirateGrunt"
+			],
+			"abilities": [
+				{
+					"name": "Dark Cleave",
+					"ccOnly": true,
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/pr-pirategrunt.webp"
+		},
+		{
+			"id": "pr-goldenconstructvolatile",
+			"name": "Greedbound Prism",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 2.326,
+			"gameId": "PR_GoldenConstructVolatile",
+			"classes": [
+				"BP_NPC_PR_GoldenConstructVolatile"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/pr-goldenconstructvolatile.webp"
+		},
+		{
+			"id": "pr-possessedarmor",
+			"name": "Greedspawn Sentinel",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 5.212,
+			"gameId": "PR_PossessedArmor",
+			"classes": [
+				"BP_NPC_PR_PossessedArmor"
+			],
+			"abilities": [
+				{
+					"name": "Greed's Embrace",
+					"interruptible": true,
+					"channel": true
+				}
+			],
+			"icon": "/icons/enemies/pr-possessedarmor.webp"
+		},
+		{
+			"id": "pr-tigercat",
+			"name": "Jungle Stalker",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.453,
+			"gameId": "PR_TigerCat",
+			"classes": [
+				"BP_NPC_PR_TigerCat"
+			],
+			"abilities": [
+				{
+					"name": "Slash Claws",
+					"ccOnly": true,
+					"channel": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Stalker's Bite",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/pr-tigercat.webp"
+		},
+		{
+			"id": "sg-ghostcorpse",
+			"name": "Lost Soul",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 0.827,
+			"gameId": "SG_GhostCorpse",
+			"classes": [
+				"BP_NPC_SG_GhostCorpse"
+			],
+			"icon": "/icons/enemies/sg-ghostcorpse.webp"
+		},
+		{
+			"id": "dr-ruinslasher",
+			"name": "Ruins Lasher",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.353,
+			"gameId": "DR_RuinsLasher",
+			"classes": [
+				"BP_NPC_DR_RuinsLasher"
+			],
+			"abilities": [
+				{
+					"name": "Acidic Sap"
+				}
+			],
+			"icon": "/icons/enemies/dr-ruinslasher.webp"
+		},
+		{
+			"id": "pr-scallywag",
+			"name": "Saltsworn Scallywag",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.704,
+			"gameId": "PR_Scallywag",
+			"classes": [
+				"BP_NPC_PR_Scallywag"
+			],
+			"abilities": [
+				{
+					"name": "Salted Blade"
+				}
+			],
+			"icon": "/icons/enemies/pr-scallywag.webp"
+		},
+		{
+			"id": "pr-cannonpirate",
+			"name": "Scuttlejack Cannoneer",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 3.212,
+			"gameId": "PR_CannonPirate",
+			"classes": [
+				"BP_NPC_PR_CannonPirate"
+			],
+			"abilities": [
+				{
+					"name": "Blunder Boom",
+					"interruptible": true,
+					"school": "Necromancy"
+				},
+				{
+					"name": "Shackle Blast",
+					"interruptible": true
+				},
+				{
+					"name": "Bombs Away!",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/pr-cannonpirate.webp"
+		},
+		{
+			"id": "pr-blunderbusspirate",
+			"name": "Soulpowder Buccaneer",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.079,
+			"gameId": "PR_BlunderbussPirate",
+			"classes": [
+				"BP_NPC_PR_BlunderbussPirate"
+			],
+			"abilities": [
+				{
+					"name": "Soulpowder Shot",
+					"interruptible": true,
+					"school": "Necromancy"
+				}
+			],
+			"icon": "/icons/enemies/pr-blunderbusspirate.webp"
+		},
+		{
+			"id": "pr-watercaster",
+			"name": "Tide Witch",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 2.382,
+			"gameId": "PR_WaterCaster",
+			"classes": [
+				"BP_NPC_PR_WaterCaster"
+			],
+			"abilities": [
+				{
+					"name": "Dreadwater Bolt",
+					"interruptible": true,
+					"school": "Water"
+				},
+				{
+					"name": "Sunken Gale",
+					"interruptible": true,
+					"school": "Water"
+				}
+			],
+			"icon": "/icons/enemies/pr-watercaster.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "wraithtide-vault-2",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f1",
+			"x": 0.4363,
+			"y": 0.0545,
+			"pack": 1
+		},
+		{
+			"id": "wraithtide-vault-10",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7592,
+			"y": 0.0506,
+			"pack": 4
+		},
+		{
+			"id": "wraithtide-vault-11",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7355,
+			"y": 0.0776,
+			"pack": 7
+		},
+		{
+			"id": "wraithtide-vault-13",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.739,
+			"y": 0.0744,
+			"pack": 7
+		},
+		{
+			"id": "wraithtide-vault-15",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6945,
+			"y": 0.0671,
+			"pack": 6
+		},
+		{
+			"id": "wraithtide-vault-16",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6953,
+			"y": 0.0604,
+			"pack": 6
+		},
+		{
+			"id": "wraithtide-vault-44",
+			"enemyId": "pr-swashbuckler",
+			"floor": "f2",
+			"x": 0.6118,
+			"y": 0.2543,
+			"pack": 17
+		},
+		{
+			"id": "wraithtide-vault-57",
+			"enemyId": "pr-swashbuckler",
+			"floor": "f2",
+			"x": 0.6952,
+			"y": 0.2999,
+			"pack": 21
+		},
+		{
+			"id": "wraithtide-vault-58",
+			"enemyId": "pr-swashbuckler",
+			"floor": "f2",
+			"x": 0.6876,
+			"y": 0.2917,
+			"pack": 21
+		},
+		{
+			"id": "wraithtide-vault-63",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.631,
+			"y": 0.3216,
+			"pack": 23
+		},
+		{
+			"id": "wraithtide-vault-64",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6362,
+			"y": 0.3174,
+			"pack": 23
+		},
+		{
+			"id": "wraithtide-vault-72",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4866,
+			"y": 0.3206,
+			"pack": 27
+		},
+		{
+			"id": "wraithtide-vault-89",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f2",
+			"x": 0.478,
+			"y": 0.3955,
+			"pack": 31
+		},
+		{
+			"id": "wraithtide-vault-90",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5676,
+			"y": 0.4219,
+			"pack": 32
+		},
+		{
+			"id": "wraithtide-vault-91",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5719,
+			"y": 0.4119,
+			"pack": 32
+		},
+		{
+			"id": "wraithtide-vault-92",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.569,
+			"y": 0.3955,
+			"pack": 32
+		},
+		{
+			"id": "wraithtide-vault-93",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5607,
+			"y": 0.3992,
+			"pack": 32
+		},
+		{
+			"id": "wraithtide-vault-116",
+			"enemyId": "pr-goldenconstructvolatile",
+			"floor": "f2",
+			"x": 0.5778,
+			"y": 0.5841,
+			"pack": 41,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-117",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.5743,
+			"y": 0.5888,
+			"pack": 41,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-118",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.5726,
+			"y": 0.5813,
+			"pack": 41,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-121",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7097,
+			"y": 0.6277,
+			"pack": 45
+		},
+		{
+			"id": "wraithtide-vault-122",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.712,
+			"y": 0.6219,
+			"pack": 45
+		},
+		{
+			"id": "wraithtide-vault-133",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.7341,
+			"y": 0.6714,
+			"pack": 50
+		},
+		{
+			"id": "wraithtide-vault-134",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7945,
+			"y": 0.675,
+			"pack": 49
+		},
+		{
+			"id": "wraithtide-vault-155",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4793,
+			"y": 0.7692,
+			"pack": 54,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-179",
+			"enemyId": "pr-cannonpirate",
+			"floor": "f2",
+			"x": 0.4516,
+			"y": 0.9327,
+			"pack": 61
+		},
+		{
+			"id": "wraithtide-vault-251",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f1",
+			"x": 0.447,
+			"y": 0.0507,
+			"pack": 1
+		},
+		{
+			"id": "wraithtide-vault-252",
+			"enemyId": "pr-swashbuckler",
+			"floor": "f1",
+			"x": 0.4401,
+			"y": 0.0493,
+			"pack": 1
+		},
+		{
+			"id": "wraithtide-vault-253",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7304,
+			"y": 0.0036,
+			"pack": 2
+		},
+		{
+			"id": "wraithtide-vault-254",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7228,
+			"y": 0.0124,
+			"pack": 2
+		},
+		{
+			"id": "wraithtide-vault-255",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7117,
+			"y": 0.0149,
+			"pack": 2
+		},
+		{
+			"id": "wraithtide-vault-256",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6611,
+			"y": 0.0341,
+			"pack": 3
+		},
+		{
+			"id": "wraithtide-vault-257",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.663,
+			"y": 0.0478,
+			"pack": 3
+		},
+		{
+			"id": "wraithtide-vault-258",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.6696,
+			"y": 0.0314,
+			"pack": 3
+		},
+		{
+			"id": "wraithtide-vault-259",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7546,
+			"y": 0.0685,
+			"pack": 4
+		},
+		{
+			"id": "wraithtide-vault-260",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.7077,
+			"y": 0.0553,
+			"pack": 5
+		},
+		{
+			"id": "wraithtide-vault-261",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.622,
+			"y": 0.0896,
+			"pack": 8
+		},
+		{
+			"id": "wraithtide-vault-262",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6198,
+			"y": 0.0821,
+			"pack": 8
+		},
+		{
+			"id": "wraithtide-vault-263",
+			"enemyId": "pr-swashbuckler",
+			"floor": "f2",
+			"x": 0.6233,
+			"y": 0.085,
+			"pack": 8
+		},
+		{
+			"id": "wraithtide-vault-264",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6026,
+			"y": 0.1068,
+			"pack": 9
+		},
+		{
+			"id": "wraithtide-vault-265",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6067,
+			"y": 0.0996,
+			"pack": 9
+		},
+		{
+			"id": "wraithtide-vault-266",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.6011,
+			"y": 0.1035,
+			"pack": 9
+		},
+		{
+			"id": "wraithtide-vault-267",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.6044,
+			"y": 0.0959,
+			"pack": 9
+		},
+		{
+			"id": "wraithtide-vault-268",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f2",
+			"x": 0.6974,
+			"y": 0.1029,
+			"pack": 10
+		},
+		{
+			"id": "wraithtide-vault-269",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6992,
+			"y": 0.1065,
+			"pack": 10
+		},
+		{
+			"id": "wraithtide-vault-270",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6957,
+			"y": 0.1056,
+			"pack": 10
+		},
+		{
+			"id": "wraithtide-vault-271",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.6563,
+			"y": 0.1142,
+			"pack": 11
+		},
+		{
+			"id": "wraithtide-vault-272",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6607,
+			"y": 0.1321,
+			"pack": 12
+		},
+		{
+			"id": "wraithtide-vault-273",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6593,
+			"y": 0.1365,
+			"pack": 12
+		},
+		{
+			"id": "wraithtide-vault-274",
+			"enemyId": "pr-cannonpirate",
+			"floor": "f2",
+			"x": 0.6584,
+			"y": 0.1941,
+			"pack": 13
+		},
+		{
+			"id": "wraithtide-vault-275",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.656,
+			"y": 0.198,
+			"pack": 13
+		},
+		{
+			"id": "wraithtide-vault-276",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6602,
+			"y": 0.1873,
+			"pack": 13
+		},
+		{
+			"id": "wraithtide-vault-277",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6037,
+			"y": 0.1919,
+			"pack": 14
+		},
+		{
+			"id": "wraithtide-vault-278",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6693,
+			"y": 0.2157,
+			"pack": 15
+		},
+		{
+			"id": "wraithtide-vault-279",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6732,
+			"y": 0.1947,
+			"pack": 15
+		},
+		{
+			"id": "wraithtide-vault-280",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.673,
+			"y": 0.2258,
+			"pack": 15
+		},
+		{
+			"id": "wraithtide-vault-281",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.6723,
+			"y": 0.212,
+			"pack": 15
+		},
+		{
+			"id": "wraithtide-vault-282",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.6732,
+			"y": 0.2187,
+			"pack": 15
+		},
+		{
+			"id": "wraithtide-vault-283",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f2",
+			"x": 0.5678,
+			"y": 0.2484,
+			"pack": 16
+		},
+		{
+			"id": "wraithtide-vault-284",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f2",
+			"x": 0.5625,
+			"y": 0.2459,
+			"pack": 16
+		},
+		{
+			"id": "wraithtide-vault-285",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.5522,
+			"y": 0.2681,
+			"pack": 16
+		},
+		{
+			"id": "wraithtide-vault-286",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.5614,
+			"y": 0.2743,
+			"pack": 16
+		},
+		{
+			"id": "wraithtide-vault-287",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.5503,
+			"y": 0.2754,
+			"pack": 16
+		},
+		{
+			"id": "wraithtide-vault-288",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.5591,
+			"y": 0.2806,
+			"pack": 16
+		},
+		{
+			"id": "wraithtide-vault-289",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.5581,
+			"y": 0.2658,
+			"pack": 16
+		},
+		{
+			"id": "wraithtide-vault-290",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6124,
+			"y": 0.2628,
+			"pack": 17
+		},
+		{
+			"id": "wraithtide-vault-291",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.611,
+			"y": 0.2707,
+			"pack": 17
+		},
+		{
+			"id": "wraithtide-vault-292",
+			"enemyId": "pr-bilgerat",
+			"floor": "f2",
+			"x": 0.6289,
+			"y": 0.2645,
+			"pack": 18
+		},
+		{
+			"id": "wraithtide-vault-293",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6309,
+			"y": 0.2581,
+			"pack": 18
+		},
+		{
+			"id": "wraithtide-vault-294",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6333,
+			"y": 0.2642,
+			"pack": 18
+		},
+		{
+			"id": "wraithtide-vault-295",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.5974,
+			"y": 0.2629,
+			"pack": 19
+		},
+		{
+			"id": "wraithtide-vault-296",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.5022,
+			"y": 0.2673,
+			"pack": 20
+		},
+		{
+			"id": "wraithtide-vault-297",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.4994,
+			"y": 0.2684,
+			"pack": 20
+		},
+		{
+			"id": "wraithtide-vault-298",
+			"enemyId": "pr-bilgerat",
+			"floor": "f2",
+			"x": 0.6102,
+			"y": 0.2984,
+			"pack": 22
+		},
+		{
+			"id": "wraithtide-vault-299",
+			"enemyId": "uc-evilspirit",
+			"floor": "f2",
+			"x": 0.6056,
+			"y": 0.3015,
+			"pack": 22
+		},
+		{
+			"id": "wraithtide-vault-300",
+			"enemyId": "uc-evilspirit",
+			"floor": "f2",
+			"x": 0.6112,
+			"y": 0.3078,
+			"pack": 22
+		},
+		{
+			"id": "wraithtide-vault-301",
+			"enemyId": "uc-evilspirit",
+			"floor": "f2",
+			"x": 0.6125,
+			"y": 0.301,
+			"pack": 22
+		},
+		{
+			"id": "wraithtide-vault-302",
+			"enemyId": "uc-evilspirit",
+			"floor": "f2",
+			"x": 0.6079,
+			"y": 0.2958,
+			"pack": 22
+		},
+		{
+			"id": "wraithtide-vault-303",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f2",
+			"x": 0.6373,
+			"y": 0.3063,
+			"pack": 23
+		},
+		{
+			"id": "wraithtide-vault-304",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f2",
+			"x": 0.6328,
+			"y": 0.3012,
+			"pack": 23
+		},
+		{
+			"id": "wraithtide-vault-305",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6572,
+			"y": 0.3323,
+			"pack": 24
+		},
+		{
+			"id": "wraithtide-vault-306",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6577,
+			"y": 0.3031,
+			"pack": 24
+		},
+		{
+			"id": "wraithtide-vault-307",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.6551,
+			"y": 0.3248,
+			"pack": 24
+		},
+		{
+			"id": "wraithtide-vault-308",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.6572,
+			"y": 0.3161,
+			"pack": 24
+		},
+		{
+			"id": "wraithtide-vault-309",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7102,
+			"y": 0.3247,
+			"pack": 25
+		},
+		{
+			"id": "wraithtide-vault-310",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7082,
+			"y": 0.3219,
+			"pack": 25
+		},
+		{
+			"id": "wraithtide-vault-311",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7062,
+			"y": 0.3178,
+			"pack": 25
+		},
+		{
+			"id": "wraithtide-vault-312",
+			"enemyId": "uc-evilspirit",
+			"floor": "f2",
+			"x": 0.6048,
+			"y": 0.3201,
+			"pack": 26
+		},
+		{
+			"id": "wraithtide-vault-313",
+			"enemyId": "uc-evilspirit",
+			"floor": "f2",
+			"x": 0.6059,
+			"y": 0.3266,
+			"pack": 26
+		},
+		{
+			"id": "wraithtide-vault-314",
+			"enemyId": "uc-evilspirit",
+			"floor": "f2",
+			"x": 0.6042,
+			"y": 0.3262,
+			"pack": 26
+		},
+		{
+			"id": "wraithtide-vault-315",
+			"enemyId": "uc-evilspirit",
+			"floor": "f2",
+			"x": 0.6064,
+			"y": 0.3208,
+			"pack": 26
+		},
+		{
+			"id": "wraithtide-vault-316",
+			"enemyId": "pr-goldenconstructvolatile",
+			"floor": "f2",
+			"x": 0.4924,
+			"y": 0.3371,
+			"pack": 27
+		},
+		{
+			"id": "wraithtide-vault-317",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.504,
+			"y": 0.3272,
+			"pack": 27
+		},
+		{
+			"id": "wraithtide-vault-318",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5043,
+			"y": 0.3343,
+			"pack": 27
+		},
+		{
+			"id": "wraithtide-vault-319",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4803,
+			"y": 0.3266,
+			"pack": 27
+		},
+		{
+			"id": "wraithtide-vault-320",
+			"enemyId": "pr-possessedarmor",
+			"floor": "f2",
+			"x": 0.5578,
+			"y": 0.3442,
+			"pack": 28
+		},
+		{
+			"id": "wraithtide-vault-321",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5605,
+			"y": 0.3533,
+			"pack": 28
+		},
+		{
+			"id": "wraithtide-vault-322",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5589,
+			"y": 0.3592,
+			"pack": 28
+		},
+		{
+			"id": "wraithtide-vault-323",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.556,
+			"y": 0.3576,
+			"pack": 28
+		},
+		{
+			"id": "wraithtide-vault-324",
+			"enemyId": "pr-possessedarmor",
+			"floor": "f2",
+			"x": 0.7211,
+			"y": 0.3595,
+			"pack": 29
+		},
+		{
+			"id": "wraithtide-vault-325",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.7197,
+			"y": 0.3679,
+			"pack": 29
+		},
+		{
+			"id": "wraithtide-vault-326",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.719,
+			"y": 0.3559,
+			"pack": 29
+		},
+		{
+			"id": "wraithtide-vault-327",
+			"enemyId": "pr-bilgerat",
+			"floor": "f2",
+			"x": 0.5987,
+			"y": 0.3938,
+			"pack": 30
+		},
+		{
+			"id": "wraithtide-vault-328",
+			"enemyId": "pr-bilgerat",
+			"floor": "f2",
+			"x": 0.5945,
+			"y": 0.3845,
+			"pack": 30
+		},
+		{
+			"id": "wraithtide-vault-329",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.593,
+			"y": 0.391,
+			"pack": 30
+		},
+		{
+			"id": "wraithtide-vault-330",
+			"enemyId": "uc-evilspirit",
+			"floor": "f2",
+			"x": 0.5977,
+			"y": 0.3828,
+			"pack": 30
+		},
+		{
+			"id": "wraithtide-vault-331",
+			"enemyId": "uc-evilspirit",
+			"floor": "f2",
+			"x": 0.5977,
+			"y": 0.389,
+			"pack": 30
+		},
+		{
+			"id": "wraithtide-vault-332",
+			"enemyId": "uc-evilspirit",
+			"floor": "f2",
+			"x": 0.5974,
+			"y": 0.398,
+			"pack": 30
+		},
+		{
+			"id": "wraithtide-vault-333",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f2",
+			"x": 0.5642,
+			"y": 0.4049,
+			"pack": 32
+		},
+		{
+			"id": "wraithtide-vault-334",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5309,
+			"y": 0.4092,
+			"pack": 33
+		},
+		{
+			"id": "wraithtide-vault-335",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5333,
+			"y": 0.4092,
+			"pack": 33
+		},
+		{
+			"id": "wraithtide-vault-336",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5357,
+			"y": 0.4093,
+			"pack": 33
+		},
+		{
+			"id": "wraithtide-vault-337",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f2",
+			"x": 0.6723,
+			"y": 0.4272,
+			"pack": 34
+		},
+		{
+			"id": "wraithtide-vault-338",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f2",
+			"x": 0.668,
+			"y": 0.4265,
+			"pack": 34
+		},
+		{
+			"id": "wraithtide-vault-339",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6703,
+			"y": 0.4215,
+			"pack": 34
+		},
+		{
+			"id": "wraithtide-vault-340",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.6632,
+			"y": 0.4533,
+			"pack": 35
+		},
+		{
+			"id": "wraithtide-vault-341",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.6734,
+			"y": 0.4564,
+			"pack": 35
+		},
+		{
+			"id": "wraithtide-vault-342",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6364,
+			"y": 0.4733,
+			"pack": 36
+		},
+		{
+			"id": "wraithtide-vault-343",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6403,
+			"y": 0.4603,
+			"pack": 36
+		},
+		{
+			"id": "wraithtide-vault-344",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6422,
+			"y": 0.467,
+			"pack": 36
+		},
+		{
+			"id": "wraithtide-vault-345",
+			"enemyId": "pr-swashbuckler",
+			"floor": "f2",
+			"x": 0.6334,
+			"y": 0.4589,
+			"pack": 36
+		},
+		{
+			"id": "wraithtide-vault-346",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f2",
+			"x": 0.7248,
+			"y": 0.4838,
+			"pack": 37
+		},
+		{
+			"id": "wraithtide-vault-347",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f2",
+			"x": 0.7269,
+			"y": 0.501,
+			"pack": 37
+		},
+		{
+			"id": "wraithtide-vault-348",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.7242,
+			"y": 0.4927,
+			"pack": 37
+		},
+		{
+			"id": "wraithtide-vault-349",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7377,
+			"y": 0.4857,
+			"pack": 38
+		},
+		{
+			"id": "wraithtide-vault-350",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6325,
+			"y": 0.5106,
+			"pack": 39
+		},
+		{
+			"id": "wraithtide-vault-351",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6297,
+			"y": 0.5063,
+			"pack": 39
+		},
+		{
+			"id": "wraithtide-vault-352",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.5598,
+			"y": 0.538,
+			"pack": 40,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-353",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.5582,
+			"y": 0.5385,
+			"pack": 40,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-354",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.58,
+			"y": 0.5756,
+			"pack": 41,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-355",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5781,
+			"y": 0.5709,
+			"pack": 41,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-356",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5764,
+			"y": 0.577,
+			"pack": 41,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-357",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f2",
+			"x": 0.7796,
+			"y": 0.59,
+			"pack": 42
+		},
+		{
+			"id": "wraithtide-vault-358",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f2",
+			"x": 0.7814,
+			"y": 0.5938,
+			"pack": 42
+		},
+		{
+			"id": "wraithtide-vault-359",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7297,
+			"y": 0.6055,
+			"pack": 43
+		},
+		{
+			"id": "wraithtide-vault-360",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7365,
+			"y": 0.6057,
+			"pack": 43
+		},
+		{
+			"id": "wraithtide-vault-361",
+			"enemyId": "pr-swashbuckler",
+			"floor": "f2",
+			"x": 0.7329,
+			"y": 0.6091,
+			"pack": 43
+		},
+		{
+			"id": "wraithtide-vault-362",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7981,
+			"y": 0.6095,
+			"pack": 44
+		},
+		{
+			"id": "wraithtide-vault-363",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.7995,
+			"y": 0.6064,
+			"pack": 44
+		},
+		{
+			"id": "wraithtide-vault-364",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.8016,
+			"y": 0.6095,
+			"pack": 44,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-365",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.7133,
+			"y": 0.6298,
+			"pack": 45
+		},
+		{
+			"id": "wraithtide-vault-366",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.5106,
+			"y": 0.6465,
+			"pack": 46,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-367",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.5106,
+			"y": 0.6229,
+			"pack": 46,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-368",
+			"enemyId": "pr-possessedarmor",
+			"floor": "f2",
+			"x": 0.5051,
+			"y": 0.6279,
+			"pack": 46,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-369",
+			"enemyId": "pr-possessedarmor",
+			"floor": "f2",
+			"x": 0.5051,
+			"y": 0.645,
+			"pack": 46,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-370",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6594,
+			"y": 0.649,
+			"pack": 47
+		},
+		{
+			"id": "wraithtide-vault-371",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6657,
+			"y": 0.6463,
+			"pack": 47
+		},
+		{
+			"id": "wraithtide-vault-372",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.6623,
+			"y": 0.6465,
+			"pack": 48
+		},
+		{
+			"id": "wraithtide-vault-373",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7887,
+			"y": 0.6564,
+			"pack": 49
+		},
+		{
+			"id": "wraithtide-vault-374",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.7916,
+			"y": 0.6707,
+			"pack": 49
+		},
+		{
+			"id": "wraithtide-vault-375",
+			"enemyId": "pr-watercaster",
+			"floor": "f2",
+			"x": 0.7916,
+			"y": 0.6625,
+			"pack": 49
+		},
+		{
+			"id": "wraithtide-vault-376",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7425,
+			"y": 0.6605,
+			"pack": 50
+		},
+		{
+			"id": "wraithtide-vault-377",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7347,
+			"y": 0.6595,
+			"pack": 50
+		},
+		{
+			"id": "wraithtide-vault-378",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6521,
+			"y": 0.712,
+			"pack": 51
+		},
+		{
+			"id": "wraithtide-vault-379",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.6561,
+			"y": 0.7089,
+			"pack": 51
+		},
+		{
+			"id": "wraithtide-vault-380",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.6546,
+			"y": 0.7213,
+			"pack": 51
+		},
+		{
+			"id": "wraithtide-vault-381",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.6581,
+			"y": 0.7161,
+			"pack": 51
+		},
+		{
+			"id": "wraithtide-vault-382",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.6597,
+			"y": 0.7254,
+			"pack": 51
+		},
+		{
+			"id": "wraithtide-vault-383",
+			"enemyId": "pr-goldenconstructvolatile",
+			"floor": "f2",
+			"x": 0.4161,
+			"y": 0.7332,
+			"pack": 52,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-384",
+			"enemyId": "pr-goldenconstructvolatile",
+			"floor": "f2",
+			"x": 0.413,
+			"y": 0.7332,
+			"pack": 52,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-385",
+			"enemyId": "pr-possessedarmor",
+			"floor": "f2",
+			"x": 0.4129,
+			"y": 0.7414,
+			"pack": 52,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-386",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4005,
+			"y": 0.7346,
+			"pack": 52
+		},
+		{
+			"id": "wraithtide-vault-387",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4037,
+			"y": 0.7335,
+			"pack": 52
+		},
+		{
+			"id": "wraithtide-vault-388",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7193,
+			"y": 0.7493,
+			"pack": 53
+		},
+		{
+			"id": "wraithtide-vault-389",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7254,
+			"y": 0.7387,
+			"pack": 53
+		},
+		{
+			"id": "wraithtide-vault-390",
+			"enemyId": "pr-swashbuckler",
+			"floor": "f2",
+			"x": 0.7196,
+			"y": 0.7381,
+			"pack": 53
+		},
+		{
+			"id": "wraithtide-vault-391",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4712,
+			"y": 0.7789,
+			"pack": 54,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-392",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4793,
+			"y": 0.777,
+			"pack": 54,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-393",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.468,
+			"y": 0.7777,
+			"pack": 54,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-394",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4798,
+			"y": 0.7838,
+			"pack": 54,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-395",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4691,
+			"y": 0.7795,
+			"pack": 54,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-396",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.3985,
+			"y": 0.7776,
+			"pack": 55,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-397",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.3972,
+			"y": 0.7708,
+			"pack": 55
+		},
+		{
+			"id": "wraithtide-vault-398",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4058,
+			"y": 0.8032,
+			"pack": 56,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-399",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4074,
+			"y": 0.807,
+			"pack": 56,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-400",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7325,
+			"y": 0.8476,
+			"pack": 57
+		},
+		{
+			"id": "wraithtide-vault-401",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.7331,
+			"y": 0.8446,
+			"pack": 57
+		},
+		{
+			"id": "wraithtide-vault-402",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.7264,
+			"y": 0.8516,
+			"pack": 57
+		},
+		{
+			"id": "wraithtide-vault-403",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.7308,
+			"y": 0.8345,
+			"pack": 57
+		},
+		{
+			"id": "wraithtide-vault-404",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6447,
+			"y": 0.8479,
+			"pack": 58
+		},
+		{
+			"id": "wraithtide-vault-405",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6372,
+			"y": 0.8532,
+			"pack": 59
+		},
+		{
+			"id": "wraithtide-vault-406",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6418,
+			"y": 0.8541,
+			"pack": 60
+		},
+		{
+			"id": "wraithtide-vault-407",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f2",
+			"x": 0.4476,
+			"y": 0.934,
+			"pack": 61
+		},
+		{
+			"id": "wraithtide-vault-408",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f2",
+			"x": 0.4398,
+			"y": 0.9338,
+			"pack": 61
+		},
+		{
+			"id": "wraithtide-vault-409",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4497,
+			"y": 0.9071,
+			"pack": 61,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-410",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4401,
+			"y": 0.9089,
+			"pack": 61,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-411",
+			"enemyId": "pr-possessedarmor",
+			"floor": "f2",
+			"x": 0.4446,
+			"y": 0.914,
+			"pack": 61,
+			"promoted": true
+		},
+		{
+			"id": "wraithtide-vault-412",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.4409,
+			"y": 0.916,
+			"pack": 61
+		},
+		{
+			"id": "wraithtide-vault-413",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.4486,
+			"y": 0.9156,
+			"pack": 61
+		},
+		{
+			"id": "wraithtide-vault-414",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.6038,
+			"y": 0.914,
+			"pack": 62
+		},
+		{
+			"id": "wraithtide-vault-415",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.6177,
+			"y": 0.9384,
+			"pack": 63
+		},
+		{
+			"id": "wraithtide-vault-416",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.6139,
+			"y": 0.9425,
+			"pack": 63
+		},
+		{
+			"id": "wraithtide-vault-417",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.6145,
+			"y": 0.9352,
+			"pack": 63
+		},
+		{
+			"id": "wraithtide-vault-418",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.5909,
+			"y": 0.9372,
+			"pack": 64
+		},
+		{
+			"id": "wraithtide-vault-419",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6753,
+			"y": 0.9424,
+			"pack": 65
+		},
+		{
+			"id": "wraithtide-vault-420",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6735,
+			"y": 0.9477,
+			"pack": 66
+		},
+		{
+			"id": "wraithtide-vault-421",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6751,
+			"y": 0.9498,
+			"pack": 67
+		},
+		{
+			"id": "wraithtide-vault-422",
+			"enemyId": "pr-swashbuckler",
+			"floor": "f2",
+			"x": 0.4415,
+			"y": 0.9568,
+			"pack": 68
+		},
+		{
+			"id": "wraithtide-vault-423",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.5009,
+			"y": 0.9646,
+			"pack": 69
+		},
+		{
+			"id": "wraithtide-vault-424",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4944,
+			"y": 0.9628,
+			"pack": 69
+		},
+		{
+			"id": "wraithtide-vault-425",
+			"enemyId": "pr-possessedarmor",
+			"floor": "f2",
+			"x": 0.4977,
+			"y": 0.9598,
+			"pack": 69
+		},
+		{
+			"id": "wraithtide-vault-426",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.5005,
+			"y": 0.9699,
+			"pack": 69
+		},
+		{
+			"id": "wraithtide-vault-427",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.4941,
+			"y": 0.9704,
+			"pack": 69
+		},
+		{
+			"id": "wraithtide-vault-428",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5869,
+			"y": 0.9658,
+			"pack": 70
+		},
+		{
+			"id": "wraithtide-vault-429",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5908,
+			"y": 0.9793,
+			"pack": 70
+		},
+		{
+			"id": "wraithtide-vault-430",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f2",
+			"x": 0.5895,
+			"y": 0.9711,
+			"pack": 70
+		},
+		{
+			"id": "wraithtide-vault-431",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.5855,
+			"y": 0.9766,
+			"pack": 70
+		},
+		{
+			"id": "wraithtide-vault-432",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.5846,
+			"y": 0.9724,
+			"pack": 70
+		},
+		{
+			"id": "wraithtide-vault-433",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.5852,
+			"y": 0.9629,
+			"pack": 70
+		},
+		{
+			"id": "wraithtide-vault-434",
+			"enemyId": "pr-scallywag",
+			"floor": "f2",
+			"x": 0.5881,
+			"y": 0.9797,
+			"pack": 70
+		},
+		{
+			"id": "wraithtide-vault-435",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6396,
+			"y": 0.9733,
+			"pack": 71
+		},
+		{
+			"id": "wraithtide-vault-436",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6393,
+			"y": 0.9776,
+			"pack": 71
+		},
+		{
+			"id": "wraithtide-vault-437",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.5554,
+			"y": 0.9966,
+			"pack": 72
+		},
+		{
+			"id": "wraithtide-vault-438",
+			"enemyId": "pr-tigercat",
+			"floor": "f2",
+			"x": 0.5577,
+			"y": 0.99,
+			"pack": 72
+		},
+		{
+			"id": "wraithtide-vault-439",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6375,
+			"y": 0.9952,
+			"pack": 73
+		},
+		{
+			"id": "wraithtide-vault-440",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.6448,
+			"y": 0.9979,
+			"pack": 74
+		},
+		{
+			"id": "wraithtide-vault-441",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f4",
+			"x": 0.3502,
+			"y": 0.3205,
+			"pack": 75
+		},
+		{
+			"id": "wraithtide-vault-442",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.3514,
+			"y": 0.3279,
+			"pack": 75
+		},
+		{
+			"id": "wraithtide-vault-443",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f4",
+			"x": 0.5003,
+			"y": 0.3356,
+			"pack": 76
+		},
+		{
+			"id": "wraithtide-vault-444",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f4",
+			"x": 0.5003,
+			"y": 0.3447,
+			"pack": 76
+		},
+		{
+			"id": "wraithtide-vault-445",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f4",
+			"x": 0.4976,
+			"y": 0.3397,
+			"pack": 76
+		},
+		{
+			"id": "wraithtide-vault-446",
+			"enemyId": "pr-tigercat",
+			"floor": "f4",
+			"x": 0.4724,
+			"y": 0.3577,
+			"pack": 77
+		},
+		{
+			"id": "wraithtide-vault-447",
+			"enemyId": "pr-tigercat",
+			"floor": "f4",
+			"x": 0.4784,
+			"y": 0.3594,
+			"pack": 77
+		},
+		{
+			"id": "wraithtide-vault-448",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f4",
+			"x": 0.3456,
+			"y": 0.3651,
+			"pack": 78
+		},
+		{
+			"id": "wraithtide-vault-449",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.3482,
+			"y": 0.3684,
+			"pack": 78
+		},
+		{
+			"id": "wraithtide-vault-450",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.5366,
+			"y": 0.4048,
+			"pack": 79
+		},
+		{
+			"id": "wraithtide-vault-451",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.5419,
+			"y": 0.4082,
+			"pack": 79
+		},
+		{
+			"id": "wraithtide-vault-452",
+			"enemyId": "pr-swashbuckler",
+			"floor": "f4",
+			"x": 0.5406,
+			"y": 0.3987,
+			"pack": 79
+		},
+		{
+			"id": "wraithtide-vault-453",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f4",
+			"x": 0.5416,
+			"y": 0.4253,
+			"pack": 80
+		},
+		{
+			"id": "wraithtide-vault-454",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f4",
+			"x": 0.5494,
+			"y": 0.4237,
+			"pack": 80
+		},
+		{
+			"id": "wraithtide-vault-455",
+			"enemyId": "pr-cannonpirate",
+			"floor": "f4",
+			"x": 0.546,
+			"y": 0.431,
+			"pack": 80
+		},
+		{
+			"id": "wraithtide-vault-456",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.5393,
+			"y": 0.4187,
+			"pack": 80
+		},
+		{
+			"id": "wraithtide-vault-457",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.5469,
+			"y": 0.4146,
+			"pack": 80
+		},
+		{
+			"id": "wraithtide-vault-458",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4544,
+			"y": 0.4294,
+			"pack": 81
+		},
+		{
+			"id": "wraithtide-vault-459",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4585,
+			"y": 0.4295,
+			"pack": 81
+		},
+		{
+			"id": "wraithtide-vault-460",
+			"enemyId": "pr-bilgerat",
+			"floor": "f4",
+			"x": 0.3626,
+			"y": 0.4582,
+			"pack": 82
+		},
+		{
+			"id": "wraithtide-vault-461",
+			"enemyId": "pr-bilgerat",
+			"floor": "f4",
+			"x": 0.3584,
+			"y": 0.4451,
+			"pack": 82
+		},
+		{
+			"id": "wraithtide-vault-462",
+			"enemyId": "pr-bilgerat",
+			"floor": "f4",
+			"x": 0.3631,
+			"y": 0.4478,
+			"pack": 82
+		},
+		{
+			"id": "wraithtide-vault-463",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.3648,
+			"y": 0.4341,
+			"pack": 82
+		},
+		{
+			"id": "wraithtide-vault-464",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.3678,
+			"y": 0.4421,
+			"pack": 82
+		},
+		{
+			"id": "wraithtide-vault-465",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4626,
+			"y": 0.5805,
+			"pack": 83
+		},
+		{
+			"id": "wraithtide-vault-466",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4642,
+			"y": 0.6034,
+			"pack": 83
+		},
+		{
+			"id": "wraithtide-vault-467",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4149,
+			"y": 0.5826,
+			"pack": 84
+		},
+		{
+			"id": "wraithtide-vault-468",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4475,
+			"y": 0.5998,
+			"pack": 85
+		},
+		{
+			"id": "wraithtide-vault-469",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4322,
+			"y": 0.6014,
+			"pack": 85
+		},
+		{
+			"id": "wraithtide-vault-470",
+			"enemyId": "pr-swashbuckler",
+			"floor": "f4",
+			"x": 0.4357,
+			"y": 0.5981,
+			"pack": 85
+		},
+		{
+			"id": "wraithtide-vault-471",
+			"enemyId": "pr-bilgerat",
+			"floor": "f4",
+			"x": 0.4418,
+			"y": 0.6301,
+			"pack": 86
+		},
+		{
+			"id": "wraithtide-vault-472",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4313,
+			"y": 0.6684,
+			"pack": 86
+		},
+		{
+			"id": "wraithtide-vault-473",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4658,
+			"y": 0.6753,
+			"pack": 87
+		},
+		{
+			"id": "wraithtide-vault-474",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4115,
+			"y": 0.6765,
+			"pack": 88
+		},
+		{
+			"id": "wraithtide-vault-475",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4522,
+			"y": 0.6783,
+			"pack": 89
+		},
+		{
+			"id": "wraithtide-vault-476",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4488,
+			"y": 0.6807,
+			"pack": 89
+		},
+		{
+			"id": "wraithtide-vault-477",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4146,
+			"y": 0.6797,
+			"pack": 90
+		},
+		{
+			"id": "wraithtide-vault-478",
+			"enemyId": "pr-cannonpirate",
+			"floor": "f4",
+			"x": 0.4402,
+			"y": 0.7084,
+			"pack": 91
+		},
+		{
+			"id": "wraithtide-vault-479",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4658,
+			"y": 0.7259,
+			"pack": 92
+		},
+		{
+			"id": "wraithtide-vault-480",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4135,
+			"y": 0.7286,
+			"pack": 93
+		},
+		{
+			"id": "wraithtide-vault-481",
+			"enemyId": "pr-blunderbusspirate",
+			"floor": "f4",
+			"x": 0.4344,
+			"y": 0.747,
+			"pack": 94
+		},
+		{
+			"id": "wraithtide-vault-482",
+			"enemyId": "pr-cannonpirate",
+			"floor": "f4",
+			"x": 0.4371,
+			"y": 0.7419,
+			"pack": 94
+		},
+		{
+			"id": "wraithtide-vault-483",
+			"enemyId": "pr-cannonpirate",
+			"floor": "f4",
+			"x": 0.4371,
+			"y": 0.7529,
+			"pack": 94
+		},
+		{
+			"id": "wraithtide-vault-484",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4371,
+			"y": 0.7552,
+			"pack": 95
+		},
+		{
+			"id": "wraithtide-vault-485",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4436,
+			"y": 0.7552,
+			"pack": 95
+		},
+		{
+			"id": "wraithtide-vault-486",
+			"enemyId": "pr-swashbuckler",
+			"floor": "f4",
+			"x": 0.441,
+			"y": 0.7608,
+			"pack": 95
+		},
+		{
+			"id": "wraithtide-vault-487",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4211,
+			"y": 0.8519,
+			"pack": 96
+		},
+		{
+			"id": "wraithtide-vault-488",
+			"enemyId": "pr-scallywag",
+			"floor": "f4",
+			"x": 0.4184,
+			"y": 0.8523,
+			"pack": 96
+		}
+	],
+	"minibosses": [
+		{
+			"affix": "eira",
+			"floor": "f2",
+			"x": 0.6318,
+			"y": 0.3136,
+			"radius": 1000,
+			"replaces": [
+				"wraithtide-vault-63",
+				"wraithtide-vault-64",
+				"wraithtide-vault-303",
+				"wraithtide-vault-304"
+			]
+		},
+		{
+			"affix": "ghorn",
+			"floor": "f4",
+			"x": 0.5421,
+			"y": 0.4155,
+			"radius": 2000,
+			"replaces": [
+				"wraithtide-vault-450",
+				"wraithtide-vault-451",
+				"wraithtide-vault-452",
+				"wraithtide-vault-453",
+				"wraithtide-vault-454",
+				"wraithtide-vault-455",
+				"wraithtide-vault-456",
+				"wraithtide-vault-457"
+			]
+		}
+	],
+	"start": {
+		"floor": "f4",
+		"x": 0.9377,
+		"y": 0.0764
+	},
+	"checkpoints": [
+		{
+			"floor": "f2",
+			"x": 0.7133,
+			"y": 0.3596
+		},
+		{
+			"floor": "f4",
+			"x": 0.5442,
+			"y": 0.4171
+		},
+		{
+			"floor": "f2",
+			"x": 0.4109,
+			"y": 0.7305
+		},
+		{
+			"floor": "f2",
+			"x": 0.6656,
+			"y": 0.0346
+		},
+		{
+			"floor": "f2",
+			"x": 0.4848,
+			"y": 0.3928
+		},
+		{
+			"floor": "f2",
+			"x": 0.6355,
+			"y": 0.4616
+		}
+	],
+	"patrols": [
+		{
+			"id": "wraithtide-vault-p1",
+			"floor": "f2",
+			"points": [
+				[
+					0.6559,
+					0.1149
+				],
+				[
+					0.6745,
+					0.0797
+				]
+			],
+			"spawns": [
+				"wraithtide-vault-271"
+			]
+		},
+		{
+			"id": "wraithtide-vault-p2",
+			"floor": "f2",
+			"points": [
+				[
+					0.6057,
+					0.3197
+				],
+				[
+					0.6105,
+					0.3675
+				],
+				[
+					0.6406,
+					0.4052
+				]
+			],
+			"spawns": [
+				"wraithtide-vault-312",
+				"wraithtide-vault-313",
+				"wraithtide-vault-314",
+				"wraithtide-vault-315"
+			]
+		},
+		{
+			"id": "wraithtide-vault-p3",
+			"floor": "f2",
+			"points": [
+				[
+					0.5364,
+					0.4093
+				],
+				[
+					0.5035,
+					0.4028
+				],
+				[
+					0.4909,
+					0.3516
+				],
+				[
+					0.5084,
+					0.3044
+				],
+				[
+					0.5422,
+					0.298
+				]
+			],
+			"spawns": [
+				"wraithtide-vault-334",
+				"wraithtide-vault-335",
+				"wraithtide-vault-336"
+			]
+		},
+		{
+			"id": "wraithtide-vault-p4",
+			"floor": "f2",
+			"points": [
+				[
+					0.5591,
+					0.5396
+				],
+				[
+					0.5518,
+					0.4639
+				]
+			],
+			"spawns": [
+				"wraithtide-vault-352",
+				"wraithtide-vault-353"
+			]
+		},
+		{
+			"id": "wraithtide-vault-p5",
+			"floor": "f2",
+			"points": [
+				[
+					0.6623,
+					0.6477
+				],
+				[
+					0.6591,
+					0.5613
+				]
+			],
+			"spawns": [
+				"wraithtide-vault-372"
+			]
+		},
+		{
+			"id": "wraithtide-vault-p6",
+			"floor": "f2",
+			"points": [
+				[
+					0.7426,
+					0.8051
+				],
+				[
+					0.7353,
+					0.7859
+				],
+				[
+					0.7188,
+					0.7366
+				]
+			],
+			"spawns": [
+				"wraithtide-vault-388",
+				"wraithtide-vault-389",
+				"wraithtide-vault-390"
+			]
+		},
+		{
+			"id": "wraithtide-vault-p7",
+			"floor": "f2",
+			"points": [
+				[
+					0.4419,
+					0.9546
+				],
+				[
+					0.4332,
+					1.0187
+				]
+			],
+			"spawns": [
+				"wraithtide-vault-422"
+			]
+		},
+		{
+			"id": "wraithtide-vault-p8",
+			"floor": "f2",
+			"points": [
+				[
+					0.5571,
+					0.9941
+				],
+				[
+					0.5433,
+					0.9839
+				],
+				[
+					0.5161,
+					0.9819
+				]
+			],
+			"spawns": [
+				"wraithtide-vault-437",
+				"wraithtide-vault-438"
+			]
+		},
+		{
+			"id": "wraithtide-vault-p9",
+			"floor": "f4",
+			"points": [
+				[
+					0.5388,
+					0.4091
+				],
+				[
+					0.5475,
+					0.3532
+				],
+				[
+					0.5431,
+					0.3042
+				]
+			],
+			"spawns": [
+				"wraithtide-vault-450",
+				"wraithtide-vault-451",
+				"wraithtide-vault-452"
+			]
+		},
+		{
+			"id": "wraithtide-vault-p10",
+			"floor": "f4",
+			"points": [
+				[
+					0.4539,
+					0.4293
+				],
+				[
+					0.4867,
+					0.4216
+				],
+				[
+					0.5092,
+					0.4097
+				]
+			],
+			"spawns": [
+				"wraithtide-vault-458",
+				"wraithtide-vault-459"
+			]
+		}
+	],
+	"art": {
+		"codex": "/art/codex/wraithtide-vault.webp",
+		"banner": "/art/banner/wraithtide-vault.webp"
+	}
+}

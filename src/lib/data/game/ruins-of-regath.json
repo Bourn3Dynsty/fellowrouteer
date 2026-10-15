@@ -1,0 +1,2440 @@
+{
+	"id": "ruins-of-regath",
+	"slug": "ruins-of-regath",
+	"name": "Ruins of Regath",
+	"internalName": "MoorCastle",
+	"kind": "adventure",
+	"requiredScore": 155,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Floor 1",
+			"image": "/maps/ruins-of-regath/f1.webp",
+			"texture": "T_Map_MC_Global_01",
+			"worldSize": [
+				108000,
+				54000
+			]
+		},
+		{
+			"id": "f2",
+			"label": "Chamber",
+			"image": "/maps/ruins-of-regath/f2.webp",
+			"texture": "T_Map_MC_Chamber_01",
+			"worldSize": [
+				50000,
+				25000
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "st-bigbloodelemental",
+			"name": "Heart of Rot",
+			"score": 6,
+			"type": "trash",
+			"healthMultiplier": 4.623,
+			"gameId": "ST_BigBloodElemental",
+			"classes": [
+				"BP_NPC_ST_BigBloodElemental"
+			],
+			"abilities": [
+				{
+					"name": "Consume",
+					"interruptible": true,
+					"channel": true,
+					"school": "Blood"
+				},
+				{
+					"name": "Blood Boil",
+					"interruptible": true,
+					"school": "Blood"
+				}
+			],
+			"icon": "/icons/enemies/st-bigbloodelemental.webp"
+		},
+		{
+			"id": "mc-bloodgrunt",
+			"name": "Heskyr Brood",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.725,
+			"gameId": "MC_BloodGrunt",
+			"classes": [
+				"BP_NPC_MC_BloodGrunt"
+			],
+			"icon": "/icons/enemies/mc-bloodgrunt.webp"
+		},
+		{
+			"id": "mc-bloodcaster",
+			"name": "Heskyr Magus",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 4.134,
+			"gameId": "MC_BloodCaster",
+			"classes": [
+				"BP_NPC_MC_BloodCaster"
+			],
+			"icon": "/icons/enemies/mc-bloodcaster.webp"
+		},
+		{
+			"id": "mc-bloodguard",
+			"name": "Heskyr Zealot",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 2.953,
+			"gameId": "MC_BloodGuard",
+			"classes": [
+				"BP_NPC_MC_BloodGuard"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/mc-bloodguard.webp"
+		},
+		{
+			"id": "mc-wanderingghostpriest",
+			"name": "Meandering Acolyte",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 2.245,
+			"gameId": "MC_WanderingGhostPriest",
+			"classes": [
+				"BP_NPC_MC_WanderingGhostPriest"
+			],
+			"icon": "/icons/enemies/mc-wanderingghostpriest.webp"
+		},
+		{
+			"id": "mc-wanderingghostguard",
+			"name": "Restless Protector",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 3.412,
+			"gameId": "MC_WanderingGhostGuard",
+			"classes": [
+				"BP_NPC_MC_WanderingGhostGuard"
+			],
+			"icon": "/icons/enemies/mc-wanderingghostguard.webp"
+		},
+		{
+			"id": "mc-bloodsummoner",
+			"name": "Sanguine Disciple",
+			"score": 6,
+			"type": "trash",
+			"healthMultiplier": 5.534,
+			"gameId": "MC_BloodSummoner",
+			"classes": [
+				"BP_NPC_MC_BloodSummoner"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/mc-bloodsummoner.webp"
+		},
+		{
+			"id": "st-smallbloodelemental",
+			"name": "Sanguine Echo",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.291,
+			"gameId": "ST_SmallBloodElemental",
+			"classes": [
+				"BP_NPC_ST_SmallBloodElemental"
+			],
+			"abilities": [
+				{
+					"name": "Blood Bolt",
+					"interruptible": true,
+					"school": "Blood"
+				},
+				{
+					"name": "Shake It Off",
+					"interruptible": true,
+					"school": "Blood"
+				}
+			],
+			"icon": "/icons/enemies/st-smallbloodelemental.webp"
+		},
+		{
+			"id": "mc-bloodhound",
+			"name": "Stalking Grim",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 1.961,
+			"gameId": "MC_BloodHound",
+			"classes": [
+				"BP_NPC_MC_BloodHound"
+			],
+			"icon": "/icons/enemies/mc-bloodhound.webp"
+		},
+		{
+			"id": "mc-wanderingghostwarrior",
+			"name": "Undying Champion",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 2.675,
+			"gameId": "MC_WanderingGhostWarrior",
+			"classes": [
+				"BP_NPC_MC_WanderingGhostWarrior"
+			],
+			"icon": "/icons/enemies/mc-wanderingghostwarrior.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "ruins-of-regath-1",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4041,
+			"y": 0.0414,
+			"pack": 1
+		},
+		{
+			"id": "ruins-of-regath-2",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3976,
+			"y": 0.0486,
+			"pack": 1
+		},
+		{
+			"id": "ruins-of-regath-3",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f1",
+			"x": 0.4008,
+			"y": 0.0439,
+			"pack": 1
+		},
+		{
+			"id": "ruins-of-regath-4",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4626,
+			"y": 0.0703,
+			"pack": 2
+		},
+		{
+			"id": "ruins-of-regath-5",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4649,
+			"y": 0.0709,
+			"pack": 2
+		},
+		{
+			"id": "ruins-of-regath-6",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4634,
+			"y": 0.0761,
+			"pack": 2
+		},
+		{
+			"id": "ruins-of-regath-7",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4206,
+			"y": 0.0925,
+			"pack": 3
+		},
+		{
+			"id": "ruins-of-regath-8",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4174,
+			"y": 0.0972,
+			"pack": 3
+		},
+		{
+			"id": "ruins-of-regath-9",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.418,
+			"y": 0.1005,
+			"pack": 3
+		},
+		{
+			"id": "ruins-of-regath-10",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4201,
+			"y": 0.0969,
+			"pack": 3,
+			"empowered": true
+		},
+		{
+			"id": "ruins-of-regath-11",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4963,
+			"y": 0.0974,
+			"pack": 4
+		},
+		{
+			"id": "ruins-of-regath-12",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4982,
+			"y": 0.097,
+			"pack": 4
+		},
+		{
+			"id": "ruins-of-regath-13",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4824,
+			"y": 0.1097,
+			"pack": 5
+		},
+		{
+			"id": "ruins-of-regath-14",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4829,
+			"y": 0.0983,
+			"pack": 5
+		},
+		{
+			"id": "ruins-of-regath-15",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.4399,
+			"y": 0.1089,
+			"pack": 6
+		},
+		{
+			"id": "ruins-of-regath-16",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.494,
+			"y": 0.1137,
+			"pack": 7
+		},
+		{
+			"id": "ruins-of-regath-17",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4959,
+			"y": 0.1154,
+			"pack": 7
+		},
+		{
+			"id": "ruins-of-regath-18",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4054,
+			"y": 0.1162,
+			"pack": 8
+		},
+		{
+			"id": "ruins-of-regath-19",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4053,
+			"y": 0.1265,
+			"pack": 8
+		},
+		{
+			"id": "ruins-of-regath-20",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4044,
+			"y": 0.1202,
+			"pack": 8
+		},
+		{
+			"id": "ruins-of-regath-21",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.5511,
+			"y": 0.1319,
+			"pack": 9
+		},
+		{
+			"id": "ruins-of-regath-22",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.5563,
+			"y": 0.1264,
+			"pack": 9
+		},
+		{
+			"id": "ruins-of-regath-23",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.5562,
+			"y": 0.1353,
+			"pack": 9
+		},
+		{
+			"id": "ruins-of-regath-24",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.418,
+			"y": 0.1403,
+			"pack": 10
+		},
+		{
+			"id": "ruins-of-regath-25",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.4969,
+			"y": 0.1542,
+			"pack": 11
+		},
+		{
+			"id": "ruins-of-regath-26",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.5007,
+			"y": 0.1549,
+			"pack": 11
+		},
+		{
+			"id": "ruins-of-regath-27",
+			"enemyId": "mc-wanderingghostpriest",
+			"floor": "f1",
+			"x": 0.3878,
+			"y": 0.1901,
+			"pack": 12
+		},
+		{
+			"id": "ruins-of-regath-28",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.3913,
+			"y": 0.1978,
+			"pack": 12
+		},
+		{
+			"id": "ruins-of-regath-29",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.389,
+			"y": 0.1805,
+			"pack": 12
+		},
+		{
+			"id": "ruins-of-regath-30",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5738,
+			"y": 0.1938,
+			"pack": 13
+		},
+		{
+			"id": "ruins-of-regath-31",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5754,
+			"y": 0.1956,
+			"pack": 13
+		},
+		{
+			"id": "ruins-of-regath-32",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5733,
+			"y": 0.189,
+			"pack": 13
+		},
+		{
+			"id": "ruins-of-regath-33",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.577,
+			"y": 0.1939,
+			"pack": 13
+		},
+		{
+			"id": "ruins-of-regath-34",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.5761,
+			"y": 0.1905,
+			"pack": 13,
+			"empowered": true
+		},
+		{
+			"id": "ruins-of-regath-35",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4681,
+			"y": 0.1969,
+			"pack": 14
+		},
+		{
+			"id": "ruins-of-regath-36",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.5009,
+			"y": 0.2193,
+			"pack": 15
+		},
+		{
+			"id": "ruins-of-regath-37",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.5009,
+			"y": 0.2136,
+			"pack": 15
+		},
+		{
+			"id": "ruins-of-regath-38",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4479,
+			"y": 0.2278,
+			"pack": 16
+		},
+		{
+			"id": "ruins-of-regath-39",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f1",
+			"x": 0.4672,
+			"y": 0.2381,
+			"pack": 17
+		},
+		{
+			"id": "ruins-of-regath-40",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4623,
+			"y": 0.2342,
+			"pack": 17
+		},
+		{
+			"id": "ruins-of-regath-41",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.461,
+			"y": 0.2401,
+			"pack": 17
+		},
+		{
+			"id": "ruins-of-regath-42",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4687,
+			"y": 0.2281,
+			"pack": 17
+		},
+		{
+			"id": "ruins-of-regath-43",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4647,
+			"y": 0.2287,
+			"pack": 17
+		},
+		{
+			"id": "ruins-of-regath-44",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5172,
+			"y": 0.235,
+			"pack": 18
+		},
+		{
+			"id": "ruins-of-regath-45",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.52,
+			"y": 0.2334,
+			"pack": 18
+		},
+		{
+			"id": "ruins-of-regath-46",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.5189,
+			"y": 0.2389,
+			"pack": 18
+		},
+		{
+			"id": "ruins-of-regath-47",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.3996,
+			"y": 0.2375,
+			"pack": 19
+		},
+		{
+			"id": "ruins-of-regath-48",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6025,
+			"y": 0.251,
+			"pack": 20
+		},
+		{
+			"id": "ruins-of-regath-49",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5982,
+			"y": 0.2654,
+			"pack": 20
+		},
+		{
+			"id": "ruins-of-regath-50",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6003,
+			"y": 0.26,
+			"pack": 20
+		},
+		{
+			"id": "ruins-of-regath-51",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.602,
+			"y": 0.2523,
+			"pack": 20
+		},
+		{
+			"id": "ruins-of-regath-52",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.5976,
+			"y": 0.262,
+			"pack": 20
+		},
+		{
+			"id": "ruins-of-regath-53",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5483,
+			"y": 0.2645,
+			"pack": 21
+		},
+		{
+			"id": "ruins-of-regath-54",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5508,
+			"y": 0.2743,
+			"pack": 21
+		},
+		{
+			"id": "ruins-of-regath-55",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5464,
+			"y": 0.268,
+			"pack": 21
+		},
+		{
+			"id": "ruins-of-regath-56",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.552,
+			"y": 0.2695,
+			"pack": 21
+		},
+		{
+			"id": "ruins-of-regath-57",
+			"enemyId": "mc-wanderingghostpriest",
+			"floor": "f1",
+			"x": 0.5508,
+			"y": 0.2629,
+			"pack": 21
+		},
+		{
+			"id": "ruins-of-regath-58",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.5487,
+			"y": 0.2736,
+			"pack": 21
+		},
+		{
+			"id": "ruins-of-regath-59",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5121,
+			"y": 0.2989,
+			"pack": 22
+		},
+		{
+			"id": "ruins-of-regath-60",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.516,
+			"y": 0.3002,
+			"pack": 22
+		},
+		{
+			"id": "ruins-of-regath-61",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.5138,
+			"y": 0.2991,
+			"pack": 22
+		},
+		{
+			"id": "ruins-of-regath-62",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.5353,
+			"y": 0.3163,
+			"pack": 23
+		},
+		{
+			"id": "ruins-of-regath-63",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.5302,
+			"y": 0.3097,
+			"pack": 23
+		},
+		{
+			"id": "ruins-of-regath-64",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f1",
+			"x": 0.4063,
+			"y": 0.3302,
+			"pack": 24
+		},
+		{
+			"id": "ruins-of-regath-65",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4042,
+			"y": 0.3215,
+			"pack": 24
+		},
+		{
+			"id": "ruins-of-regath-66",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4049,
+			"y": 0.3178,
+			"pack": 24
+		},
+		{
+			"id": "ruins-of-regath-67",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5658,
+			"y": 0.3201,
+			"pack": 25
+		},
+		{
+			"id": "ruins-of-regath-68",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5733,
+			"y": 0.3261,
+			"pack": 25
+		},
+		{
+			"id": "ruins-of-regath-69",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.5681,
+			"y": 0.3285,
+			"pack": 25
+		},
+		{
+			"id": "ruins-of-regath-70",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4166,
+			"y": 0.3244,
+			"pack": 26
+		},
+		{
+			"id": "ruins-of-regath-71",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.415,
+			"y": 0.3221,
+			"pack": 26
+		},
+		{
+			"id": "ruins-of-regath-72",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6513,
+			"y": 0.3467,
+			"pack": 27
+		},
+		{
+			"id": "ruins-of-regath-73",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6457,
+			"y": 0.3501,
+			"pack": 27
+		},
+		{
+			"id": "ruins-of-regath-74",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6482,
+			"y": 0.3423,
+			"pack": 27
+		},
+		{
+			"id": "ruins-of-regath-75",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4251,
+			"y": 0.3506,
+			"pack": 28
+		},
+		{
+			"id": "ruins-of-regath-76",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4575,
+			"y": 0.3733,
+			"pack": 29
+		},
+		{
+			"id": "ruins-of-regath-77",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4568,
+			"y": 0.3794,
+			"pack": 29
+		},
+		{
+			"id": "ruins-of-regath-78",
+			"enemyId": "st-bigbloodelemental",
+			"floor": "f1",
+			"x": 0.4584,
+			"y": 0.3679,
+			"pack": 29,
+			"empowered": true
+		},
+		{
+			"id": "ruins-of-regath-79",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.62,
+			"y": 0.3739,
+			"pack": 30
+		},
+		{
+			"id": "ruins-of-regath-80",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.5977,
+			"y": 0.3782,
+			"pack": 31
+		},
+		{
+			"id": "ruins-of-regath-81",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f1",
+			"x": 0.5581,
+			"y": 0.3849,
+			"pack": 32
+		},
+		{
+			"id": "ruins-of-regath-82",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f1",
+			"x": 0.6478,
+			"y": 0.3866,
+			"pack": 33
+		},
+		{
+			"id": "ruins-of-regath-83",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.6745,
+			"y": 0.3906,
+			"pack": 34
+		},
+		{
+			"id": "ruins-of-regath-84",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f1",
+			"x": 0.5866,
+			"y": 0.406,
+			"pack": 35
+		},
+		{
+			"id": "ruins-of-regath-85",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f1",
+			"x": 0.5868,
+			"y": 0.3929,
+			"pack": 35
+		},
+		{
+			"id": "ruins-of-regath-86",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f1",
+			"x": 0.59,
+			"y": 0.3983,
+			"pack": 35
+		},
+		{
+			"id": "ruins-of-regath-87",
+			"enemyId": "st-bigbloodelemental",
+			"floor": "f1",
+			"x": 0.6384,
+			"y": 0.4005,
+			"pack": 36
+		},
+		{
+			"id": "ruins-of-regath-88",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f1",
+			"x": 0.5569,
+			"y": 0.4027,
+			"pack": 37
+		},
+		{
+			"id": "ruins-of-regath-89",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.6744,
+			"y": 0.4079,
+			"pack": 38
+		},
+		{
+			"id": "ruins-of-regath-90",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f1",
+			"x": 0.6514,
+			"y": 0.4135,
+			"pack": 39
+		},
+		{
+			"id": "ruins-of-regath-91",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.5992,
+			"y": 0.4195,
+			"pack": 40
+		},
+		{
+			"id": "ruins-of-regath-92",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6218,
+			"y": 0.4218,
+			"pack": 41
+		},
+		{
+			"id": "ruins-of-regath-93",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4492,
+			"y": 0.4268,
+			"pack": 42
+		},
+		{
+			"id": "ruins-of-regath-94",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.5426,
+			"y": 0.4445,
+			"pack": 43
+		},
+		{
+			"id": "ruins-of-regath-95",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.5464,
+			"y": 0.436,
+			"pack": 43
+		},
+		{
+			"id": "ruins-of-regath-96",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.5447,
+			"y": 0.4411,
+			"pack": 43
+		},
+		{
+			"id": "ruins-of-regath-97",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4746,
+			"y": 0.4531,
+			"pack": 44
+		},
+		{
+			"id": "ruins-of-regath-98",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4755,
+			"y": 0.4589,
+			"pack": 44
+		},
+		{
+			"id": "ruins-of-regath-99",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6439,
+			"y": 0.4604,
+			"pack": 45
+		},
+		{
+			"id": "ruins-of-regath-100",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6361,
+			"y": 0.4575,
+			"pack": 45
+		},
+		{
+			"id": "ruins-of-regath-101",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6401,
+			"y": 0.4612,
+			"pack": 45
+		},
+		{
+			"id": "ruins-of-regath-102",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6576,
+			"y": 0.4788,
+			"pack": 46
+		},
+		{
+			"id": "ruins-of-regath-103",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.656,
+			"y": 0.4682,
+			"pack": 46
+		},
+		{
+			"id": "ruins-of-regath-104",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f1",
+			"x": 0.6594,
+			"y": 0.4716,
+			"pack": 46
+		},
+		{
+			"id": "ruins-of-regath-105",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.6696,
+			"y": 0.4784,
+			"pack": 47
+		},
+		{
+			"id": "ruins-of-regath-106",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.6683,
+			"y": 0.4821,
+			"pack": 47
+		},
+		{
+			"id": "ruins-of-regath-107",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4488,
+			"y": 0.4912,
+			"pack": 48
+		},
+		{
+			"id": "ruins-of-regath-108",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4495,
+			"y": 0.4966,
+			"pack": 48
+		},
+		{
+			"id": "ruins-of-regath-109",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4463,
+			"y": 0.4939,
+			"pack": 48
+		},
+		{
+			"id": "ruins-of-regath-110",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6184,
+			"y": 0.4963,
+			"pack": 49
+		},
+		{
+			"id": "ruins-of-regath-111",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6213,
+			"y": 0.4944,
+			"pack": 49
+		},
+		{
+			"id": "ruins-of-regath-112",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6159,
+			"y": 0.4915,
+			"pack": 49
+		},
+		{
+			"id": "ruins-of-regath-113",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.4012,
+			"y": 0.5237,
+			"pack": 50
+		},
+		{
+			"id": "ruins-of-regath-114",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4029,
+			"y": 0.5255,
+			"pack": 50
+		},
+		{
+			"id": "ruins-of-regath-115",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.5811,
+			"y": 0.5421,
+			"pack": 51
+		},
+		{
+			"id": "ruins-of-regath-116",
+			"enemyId": "mc-wanderingghostpriest",
+			"floor": "f1",
+			"x": 0.5828,
+			"y": 0.5377,
+			"pack": 51
+		},
+		{
+			"id": "ruins-of-regath-117",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6622,
+			"y": 0.5407,
+			"pack": 52
+		},
+		{
+			"id": "ruins-of-regath-118",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.665,
+			"y": 0.5414,
+			"pack": 52
+		},
+		{
+			"id": "ruins-of-regath-119",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f1",
+			"x": 0.5106,
+			"y": 0.5496,
+			"pack": 53
+		},
+		{
+			"id": "ruins-of-regath-120",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5138,
+			"y": 0.5458,
+			"pack": 53
+		},
+		{
+			"id": "ruins-of-regath-121",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5077,
+			"y": 0.5462,
+			"pack": 53
+		},
+		{
+			"id": "ruins-of-regath-122",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5164,
+			"y": 0.5414,
+			"pack": 53
+		},
+		{
+			"id": "ruins-of-regath-123",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5059,
+			"y": 0.5426,
+			"pack": 53
+		},
+		{
+			"id": "ruins-of-regath-124",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4688,
+			"y": 0.5512,
+			"pack": 54
+		},
+		{
+			"id": "ruins-of-regath-125",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.472,
+			"y": 0.5677,
+			"pack": 54
+		},
+		{
+			"id": "ruins-of-regath-126",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.4707,
+			"y": 0.5647,
+			"pack": 54
+		},
+		{
+			"id": "ruins-of-regath-127",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.4683,
+			"y": 0.5578,
+			"pack": 54
+		},
+		{
+			"id": "ruins-of-regath-128",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6151,
+			"y": 0.5589,
+			"pack": 55
+		},
+		{
+			"id": "ruins-of-regath-129",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6179,
+			"y": 0.5571,
+			"pack": 55
+		},
+		{
+			"id": "ruins-of-regath-130",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.617,
+			"y": 0.5634,
+			"pack": 55
+		},
+		{
+			"id": "ruins-of-regath-131",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.6432,
+			"y": 0.5628,
+			"pack": 56
+		},
+		{
+			"id": "ruins-of-regath-132",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.6406,
+			"y": 0.5678,
+			"pack": 56
+		},
+		{
+			"id": "ruins-of-regath-133",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.6402,
+			"y": 0.5608,
+			"pack": 56,
+			"empowered": true
+		},
+		{
+			"id": "ruins-of-regath-134",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5713,
+			"y": 0.5756,
+			"pack": 57
+		},
+		{
+			"id": "ruins-of-regath-135",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5732,
+			"y": 0.5745,
+			"pack": 57
+		},
+		{
+			"id": "ruins-of-regath-136",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.5722,
+			"y": 0.578,
+			"pack": 57
+		},
+		{
+			"id": "ruins-of-regath-137",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f1",
+			"x": 0.438,
+			"y": 0.5751,
+			"pack": 58,
+			"empowered": true
+		},
+		{
+			"id": "ruins-of-regath-138",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6671,
+			"y": 0.5768,
+			"pack": 59
+		},
+		{
+			"id": "ruins-of-regath-139",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.666,
+			"y": 0.5838,
+			"pack": 59
+		},
+		{
+			"id": "ruins-of-regath-140",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4089,
+			"y": 0.5879,
+			"pack": 60
+		},
+		{
+			"id": "ruins-of-regath-141",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4511,
+			"y": 0.6099,
+			"pack": 61
+		},
+		{
+			"id": "ruins-of-regath-142",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4486,
+			"y": 0.5999,
+			"pack": 61
+		},
+		{
+			"id": "ruins-of-regath-143",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4523,
+			"y": 0.6022,
+			"pack": 61
+		},
+		{
+			"id": "ruins-of-regath-144",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.405,
+			"y": 0.6049,
+			"pack": 65
+		},
+		{
+			"id": "ruins-of-regath-145",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4036,
+			"y": 0.6009,
+			"pack": 62
+		},
+		{
+			"id": "ruins-of-regath-146",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.3741,
+			"y": 0.6064,
+			"pack": 63
+		},
+		{
+			"id": "ruins-of-regath-147",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.3741,
+			"y": 0.6014,
+			"pack": 63
+		},
+		{
+			"id": "ruins-of-regath-148",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5474,
+			"y": 0.6055,
+			"pack": 64
+		},
+		{
+			"id": "ruins-of-regath-149",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5498,
+			"y": 0.602,
+			"pack": 64
+		},
+		{
+			"id": "ruins-of-regath-150",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5477,
+			"y": 0.602,
+			"pack": 64
+		},
+		{
+			"id": "ruins-of-regath-151",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6521,
+			"y": 0.6062,
+			"pack": 66
+		},
+		{
+			"id": "ruins-of-regath-152",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6517,
+			"y": 0.6129,
+			"pack": 66
+		},
+		{
+			"id": "ruins-of-regath-153",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.39,
+			"y": 0.6069,
+			"pack": 67,
+			"empowered": true
+		},
+		{
+			"id": "ruins-of-regath-154",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.6136,
+			"y": 0.6268,
+			"pack": 68
+		},
+		{
+			"id": "ruins-of-regath-155",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.6161,
+			"y": 0.6293,
+			"pack": 68
+		},
+		{
+			"id": "ruins-of-regath-156",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4876,
+			"y": 0.6405,
+			"pack": 69
+		},
+		{
+			"id": "ruins-of-regath-157",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4875,
+			"y": 0.6338,
+			"pack": 69
+		},
+		{
+			"id": "ruins-of-regath-158",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4856,
+			"y": 0.6349,
+			"pack": 69
+		},
+		{
+			"id": "ruins-of-regath-159",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3861,
+			"y": 0.6388,
+			"pack": 70
+		},
+		{
+			"id": "ruins-of-regath-160",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3885,
+			"y": 0.6446,
+			"pack": 70
+		},
+		{
+			"id": "ruins-of-regath-161",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.3906,
+			"y": 0.6423,
+			"pack": 70
+		},
+		{
+			"id": "ruins-of-regath-162",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.3878,
+			"y": 0.6354,
+			"pack": 70
+		},
+		{
+			"id": "ruins-of-regath-163",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.5251,
+			"y": 0.6384,
+			"pack": 71
+		},
+		{
+			"id": "ruins-of-regath-164",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.5287,
+			"y": 0.6355,
+			"pack": 71
+		},
+		{
+			"id": "ruins-of-regath-165",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.5273,
+			"y": 0.6409,
+			"pack": 71
+		},
+		{
+			"id": "ruins-of-regath-166",
+			"enemyId": "mc-wanderingghostpriest",
+			"floor": "f1",
+			"x": 0.5654,
+			"y": 0.6457,
+			"pack": 72
+		},
+		{
+			"id": "ruins-of-regath-167",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.5676,
+			"y": 0.6519,
+			"pack": 72
+		},
+		{
+			"id": "ruins-of-regath-168",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.5687,
+			"y": 0.641,
+			"pack": 72
+		},
+		{
+			"id": "ruins-of-regath-169",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.6504,
+			"y": 0.6451,
+			"pack": 73
+		},
+		{
+			"id": "ruins-of-regath-170",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.6588,
+			"y": 0.6473,
+			"pack": 74
+		},
+		{
+			"id": "ruins-of-regath-171",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6092,
+			"y": 0.6529,
+			"pack": 75
+		},
+		{
+			"id": "ruins-of-regath-172",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6134,
+			"y": 0.6573,
+			"pack": 75
+		},
+		{
+			"id": "ruins-of-regath-173",
+			"enemyId": "mc-wanderingghostpriest",
+			"floor": "f1",
+			"x": 0.6088,
+			"y": 0.6615,
+			"pack": 75
+		},
+		{
+			"id": "ruins-of-regath-174",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.6067,
+			"y": 0.6553,
+			"pack": 75
+		},
+		{
+			"id": "ruins-of-regath-175",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.6118,
+			"y": 0.6646,
+			"pack": 75,
+			"empowered": true
+		},
+		{
+			"id": "ruins-of-regath-176",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4649,
+			"y": 0.6553,
+			"pack": 76
+		},
+		{
+			"id": "ruins-of-regath-177",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4652,
+			"y": 0.6589,
+			"pack": 76
+		},
+		{
+			"id": "ruins-of-regath-178",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4483,
+			"y": 0.6554,
+			"pack": 77
+		},
+		{
+			"id": "ruins-of-regath-179",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4473,
+			"y": 0.6566,
+			"pack": 77
+		},
+		{
+			"id": "ruins-of-regath-180",
+			"enemyId": "mc-wanderingghostpriest",
+			"floor": "f1",
+			"x": 0.4559,
+			"y": 0.6671,
+			"pack": 78
+		},
+		{
+			"id": "ruins-of-regath-181",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.5738,
+			"y": 0.6692,
+			"pack": 79
+		},
+		{
+			"id": "ruins-of-regath-182",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.5769,
+			"y": 0.6684,
+			"pack": 79
+		},
+		{
+			"id": "ruins-of-regath-183",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f1",
+			"x": 0.4047,
+			"y": 0.6796,
+			"pack": 80
+		},
+		{
+			"id": "ruins-of-regath-184",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4028,
+			"y": 0.6736,
+			"pack": 80
+		},
+		{
+			"id": "ruins-of-regath-185",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4021,
+			"y": 0.6824,
+			"pack": 80
+		},
+		{
+			"id": "ruins-of-regath-186",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4043,
+			"y": 0.6863,
+			"pack": 80
+		},
+		{
+			"id": "ruins-of-regath-187",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4052,
+			"y": 0.6717,
+			"pack": 80
+		},
+		{
+			"id": "ruins-of-regath-188",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4285,
+			"y": 0.676,
+			"pack": 81
+		},
+		{
+			"id": "ruins-of-regath-189",
+			"enemyId": "mc-wanderingghostpriest",
+			"floor": "f1",
+			"x": 0.6514,
+			"y": 0.6775,
+			"pack": 82
+		},
+		{
+			"id": "ruins-of-regath-190",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.5583,
+			"y": 0.725,
+			"pack": 86
+		},
+		{
+			"id": "ruins-of-regath-191",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.5594,
+			"y": 0.7323,
+			"pack": 86
+		},
+		{
+			"id": "ruins-of-regath-192",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.5584,
+			"y": 0.7103,
+			"pack": 83
+		},
+		{
+			"id": "ruins-of-regath-193",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.5573,
+			"y": 0.7054,
+			"pack": 83
+		},
+		{
+			"id": "ruins-of-regath-194",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.5556,
+			"y": 0.7347,
+			"pack": 86
+		},
+		{
+			"id": "ruins-of-regath-195",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4411,
+			"y": 0.7215,
+			"pack": 84,
+			"empowered": true
+		},
+		{
+			"id": "ruins-of-regath-196",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4416,
+			"y": 0.7057,
+			"pack": 84
+		},
+		{
+			"id": "ruins-of-regath-197",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6007,
+			"y": 0.7191,
+			"pack": 85
+		},
+		{
+			"id": "ruins-of-regath-198",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6034,
+			"y": 0.7119,
+			"pack": 85
+		},
+		{
+			"id": "ruins-of-regath-199",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6027,
+			"y": 0.7165,
+			"pack": 85
+		},
+		{
+			"id": "ruins-of-regath-200",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4757,
+			"y": 0.7487,
+			"pack": 90
+		},
+		{
+			"id": "ruins-of-regath-201",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4748,
+			"y": 0.731,
+			"pack": 87
+		},
+		{
+			"id": "ruins-of-regath-202",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.4764,
+			"y": 0.7505,
+			"pack": 90
+		},
+		{
+			"id": "ruins-of-regath-203",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.4763,
+			"y": 0.7313,
+			"pack": 87
+		},
+		{
+			"id": "ruins-of-regath-204",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4702,
+			"y": 0.7348,
+			"pack": 88
+		},
+		{
+			"id": "ruins-of-regath-205",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.4693,
+			"y": 0.74,
+			"pack": 88
+		},
+		{
+			"id": "ruins-of-regath-206",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.5423,
+			"y": 0.7414,
+			"pack": 89
+		},
+		{
+			"id": "ruins-of-regath-207",
+			"enemyId": "mc-wanderingghostguard",
+			"floor": "f1",
+			"x": 0.5443,
+			"y": 0.7374,
+			"pack": 89
+		},
+		{
+			"id": "ruins-of-regath-208",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.5899,
+			"y": 0.7778,
+			"pack": 91
+		},
+		{
+			"id": "ruins-of-regath-209",
+			"enemyId": "mc-wanderingghostwarrior",
+			"floor": "f1",
+			"x": 0.5916,
+			"y": 0.7822,
+			"pack": 91
+		},
+		{
+			"id": "ruins-of-regath-210",
+			"enemyId": "mc-wanderingghostpriest",
+			"floor": "f1",
+			"x": 0.5746,
+			"y": 0.8005,
+			"pack": 92
+		}
+	],
+	"minibosses": [
+		{
+			"affix": "eira",
+			"floor": "f1",
+			"x": 0.4063,
+			"y": 0.6803,
+			"radius": 2000,
+			"replaces": [
+				"ruins-of-regath-183",
+				"ruins-of-regath-184",
+				"ruins-of-regath-185",
+				"ruins-of-regath-186",
+				"ruins-of-regath-187"
+			]
+		},
+		{
+			"affix": "ghorn",
+			"floor": "f1",
+			"x": 0.6099,
+			"y": 0.6581,
+			"radius": 2000,
+			"replaces": [
+				"ruins-of-regath-171",
+				"ruins-of-regath-172",
+				"ruins-of-regath-173",
+				"ruins-of-regath-174",
+				"ruins-of-regath-175"
+			]
+		}
+	],
+	"start": {
+		"floor": "f1",
+		"x": 0.4855,
+		"y": 0.9791
+	},
+	"checkpoints": [
+		{
+			"floor": "f2",
+			"x": 0.4659,
+			"y": 0.4039
+		},
+		{
+			"floor": "f1",
+			"x": 0.388,
+			"y": 0.6385
+		},
+		{
+			"floor": "f1",
+			"x": 0.5856,
+			"y": 0.3997
+		},
+		{
+			"floor": "f1",
+			"x": 0.4077,
+			"y": 0.3216
+		}
+	],
+	"patrols": [
+		{
+			"id": "ruins-of-regath-p1",
+			"floor": "f1",
+			"points": [
+				[
+					0.4638,
+					0.0695
+				],
+				[
+					0.4581,
+					0.1557
+				],
+				[
+					0.4415,
+					0.1922
+				],
+				[
+					0.4246,
+					0.1923
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-4",
+				"ruins-of-regath-5",
+				"ruins-of-regath-6"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p2",
+			"floor": "f1",
+			"points": [
+				[
+					0.5009,
+					0.2193
+				],
+				[
+					0.535,
+					0.2092
+				],
+				[
+					0.5647,
+					0.2087
+				],
+				[
+					0.5644,
+					0.1696
+				],
+				[
+					0.5395,
+					0.1358
+				],
+				[
+					0.5145,
+					0.1467
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-36",
+				"ruins-of-regath-37"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p3",
+			"floor": "f1",
+			"points": [
+				[
+					0.3995,
+					0.2364
+				],
+				[
+					0.401,
+					0.2939
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-47"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p4",
+			"floor": "f1",
+			"points": [
+				[
+					0.4248,
+					0.3496
+				],
+				[
+					0.436,
+					0.4001
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-75"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p5",
+			"floor": "f1",
+			"points": [
+				[
+					0.4613,
+					0.3697
+				],
+				[
+					0.4721,
+					0.3035
+				],
+				[
+					0.4957,
+					0.259
+				],
+				[
+					0.5098,
+					0.2806
+				],
+				[
+					0.5268,
+					0.2941
+				],
+				[
+					0.5476,
+					0.3164
+				],
+				[
+					0.562,
+					0.3645
+				],
+				[
+					0.5614,
+					0.4161
+				],
+				[
+					0.5379,
+					0.4646
+				],
+				[
+					0.5238,
+					0.4932
+				],
+				[
+					0.5109,
+					0.5028
+				],
+				[
+					0.4951,
+					0.5016
+				],
+				[
+					0.4755,
+					0.4848
+				],
+				[
+					0.4619,
+					0.4403
+				],
+				[
+					0.4595,
+					0.3935
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-76",
+				"ruins-of-regath-77",
+				"ruins-of-regath-78"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p6",
+			"floor": "f1",
+			"points": [
+				[
+					0.4496,
+					0.4257
+				],
+				[
+					0.4176,
+					0.4247
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-93"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p7",
+			"floor": "f1",
+			"points": [
+				[
+					0.6562,
+					0.4738
+				],
+				[
+					0.6825,
+					0.3934
+				],
+				[
+					0.6351,
+					0.3204
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-102",
+				"ruins-of-regath-103",
+				"ruins-of-regath-104"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p8",
+			"floor": "f1",
+			"points": [
+				[
+					0.4035,
+					0.526
+				],
+				[
+					0.3856,
+					0.4385
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-113",
+				"ruins-of-regath-114"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p9",
+			"floor": "f1",
+			"points": [
+				[
+					0.5845,
+					0.5432
+				],
+				[
+					0.568,
+					0.4908
+				],
+				[
+					0.5662,
+					0.4499
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-115",
+				"ruins-of-regath-116"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p10",
+			"floor": "f1",
+			"points": [
+				[
+					0.6642,
+					0.5344
+				],
+				[
+					0.6625,
+					0.5668
+				],
+				[
+					0.658,
+					0.5973
+				],
+				[
+					0.6546,
+					0.6325
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-117",
+				"ruins-of-regath-118"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p11",
+			"floor": "f1",
+			"points": [
+				[
+					0.4091,
+					0.5869
+				],
+				[
+					0.4078,
+					0.5926
+				],
+				[
+					0.4049,
+					0.5963
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-140"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p12",
+			"floor": "f1",
+			"points": [
+				[
+					0.4523,
+					0.6022
+				],
+				[
+					0.4606,
+					0.5758
+				],
+				[
+					0.4577,
+					0.54
+				],
+				[
+					0.444,
+					0.5106
+				],
+				[
+					0.4251,
+					0.5045
+				],
+				[
+					0.4128,
+					0.5373
+				],
+				[
+					0.4182,
+					0.5801
+				],
+				[
+					0.4321,
+					0.6115
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-141",
+				"ruins-of-regath-142",
+				"ruins-of-regath-143"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p13",
+			"floor": "f1",
+			"points": [
+				[
+					0.4045,
+					0.6051
+				],
+				[
+					0.4075,
+					0.6031
+				],
+				[
+					0.4091,
+					0.5936
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-144"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p14",
+			"floor": "f1",
+			"points": [
+				[
+					0.3897,
+					0.606
+				],
+				[
+					0.3973,
+					0.631
+				],
+				[
+					0.4031,
+					0.6499
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-153"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p15",
+			"floor": "f1",
+			"points": [
+				[
+					0.6131,
+					0.6262
+				],
+				[
+					0.6247,
+					0.6371
+				],
+				[
+					0.6375,
+					0.6519
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-154",
+				"ruins-of-regath-155"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p16",
+			"floor": "f1",
+			"points": [
+				[
+					0.5687,
+					0.6466
+				],
+				[
+					0.551,
+					0.6534
+				],
+				[
+					0.5427,
+					0.6927
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-166",
+				"ruins-of-regath-167",
+				"ruins-of-regath-168"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p17",
+			"floor": "f1",
+			"points": [
+				[
+					0.5565,
+					0.7293
+				],
+				[
+					0.5765,
+					0.7353
+				],
+				[
+					0.5991,
+					0.7034
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-190",
+				"ruins-of-regath-191",
+				"ruins-of-regath-194"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p18",
+			"floor": "f1",
+			"points": [
+				[
+					0.4703,
+					0.7378
+				],
+				[
+					0.4589,
+					0.7171
+				],
+				[
+					0.4583,
+					0.6818
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-204",
+				"ruins-of-regath-205"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p19",
+			"floor": "f1",
+			"points": [
+				[
+					0.5431,
+					0.7389
+				],
+				[
+					0.5567,
+					0.7663
+				],
+				[
+					0.5688,
+					0.7812
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-206",
+				"ruins-of-regath-207"
+			]
+		},
+		{
+			"id": "ruins-of-regath-p20",
+			"floor": "f1",
+			"points": [
+				[
+					0.5903,
+					0.7807
+				],
+				[
+					0.6204,
+					0.7306
+				]
+			],
+			"spawns": [
+				"ruins-of-regath-208",
+				"ruins-of-regath-209"
+			]
+		}
+	],
+	"art": {
+		"codex": "/art/codex/ruins-of-regath.webp",
+		"banner": "/art/banner/ruins-of-regath.webp"
+	}
+}

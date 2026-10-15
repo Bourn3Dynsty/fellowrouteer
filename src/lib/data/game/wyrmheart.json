@@ -1,0 +1,1325 @@
+{
+	"id": "wyrmheart",
+	"slug": "wyrmheart",
+	"name": "Wyrmheart",
+	"internalName": "IceCave",
+	"kind": "dungeon",
+	"requiredScore": 109,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Start",
+			"image": "/maps/wyrmheart/f1.webp",
+			"texture": "T_Map_IceCave_StartArea",
+			"worldSize": [
+				61000,
+				30500
+			]
+		},
+		{
+			"id": "f2",
+			"label": "End",
+			"image": "/maps/wyrmheart/f2.webp",
+			"texture": "T_Map_IceCave_Ending",
+			"worldSize": [
+				88000,
+				44000
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "fk-elfduelist",
+			"name": "Blade of Cithrel",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 3.227,
+			"gameId": "FK_ElfDuelist",
+			"classes": [
+				"BP_NPC_FK_Elf_Duelist"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Ice Breaker",
+					"ccOnly": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Slicing Blades",
+					"ccOnly": true,
+					"channel": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Enrage"
+				}
+			],
+			"icon": "/icons/enemies/fk-elfduelist.webp"
+		},
+		{
+			"id": "ic-assassin",
+			"name": "Coldheart Assassin",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.12,
+			"gameId": "IC_Assassin",
+			"classes": [
+				"BP_NPC_IC_Assassin"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Wicked Strikes",
+					"ccOnly": true,
+					"channel": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Coldheart Poison",
+					"school": "Shadow"
+				}
+			],
+			"icon": "/icons/enemies/ic-assassin.webp"
+		},
+		{
+			"id": "fk-elfillusionist",
+			"name": "Deceitful Scholar",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.531,
+			"gameId": "FK_ElfIllusionist",
+			"classes": [
+				"BP_NPC_FK_Elf_Illusionist"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Rune of Detonation",
+					"interruptible": true,
+					"channel": true,
+					"school": "Arcane"
+				},
+				{
+					"name": "Arcane Strike",
+					"interruptible": true,
+					"school": "Arcane"
+				},
+				{
+					"name": "Volatile Orb",
+					"school": "Arcane"
+				}
+			],
+			"icon": "/icons/enemies/fk-elfillusionist.webp"
+		},
+		{
+			"id": "ic-healer",
+			"name": "Eldrin Chronomancer",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 4.169,
+			"gameId": "IC_Healer",
+			"classes": [
+				"BP_NPC_IC_Healer"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Temporal Manipulation",
+					"interruptible": true,
+					"channel": true,
+					"school": "Arcane"
+				},
+				{
+					"name": "Decripify",
+					"ccOnly": true,
+					"channel": true
+				},
+				{
+					"name": "Erosion of Time"
+				}
+			],
+			"icon": "/icons/enemies/ic-healer.webp"
+		},
+		{
+			"id": "fk-elfgoon",
+			"name": "Eldrin Recruit",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.828,
+			"gameId": "FK_ElfGoon",
+			"classes": [
+				"BP_NPC_FK_Elf_Goon"
+			],
+			"icon": "/icons/enemies/fk-elfgoon.webp"
+		},
+		{
+			"id": "fk-elfguard",
+			"name": "Eldrin Sentinel",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 3.653,
+			"gameId": "FK_ElfGuard",
+			"classes": [
+				"BP_NPC_FK_Elf_Guard"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Shattering Barrier",
+					"interruptible": true,
+					"school": "Frost"
+				}
+			],
+			"icon": "/icons/enemies/fk-elfguard.webp"
+		},
+		{
+			"id": "ic-lookout",
+			"name": "Expedition Lookout",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 0.713,
+			"gameId": "IC_Lookout",
+			"classes": [
+				"BP_NPC_IC_Lookout"
+			],
+			"icon": "/icons/enemies/ic-lookout.webp"
+		},
+		{
+			"id": "ic-glacialsprite",
+			"name": "Frozen Remnant",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.026,
+			"gameId": "IC_GlacialSprite",
+			"classes": [
+				"BP_NPC_IC_GlacialSprite"
+			],
+			"abilities": [
+				{
+					"name": "Freezing Melt"
+				}
+			],
+			"icon": "/icons/enemies/ic-glacialsprite.webp"
+		},
+		{
+			"id": "ic-greatericeelemental",
+			"name": "Greater Ice Elemental",
+			"score": 8,
+			"type": "trash",
+			"healthMultiplier": 5.819,
+			"gameId": "IC_GreaterIceElemental",
+			"classes": [
+				"BP_NPC_IC_GreaterIceElemental"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Avalanche"
+				},
+				{
+					"name": "Frozen Stomp",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/ic-greatericeelemental.webp"
+		},
+		{
+			"id": "fk-iceshardling",
+			"name": "Ice Shardling",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 0.688,
+			"gameId": "FK_IceShardling",
+			"classes": [
+				"BP_NPC_IC_Elf_Shardling"
+			],
+			"icon": "/icons/enemies/fk-iceshardling.webp"
+		},
+		{
+			"id": "fk-icegolem",
+			"name": "Spellbound Golem",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.182,
+			"gameId": "FK_IceGolem",
+			"classes": [
+				"BP_NPC_FK_IceGolem"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Ice Spike",
+					"ccOnly": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Shatter"
+				}
+			],
+			"icon": "/icons/enemies/fk-icegolem.webp"
+		},
+		{
+			"id": "fk-elfranger",
+			"name": "Tundra Stalker",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 2.573,
+			"gameId": "FK_ElfRanger",
+			"classes": [
+				"BP_NPC_FK_Elf_Ranger"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Rapid Fire",
+					"ccOnly": true,
+					"channel": true,
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/fk-elfranger.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "wyrmheart-83",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5849,
+			"y": 0.0121,
+			"pack": 1
+		},
+		{
+			"id": "wyrmheart-84",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5831,
+			"y": 0.0077,
+			"pack": 1
+		},
+		{
+			"id": "wyrmheart-85",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.6107,
+			"y": 0.0709,
+			"pack": 2
+		},
+		{
+			"id": "wyrmheart-86",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.6206,
+			"y": 0.0709,
+			"pack": 2
+		},
+		{
+			"id": "wyrmheart-87",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.614,
+			"y": 0.0644,
+			"pack": 2
+		},
+		{
+			"id": "wyrmheart-88",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.6173,
+			"y": 0.0644,
+			"pack": 2
+		},
+		{
+			"id": "wyrmheart-89",
+			"enemyId": "ic-healer",
+			"floor": "f1",
+			"x": 0.614,
+			"y": 0.0775,
+			"pack": 2
+		},
+		{
+			"id": "wyrmheart-90",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.6221,
+			"y": 0.1099,
+			"pack": 3
+		},
+		{
+			"id": "wyrmheart-91",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.6087,
+			"y": 0.1099,
+			"pack": 3
+		},
+		{
+			"id": "wyrmheart-92",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5109,
+			"y": 0.1273,
+			"pack": 4
+		},
+		{
+			"id": "wyrmheart-93",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5063,
+			"y": 0.1271,
+			"pack": 4
+		},
+		{
+			"id": "wyrmheart-94",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5029,
+			"y": 0.1413,
+			"pack": 4
+		},
+		{
+			"id": "wyrmheart-95",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5146,
+			"y": 0.1747,
+			"pack": 5
+		},
+		{
+			"id": "wyrmheart-96",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5095,
+			"y": 0.1765,
+			"pack": 5
+		},
+		{
+			"id": "wyrmheart-97",
+			"enemyId": "ic-greatericeelemental",
+			"floor": "f1",
+			"x": 0.505,
+			"y": 0.1787,
+			"pack": 5
+		},
+		{
+			"id": "wyrmheart-98",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5843,
+			"y": 0.2294,
+			"pack": 6
+		},
+		{
+			"id": "wyrmheart-99",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5804,
+			"y": 0.2345,
+			"pack": 6
+		},
+		{
+			"id": "wyrmheart-100",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.583,
+			"y": 0.2264,
+			"pack": 6
+		},
+		{
+			"id": "wyrmheart-101",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5786,
+			"y": 0.2294,
+			"pack": 6
+		},
+		{
+			"id": "wyrmheart-102",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5771,
+			"y": 0.2322,
+			"pack": 6
+		},
+		{
+			"id": "wyrmheart-103",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.583,
+			"y": 0.222,
+			"pack": 6
+		},
+		{
+			"id": "wyrmheart-104",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.639,
+			"y": 0.2977,
+			"pack": 7
+		},
+		{
+			"id": "wyrmheart-105",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.6448,
+			"y": 0.2875,
+			"pack": 7
+		},
+		{
+			"id": "wyrmheart-106",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6383,
+			"y": 0.259,
+			"pack": 7
+		},
+		{
+			"id": "wyrmheart-107",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6382,
+			"y": 0.2911,
+			"pack": 7
+		},
+		{
+			"id": "wyrmheart-108",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6435,
+			"y": 0.2672,
+			"pack": 7
+		},
+		{
+			"id": "wyrmheart-109",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6331,
+			"y": 0.265,
+			"pack": 7
+		},
+		{
+			"id": "wyrmheart-110",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6434,
+			"y": 0.283,
+			"pack": 7
+		},
+		{
+			"id": "wyrmheart-111",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6316,
+			"y": 0.2745,
+			"pack": 7
+		},
+		{
+			"id": "wyrmheart-112",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.6396,
+			"y": 0.2699,
+			"pack": 7
+		},
+		{
+			"id": "wyrmheart-113",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.6418,
+			"y": 0.2841,
+			"pack": 7
+		},
+		{
+			"id": "wyrmheart-114",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4797,
+			"y": 0.2763,
+			"pack": 8
+		},
+		{
+			"id": "wyrmheart-115",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4771,
+			"y": 0.2674,
+			"pack": 8
+		},
+		{
+			"id": "wyrmheart-116",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4771,
+			"y": 0.2594,
+			"pack": 8
+		},
+		{
+			"id": "wyrmheart-117",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5182,
+			"y": 0.3187,
+			"pack": 9
+		},
+		{
+			"id": "wyrmheart-118",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5217,
+			"y": 0.3115,
+			"pack": 9
+		},
+		{
+			"id": "wyrmheart-119",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5261,
+			"y": 0.2953,
+			"pack": 9
+		},
+		{
+			"id": "wyrmheart-120",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5259,
+			"y": 0.3069,
+			"pack": 9
+		},
+		{
+			"id": "wyrmheart-121",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5213,
+			"y": 0.2972,
+			"pack": 9
+		},
+		{
+			"id": "wyrmheart-122",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5171,
+			"y": 0.3059,
+			"pack": 9
+		},
+		{
+			"id": "wyrmheart-123",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.6512,
+			"y": 0.3242,
+			"pack": 10
+		},
+		{
+			"id": "wyrmheart-124",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.6061,
+			"y": 0.363,
+			"pack": 11,
+			"empowered": true
+		},
+		{
+			"id": "wyrmheart-125",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5963,
+			"y": 0.3612,
+			"pack": 11
+		},
+		{
+			"id": "wyrmheart-126",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.603,
+			"y": 0.3619,
+			"pack": 11
+		},
+		{
+			"id": "wyrmheart-127",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5995,
+			"y": 0.3612,
+			"pack": 11
+		},
+		{
+			"id": "wyrmheart-128",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.5475,
+			"y": 0.3695,
+			"pack": 12
+		},
+		{
+			"id": "wyrmheart-129",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.5517,
+			"y": 0.3748,
+			"pack": 12
+		},
+		{
+			"id": "wyrmheart-130",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.5499,
+			"y": 0.3695,
+			"pack": 12
+		},
+		{
+			"id": "wyrmheart-131",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5468,
+			"y": 0.3758,
+			"pack": 12
+		},
+		{
+			"id": "wyrmheart-132",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5503,
+			"y": 0.3791,
+			"pack": 12
+		},
+		{
+			"id": "wyrmheart-133",
+			"enemyId": "ic-lookout",
+			"floor": "f1",
+			"x": 0.6244,
+			"y": 0.4047,
+			"pack": 13
+		},
+		{
+			"id": "wyrmheart-134",
+			"enemyId": "ic-lookout",
+			"floor": "f1",
+			"x": 0.6241,
+			"y": 0.3982,
+			"pack": 13
+		},
+		{
+			"id": "wyrmheart-135",
+			"enemyId": "fk-elfillusionist",
+			"floor": "f1",
+			"x": 0.6626,
+			"y": 0.4255,
+			"pack": 14
+		},
+		{
+			"id": "wyrmheart-136",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.662,
+			"y": 0.4153,
+			"pack": 14
+		},
+		{
+			"id": "wyrmheart-137",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6592,
+			"y": 0.4234,
+			"pack": 14
+		},
+		{
+			"id": "wyrmheart-138",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6586,
+			"y": 0.431,
+			"pack": 14
+		},
+		{
+			"id": "wyrmheart-139",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4774,
+			"y": 0.5201,
+			"pack": 15
+		},
+		{
+			"id": "wyrmheart-140",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4805,
+			"y": 0.5091,
+			"pack": 15
+		},
+		{
+			"id": "wyrmheart-141",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.4783,
+			"y": 0.5127,
+			"pack": 15
+		},
+		{
+			"id": "wyrmheart-142",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.5007,
+			"y": 0.534,
+			"pack": 16
+		},
+		{
+			"id": "wyrmheart-143",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.5111,
+			"y": 0.5379,
+			"pack": 16
+		},
+		{
+			"id": "wyrmheart-144",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5052,
+			"y": 0.5369,
+			"pack": 16
+		},
+		{
+			"id": "wyrmheart-145",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5004,
+			"y": 0.5904,
+			"pack": 17
+		},
+		{
+			"id": "wyrmheart-146",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4864,
+			"y": 0.5901,
+			"pack": 17
+		},
+		{
+			"id": "wyrmheart-147",
+			"enemyId": "fk-elfguard",
+			"floor": "f2",
+			"x": 0.5689,
+			"y": 0.2546,
+			"pack": 18,
+			"empowered": true
+		},
+		{
+			"id": "wyrmheart-148",
+			"enemyId": "fk-elfillusionist",
+			"floor": "f2",
+			"x": 0.5705,
+			"y": 0.2488,
+			"pack": 18
+		},
+		{
+			"id": "wyrmheart-149",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.5301,
+			"y": 0.3182,
+			"pack": 19
+		},
+		{
+			"id": "wyrmheart-150",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.5214,
+			"y": 0.3021,
+			"pack": 19
+		},
+		{
+			"id": "wyrmheart-151",
+			"enemyId": "fk-elfranger",
+			"floor": "f2",
+			"x": 0.5263,
+			"y": 0.3103,
+			"pack": 19
+		},
+		{
+			"id": "wyrmheart-152",
+			"enemyId": "fk-elfranger",
+			"floor": "f2",
+			"x": 0.5272,
+			"y": 0.3053,
+			"pack": 19
+		},
+		{
+			"id": "wyrmheart-153",
+			"enemyId": "ic-assassin",
+			"floor": "f2",
+			"x": 0.5319,
+			"y": 0.3051,
+			"pack": 19
+		},
+		{
+			"id": "wyrmheart-154",
+			"enemyId": "fk-elfduelist",
+			"floor": "f2",
+			"x": 0.5756,
+			"y": 0.4547,
+			"pack": 20
+		},
+		{
+			"id": "wyrmheart-155",
+			"enemyId": "fk-elfduelist",
+			"floor": "f2",
+			"x": 0.5764,
+			"y": 0.4464,
+			"pack": 20
+		},
+		{
+			"id": "wyrmheart-156",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.5785,
+			"y": 0.4538,
+			"pack": 20
+		},
+		{
+			"id": "wyrmheart-157",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.5787,
+			"y": 0.4482,
+			"pack": 20
+		},
+		{
+			"id": "wyrmheart-158",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f2",
+			"x": 0.5381,
+			"y": 0.5544,
+			"pack": 21
+		},
+		{
+			"id": "wyrmheart-159",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f2",
+			"x": 0.5339,
+			"y": 0.5536,
+			"pack": 21
+		},
+		{
+			"id": "wyrmheart-160",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f2",
+			"x": 0.5322,
+			"y": 0.5447,
+			"pack": 21
+		},
+		{
+			"id": "wyrmheart-161",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f2",
+			"x": 0.5402,
+			"y": 0.5451,
+			"pack": 21
+		},
+		{
+			"id": "wyrmheart-162",
+			"enemyId": "ic-greatericeelemental",
+			"floor": "f2",
+			"x": 0.5366,
+			"y": 0.532,
+			"pack": 21
+		},
+		{
+			"id": "wyrmheart-163",
+			"enemyId": "fk-elfduelist",
+			"floor": "f2",
+			"x": 0.4614,
+			"y": 0.596,
+			"pack": 22
+		},
+		{
+			"id": "wyrmheart-164",
+			"enemyId": "fk-elfduelist",
+			"floor": "f2",
+			"x": 0.4659,
+			"y": 0.6009,
+			"pack": 22,
+			"empowered": true
+		},
+		{
+			"id": "wyrmheart-165",
+			"enemyId": "fk-elfranger",
+			"floor": "f2",
+			"x": 0.4632,
+			"y": 0.6001,
+			"pack": 22
+		},
+		{
+			"id": "wyrmheart-166",
+			"enemyId": "ic-assassin",
+			"floor": "f2",
+			"x": 0.4646,
+			"y": 0.5929,
+			"pack": 22
+		},
+		{
+			"id": "wyrmheart-167",
+			"enemyId": "ic-assassin",
+			"floor": "f2",
+			"x": 0.466,
+			"y": 0.5945,
+			"pack": 22
+		},
+		{
+			"id": "wyrmheart-168",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.4011,
+			"y": 0.6872,
+			"pack": 23
+		},
+		{
+			"id": "wyrmheart-169",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.4012,
+			"y": 0.7083,
+			"pack": 23
+		},
+		{
+			"id": "wyrmheart-170",
+			"enemyId": "fk-elfranger",
+			"floor": "f2",
+			"x": 0.4031,
+			"y": 0.7017,
+			"pack": 23
+		},
+		{
+			"id": "wyrmheart-171",
+			"enemyId": "fk-elfranger",
+			"floor": "f2",
+			"x": 0.4036,
+			"y": 0.6909,
+			"pack": 23
+		},
+		{
+			"id": "wyrmheart-172",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.4528,
+			"y": 0.7024,
+			"pack": 24
+		},
+		{
+			"id": "wyrmheart-173",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.4528,
+			"y": 0.6933,
+			"pack": 24
+		},
+		{
+			"id": "wyrmheart-174",
+			"enemyId": "ic-assassin",
+			"floor": "f2",
+			"x": 0.4528,
+			"y": 0.6979,
+			"pack": 24
+		},
+		{
+			"id": "wyrmheart-175",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.5433,
+			"y": 0.7143,
+			"pack": 25
+		},
+		{
+			"id": "wyrmheart-176",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.5377,
+			"y": 0.7126,
+			"pack": 25
+		},
+		{
+			"id": "wyrmheart-177",
+			"enemyId": "fk-elfguard",
+			"floor": "f2",
+			"x": 0.5403,
+			"y": 0.7161,
+			"pack": 25
+		},
+		{
+			"id": "wyrmheart-178",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.5091,
+			"y": 0.7713,
+			"pack": 26
+		},
+		{
+			"id": "wyrmheart-179",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.5072,
+			"y": 0.7688,
+			"pack": 26
+		},
+		{
+			"id": "wyrmheart-180",
+			"enemyId": "fk-elfguard",
+			"floor": "f2",
+			"x": 0.5073,
+			"y": 0.7722,
+			"pack": 26
+		},
+		{
+			"id": "wyrmheart-181",
+			"enemyId": "fk-elfillusionist",
+			"floor": "f2",
+			"x": 0.5401,
+			"y": 0.7867,
+			"pack": 27
+		},
+		{
+			"id": "wyrmheart-182",
+			"enemyId": "fk-icegolem",
+			"floor": "f2",
+			"x": 0.5397,
+			"y": 0.7778,
+			"pack": 27
+		},
+		{
+			"id": "wyrmheart-183",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.4489,
+			"y": 0.7871,
+			"pack": 28
+		},
+		{
+			"id": "wyrmheart-184",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.4515,
+			"y": 0.7869,
+			"pack": 28
+		},
+		{
+			"id": "wyrmheart-185",
+			"enemyId": "fk-elfgoon",
+			"floor": "f2",
+			"x": 0.368,
+			"y": 0.8138,
+			"pack": 29
+		},
+		{
+			"id": "wyrmheart-186",
+			"enemyId": "fk-iceshardling",
+			"floor": "f2",
+			"x": 0.3657,
+			"y": 0.8162,
+			"pack": 29
+		},
+		{
+			"id": "wyrmheart-187",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f2",
+			"x": 0.3659,
+			"y": 0.8196,
+			"pack": 29
+		}
+	],
+	"minibosses": [
+		{
+			"affix": "eira",
+			"floor": "f2",
+			"x": 0.4021,
+			"y": 0.6968,
+			"radius": 2000,
+			"replaces": [
+				"wyrmheart-168",
+				"wyrmheart-169",
+				"wyrmheart-170",
+				"wyrmheart-171"
+			]
+		},
+		{
+			"affix": "ghorn",
+			"floor": "f2",
+			"x": 0.5371,
+			"y": 0.5393,
+			"radius": 2000,
+			"replaces": [
+				"wyrmheart-158",
+				"wyrmheart-159",
+				"wyrmheart-160",
+				"wyrmheart-161",
+				"wyrmheart-162"
+			]
+		}
+	],
+	"start": {
+		"floor": "f1",
+		"x": 0.444,
+		"y": 0.8298
+	},
+	"checkpoints": [
+		{
+			"floor": "f1",
+			"x": 0.5867,
+			"y": 0.0015
+		},
+		{
+			"floor": "f2",
+			"x": 0.5304,
+			"y": 0.3105
+		},
+		{
+			"floor": "f2",
+			"x": 0.5361,
+			"y": 0.7791
+		}
+	],
+	"patrols": [
+		{
+			"id": "wyrmheart-p1",
+			"floor": "f1",
+			"points": [
+				[
+					0.6157,
+					0.0788
+				],
+				[
+					0.6157,
+					-0.0884
+				]
+			],
+			"spawns": [
+				"wyrmheart-85",
+				"wyrmheart-86",
+				"wyrmheart-87",
+				"wyrmheart-88",
+				"wyrmheart-89"
+			]
+		},
+		{
+			"id": "wyrmheart-p2",
+			"floor": "f1",
+			"points": [
+				[
+					0.529,
+					0.1724
+				],
+				[
+					0.4984,
+					0.2682
+				]
+			],
+			"spawns": [
+				"wyrmheart-95",
+				"wyrmheart-96",
+				"wyrmheart-97"
+			]
+		},
+		{
+			"id": "wyrmheart-p3",
+			"floor": "f1",
+			"points": [
+				[
+					0.6244,
+					0.4047
+				],
+				[
+					0.6005,
+					0.4572
+				],
+				[
+					0.5787,
+					0.3966
+				],
+				[
+					0.601,
+					0.3614
+				]
+			],
+			"spawns": [
+				"wyrmheart-124",
+				"wyrmheart-125",
+				"wyrmheart-126",
+				"wyrmheart-127"
+			]
+		},
+		{
+			"id": "wyrmheart-p4",
+			"floor": "f1",
+			"points": [
+				[
+					0.6244,
+					0.4047
+				],
+				[
+					0.6005,
+					0.4572
+				],
+				[
+					0.5787,
+					0.3966
+				],
+				[
+					0.601,
+					0.3614
+				]
+			],
+			"spawns": [
+				"wyrmheart-133",
+				"wyrmheart-134"
+			]
+		},
+		{
+			"id": "wyrmheart-p5",
+			"floor": "f2",
+			"points": [
+				[
+					0.4532,
+					0.6979
+				],
+				[
+					0.4234,
+					0.6981
+				]
+			],
+			"spawns": [
+				"wyrmheart-172",
+				"wyrmheart-173",
+				"wyrmheart-174"
+			]
+		},
+		{
+			"id": "wyrmheart-p6",
+			"floor": "f2",
+			"points": [
+				[
+					0.4502,
+					0.7877
+				],
+				[
+					0.4504,
+					0.7112
+				],
+				[
+					0.4502,
+					0.6814
+				],
+				[
+					0.4497,
+					0.6462
+				]
+			],
+			"spawns": [
+				"wyrmheart-183",
+				"wyrmheart-184"
+			]
+		}
+	],
+	"art": {
+		"codex": "/art/codex/wyrmheart.webp",
+		"banner": "/art/banner/wyrmheart.webp"
+	}
+}

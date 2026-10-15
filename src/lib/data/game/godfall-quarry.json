@@ -1,0 +1,1473 @@
+{
+	"id": "godfall-quarry",
+	"slug": "godfall-quarry",
+	"name": "Godfall Quarry",
+	"internalName": "ElfMines",
+	"kind": "dungeon",
+	"requiredScore": 130,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Map",
+			"image": "/maps/godfall-quarry/f1.webp",
+			"texture": "T_Map_EM_Global",
+			"worldSize": [
+				108000,
+				54000
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "cm-elfwarden",
+			"name": "Arcane Warden",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 2.944,
+			"gameId": "CM_ElfWarden",
+			"classes": [
+				"BP_NPC_CM_Elf_ArcaneWarden"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/cm-elfwarden.webp"
+		},
+		{
+			"id": "cm-elfgoon",
+			"name": "Dredge",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.324,
+			"gameId": "CM_ElfGoon",
+			"classes": [
+				"BP_NPC_CM_Elf_Goon"
+			],
+			"abilities": [
+				{
+					"name": "Throw Stone",
+					"ccOnly": true,
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/cm-elfgoon.webp"
+		},
+		{
+			"id": "cm-elfenforcer",
+			"name": "Enforcer",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.343,
+			"gameId": "CM_ElfEnforcer",
+			"classes": [
+				"BP_NPC_CM_Elf_Enforcer"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/cm-elfenforcer.webp"
+		},
+		{
+			"id": "cm-earthelemental",
+			"name": "Enraged Earth Elemental",
+			"score": 7,
+			"type": "trash",
+			"healthMultiplier": 5.932,
+			"gameId": "CM_EarthElemental",
+			"classes": [
+				"BP_NPC_CM_EarthElemental"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Burrowed Strike"
+				},
+				{
+					"name": "EarthBreaker"
+				}
+			],
+			"icon": "/icons/enemies/cm-earthelemental.webp"
+		},
+		{
+			"id": "cm-rubiliteaurastone",
+			"name": "Godfall Wardstone",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.281,
+			"gameId": "CM_RubiliteAurastone",
+			"classes": [
+				"BP_NPC_CM_RubiliteAurastone"
+			],
+			"abilities": [
+				{
+					"name": "Searing Beam",
+					"interruptible": true,
+					"channel": true,
+					"school": "Holy"
+				},
+				{
+					"name": "Brittle"
+				}
+			],
+			"icon": "/icons/enemies/cm-rubiliteaurastone.webp"
+		},
+		{
+			"id": "cm-elflookout",
+			"name": "Nezari Bolter",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.812,
+			"gameId": "CM_ElfLookout",
+			"classes": [
+				"BP_NPC_CM_Elf_Lookout"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/cm-elflookout.webp"
+		},
+		{
+			"id": "cm-elfinterrogator",
+			"name": "Quarry Stalker",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.897,
+			"gameId": "CM_ElfInterrogator",
+			"classes": [
+				"BP_NPC_CM_Elf_Interrogator"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Poisonous Strike",
+					"ccOnly": true,
+					"channel": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Poison Dagger"
+				}
+			],
+			"icon": "/icons/enemies/cm-elfinterrogator.webp"
+		},
+		{
+			"id": "mf-skittershard",
+			"name": "Skittershard",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 0.797,
+			"gameId": "MF_Skittershard",
+			"classes": [
+				"BP_NPC_MF_Skittershard"
+			],
+			"abilities": [
+				{
+					"name": "Crystalline Corruption",
+					"school": "Nature"
+				},
+				{
+					"name": "Crystaline Corruption",
+					"school": "Nature"
+				}
+			],
+			"icon": "/icons/enemies/mf-skittershard.webp"
+		},
+		{
+			"id": "cm-elftaskmaster",
+			"name": "Task Master",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 3.059,
+			"gameId": "CM_ElfTaskmaster",
+			"classes": [
+				"BP_NPC_CM_Elf_Taskmaster"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Taskmaster's Mark",
+					"school": "Physical"
+				},
+				{
+					"name": "Sweeping Hook",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/cm-elftaskmaster.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "godfall-quarry-142",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5229,
+			"y": 0.8604,
+			"pack": 38
+		},
+		{
+			"id": "godfall-quarry-143",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5228,
+			"y": 0.8536,
+			"pack": 38
+		},
+		{
+			"id": "godfall-quarry-145",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5264,
+			"y": 0.883,
+			"pack": 39
+		},
+		{
+			"id": "godfall-quarry-148",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.53,
+			"y": 0.8898,
+			"pack": 39
+		},
+		{
+			"id": "godfall-quarry-162",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4675,
+			"y": 0.3442,
+			"pack": 1
+		},
+		{
+			"id": "godfall-quarry-163",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4731,
+			"y": 0.3458,
+			"pack": 1
+		},
+		{
+			"id": "godfall-quarry-164",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4702,
+			"y": 0.3458,
+			"pack": 1
+		},
+		{
+			"id": "godfall-quarry-165",
+			"enemyId": "cm-elfwarden",
+			"floor": "f1",
+			"x": 0.47,
+			"y": 0.3393,
+			"pack": 1
+		},
+		{
+			"id": "godfall-quarry-166",
+			"enemyId": "cm-rubiliteaurastone",
+			"floor": "f1",
+			"x": 0.466,
+			"y": 0.332,
+			"pack": 1
+		},
+		{
+			"id": "godfall-quarry-167",
+			"enemyId": "cm-rubiliteaurastone",
+			"floor": "f1",
+			"x": 0.465,
+			"y": 0.3605,
+			"pack": 1,
+			"empowered": true
+		},
+		{
+			"id": "godfall-quarry-168",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4663,
+			"y": 0.3475,
+			"pack": 1
+		},
+		{
+			"id": "godfall-quarry-169",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4702,
+			"y": 0.3497,
+			"pack": 1
+		},
+		{
+			"id": "godfall-quarry-170",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4729,
+			"y": 0.3504,
+			"pack": 1
+		},
+		{
+			"id": "godfall-quarry-171",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4949,
+			"y": 0.3489,
+			"pack": 2
+		},
+		{
+			"id": "godfall-quarry-172",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4914,
+			"y": 0.3459,
+			"pack": 2
+		},
+		{
+			"id": "godfall-quarry-173",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.494,
+			"y": 0.3398,
+			"pack": 2
+		},
+		{
+			"id": "godfall-quarry-174",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4896,
+			"y": 0.3507,
+			"pack": 2
+		},
+		{
+			"id": "godfall-quarry-175",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.494,
+			"y": 0.3526,
+			"pack": 2
+		},
+		{
+			"id": "godfall-quarry-176",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4886,
+			"y": 0.3446,
+			"pack": 2
+		},
+		{
+			"id": "godfall-quarry-177",
+			"enemyId": "cm-rubiliteaurastone",
+			"floor": "f1",
+			"x": 0.4534,
+			"y": 0.4131,
+			"pack": 3
+		},
+		{
+			"id": "godfall-quarry-178",
+			"enemyId": "cm-earthelemental",
+			"floor": "f1",
+			"x": 0.4605,
+			"y": 0.4266,
+			"pack": 4
+		},
+		{
+			"id": "godfall-quarry-179",
+			"enemyId": "cm-elfwarden",
+			"floor": "f1",
+			"x": 0.4642,
+			"y": 0.4204,
+			"pack": 4
+		},
+		{
+			"id": "godfall-quarry-180",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4578,
+			"y": 0.4218,
+			"pack": 5
+		},
+		{
+			"id": "godfall-quarry-181",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4438,
+			"y": 0.4273,
+			"pack": 6
+		},
+		{
+			"id": "godfall-quarry-182",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4466,
+			"y": 0.4262,
+			"pack": 6
+		},
+		{
+			"id": "godfall-quarry-183",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4411,
+			"y": 0.4284,
+			"pack": 6
+		},
+		{
+			"id": "godfall-quarry-184",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4575,
+			"y": 0.4351,
+			"pack": 7
+		},
+		{
+			"id": "godfall-quarry-185",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4598,
+			"y": 0.4415,
+			"pack": 8
+		},
+		{
+			"id": "godfall-quarry-186",
+			"enemyId": "cm-rubiliteaurastone",
+			"floor": "f1",
+			"x": 0.457,
+			"y": 0.4433,
+			"pack": 9
+		},
+		{
+			"id": "godfall-quarry-187",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.3964,
+			"y": 0.5015,
+			"pack": 10
+		},
+		{
+			"id": "godfall-quarry-188",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4326,
+			"y": 0.504,
+			"pack": 11
+		},
+		{
+			"id": "godfall-quarry-189",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.3786,
+			"y": 0.5246,
+			"pack": 12
+		},
+		{
+			"id": "godfall-quarry-190",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.3797,
+			"y": 0.5226,
+			"pack": 12
+		},
+		{
+			"id": "godfall-quarry-191",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.3774,
+			"y": 0.527,
+			"pack": 12
+		},
+		{
+			"id": "godfall-quarry-192",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4353,
+			"y": 0.5283,
+			"pack": 13
+		},
+		{
+			"id": "godfall-quarry-193",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4264,
+			"y": 0.5703,
+			"pack": 13,
+			"empowered": true
+		},
+		{
+			"id": "godfall-quarry-194",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.3981,
+			"y": 0.5507,
+			"pack": 14
+		},
+		{
+			"id": "godfall-quarry-195",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.402,
+			"y": 0.5288,
+			"pack": 14
+		},
+		{
+			"id": "godfall-quarry-196",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4373,
+			"y": 0.5353,
+			"pack": 15
+		},
+		{
+			"id": "godfall-quarry-197",
+			"enemyId": "cm-earthelemental",
+			"floor": "f1",
+			"x": 0.3824,
+			"y": 0.5455,
+			"pack": 16
+		},
+		{
+			"id": "godfall-quarry-198",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.3786,
+			"y": 0.5679,
+			"pack": 16
+		},
+		{
+			"id": "godfall-quarry-199",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.3802,
+			"y": 0.5694,
+			"pack": 16
+		},
+		{
+			"id": "godfall-quarry-200",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.3774,
+			"y": 0.5657,
+			"pack": 16
+		},
+		{
+			"id": "godfall-quarry-201",
+			"enemyId": "cm-elfwarden",
+			"floor": "f1",
+			"x": 0.3765,
+			"y": 0.5439,
+			"pack": 16
+		},
+		{
+			"id": "godfall-quarry-202",
+			"enemyId": "cm-elfwarden",
+			"floor": "f1",
+			"x": 0.3765,
+			"y": 0.5498,
+			"pack": 16
+		},
+		{
+			"id": "godfall-quarry-203",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.4189,
+			"y": 0.5551,
+			"pack": 17
+		},
+		{
+			"id": "godfall-quarry-204",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.4168,
+			"y": 0.5545,
+			"pack": 17
+		},
+		{
+			"id": "godfall-quarry-205",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4362,
+			"y": 0.581,
+			"pack": 18
+		},
+		{
+			"id": "godfall-quarry-206",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.4333,
+			"y": 0.5847,
+			"pack": 19
+		},
+		{
+			"id": "godfall-quarry-207",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.435,
+			"y": 0.5876,
+			"pack": 20
+		},
+		{
+			"id": "godfall-quarry-208",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.3785,
+			"y": 0.6226,
+			"pack": 21
+		},
+		{
+			"id": "godfall-quarry-209",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.3778,
+			"y": 0.6276,
+			"pack": 21
+		},
+		{
+			"id": "godfall-quarry-210",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.376,
+			"y": 0.631,
+			"pack": 21
+		},
+		{
+			"id": "godfall-quarry-211",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3798,
+			"y": 0.6286,
+			"pack": 21
+		},
+		{
+			"id": "godfall-quarry-212",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3796,
+			"y": 0.6219,
+			"pack": 21
+		},
+		{
+			"id": "godfall-quarry-213",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4144,
+			"y": 0.6386,
+			"pack": 22
+		},
+		{
+			"id": "godfall-quarry-214",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4125,
+			"y": 0.6415,
+			"pack": 22
+		},
+		{
+			"id": "godfall-quarry-215",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4151,
+			"y": 0.6427,
+			"pack": 22
+		},
+		{
+			"id": "godfall-quarry-216",
+			"enemyId": "cm-earthelemental",
+			"floor": "f1",
+			"x": 0.3889,
+			"y": 0.6594,
+			"pack": 23
+		},
+		{
+			"id": "godfall-quarry-217",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.3935,
+			"y": 0.6579,
+			"pack": 23
+		},
+		{
+			"id": "godfall-quarry-218",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.3906,
+			"y": 0.6694,
+			"pack": 23
+		},
+		{
+			"id": "godfall-quarry-219",
+			"enemyId": "cm-rubiliteaurastone",
+			"floor": "f1",
+			"x": 0.387,
+			"y": 0.6772,
+			"pack": 23
+		},
+		{
+			"id": "godfall-quarry-220",
+			"enemyId": "cm-rubiliteaurastone",
+			"floor": "f1",
+			"x": 0.3927,
+			"y": 0.6463,
+			"pack": 23
+		},
+		{
+			"id": "godfall-quarry-221",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4033,
+			"y": 0.6905,
+			"pack": 24
+		},
+		{
+			"id": "godfall-quarry-222",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4001,
+			"y": 0.6977,
+			"pack": 24
+		},
+		{
+			"id": "godfall-quarry-223",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3987,
+			"y": 0.6925,
+			"pack": 24
+		},
+		{
+			"id": "godfall-quarry-224",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4022,
+			"y": 0.6855,
+			"pack": 24
+		},
+		{
+			"id": "godfall-quarry-225",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4495,
+			"y": 0.7148,
+			"pack": 25
+		},
+		{
+			"id": "godfall-quarry-226",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4543,
+			"y": 0.7112,
+			"pack": 25
+		},
+		{
+			"id": "godfall-quarry-227",
+			"enemyId": "cm-elfinterrogator",
+			"floor": "f1",
+			"x": 0.4506,
+			"y": 0.7108,
+			"pack": 25
+		},
+		{
+			"id": "godfall-quarry-228",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.4526,
+			"y": 0.7165,
+			"pack": 25
+		},
+		{
+			"id": "godfall-quarry-229",
+			"enemyId": "cm-elfenforcer",
+			"floor": "f1",
+			"x": 0.4655,
+			"y": 0.7331,
+			"pack": 26
+		},
+		{
+			"id": "godfall-quarry-230",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4632,
+			"y": 0.7339,
+			"pack": 26
+		},
+		{
+			"id": "godfall-quarry-231",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4644,
+			"y": 0.729,
+			"pack": 26
+		},
+		{
+			"id": "godfall-quarry-232",
+			"enemyId": "cm-elfenforcer",
+			"floor": "f1",
+			"x": 0.4196,
+			"y": 0.7432,
+			"pack": 27
+		},
+		{
+			"id": "godfall-quarry-233",
+			"enemyId": "cm-elfenforcer",
+			"floor": "f1",
+			"x": 0.4142,
+			"y": 0.7509,
+			"pack": 27
+		},
+		{
+			"id": "godfall-quarry-234",
+			"enemyId": "cm-elflookout",
+			"floor": "f1",
+			"x": 0.417,
+			"y": 0.7596,
+			"pack": 27
+		},
+		{
+			"id": "godfall-quarry-235",
+			"enemyId": "cm-elflookout",
+			"floor": "f1",
+			"x": 0.422,
+			"y": 0.7548,
+			"pack": 27
+		},
+		{
+			"id": "godfall-quarry-236",
+			"enemyId": "cm-elfwarden",
+			"floor": "f1",
+			"x": 0.4167,
+			"y": 0.748,
+			"pack": 27,
+			"empowered": true
+		},
+		{
+			"id": "godfall-quarry-237",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4132,
+			"y": 0.7466,
+			"pack": 27
+		},
+		{
+			"id": "godfall-quarry-238",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4179,
+			"y": 0.739,
+			"pack": 27
+		},
+		{
+			"id": "godfall-quarry-239",
+			"enemyId": "cm-elflookout",
+			"floor": "f1",
+			"x": 0.504,
+			"y": 0.7531,
+			"pack": 28
+		},
+		{
+			"id": "godfall-quarry-240",
+			"enemyId": "cm-elflookout",
+			"floor": "f1",
+			"x": 0.5022,
+			"y": 0.7655,
+			"pack": 28
+		},
+		{
+			"id": "godfall-quarry-241",
+			"enemyId": "cm-rubiliteaurastone",
+			"floor": "f1",
+			"x": 0.5245,
+			"y": 0.7748,
+			"pack": 29
+		},
+		{
+			"id": "godfall-quarry-242",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5247,
+			"y": 0.7674,
+			"pack": 29
+		},
+		{
+			"id": "godfall-quarry-243",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.527,
+			"y": 0.7718,
+			"pack": 29
+		},
+		{
+			"id": "godfall-quarry-244",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5229,
+			"y": 0.7652,
+			"pack": 29
+		},
+		{
+			"id": "godfall-quarry-245",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5549,
+			"y": 0.7833,
+			"pack": 30
+		},
+		{
+			"id": "godfall-quarry-246",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5534,
+			"y": 0.7803,
+			"pack": 30
+		},
+		{
+			"id": "godfall-quarry-247",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5569,
+			"y": 0.7837,
+			"pack": 30
+		},
+		{
+			"id": "godfall-quarry-248",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.556,
+			"y": 0.7777,
+			"pack": 30
+		},
+		{
+			"id": "godfall-quarry-249",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4394,
+			"y": 0.7867,
+			"pack": 31
+		},
+		{
+			"id": "godfall-quarry-250",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4435,
+			"y": 0.7904,
+			"pack": 31
+		},
+		{
+			"id": "godfall-quarry-251",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.4409,
+			"y": 0.7898,
+			"pack": 31
+		},
+		{
+			"id": "godfall-quarry-252",
+			"enemyId": "cm-elfinterrogator",
+			"floor": "f1",
+			"x": 0.4028,
+			"y": 0.7986,
+			"pack": 32
+		},
+		{
+			"id": "godfall-quarry-253",
+			"enemyId": "cm-elfinterrogator",
+			"floor": "f1",
+			"x": 0.4079,
+			"y": 0.7936,
+			"pack": 32
+		},
+		{
+			"id": "godfall-quarry-254",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5006,
+			"y": 0.8297,
+			"pack": 33
+		},
+		{
+			"id": "godfall-quarry-255",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.4996,
+			"y": 0.8178,
+			"pack": 33
+		},
+		{
+			"id": "godfall-quarry-256",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5013,
+			"y": 0.8232,
+			"pack": 33
+		},
+		{
+			"id": "godfall-quarry-257",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.5029,
+			"y": 0.8136,
+			"pack": 33
+		},
+		{
+			"id": "godfall-quarry-258",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.5038,
+			"y": 0.8329,
+			"pack": 33
+		},
+		{
+			"id": "godfall-quarry-259",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4994,
+			"y": 0.8238,
+			"pack": 33
+		},
+		{
+			"id": "godfall-quarry-260",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4979,
+			"y": 0.8198,
+			"pack": 33
+		},
+		{
+			"id": "godfall-quarry-261",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4992,
+			"y": 0.83,
+			"pack": 33,
+			"empowered": true
+		},
+		{
+			"id": "godfall-quarry-262",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5708,
+			"y": 0.8282,
+			"pack": 34
+		},
+		{
+			"id": "godfall-quarry-263",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5706,
+			"y": 0.8154,
+			"pack": 34
+		},
+		{
+			"id": "godfall-quarry-264",
+			"enemyId": "cm-elflookout",
+			"floor": "f1",
+			"x": 0.5681,
+			"y": 0.8179,
+			"pack": 34
+		},
+		{
+			"id": "godfall-quarry-265",
+			"enemyId": "cm-elflookout",
+			"floor": "f1",
+			"x": 0.5689,
+			"y": 0.8234,
+			"pack": 34
+		},
+		{
+			"id": "godfall-quarry-266",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.5731,
+			"y": 0.8217,
+			"pack": 34
+		},
+		{
+			"id": "godfall-quarry-267",
+			"enemyId": "cm-elfenforcer",
+			"floor": "f1",
+			"x": 0.5313,
+			"y": 0.8192,
+			"pack": 35
+		},
+		{
+			"id": "godfall-quarry-268",
+			"enemyId": "cm-elflookout",
+			"floor": "f1",
+			"x": 0.4128,
+			"y": 0.8239,
+			"pack": 36
+		},
+		{
+			"id": "godfall-quarry-269",
+			"enemyId": "cm-elflookout",
+			"floor": "f1",
+			"x": 0.4189,
+			"y": 0.8328,
+			"pack": 36
+		},
+		{
+			"id": "godfall-quarry-270",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.4269,
+			"y": 0.8297,
+			"pack": 36
+		},
+		{
+			"id": "godfall-quarry-271",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.4262,
+			"y": 0.8336,
+			"pack": 36
+		},
+		{
+			"id": "godfall-quarry-272",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5507,
+			"y": 0.851,
+			"pack": 37
+		},
+		{
+			"id": "godfall-quarry-273",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5525,
+			"y": 0.845,
+			"pack": 37
+		},
+		{
+			"id": "godfall-quarry-274",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5504,
+			"y": 0.8481,
+			"pack": 37
+		},
+		{
+			"id": "godfall-quarry-275",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5512,
+			"y": 0.8407,
+			"pack": 37
+		},
+		{
+			"id": "godfall-quarry-276",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5475,
+			"y": 0.8505,
+			"pack": 37
+		},
+		{
+			"id": "godfall-quarry-277",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.5322,
+			"y": 0.8808,
+			"pack": 39
+		},
+		{
+			"id": "godfall-quarry-278",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5327,
+			"y": 0.8774,
+			"pack": 39
+		},
+		{
+			"id": "godfall-quarry-279",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5296,
+			"y": 0.8769,
+			"pack": 39
+		},
+		{
+			"id": "godfall-quarry-280",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5621,
+			"y": 0.878,
+			"pack": 40
+		},
+		{
+			"id": "godfall-quarry-281",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.5644,
+			"y": 0.8809,
+			"pack": 40
+		},
+		{
+			"id": "godfall-quarry-282",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5918,
+			"y": 0.8832,
+			"pack": 41
+		},
+		{
+			"id": "godfall-quarry-283",
+			"enemyId": "cm-rubiliteaurastone",
+			"floor": "f1",
+			"x": 0.5439,
+			"y": 0.9031,
+			"pack": 42
+		},
+		{
+			"id": "godfall-quarry-284",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5498,
+			"y": 0.9102,
+			"pack": 42
+		},
+		{
+			"id": "godfall-quarry-285",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.552,
+			"y": 0.9146,
+			"pack": 42
+		},
+		{
+			"id": "godfall-quarry-286",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5527,
+			"y": 0.9081,
+			"pack": 42
+		},
+		{
+			"id": "godfall-quarry-287",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5691,
+			"y": 0.9132,
+			"pack": 43
+		},
+		{
+			"id": "godfall-quarry-288",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.5692,
+			"y": 0.9064,
+			"pack": 43
+		},
+		{
+			"id": "godfall-quarry-289",
+			"enemyId": "cm-elftaskmaster",
+			"floor": "f1",
+			"x": 0.5687,
+			"y": 0.9103,
+			"pack": 43
+		}
+	],
+	"minibosses": [
+		{
+			"affix": "eira",
+			"floor": "f1",
+			"x": 0.4509,
+			"y": 0.7117,
+			"radius": 1500,
+			"replaces": [
+				"godfall-quarry-225",
+				"godfall-quarry-226",
+				"godfall-quarry-227",
+				"godfall-quarry-228"
+			]
+		},
+		{
+			"affix": "ghorn",
+			"floor": "f1",
+			"x": 0.3833,
+			"y": 0.6506,
+			"radius": 2000,
+			"replaces": [
+				"godfall-quarry-208",
+				"godfall-quarry-209",
+				"godfall-quarry-210",
+				"godfall-quarry-211",
+				"godfall-quarry-212",
+				"godfall-quarry-216",
+				"godfall-quarry-217",
+				"godfall-quarry-218",
+				"godfall-quarry-219",
+				"godfall-quarry-220"
+			]
+		}
+	],
+	"checkpoints": [
+		{
+			"floor": "f1",
+			"x": 0.4942,
+			"y": 0.3457
+		},
+		{
+			"floor": "f1",
+			"x": 0.3786,
+			"y": 0.6331
+		}
+	],
+	"patrols": [
+		{
+			"id": "godfall-quarry-p1",
+			"floor": "f1",
+			"points": [
+				[
+					0.4157,
+					0.4491
+				],
+				[
+					0.4513,
+					0.4254
+				]
+			],
+			"spawns": [
+				"godfall-quarry-181",
+				"godfall-quarry-182",
+				"godfall-quarry-183"
+			]
+		},
+		{
+			"id": "godfall-quarry-p2",
+			"floor": "f1",
+			"points": [
+				[
+					0.4353,
+					0.5283
+				],
+				[
+					0.405,
+					0.5273
+				],
+				[
+					0.4038,
+					0.5624
+				],
+				[
+					0.4351,
+					0.5694
+				]
+			],
+			"spawns": [
+				"godfall-quarry-192",
+				"godfall-quarry-193"
+			]
+		},
+		{
+			"id": "godfall-quarry-p3",
+			"floor": "f1",
+			"points": [
+				[
+					0.398,
+					0.5498
+				],
+				[
+					0.3997,
+					0.5871
+				],
+				[
+					0.3989,
+					0.5038
+				]
+			],
+			"spawns": [
+				"godfall-quarry-194",
+				"godfall-quarry-195"
+			]
+		},
+		{
+			"id": "godfall-quarry-p4",
+			"floor": "f1",
+			"points": [
+				[
+					0.4374,
+					0.5298
+				],
+				[
+					0.4354,
+					0.5065
+				],
+				[
+					0.4218,
+					0.528
+				],
+				[
+					0.4013,
+					0.536
+				],
+				[
+					0.3975,
+					0.5583
+				],
+				[
+					0.3985,
+					0.5839
+				],
+				[
+					0.4072,
+					0.5654
+				],
+				[
+					0.433,
+					0.5614
+				]
+			],
+			"spawns": [
+				"godfall-quarry-196"
+			]
+		},
+		{
+			"id": "godfall-quarry-p5",
+			"floor": "f1",
+			"points": [
+				[
+					0.4599,
+					0.7272
+				],
+				[
+					0.4969,
+					0.753
+				]
+			],
+			"spawns": [
+				"godfall-quarry-229",
+				"godfall-quarry-230",
+				"godfall-quarry-231"
+			]
+		},
+		{
+			"id": "godfall-quarry-p6",
+			"floor": "f1",
+			"points": [
+				[
+					0.5313,
+					0.8192
+				],
+				[
+					0.5503,
+					0.8628
+				],
+				[
+					0.5534,
+					0.8182
+				]
+			],
+			"spawns": [
+				"godfall-quarry-267"
+			]
+		},
+		{
+			"id": "godfall-quarry-p7",
+			"floor": "f1",
+			"points": [
+				[
+					0.5586,
+					0.8765
+				],
+				[
+					0.5818,
+					0.8832
+				]
+			],
+			"spawns": [
+				"godfall-quarry-280",
+				"godfall-quarry-281"
+			]
+		}
+	],
+	"art": {
+		"codex": "/art/codex/godfall-quarry.webp",
+		"banner": "/art/banner/godfall-quarry.webp"
+	}
+}

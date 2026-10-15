@@ -1,0 +1,2525 @@
+{
+	"id": "ransack-of-drakheim",
+	"slug": "ransack-of-drakheim",
+	"name": "Ransack of Drakheim",
+	"internalName": "VikingVillageAttack",
+	"kind": "capstone",
+	"requiredScore": 260,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Start",
+			"image": "/maps/ransack-of-drakheim/f1.webp",
+			"texture": "T_Map_VV_Market",
+			"worldSize": [
+				70000,
+				35000
+			]
+		},
+		{
+			"id": "f2",
+			"label": "Upper",
+			"image": "/maps/ransack-of-drakheim/f2.webp",
+			"texture": "T_VikingVillage_Church",
+			"worldSize": [
+				56000,
+				28000
+			]
+		},
+		{
+			"id": "f3",
+			"label": "Lower",
+			"image": "/maps/ransack-of-drakheim/f3.webp",
+			"texture": "T_VikingVillage_Lower",
+			"worldSize": [
+				65698,
+				32849
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "vv-sootstainedarsonist",
+			"name": "Ashen Arsonist",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.309,
+			"gameId": "VV_SootstainedArsonist",
+			"classes": [
+				"BP_NPC_VV_SootstainedArsonist"
+			],
+			"abilities": [
+				{
+					"name": "Flame Blast",
+					"interruptible": true,
+					"school": "Fire"
+				},
+				{
+					"name": "Big Oogha Flame",
+					"interruptible": true,
+					"school": "Fire"
+				}
+			],
+			"icon": "/icons/enemies/vv-sootstainedarsonist.webp"
+		},
+		{
+			"id": "vv-blackburnmystic",
+			"name": "Bleakfrost Mystic",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 2.129,
+			"gameId": "VV_BlackburnMystic",
+			"classes": [
+				"BP_NPC_VV_BlackburnMystic"
+			],
+			"abilities": [
+				{
+					"name": "Invigorate",
+					"interruptible": true
+				},
+				{
+					"name": "Frost Bolt",
+					"interruptible": true,
+					"school": "Frost"
+				},
+				{
+					"name": "Eye of Ul'morgat",
+					"school": "Frost"
+				}
+			],
+			"icon": "/icons/enemies/vv-blackburnmystic.webp"
+		},
+		{
+			"id": "vv-blackburnslaver",
+			"name": "Bleakfrost Slaver",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 3.089,
+			"gameId": "VV_BlackburnSlaver",
+			"classes": [
+				"BP_NPC_VV_BlackburnSlaver"
+			],
+			"abilities": [
+				{
+					"name": "Barbed Chain",
+					"interruptible": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Shackle Chuck",
+					"interruptible": true
+				}
+			],
+			"icon": "/icons/enemies/vv-blackburnslaver.webp"
+		},
+		{
+			"id": "vv-coldbrinefiend",
+			"name": "Coldbrine Fiend",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.523,
+			"gameId": "VV_ColdbrineFiend",
+			"classes": [
+				"BP_NPC_VV_ColdbrineFiend"
+			],
+			"abilities": [
+				{
+					"name": "Brine Bolt",
+					"interruptible": true,
+					"school": "Frost"
+				},
+				{
+					"name": "Icy Annihilation",
+					"interruptible": true,
+					"school": "Frost"
+				}
+			],
+			"icon": "/icons/enemies/vv-coldbrinefiend.webp"
+		},
+		{
+			"id": "vv-cravenhiisi",
+			"name": "Craven Hiisi",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.299,
+			"gameId": "VV_CravenHiisi",
+			"classes": [
+				"BP_NPC_VV_CravenHiisi"
+			],
+			"abilities": [
+				{
+					"name": "Bonk Noggin",
+					"ccOnly": true,
+					"channel": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Craven Wound"
+				},
+				{
+					"name": "Jump 'n Bonk"
+				}
+			],
+			"icon": "/icons/enemies/vv-cravenhiisi.webp"
+		},
+		{
+			"id": "sp-frostwolf",
+			"name": "Dire Wolf",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 2.601,
+			"gameId": "SP_FrostWolf",
+			"classes": [
+				"BP_NPC_SP_FrostWolf"
+			],
+			"abilities": [
+				{
+					"name": "Hunt Prey"
+				},
+				{
+					"name": "Ferocious Bite"
+				}
+			],
+			"icon": "/icons/enemies/sp-frostwolf.webp"
+		},
+		{
+			"id": "vv-frenziedlooter",
+			"name": "Frenzied Looter",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.419,
+			"gameId": "VV_FrenziedLooter",
+			"classes": [
+				"BP_NPC_VV_FrenziedLooter"
+			],
+			"icon": "/icons/enemies/vv-frenziedlooter.webp"
+		},
+		{
+			"id": "ic-glacialsprite",
+			"name": "Frozen Remnant",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.026,
+			"gameId": "IC_GlacialSprite",
+			"classes": [
+				"BP_NPC_IC_GlacialSprite"
+			],
+			"abilities": [
+				{
+					"name": "Freezing Melt"
+				}
+			],
+			"icon": "/icons/enemies/ic-glacialsprite.webp"
+		},
+		{
+			"id": "sp-polarbear",
+			"name": "Glacial Bear",
+			"score": 7,
+			"type": "trash",
+			"healthMultiplier": 4.623,
+			"gameId": "SP_PolarBear",
+			"classes": [
+				"BP_NPC_SP_PolarBear"
+			],
+			"icon": "/icons/enemies/sp-polarbear.webp"
+		},
+		{
+			"id": "vv-icebitereaver",
+			"name": "Icebite Reaver",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.291,
+			"gameId": "VV_IcebiteReaver",
+			"classes": [
+				"BP_NPC_VV_IcebiteReaver"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Glacial Sunder",
+					"school": "Physical"
+				},
+				{
+					"name": "Frostbitten Strength",
+					"school": "Physical"
+				}
+			],
+			"stunImmune": true,
+			"icon": "/icons/enemies/vv-icebitereaver.webp"
+		},
+		{
+			"id": "vv-blackmistcutthroat",
+			"name": "Nightmist Cutthroat",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 1.795,
+			"gameId": "VV_BlackmistCutthroat",
+			"classes": [
+				"BP_NPC_VV_BlackmistCutthroat"
+			],
+			"abilities": [
+				{
+					"name": "Backstab",
+					"school": "Physical",
+					"ccOnly": true,
+					"channel": true
+				},
+				{
+					"name": "Mist Step",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/vv-blackmistcutthroat.webp"
+		},
+		{
+			"id": "vv-blackmistwhisperer",
+			"name": "Nightmist Whisperer",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 2.402,
+			"gameId": "VV_BlackmistWhisperer",
+			"classes": [
+				"BP_NPC_VV_BlackmistWhisperer"
+			],
+			"abilities": [
+				{
+					"name": "Shadow Bolt",
+					"interruptible": true,
+					"school": "Frost"
+				},
+				{
+					"name": "Silence",
+					"interruptible": true,
+					"school": "Shadow"
+				},
+				{
+					"name": "Blinding Fear",
+					"interruptible": true,
+					"school": "Shadow"
+				}
+			],
+			"icon": "/icons/enemies/vv-blackmistwhisperer.webp"
+		},
+		{
+			"id": "vv-icebitepillager",
+			"name": "Raging Pillager",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 2.665,
+			"gameId": "VV_IcebitePillager",
+			"classes": [
+				"BP_NPC_VV_IcebitePillager"
+			],
+			"icon": "/icons/enemies/vv-icebitepillager.webp"
+		},
+		{
+			"id": "vv-blackmistshadow",
+			"name": "Shadow of Ulmorgat",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 3.753,
+			"gameId": "VV_BlackmistShadow",
+			"classes": [
+				"BP_NPC_VV_BlackmistShadow"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Devouring Darkness",
+					"interruptible": true,
+					"school": "Shadow"
+				},
+				{
+					"name": "False Rune Explosion",
+					"interruptible": true,
+					"school": "Shadow"
+				}
+			],
+			"stunImmune": true,
+			"icon": "/icons/enemies/vv-blackmistshadow.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "ransack-of-drakheim-4",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.43,
+			"y": 0.1858,
+			"pack": 1
+		},
+		{
+			"id": "ransack-of-drakheim-5",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.4224,
+			"y": 0.1925,
+			"pack": 1
+		},
+		{
+			"id": "ransack-of-drakheim-36",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5735,
+			"y": 0.4048,
+			"pack": 14
+		},
+		{
+			"id": "ransack-of-drakheim-37",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5757,
+			"y": 0.4161,
+			"pack": 14
+		},
+		{
+			"id": "ransack-of-drakheim-89",
+			"enemyId": "vv-blackmistshadow",
+			"floor": "f2",
+			"x": 0.4464,
+			"y": 0.7187,
+			"pack": 42,
+			"promoted": true
+		},
+		{
+			"id": "ransack-of-drakheim-108",
+			"enemyId": "vv-blackmistshadow",
+			"floor": "f2",
+			"x": 0.475,
+			"y": 0.9545,
+			"pack": 49,
+			"promoted": true
+		},
+		{
+			"id": "ransack-of-drakheim-115",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f3",
+			"x": 0.5944,
+			"y": 0.2119,
+			"pack": 51
+		},
+		{
+			"id": "ransack-of-drakheim-133",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f3",
+			"x": 0.6412,
+			"y": 0.4248,
+			"pack": 61
+		},
+		{
+			"id": "ransack-of-drakheim-134",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f3",
+			"x": 0.6434,
+			"y": 0.4188,
+			"pack": 61
+		},
+		{
+			"id": "ransack-of-drakheim-143",
+			"enemyId": "vv-coldbrinefiend",
+			"floor": "f3",
+			"x": 0.4734,
+			"y": 0.4865,
+			"pack": 64
+		},
+		{
+			"id": "ransack-of-drakheim-144",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f3",
+			"x": 0.4779,
+			"y": 0.4723,
+			"pack": 64
+		},
+		{
+			"id": "ransack-of-drakheim-145",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f3",
+			"x": 0.47,
+			"y": 0.4889,
+			"pack": 64
+		},
+		{
+			"id": "ransack-of-drakheim-214",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.4268,
+			"y": 0.191,
+			"pack": 1
+		},
+		{
+			"id": "ransack-of-drakheim-215",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.4421,
+			"y": 0.2061,
+			"pack": 2
+		},
+		{
+			"id": "ransack-of-drakheim-216",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.438,
+			"y": 0.222,
+			"pack": 2
+		},
+		{
+			"id": "ransack-of-drakheim-217",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.3833,
+			"y": 0.2316,
+			"pack": 3
+		},
+		{
+			"id": "ransack-of-drakheim-218",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f1",
+			"x": 0.3689,
+			"y": 0.2464,
+			"pack": 4
+		},
+		{
+			"id": "ransack-of-drakheim-219",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f1",
+			"x": 0.3648,
+			"y": 0.2519,
+			"pack": 4
+		},
+		{
+			"id": "ransack-of-drakheim-220",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.3687,
+			"y": 0.2542,
+			"pack": 4
+		},
+		{
+			"id": "ransack-of-drakheim-221",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.3641,
+			"y": 0.2566,
+			"pack": 4
+		},
+		{
+			"id": "ransack-of-drakheim-222",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.3722,
+			"y": 0.2483,
+			"pack": 4
+		},
+		{
+			"id": "ransack-of-drakheim-223",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.4026,
+			"y": 0.2573,
+			"pack": 5
+		},
+		{
+			"id": "ransack-of-drakheim-224",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.4136,
+			"y": 0.2552,
+			"pack": 5
+		},
+		{
+			"id": "ransack-of-drakheim-225",
+			"enemyId": "vv-icebitereaver",
+			"floor": "f1",
+			"x": 0.4096,
+			"y": 0.2602,
+			"pack": 5
+		},
+		{
+			"id": "ransack-of-drakheim-226",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.4071,
+			"y": 0.2509,
+			"pack": 5
+		},
+		{
+			"id": "ransack-of-drakheim-227",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.4666,
+			"y": 0.2625,
+			"pack": 6
+		},
+		{
+			"id": "ransack-of-drakheim-228",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.4596,
+			"y": 0.258,
+			"pack": 6
+		},
+		{
+			"id": "ransack-of-drakheim-229",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.425,
+			"y": 0.2866,
+			"pack": 7
+		},
+		{
+			"id": "ransack-of-drakheim-230",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.4269,
+			"y": 0.2759,
+			"pack": 7
+		},
+		{
+			"id": "ransack-of-drakheim-231",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.446,
+			"y": 0.3281,
+			"pack": 8
+		},
+		{
+			"id": "ransack-of-drakheim-232",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.4519,
+			"y": 0.3185,
+			"pack": 8
+		},
+		{
+			"id": "ransack-of-drakheim-233",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.4505,
+			"y": 0.3116,
+			"pack": 8
+		},
+		{
+			"id": "ransack-of-drakheim-234",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.4439,
+			"y": 0.3281,
+			"pack": 8
+		},
+		{
+			"id": "ransack-of-drakheim-235",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f1",
+			"x": 0.4181,
+			"y": 0.3418,
+			"pack": 9
+		},
+		{
+			"id": "ransack-of-drakheim-236",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4199,
+			"y": 0.355,
+			"pack": 9
+		},
+		{
+			"id": "ransack-of-drakheim-237",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.4179,
+			"y": 0.3349,
+			"pack": 9
+		},
+		{
+			"id": "ransack-of-drakheim-238",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.4197,
+			"y": 0.3466,
+			"pack": 9
+		},
+		{
+			"id": "ransack-of-drakheim-239",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4765,
+			"y": 0.3568,
+			"pack": 10
+		},
+		{
+			"id": "ransack-of-drakheim-240",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4768,
+			"y": 0.3495,
+			"pack": 10
+		},
+		{
+			"id": "ransack-of-drakheim-241",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.5226,
+			"y": 0.3587,
+			"pack": 11
+		},
+		{
+			"id": "ransack-of-drakheim-242",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.5222,
+			"y": 0.3675,
+			"pack": 11
+		},
+		{
+			"id": "ransack-of-drakheim-243",
+			"enemyId": "sp-frostwolf",
+			"floor": "f1",
+			"x": 0.4651,
+			"y": 0.3632,
+			"pack": 12
+		},
+		{
+			"id": "ransack-of-drakheim-244",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.4311,
+			"y": 0.3946,
+			"pack": 13
+		},
+		{
+			"id": "ransack-of-drakheim-245",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.4286,
+			"y": 0.3896,
+			"pack": 13
+		},
+		{
+			"id": "ransack-of-drakheim-246",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.4264,
+			"y": 0.3942,
+			"pack": 13
+		},
+		{
+			"id": "ransack-of-drakheim-247",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.4289,
+			"y": 0.3991,
+			"pack": 13
+		},
+		{
+			"id": "ransack-of-drakheim-248",
+			"enemyId": "sp-frostwolf",
+			"floor": "f1",
+			"x": 0.5784,
+			"y": 0.4091,
+			"pack": 14
+		},
+		{
+			"id": "ransack-of-drakheim-249",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.5739,
+			"y": 0.4111,
+			"pack": 14
+		},
+		{
+			"id": "ransack-of-drakheim-250",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.4958,
+			"y": 0.4116,
+			"pack": 15
+		},
+		{
+			"id": "ransack-of-drakheim-251",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.4959,
+			"y": 0.4169,
+			"pack": 15
+		},
+		{
+			"id": "ransack-of-drakheim-252",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.4925,
+			"y": 0.4096,
+			"pack": 15
+		},
+		{
+			"id": "ransack-of-drakheim-253",
+			"enemyId": "vv-blackmistwhisperer",
+			"floor": "f1",
+			"x": 0.2955,
+			"y": 0.4206,
+			"pack": 16
+		},
+		{
+			"id": "ransack-of-drakheim-254",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.2991,
+			"y": 0.4289,
+			"pack": 16
+		},
+		{
+			"id": "ransack-of-drakheim-255",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.2902,
+			"y": 0.427,
+			"pack": 16
+		},
+		{
+			"id": "ransack-of-drakheim-256",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f1",
+			"x": 0.4489,
+			"y": 0.4379,
+			"pack": 17
+		},
+		{
+			"id": "ransack-of-drakheim-257",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.4531,
+			"y": 0.4376,
+			"pack": 17
+		},
+		{
+			"id": "ransack-of-drakheim-258",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.4477,
+			"y": 0.4466,
+			"pack": 17
+		},
+		{
+			"id": "ransack-of-drakheim-259",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.2735,
+			"y": 0.446,
+			"pack": 18
+		},
+		{
+			"id": "ransack-of-drakheim-260",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.2717,
+			"y": 0.4512,
+			"pack": 18
+		},
+		{
+			"id": "ransack-of-drakheim-261",
+			"enemyId": "sp-frostwolf",
+			"floor": "f1",
+			"x": 0.5412,
+			"y": 0.4731,
+			"pack": 19
+		},
+		{
+			"id": "ransack-of-drakheim-262",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.5437,
+			"y": 0.4686,
+			"pack": 19
+		},
+		{
+			"id": "ransack-of-drakheim-263",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.5441,
+			"y": 0.4762,
+			"pack": 19
+		},
+		{
+			"id": "ransack-of-drakheim-264",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.4731,
+			"y": 0.484,
+			"pack": 20
+		},
+		{
+			"id": "ransack-of-drakheim-265",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4697,
+			"y": 0.4764,
+			"pack": 20
+		},
+		{
+			"id": "ransack-of-drakheim-266",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4721,
+			"y": 0.4864,
+			"pack": 20
+		},
+		{
+			"id": "ransack-of-drakheim-267",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4746,
+			"y": 0.4725,
+			"pack": 20
+		},
+		{
+			"id": "ransack-of-drakheim-268",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.4739,
+			"y": 0.4788,
+			"pack": 20
+		},
+		{
+			"id": "ransack-of-drakheim-269",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f1",
+			"x": 0.2843,
+			"y": 0.4931,
+			"pack": 21
+		},
+		{
+			"id": "ransack-of-drakheim-270",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f1",
+			"x": 0.2942,
+			"y": 0.4876,
+			"pack": 21
+		},
+		{
+			"id": "ransack-of-drakheim-271",
+			"enemyId": "vv-blackburnmystic",
+			"floor": "f1",
+			"x": 0.5068,
+			"y": 0.4955,
+			"pack": 22,
+			"empowered": true
+		},
+		{
+			"id": "ransack-of-drakheim-272",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f1",
+			"x": 0.5096,
+			"y": 0.4909,
+			"pack": 22,
+			"empowered": true
+		},
+		{
+			"id": "ransack-of-drakheim-273",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f1",
+			"x": 0.5055,
+			"y": 0.4895,
+			"pack": 22
+		},
+		{
+			"id": "ransack-of-drakheim-274",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f1",
+			"x": 0.4169,
+			"y": 0.5232,
+			"pack": 23
+		},
+		{
+			"id": "ransack-of-drakheim-275",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f1",
+			"x": 0.4131,
+			"y": 0.5171,
+			"pack": 23
+		},
+		{
+			"id": "ransack-of-drakheim-276",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4072,
+			"y": 0.5051,
+			"pack": 23
+		},
+		{
+			"id": "ransack-of-drakheim-277",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4238,
+			"y": 0.5318,
+			"pack": 23
+		},
+		{
+			"id": "ransack-of-drakheim-278",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.4092,
+			"y": 0.5084,
+			"pack": 23
+		},
+		{
+			"id": "ransack-of-drakheim-279",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.4108,
+			"y": 0.5128,
+			"pack": 23
+		},
+		{
+			"id": "ransack-of-drakheim-280",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.4195,
+			"y": 0.5248,
+			"pack": 23
+		},
+		{
+			"id": "ransack-of-drakheim-281",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.4227,
+			"y": 0.5267,
+			"pack": 23
+		},
+		{
+			"id": "ransack-of-drakheim-282",
+			"enemyId": "vv-icebitereaver",
+			"floor": "f1",
+			"x": 0.4171,
+			"y": 0.5182,
+			"pack": 23
+		},
+		{
+			"id": "ransack-of-drakheim-283",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.2777,
+			"y": 0.5334,
+			"pack": 24
+		},
+		{
+			"id": "ransack-of-drakheim-284",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.2793,
+			"y": 0.5427,
+			"pack": 24
+		},
+		{
+			"id": "ransack-of-drakheim-285",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.2827,
+			"y": 0.5374,
+			"pack": 24,
+			"empowered": true
+		},
+		{
+			"id": "ransack-of-drakheim-286",
+			"enemyId": "vv-blackmistwhisperer",
+			"floor": "f1",
+			"x": 0.2628,
+			"y": 0.552,
+			"pack": 25
+		},
+		{
+			"id": "ransack-of-drakheim-287",
+			"enemyId": "vv-blackmistwhisperer",
+			"floor": "f1",
+			"x": 0.2622,
+			"y": 0.5364,
+			"pack": 25
+		},
+		{
+			"id": "ransack-of-drakheim-288",
+			"enemyId": "vv-icebitereaver",
+			"floor": "f1",
+			"x": 0.2609,
+			"y": 0.5449,
+			"pack": 25
+		},
+		{
+			"id": "ransack-of-drakheim-289",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.5741,
+			"y": 0.5822,
+			"pack": 26
+		},
+		{
+			"id": "ransack-of-drakheim-290",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.5719,
+			"y": 0.5859,
+			"pack": 26
+		},
+		{
+			"id": "ransack-of-drakheim-291",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4853,
+			"y": 0.5925,
+			"pack": 27
+		},
+		{
+			"id": "ransack-of-drakheim-292",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4789,
+			"y": 0.5835,
+			"pack": 27
+		},
+		{
+			"id": "ransack-of-drakheim-293",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.5846,
+			"y": 0.5962,
+			"pack": 28
+		},
+		{
+			"id": "ransack-of-drakheim-294",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.5834,
+			"y": 0.5842,
+			"pack": 28
+		},
+		{
+			"id": "ransack-of-drakheim-295",
+			"enemyId": "vv-blackmistshadow",
+			"floor": "f1",
+			"x": 0.2196,
+			"y": 0.5911,
+			"pack": 29,
+			"promoted": true
+		},
+		{
+			"id": "ransack-of-drakheim-296",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.2818,
+			"y": 0.6087,
+			"pack": 30
+		},
+		{
+			"id": "ransack-of-drakheim-297",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.2855,
+			"y": 0.6088,
+			"pack": 30
+		},
+		{
+			"id": "ransack-of-drakheim-298",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.289,
+			"y": 0.6034,
+			"pack": 30
+		},
+		{
+			"id": "ransack-of-drakheim-299",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.2924,
+			"y": 0.6278,
+			"pack": 30
+		},
+		{
+			"id": "ransack-of-drakheim-300",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f1",
+			"x": 0.4545,
+			"y": 0.6305,
+			"pack": 31
+		},
+		{
+			"id": "ransack-of-drakheim-301",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f1",
+			"x": 0.4509,
+			"y": 0.6305,
+			"pack": 31
+		},
+		{
+			"id": "ransack-of-drakheim-302",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.449,
+			"y": 0.6163,
+			"pack": 31
+		},
+		{
+			"id": "ransack-of-drakheim-303",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.455,
+			"y": 0.6159,
+			"pack": 31
+		},
+		{
+			"id": "ransack-of-drakheim-304",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4547,
+			"y": 0.625,
+			"pack": 31
+		},
+		{
+			"id": "ransack-of-drakheim-305",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4493,
+			"y": 0.6248,
+			"pack": 31
+		},
+		{
+			"id": "ransack-of-drakheim-306",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.4532,
+			"y": 0.6348,
+			"pack": 31
+		},
+		{
+			"id": "ransack-of-drakheim-307",
+			"enemyId": "vv-blackburnmystic",
+			"floor": "f1",
+			"x": 0.5872,
+			"y": 0.6628,
+			"pack": 32
+		},
+		{
+			"id": "ransack-of-drakheim-308",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.5881,
+			"y": 0.6459,
+			"pack": 32
+		},
+		{
+			"id": "ransack-of-drakheim-309",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.5817,
+			"y": 0.6604,
+			"pack": 32
+		},
+		{
+			"id": "ransack-of-drakheim-310",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5835,
+			"y": 0.6668,
+			"pack": 32
+		},
+		{
+			"id": "ransack-of-drakheim-311",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5899,
+			"y": 0.6539,
+			"pack": 32
+		},
+		{
+			"id": "ransack-of-drakheim-312",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.5854,
+			"y": 0.6766,
+			"pack": 32
+		},
+		{
+			"id": "ransack-of-drakheim-313",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.5859,
+			"y": 0.6702,
+			"pack": 32
+		},
+		{
+			"id": "ransack-of-drakheim-314",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.592,
+			"y": 0.6601,
+			"pack": 32
+		},
+		{
+			"id": "ransack-of-drakheim-315",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.5953,
+			"y": 0.6595,
+			"pack": 32
+		},
+		{
+			"id": "ransack-of-drakheim-316",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.585,
+			"y": 0.6564,
+			"pack": 32,
+			"empowered": true
+		},
+		{
+			"id": "ransack-of-drakheim-317",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f1",
+			"x": 0.3766,
+			"y": 0.7693,
+			"pack": 33
+		},
+		{
+			"id": "ransack-of-drakheim-318",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f1",
+			"x": 0.3762,
+			"y": 0.763,
+			"pack": 33
+		},
+		{
+			"id": "ransack-of-drakheim-319",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.3798,
+			"y": 0.752,
+			"pack": 33
+		},
+		{
+			"id": "ransack-of-drakheim-320",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.3791,
+			"y": 0.7783,
+			"pack": 33
+		},
+		{
+			"id": "ransack-of-drakheim-321",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.3889,
+			"y": 0.7822,
+			"pack": 34
+		},
+		{
+			"id": "ransack-of-drakheim-322",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f1",
+			"x": 0.3923,
+			"y": 0.777,
+			"pack": 34
+		},
+		{
+			"id": "ransack-of-drakheim-323",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.3914,
+			"y": 0.7889,
+			"pack": 34
+		},
+		{
+			"id": "ransack-of-drakheim-324",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.3949,
+			"y": 0.7838,
+			"pack": 34
+		},
+		{
+			"id": "ransack-of-drakheim-325",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.451,
+			"y": 0.8635,
+			"pack": 35
+		},
+		{
+			"id": "ransack-of-drakheim-326",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f1",
+			"x": 0.4503,
+			"y": 0.8697,
+			"pack": 35
+		},
+		{
+			"id": "ransack-of-drakheim-327",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f1",
+			"x": 0.4176,
+			"y": 0.8815,
+			"pack": 36
+		},
+		{
+			"id": "ransack-of-drakheim-328",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.4445,
+			"y": 0.906,
+			"pack": 37
+		},
+		{
+			"id": "ransack-of-drakheim-329",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.4461,
+			"y": 0.9155,
+			"pack": 37
+		},
+		{
+			"id": "ransack-of-drakheim-330",
+			"enemyId": "vv-blackburnmystic",
+			"floor": "f1",
+			"x": 0.4409,
+			"y": 0.9539,
+			"pack": 38
+		},
+		{
+			"id": "ransack-of-drakheim-331",
+			"enemyId": "vv-blackburnmystic",
+			"floor": "f1",
+			"x": 0.4264,
+			"y": 0.9518,
+			"pack": 38
+		},
+		{
+			"id": "ransack-of-drakheim-332",
+			"enemyId": "vv-icebitereaver",
+			"floor": "f1",
+			"x": 0.4326,
+			"y": 0.9508,
+			"pack": 38
+		},
+		{
+			"id": "ransack-of-drakheim-333",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.5059,
+			"y": 0.337,
+			"pack": 39,
+			"promoted": true
+		},
+		{
+			"id": "ransack-of-drakheim-334",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.5109,
+			"y": 0.3444,
+			"pack": 39,
+			"promoted": true
+		},
+		{
+			"id": "ransack-of-drakheim-335",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f2",
+			"x": 0.5102,
+			"y": 0.3359,
+			"pack": 39
+		},
+		{
+			"id": "ransack-of-drakheim-336",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f2",
+			"x": 0.5119,
+			"y": 0.3312,
+			"pack": 39
+		},
+		{
+			"id": "ransack-of-drakheim-337",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f2",
+			"x": 0.5119,
+			"y": 0.3312,
+			"pack": 40
+		},
+		{
+			"id": "ransack-of-drakheim-338",
+			"enemyId": "vv-blackmistshadow",
+			"floor": "f2",
+			"x": 0.4686,
+			"y": 0.4467,
+			"pack": 41,
+			"promoted": true
+		},
+		{
+			"id": "ransack-of-drakheim-339",
+			"enemyId": "vv-blackmistwhisperer",
+			"floor": "f2",
+			"x": 0.476,
+			"y": 0.4509,
+			"pack": 41,
+			"promoted": true
+		},
+		{
+			"id": "ransack-of-drakheim-340",
+			"enemyId": "vv-blackmistwhisperer",
+			"floor": "f2",
+			"x": 0.452,
+			"y": 0.7261,
+			"pack": 42,
+			"promoted": true
+		},
+		{
+			"id": "ransack-of-drakheim-341",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.5902,
+			"y": 0.7313,
+			"pack": 43
+		},
+		{
+			"id": "ransack-of-drakheim-342",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.5948,
+			"y": 0.7358,
+			"pack": 43
+		},
+		{
+			"id": "ransack-of-drakheim-343",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.5904,
+			"y": 0.7418,
+			"pack": 43
+		},
+		{
+			"id": "ransack-of-drakheim-344",
+			"enemyId": "vv-blackburnmystic",
+			"floor": "f2",
+			"x": 0.4913,
+			"y": 0.7844,
+			"pack": 44
+		},
+		{
+			"id": "ransack-of-drakheim-345",
+			"enemyId": "vv-blackmistwhisperer",
+			"floor": "f2",
+			"x": 0.4864,
+			"y": 0.7742,
+			"pack": 44
+		},
+		{
+			"id": "ransack-of-drakheim-346",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.4981,
+			"y": 0.7867,
+			"pack": 44,
+			"promoted": true
+		},
+		{
+			"id": "ransack-of-drakheim-347",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.4889,
+			"y": 0.7596,
+			"pack": 44,
+			"promoted": true
+		},
+		{
+			"id": "ransack-of-drakheim-348",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.4366,
+			"y": 0.8119,
+			"pack": 45
+		},
+		{
+			"id": "ransack-of-drakheim-349",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.442,
+			"y": 0.8124,
+			"pack": 45
+		},
+		{
+			"id": "ransack-of-drakheim-350",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.4328,
+			"y": 0.8205,
+			"pack": 45
+		},
+		{
+			"id": "ransack-of-drakheim-351",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.4456,
+			"y": 0.8198,
+			"pack": 45
+		},
+		{
+			"id": "ransack-of-drakheim-352",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f2",
+			"x": 0.3737,
+			"y": 0.8359,
+			"pack": 46,
+			"empowered": true
+		},
+		{
+			"id": "ransack-of-drakheim-353",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.3689,
+			"y": 0.8364,
+			"pack": 46
+		},
+		{
+			"id": "ransack-of-drakheim-354",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.3724,
+			"y": 0.8264,
+			"pack": 46
+		},
+		{
+			"id": "ransack-of-drakheim-355",
+			"enemyId": "vv-blackmistwhisperer",
+			"floor": "f2",
+			"x": 0.4036,
+			"y": 0.9048,
+			"pack": 47
+		},
+		{
+			"id": "ransack-of-drakheim-356",
+			"enemyId": "vv-blackmistwhisperer",
+			"floor": "f2",
+			"x": 0.4084,
+			"y": 0.9041,
+			"pack": 47
+		},
+		{
+			"id": "ransack-of-drakheim-357",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.4061,
+			"y": 0.8924,
+			"pack": 47
+		},
+		{
+			"id": "ransack-of-drakheim-358",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.4117,
+			"y": 0.8967,
+			"pack": 47
+		},
+		{
+			"id": "ransack-of-drakheim-359",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f2",
+			"x": 0.4008,
+			"y": 0.9006,
+			"pack": 47
+		},
+		{
+			"id": "ransack-of-drakheim-360",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.3757,
+			"y": 0.9323,
+			"pack": 48
+		},
+		{
+			"id": "ransack-of-drakheim-361",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.381,
+			"y": 0.931,
+			"pack": 48
+		},
+		{
+			"id": "ransack-of-drakheim-362",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f2",
+			"x": 0.379,
+			"y": 0.9405,
+			"pack": 48
+		},
+		{
+			"id": "ransack-of-drakheim-363",
+			"enemyId": "vv-blackburnmystic",
+			"floor": "f2",
+			"x": 0.5878,
+			"y": 0.9962,
+			"pack": 50
+		},
+		{
+			"id": "ransack-of-drakheim-364",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f3",
+			"x": 0.6115,
+			"y": 0.2021,
+			"pack": 51
+		},
+		{
+			"id": "ransack-of-drakheim-365",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f3",
+			"x": 0.6033,
+			"y": 0.2006,
+			"pack": 51
+		},
+		{
+			"id": "ransack-of-drakheim-366",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f3",
+			"x": 0.6083,
+			"y": 0.1944,
+			"pack": 51
+		},
+		{
+			"id": "ransack-of-drakheim-367",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f3",
+			"x": 0.6073,
+			"y": 0.2107,
+			"pack": 51
+		},
+		{
+			"id": "ransack-of-drakheim-368",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f3",
+			"x": 0.6723,
+			"y": 0.2111,
+			"pack": 52
+		},
+		{
+			"id": "ransack-of-drakheim-369",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f3",
+			"x": 0.6762,
+			"y": 0.2045,
+			"pack": 52
+		},
+		{
+			"id": "ransack-of-drakheim-370",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f3",
+			"x": 0.6684,
+			"y": 0.2132,
+			"pack": 52
+		},
+		{
+			"id": "ransack-of-drakheim-371",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.6524,
+			"y": 0.2195,
+			"pack": 53
+		},
+		{
+			"id": "ransack-of-drakheim-372",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.6487,
+			"y": 0.2259,
+			"pack": 53
+		},
+		{
+			"id": "ransack-of-drakheim-373",
+			"enemyId": "vv-blackburnmystic",
+			"floor": "f3",
+			"x": 0.6263,
+			"y": 0.2269,
+			"pack": 54
+		},
+		{
+			"id": "ransack-of-drakheim-374",
+			"enemyId": "vv-coldbrinefiend",
+			"floor": "f3",
+			"x": 0.626,
+			"y": 0.2336,
+			"pack": 54
+		},
+		{
+			"id": "ransack-of-drakheim-375",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f3",
+			"x": 0.6292,
+			"y": 0.2367,
+			"pack": 54
+		},
+		{
+			"id": "ransack-of-drakheim-376",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f3",
+			"x": 0.6228,
+			"y": 0.2345,
+			"pack": 54
+		},
+		{
+			"id": "ransack-of-drakheim-377",
+			"enemyId": "vv-blackburnmystic",
+			"floor": "f3",
+			"x": 0.4588,
+			"y": 0.3249,
+			"pack": 55
+		},
+		{
+			"id": "ransack-of-drakheim-378",
+			"enemyId": "sp-frostwolf",
+			"floor": "f3",
+			"x": 0.4205,
+			"y": 0.3694,
+			"pack": 56
+		},
+		{
+			"id": "ransack-of-drakheim-379",
+			"enemyId": "sp-frostwolf",
+			"floor": "f3",
+			"x": 0.418,
+			"y": 0.3715,
+			"pack": 56
+		},
+		{
+			"id": "ransack-of-drakheim-380",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f3",
+			"x": 0.3805,
+			"y": 0.379,
+			"pack": 57
+		},
+		{
+			"id": "ransack-of-drakheim-381",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f3",
+			"x": 0.3805,
+			"y": 0.3699,
+			"pack": 57
+		},
+		{
+			"id": "ransack-of-drakheim-382",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f3",
+			"x": 0.3827,
+			"y": 0.3748,
+			"pack": 57
+		},
+		{
+			"id": "ransack-of-drakheim-383",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f3",
+			"x": 0.513,
+			"y": 0.403,
+			"pack": 58
+		},
+		{
+			"id": "ransack-of-drakheim-384",
+			"enemyId": "vv-icebitepillager",
+			"floor": "f3",
+			"x": 0.5116,
+			"y": 0.421,
+			"pack": 58
+		},
+		{
+			"id": "ransack-of-drakheim-385",
+			"enemyId": "vv-icebitereaver",
+			"floor": "f3",
+			"x": 0.5078,
+			"y": 0.4101,
+			"pack": 58
+		},
+		{
+			"id": "ransack-of-drakheim-386",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f3",
+			"x": 0.4025,
+			"y": 0.4083,
+			"pack": 59
+		},
+		{
+			"id": "ransack-of-drakheim-387",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f3",
+			"x": 0.4074,
+			"y": 0.4035,
+			"pack": 59
+		},
+		{
+			"id": "ransack-of-drakheim-388",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.5871,
+			"y": 0.4161,
+			"pack": 60
+		},
+		{
+			"id": "ransack-of-drakheim-389",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.5833,
+			"y": 0.425,
+			"pack": 60
+		},
+		{
+			"id": "ransack-of-drakheim-390",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.588,
+			"y": 0.4229,
+			"pack": 60
+		},
+		{
+			"id": "ransack-of-drakheim-391",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.6465,
+			"y": 0.42,
+			"pack": 61
+		},
+		{
+			"id": "ransack-of-drakheim-392",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.6425,
+			"y": 0.4304,
+			"pack": 61
+		},
+		{
+			"id": "ransack-of-drakheim-393",
+			"enemyId": "vv-coldbrinefiend",
+			"floor": "f3",
+			"x": 0.6452,
+			"y": 0.4266,
+			"pack": 61
+		},
+		{
+			"id": "ransack-of-drakheim-394",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f3",
+			"x": 0.3403,
+			"y": 0.4429,
+			"pack": 62
+		},
+		{
+			"id": "ransack-of-drakheim-395",
+			"enemyId": "vv-blackmistcutthroat",
+			"floor": "f3",
+			"x": 0.3414,
+			"y": 0.4248,
+			"pack": 62
+		},
+		{
+			"id": "ransack-of-drakheim-396",
+			"enemyId": "vv-icebitereaver",
+			"floor": "f3",
+			"x": 0.3378,
+			"y": 0.433,
+			"pack": 62
+		},
+		{
+			"id": "ransack-of-drakheim-397",
+			"enemyId": "sp-polarbear",
+			"floor": "f3",
+			"x": 0.6108,
+			"y": 0.4564,
+			"pack": 63,
+			"empowered": true
+		},
+		{
+			"id": "ransack-of-drakheim-398",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f3",
+			"x": 0.6173,
+			"y": 0.452,
+			"pack": 63
+		},
+		{
+			"id": "ransack-of-drakheim-399",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f3",
+			"x": 0.61,
+			"y": 0.4436,
+			"pack": 63
+		},
+		{
+			"id": "ransack-of-drakheim-400",
+			"enemyId": "vv-coldbrinefiend",
+			"floor": "f3",
+			"x": 0.4768,
+			"y": 0.4797,
+			"pack": 64
+		},
+		{
+			"id": "ransack-of-drakheim-401",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f3",
+			"x": 0.5086,
+			"y": 0.534,
+			"pack": 65
+		},
+		{
+			"id": "ransack-of-drakheim-402",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f3",
+			"x": 0.5093,
+			"y": 0.5106,
+			"pack": 65
+		},
+		{
+			"id": "ransack-of-drakheim-403",
+			"enemyId": "vv-icebitereaver",
+			"floor": "f3",
+			"x": 0.5086,
+			"y": 0.5229,
+			"pack": 65
+		},
+		{
+			"id": "ransack-of-drakheim-404",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.5543,
+			"y": 0.5202,
+			"pack": 66
+		},
+		{
+			"id": "ransack-of-drakheim-405",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.5561,
+			"y": 0.5354,
+			"pack": 66
+		},
+		{
+			"id": "ransack-of-drakheim-406",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.5607,
+			"y": 0.5291,
+			"pack": 66
+		},
+		{
+			"id": "ransack-of-drakheim-407",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f3",
+			"x": 0.5557,
+			"y": 0.528,
+			"pack": 66
+		},
+		{
+			"id": "ransack-of-drakheim-408",
+			"enemyId": "vv-cravenhiisi",
+			"floor": "f3",
+			"x": 0.5577,
+			"y": 0.528,
+			"pack": 66
+		},
+		{
+			"id": "ransack-of-drakheim-409",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.6646,
+			"y": 0.5497,
+			"pack": 67
+		},
+		{
+			"id": "ransack-of-drakheim-410",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.663,
+			"y": 0.5389,
+			"pack": 67
+		},
+		{
+			"id": "ransack-of-drakheim-411",
+			"enemyId": "vv-coldbrinefiend",
+			"floor": "f3",
+			"x": 0.6692,
+			"y": 0.5501,
+			"pack": 67
+		},
+		{
+			"id": "ransack-of-drakheim-412",
+			"enemyId": "vv-coldbrinefiend",
+			"floor": "f3",
+			"x": 0.6681,
+			"y": 0.5321,
+			"pack": 67
+		},
+		{
+			"id": "ransack-of-drakheim-413",
+			"enemyId": "vv-icebitereaver",
+			"floor": "f3",
+			"x": 0.671,
+			"y": 0.5412,
+			"pack": 67
+		},
+		{
+			"id": "ransack-of-drakheim-414",
+			"enemyId": "vv-coldbrinefiend",
+			"floor": "f3",
+			"x": 0.5792,
+			"y": 0.5506,
+			"pack": 68
+		},
+		{
+			"id": "ransack-of-drakheim-415",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.4581,
+			"y": 0.5599,
+			"pack": 69
+		},
+		{
+			"id": "ransack-of-drakheim-416",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.4581,
+			"y": 0.5544,
+			"pack": 69
+		},
+		{
+			"id": "ransack-of-drakheim-417",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.4607,
+			"y": 0.5595,
+			"pack": 69
+		},
+		{
+			"id": "ransack-of-drakheim-418",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f3",
+			"x": 0.4372,
+			"y": 0.561,
+			"pack": 70
+		},
+		{
+			"id": "ransack-of-drakheim-419",
+			"enemyId": "vv-sootstainedarsonist",
+			"floor": "f3",
+			"x": 0.441,
+			"y": 0.5665,
+			"pack": 70
+		},
+		{
+			"id": "ransack-of-drakheim-420",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.6327,
+			"y": 0.5624,
+			"pack": 71
+		},
+		{
+			"id": "ransack-of-drakheim-421",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.6289,
+			"y": 0.5709,
+			"pack": 71
+		},
+		{
+			"id": "ransack-of-drakheim-422",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f3",
+			"x": 0.6281,
+			"y": 0.5623,
+			"pack": 71
+		},
+		{
+			"id": "ransack-of-drakheim-423",
+			"enemyId": "sp-frostwolf",
+			"floor": "f3",
+			"x": 0.5063,
+			"y": 0.5851,
+			"pack": 72
+		},
+		{
+			"id": "ransack-of-drakheim-424",
+			"enemyId": "sp-frostwolf",
+			"floor": "f3",
+			"x": 0.5033,
+			"y": 0.5905,
+			"pack": 72
+		},
+		{
+			"id": "ransack-of-drakheim-425",
+			"enemyId": "sp-frostwolf",
+			"floor": "f3",
+			"x": 0.5104,
+			"y": 0.5871,
+			"pack": 72
+		},
+		{
+			"id": "ransack-of-drakheim-426",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f3",
+			"x": 0.5104,
+			"y": 0.5724,
+			"pack": 72
+		},
+		{
+			"id": "ransack-of-drakheim-427",
+			"enemyId": "vv-blackburnslaver",
+			"floor": "f3",
+			"x": 0.4987,
+			"y": 0.5868,
+			"pack": 72
+		}
+	],
+	"minibosses": [
+		{
+			"affix": "eira",
+			"floor": "f1",
+			"x": 0.2988,
+			"y": 0.5342,
+			"radius": 2000,
+			"replaces": [
+				"ransack-of-drakheim-269",
+				"ransack-of-drakheim-270",
+				"ransack-of-drakheim-283",
+				"ransack-of-drakheim-284",
+				"ransack-of-drakheim-285"
+			]
+		},
+		{
+			"affix": "ghorn",
+			"floor": "f1",
+			"x": 0.5863,
+			"y": 0.6576,
+			"radius": 2000,
+			"replaces": [
+				"ransack-of-drakheim-307",
+				"ransack-of-drakheim-308",
+				"ransack-of-drakheim-309",
+				"ransack-of-drakheim-310",
+				"ransack-of-drakheim-311",
+				"ransack-of-drakheim-312",
+				"ransack-of-drakheim-313",
+				"ransack-of-drakheim-314",
+				"ransack-of-drakheim-315",
+				"ransack-of-drakheim-316"
+			]
+		}
+	],
+	"start": {
+		"floor": "f1",
+		"x": 0.5967,
+		"y": 0.1424
+	},
+	"checkpoints": [
+		{
+			"floor": "f1",
+			"x": 0.4522,
+			"y": 0.6128
+		},
+		{
+			"floor": "f3",
+			"x": 0.6075,
+			"y": 0.2036
+		},
+		{
+			"floor": "f3",
+			"x": 0.6577,
+			"y": 0.5509
+		},
+		{
+			"floor": "f1",
+			"x": 0.2942,
+			"y": 0.4309
+		}
+	],
+	"patrols": [
+		{
+			"id": "ransack-of-drakheim-p1",
+			"floor": "f1",
+			"points": [
+				[
+					0.4433,
+					0.3036
+				],
+				[
+					0.4253,
+					0.2808
+				],
+				[
+					0.3938,
+					0.2698
+				],
+				[
+					0.3891,
+					0.3245
+				]
+			],
+			"spawns": [
+				"ransack-of-drakheim-229",
+				"ransack-of-drakheim-230"
+			]
+		},
+		{
+			"id": "ransack-of-drakheim-p2",
+			"floor": "f1",
+			"points": [
+				[
+					0.4766,
+					0.3532
+				],
+				[
+					0.4216,
+					0.44
+				],
+				[
+					0.4329,
+					0.4914
+				],
+				[
+					0.4718,
+					0.5353
+				],
+				[
+					0.5019,
+					0.471
+				],
+				[
+					0.5073,
+					0.4286
+				],
+				[
+					0.4972,
+					0.3934
+				]
+			],
+			"spawns": [
+				"ransack-of-drakheim-239",
+				"ransack-of-drakheim-240"
+			]
+		},
+		{
+			"id": "ransack-of-drakheim-p3",
+			"floor": "f1",
+			"points": [
+				[
+					0.4774,
+					0.3543
+				],
+				[
+					0.4224,
+					0.4411
+				],
+				[
+					0.4423,
+					0.5039
+				],
+				[
+					0.4727,
+					0.5364
+				],
+				[
+					0.5028,
+					0.4722
+				],
+				[
+					0.5081,
+					0.4297
+				],
+				[
+					0.4981,
+					0.3946
+				]
+			],
+			"spawns": [
+				"ransack-of-drakheim-243"
+			]
+		},
+		{
+			"id": "ransack-of-drakheim-p4",
+			"floor": "f1",
+			"points": [
+				[
+					0.4203,
+					0.4132
+				],
+				[
+					0.4677,
+					0.3421
+				]
+			],
+			"spawns": [
+				"ransack-of-drakheim-244",
+				"ransack-of-drakheim-245",
+				"ransack-of-drakheim-246",
+				"ransack-of-drakheim-247"
+			]
+		},
+		{
+			"id": "ransack-of-drakheim-p5",
+			"floor": "f1",
+			"points": [
+				[
+					0.2779,
+					0.5384
+				],
+				[
+					0.3312,
+					0.5374
+				]
+			],
+			"spawns": [
+				"ransack-of-drakheim-283",
+				"ransack-of-drakheim-284",
+				"ransack-of-drakheim-285"
+			]
+		},
+		{
+			"id": "ransack-of-drakheim-p6",
+			"floor": "f1",
+			"points": [
+				[
+					0.5757,
+					0.5905
+				],
+				[
+					0.528,
+					0.5302
+				]
+			],
+			"spawns": [
+				"ransack-of-drakheim-289",
+				"ransack-of-drakheim-290"
+			]
+		},
+		{
+			"id": "ransack-of-drakheim-p7",
+			"floor": "f1",
+			"points": [
+				[
+					0.3902,
+					0.7785
+				],
+				[
+					0.4034,
+					0.8133
+				],
+				[
+					0.4243,
+					0.8706
+				],
+				[
+					0.4327,
+					0.9088
+				]
+			],
+			"spawns": [
+				"ransack-of-drakheim-321",
+				"ransack-of-drakheim-322",
+				"ransack-of-drakheim-323",
+				"ransack-of-drakheim-324"
+			]
+		},
+		{
+			"id": "ransack-of-drakheim-p8",
+			"floor": "f2",
+			"points": [
+				[
+					0.5142,
+					0.3252
+				],
+				[
+					0.4832,
+					0.4113
+				]
+			],
+			"spawns": [
+				"ransack-of-drakheim-333",
+				"ransack-of-drakheim-334",
+				"ransack-of-drakheim-335",
+				"ransack-of-drakheim-336"
+			]
+		},
+		{
+			"id": "ransack-of-drakheim-p9",
+			"floor": "f2",
+			"points": [
+				[
+					0.3783,
+					0.9303
+				],
+				[
+					0.3926,
+					1.0409
+				],
+				[
+					0.4172,
+					1.128
+				]
+			],
+			"spawns": [
+				"ransack-of-drakheim-360",
+				"ransack-of-drakheim-361",
+				"ransack-of-drakheim-362"
+			]
+		},
+		{
+			"id": "ransack-of-drakheim-p10",
+			"floor": "f3",
+			"points": [
+				[
+					0.4189,
+					0.3689
+				],
+				[
+					0.4611,
+					0.4557
+				]
+			],
+			"spawns": [
+				"ransack-of-drakheim-378",
+				"ransack-of-drakheim-379"
+			]
+		},
+		{
+			"id": "ransack-of-drakheim-p11",
+			"floor": "f3",
+			"points": [
+				[
+					0.513,
+					0.4122
+				],
+				[
+					0.466,
+					0.3714
+				]
+			],
+			"spawns": [
+				"ransack-of-drakheim-383",
+				"ransack-of-drakheim-384",
+				"ransack-of-drakheim-385"
+			]
+		},
+		{
+			"id": "ransack-of-drakheim-p12",
+			"floor": "f3",
+			"points": [
+				[
+					0.3341,
+					0.4312
+				],
+				[
+					0.3638,
+					0.432
+				],
+				[
+					0.3917,
+					0.4138
+				]
+			],
+			"spawns": [
+				"ransack-of-drakheim-394",
+				"ransack-of-drakheim-395",
+				"ransack-of-drakheim-396"
+			]
+		}
+	],
+	"art": {
+		"codex": "/art/codex/ransack-of-drakheim.webp",
+		"banner": "/art/banner/ransack-of-drakheim.webp"
+	}
+}

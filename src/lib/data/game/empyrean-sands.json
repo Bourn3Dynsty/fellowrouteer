@@ -1,0 +1,2389 @@
+{
+	"id": "empyrean-sands",
+	"slug": "empyrean-sands",
+	"name": "Empyrean Sands",
+	"internalName": "DesertDunes",
+	"kind": "dungeon",
+	"requiredScore": 130,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Start",
+			"image": "/maps/empyrean-sands/f1.webp",
+			"texture": "T_Map_DesertDunes_Start",
+			"worldSize": [
+				60000,
+				30000
+			]
+		},
+		{
+			"id": "f2",
+			"label": "End",
+			"image": "/maps/empyrean-sands/f2.webp",
+			"texture": "T_Map_DesertDunes_End",
+			"worldSize": [
+				106000,
+				53000
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "dd-witheringmagi",
+			"name": "Acolyte of Sinnari",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.689,
+			"gameId": "DD_WitheringMagi",
+			"classes": [
+				"BP_NPC_DD_WitheringMagi"
+			],
+			"abilities": [
+				{
+					"name": "Collapsing Star",
+					"interruptible": true
+				},
+				{
+					"name": "Sinnari's Wrath",
+					"interruptible": true
+				}
+			],
+			"icon": "/icons/enemies/dd-witheringmagi.webp"
+		},
+		{
+			"id": "pr-barbarouslasher",
+			"name": "Barbarous Lasher",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.143,
+			"gameId": "PR_BarbarousLasher",
+			"classes": [
+				"BP_NPC_PR_BarbarousLasher"
+			],
+			"icon": "/icons/enemies/pr-barbarouslasher.webp"
+		},
+		{
+			"id": "dd-arbalist",
+			"name": "Dunesnare Hunter",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.359,
+			"gameId": "DD_Arbalist",
+			"classes": [
+				"BP_NPC_DD_Arbalist"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Soulpiercer",
+					"interruptible": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Dunehunter's Trap",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/dd-arbalist.webp"
+		},
+		{
+			"id": "dd-desertbrute",
+			"name": "Gravebreaker Brute",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.156,
+			"gameId": "DD_DesertBrute",
+			"classes": [
+				"BP_NPC_DD_DesertBrute"
+			],
+			"abilities": [
+				{
+					"name": "Crescent Cleave",
+					"school": "Physical"
+				},
+				{
+					"name": "Decimate",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/dd-desertbrute.webp"
+		},
+		{
+			"id": "pr-pirategrunt",
+			"name": "Gravescythe",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.325,
+			"gameId": "PR_PirateGrunt",
+			"classes": [
+				"BP_NPC_PR_PirateGrunt"
+			],
+			"abilities": [
+				{
+					"name": "Dark Cleave",
+					"ccOnly": true,
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/pr-pirategrunt.webp"
+		},
+		{
+			"id": "pr-goldenconstructvolatile",
+			"name": "Greedbound Prism",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 2.326,
+			"gameId": "PR_GoldenConstructVolatile",
+			"classes": [
+				"BP_NPC_PR_GoldenConstructVolatile"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/pr-goldenconstructvolatile.webp"
+		},
+		{
+			"id": "pr-possessedarmor",
+			"name": "Greedspawn Sentinel",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 5.212,
+			"gameId": "PR_PossessedArmor",
+			"classes": [
+				"BP_NPC_PR_PossessedArmor"
+			],
+			"abilities": [
+				{
+					"name": "Greed's Embrace",
+					"interruptible": true,
+					"channel": true
+				}
+			],
+			"icon": "/icons/enemies/pr-possessedarmor.webp"
+		},
+		{
+			"id": "sg-ghostcorpse",
+			"name": "Lost Soul",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 0.827,
+			"gameId": "SG_GhostCorpse",
+			"classes": [
+				"BP_NPC_SG_GhostCorpse"
+			],
+			"icon": "/icons/enemies/sg-ghostcorpse.webp"
+		},
+		{
+			"id": "dd-nightboundmagi",
+			"name": "Nightbound Magi",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.454,
+			"gameId": "DD_NightboundMagi",
+			"classes": [
+				"BP_NPC_DD_NightboundMagi"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/dd-nightboundmagi.webp"
+		},
+		{
+			"id": "dr-ruinslasher",
+			"name": "Ruins Lasher",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.353,
+			"gameId": "DR_RuinsLasher",
+			"classes": [
+				"BP_NPC_DR_RuinsLasher"
+			],
+			"abilities": [
+				{
+					"name": "Acidic Sap"
+				}
+			],
+			"icon": "/icons/enemies/dr-ruinslasher.webp"
+		},
+		{
+			"id": "dd-desertnomad",
+			"name": "Sandsworn Husk",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 2.061,
+			"gameId": "DD_DesertNomad",
+			"classes": [
+				"BP_NPC_DD_DesertNomad"
+			],
+			"icon": "/icons/enemies/dd-desertnomad.webp"
+		},
+		{
+			"id": "dd-desertwarrior",
+			"name": "Tombguard Reaver",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 3.272,
+			"gameId": "DD_DesertWarrior",
+			"classes": [
+				"BP_NPC_DD_DesertWarrior"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Whirlwind",
+					"ccOnly": true,
+					"channel": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Charge",
+					"ccOnly": true,
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/dd-desertwarrior.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "empyrean-sands-62",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.6347,
+			"y": 0.4946,
+			"pack": 25
+		},
+		{
+			"id": "empyrean-sands-63",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.636,
+			"y": 0.4852,
+			"pack": 25
+		},
+		{
+			"id": "empyrean-sands-76",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.648,
+			"y": 0.6234,
+			"pack": 34
+		},
+		{
+			"id": "empyrean-sands-77",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.6487,
+			"y": 0.608,
+			"pack": 34
+		},
+		{
+			"id": "empyrean-sands-78",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.6424,
+			"y": 0.6137,
+			"pack": 34
+		},
+		{
+			"id": "empyrean-sands-79",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.6592,
+			"y": 0.6313,
+			"pack": 34
+		},
+		{
+			"id": "empyrean-sands-80",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.6655,
+			"y": 0.6224,
+			"pack": 34
+		},
+		{
+			"id": "empyrean-sands-81",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.6592,
+			"y": 0.6164,
+			"pack": 34
+		},
+		{
+			"id": "empyrean-sands-97",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.5244,
+			"y": 0.7885,
+			"pack": 42
+		},
+		{
+			"id": "empyrean-sands-98",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.5274,
+			"y": 0.7818,
+			"pack": 42
+		},
+		{
+			"id": "empyrean-sands-167",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.8886,
+			"y": 0.0199,
+			"pack": 1
+		},
+		{
+			"id": "empyrean-sands-168",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f1",
+			"x": 0.8755,
+			"y": 0.0053,
+			"pack": 1
+		},
+		{
+			"id": "empyrean-sands-169",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f1",
+			"x": 0.8851,
+			"y": 0.0334,
+			"pack": 1
+		},
+		{
+			"id": "empyrean-sands-170",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.833,
+			"y": 0.0995,
+			"pack": 2
+		},
+		{
+			"id": "empyrean-sands-171",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.8288,
+			"y": 0.0947,
+			"pack": 2
+		},
+		{
+			"id": "empyrean-sands-172",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.8268,
+			"y": 0.1016,
+			"pack": 2
+		},
+		{
+			"id": "empyrean-sands-173",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.8512,
+			"y": 0.158,
+			"pack": 3
+		},
+		{
+			"id": "empyrean-sands-174",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.8497,
+			"y": 0.1514,
+			"pack": 3
+		},
+		{
+			"id": "empyrean-sands-175",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.8464,
+			"y": 0.157,
+			"pack": 3
+		},
+		{
+			"id": "empyrean-sands-176",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.9063,
+			"y": 0.1564,
+			"pack": 4
+		},
+		{
+			"id": "empyrean-sands-177",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.9054,
+			"y": 0.168,
+			"pack": 4
+		},
+		{
+			"id": "empyrean-sands-178",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.9004,
+			"y": 0.1567,
+			"pack": 4
+		},
+		{
+			"id": "empyrean-sands-179",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f1",
+			"x": 0.9445,
+			"y": 0.1626,
+			"pack": 5
+		},
+		{
+			"id": "empyrean-sands-180",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f1",
+			"x": 0.9892,
+			"y": 0.2226,
+			"pack": 5
+		},
+		{
+			"id": "empyrean-sands-181",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.5746,
+			"y": 0.2256,
+			"pack": 6
+		},
+		{
+			"id": "empyrean-sands-182",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.5808,
+			"y": 0.2275,
+			"pack": 6
+		},
+		{
+			"id": "empyrean-sands-183",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f1",
+			"x": 0.5778,
+			"y": 0.2184,
+			"pack": 6,
+			"empowered": true
+		},
+		{
+			"id": "empyrean-sands-184",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.5703,
+			"y": 0.2414,
+			"pack": 6
+		},
+		{
+			"id": "empyrean-sands-185",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.5665,
+			"y": 0.2323,
+			"pack": 6
+		},
+		{
+			"id": "empyrean-sands-186",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.5773,
+			"y": 0.2466,
+			"pack": 6
+		},
+		{
+			"id": "empyrean-sands-187",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.5844,
+			"y": 0.2368,
+			"pack": 6
+		},
+		{
+			"id": "empyrean-sands-188",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f1",
+			"x": 0.8943,
+			"y": 0.2868,
+			"pack": 7
+		},
+		{
+			"id": "empyrean-sands-189",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f1",
+			"x": 0.8942,
+			"y": 0.2665,
+			"pack": 7
+		},
+		{
+			"id": "empyrean-sands-190",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.8939,
+			"y": 0.2712,
+			"pack": 7
+		},
+		{
+			"id": "empyrean-sands-191",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.8907,
+			"y": 0.2485,
+			"pack": 7
+		},
+		{
+			"id": "empyrean-sands-192",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.9929,
+			"y": 0.2849,
+			"pack": 8
+		},
+		{
+			"id": "empyrean-sands-193",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.9969,
+			"y": 0.2911,
+			"pack": 8
+		},
+		{
+			"id": "empyrean-sands-194",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.9928,
+			"y": 0.2933,
+			"pack": 8
+		},
+		{
+			"id": "empyrean-sands-195",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.4999,
+			"y": 0.2925,
+			"pack": 9
+		},
+		{
+			"id": "empyrean-sands-196",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.4971,
+			"y": 0.2995,
+			"pack": 9
+		},
+		{
+			"id": "empyrean-sands-197",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f1",
+			"x": 0.5027,
+			"y": 0.3002,
+			"pack": 9
+		},
+		{
+			"id": "empyrean-sands-198",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.8234,
+			"y": 0.3205,
+			"pack": 10
+		},
+		{
+			"id": "empyrean-sands-199",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.8244,
+			"y": 0.2963,
+			"pack": 10
+		},
+		{
+			"id": "empyrean-sands-200",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f1",
+			"x": 0.821,
+			"y": 0.3067,
+			"pack": 10
+		},
+		{
+			"id": "empyrean-sands-201",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.6073,
+			"y": 0.3166,
+			"pack": 11
+		},
+		{
+			"id": "empyrean-sands-202",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.6036,
+			"y": 0.3251,
+			"pack": 11
+		},
+		{
+			"id": "empyrean-sands-203",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f1",
+			"x": 0.6403,
+			"y": 0.3481,
+			"pack": 12
+		},
+		{
+			"id": "empyrean-sands-204",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f1",
+			"x": 0.6393,
+			"y": 0.337,
+			"pack": 12
+		},
+		{
+			"id": "empyrean-sands-205",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f1",
+			"x": 0.6463,
+			"y": 0.3251,
+			"pack": 12
+		},
+		{
+			"id": "empyrean-sands-206",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f1",
+			"x": 0.6489,
+			"y": 0.3547,
+			"pack": 12
+		},
+		{
+			"id": "empyrean-sands-207",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.6326,
+			"y": 0.3348,
+			"pack": 12
+		},
+		{
+			"id": "empyrean-sands-208",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.6353,
+			"y": 0.357,
+			"pack": 12
+		},
+		{
+			"id": "empyrean-sands-209",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.66,
+			"y": 0.332,
+			"pack": 13
+		},
+		{
+			"id": "empyrean-sands-210",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.6608,
+			"y": 0.3379,
+			"pack": 13
+		},
+		{
+			"id": "empyrean-sands-211",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.4486,
+			"y": 0.3419,
+			"pack": 14
+		},
+		{
+			"id": "empyrean-sands-212",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f1",
+			"x": 0.4439,
+			"y": 0.3421,
+			"pack": 14
+		},
+		{
+			"id": "empyrean-sands-213",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4434,
+			"y": 0.3485,
+			"pack": 14
+		},
+		{
+			"id": "empyrean-sands-214",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4478,
+			"y": 0.3487,
+			"pack": 14
+		},
+		{
+			"id": "empyrean-sands-215",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.9574,
+			"y": 0.3963,
+			"pack": 15
+		},
+		{
+			"id": "empyrean-sands-216",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.9582,
+			"y": 0.3624,
+			"pack": 15
+		},
+		{
+			"id": "empyrean-sands-217",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f1",
+			"x": 0.9602,
+			"y": 0.3668,
+			"pack": 15,
+			"empowered": true
+		},
+		{
+			"id": "empyrean-sands-218",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f1",
+			"x": 0.9602,
+			"y": 0.3954,
+			"pack": 15
+		},
+		{
+			"id": "empyrean-sands-219",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.395,
+			"y": 0.3959,
+			"pack": 16
+		},
+		{
+			"id": "empyrean-sands-220",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.3961,
+			"y": 0.3861,
+			"pack": 16
+		},
+		{
+			"id": "empyrean-sands-221",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.3937,
+			"y": 0.4056,
+			"pack": 16
+		},
+		{
+			"id": "empyrean-sands-222",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.3973,
+			"y": 0.3764,
+			"pack": 16
+		},
+		{
+			"id": "empyrean-sands-223",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.9118,
+			"y": 0.3777,
+			"pack": 17
+		},
+		{
+			"id": "empyrean-sands-224",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.9118,
+			"y": 0.3855,
+			"pack": 17
+		},
+		{
+			"id": "empyrean-sands-225",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f1",
+			"x": 0.9768,
+			"y": 0.3827,
+			"pack": 18
+		},
+		{
+			"id": "empyrean-sands-226",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f1",
+			"x": 0.9767,
+			"y": 0.3902,
+			"pack": 18
+		},
+		{
+			"id": "empyrean-sands-227",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.6138,
+			"y": 0.4012,
+			"pack": 19
+		},
+		{
+			"id": "empyrean-sands-228",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.61,
+			"y": 0.3955,
+			"pack": 19
+		},
+		{
+			"id": "empyrean-sands-229",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.8899,
+			"y": 0.4037,
+			"pack": 20
+		},
+		{
+			"id": "empyrean-sands-230",
+			"enemyId": "dd-desertbrute",
+			"floor": "f1",
+			"x": 0.8762,
+			"y": 0.4053,
+			"pack": 21
+		},
+		{
+			"id": "empyrean-sands-231",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.8779,
+			"y": 0.4105,
+			"pack": 22
+		},
+		{
+			"id": "empyrean-sands-232",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.8821,
+			"y": 0.4183,
+			"pack": 23
+		},
+		{
+			"id": "empyrean-sands-233",
+			"enemyId": "dd-desertbrute",
+			"floor": "f1",
+			"x": 0.4369,
+			"y": 0.4399,
+			"pack": 24
+		},
+		{
+			"id": "empyrean-sands-234",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4321,
+			"y": 0.4547,
+			"pack": 24
+		},
+		{
+			"id": "empyrean-sands-235",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4289,
+			"y": 0.447,
+			"pack": 24
+		},
+		{
+			"id": "empyrean-sands-236",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4321,
+			"y": 0.4416,
+			"pack": 24
+		},
+		{
+			"id": "empyrean-sands-237",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4353,
+			"y": 0.4492,
+			"pack": 24
+		},
+		{
+			"id": "empyrean-sands-238",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.6003,
+			"y": 0.5089,
+			"pack": 26
+		},
+		{
+			"id": "empyrean-sands-239",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f1",
+			"x": 0.6038,
+			"y": 0.5047,
+			"pack": 26
+		},
+		{
+			"id": "empyrean-sands-240",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.6026,
+			"y": 0.4976,
+			"pack": 26
+		},
+		{
+			"id": "empyrean-sands-241",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.599,
+			"y": 0.5025,
+			"pack": 26
+		},
+		{
+			"id": "empyrean-sands-242",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.4355,
+			"y": 0.532,
+			"pack": 27
+		},
+		{
+			"id": "empyrean-sands-243",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.4304,
+			"y": 0.517,
+			"pack": 27
+		},
+		{
+			"id": "empyrean-sands-244",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f1",
+			"x": 0.4367,
+			"y": 0.5179,
+			"pack": 27
+		},
+		{
+			"id": "empyrean-sands-245",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4362,
+			"y": 0.5271,
+			"pack": 27
+		},
+		{
+			"id": "empyrean-sands-246",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4333,
+			"y": 0.5153,
+			"pack": 27
+		},
+		{
+			"id": "empyrean-sands-247",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.3802,
+			"y": 0.5204,
+			"pack": 28
+		},
+		{
+			"id": "empyrean-sands-248",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.3735,
+			"y": 0.5243,
+			"pack": 29
+		},
+		{
+			"id": "empyrean-sands-249",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.3782,
+			"y": 0.5344,
+			"pack": 30
+		},
+		{
+			"id": "empyrean-sands-250",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.4529,
+			"y": 0.5444,
+			"pack": 31
+		},
+		{
+			"id": "empyrean-sands-251",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.4602,
+			"y": 0.545,
+			"pack": 31
+		},
+		{
+			"id": "empyrean-sands-252",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f1",
+			"x": 0.4638,
+			"y": 0.545,
+			"pack": 31,
+			"empowered": true
+		},
+		{
+			"id": "empyrean-sands-253",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.5098,
+			"y": 0.5761,
+			"pack": 32
+		},
+		{
+			"id": "empyrean-sands-254",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.5131,
+			"y": 0.5767,
+			"pack": 32
+		},
+		{
+			"id": "empyrean-sands-255",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.5165,
+			"y": 0.5715,
+			"pack": 32
+		},
+		{
+			"id": "empyrean-sands-256",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.5061,
+			"y": 0.5711,
+			"pack": 32
+		},
+		{
+			"id": "empyrean-sands-257",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.5877,
+			"y": 0.6127,
+			"pack": 33
+		},
+		{
+			"id": "empyrean-sands-258",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.5906,
+			"y": 0.6001,
+			"pack": 33
+		},
+		{
+			"id": "empyrean-sands-259",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.5811,
+			"y": 0.6098,
+			"pack": 33
+		},
+		{
+			"id": "empyrean-sands-260",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f1",
+			"x": 0.5842,
+			"y": 0.6175,
+			"pack": 33
+		},
+		{
+			"id": "empyrean-sands-261",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.4135,
+			"y": 0.6086,
+			"pack": 35
+		},
+		{
+			"id": "empyrean-sands-262",
+			"enemyId": "dd-arbalist",
+			"floor": "f1",
+			"x": 0.4073,
+			"y": 0.6089,
+			"pack": 35
+		},
+		{
+			"id": "empyrean-sands-263",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.4086,
+			"y": 0.615,
+			"pack": 35
+		},
+		{
+			"id": "empyrean-sands-264",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4745,
+			"y": 0.6713,
+			"pack": 36
+		},
+		{
+			"id": "empyrean-sands-265",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.5033,
+			"y": 0.6292,
+			"pack": 36
+		},
+		{
+			"id": "empyrean-sands-266",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4833,
+			"y": 0.6282,
+			"pack": 36
+		},
+		{
+			"id": "empyrean-sands-267",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.519,
+			"y": 0.6226,
+			"pack": 36
+		},
+		{
+			"id": "empyrean-sands-268",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.538,
+			"y": 0.644,
+			"pack": 37
+		},
+		{
+			"id": "empyrean-sands-269",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.5412,
+			"y": 0.6459,
+			"pack": 37
+		},
+		{
+			"id": "empyrean-sands-270",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.5452,
+			"y": 0.629,
+			"pack": 37
+		},
+		{
+			"id": "empyrean-sands-271",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.5431,
+			"y": 0.6248,
+			"pack": 37
+		},
+		{
+			"id": "empyrean-sands-272",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.5409,
+			"y": 0.632,
+			"pack": 37
+		},
+		{
+			"id": "empyrean-sands-273",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f1",
+			"x": 0.488,
+			"y": 0.6488,
+			"pack": 38
+		},
+		{
+			"id": "empyrean-sands-274",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.4154,
+			"y": 0.7148,
+			"pack": 39
+		},
+		{
+			"id": "empyrean-sands-275",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.4163,
+			"y": 0.6985,
+			"pack": 39
+		},
+		{
+			"id": "empyrean-sands-276",
+			"enemyId": "dd-desertnomad",
+			"floor": "f1",
+			"x": 0.415,
+			"y": 0.706,
+			"pack": 39
+		},
+		{
+			"id": "empyrean-sands-277",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.5493,
+			"y": 0.7132,
+			"pack": 40
+		},
+		{
+			"id": "empyrean-sands-278",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.5486,
+			"y": 0.7058,
+			"pack": 40
+		},
+		{
+			"id": "empyrean-sands-279",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f1",
+			"x": 0.5539,
+			"y": 0.7028,
+			"pack": 40
+		},
+		{
+			"id": "empyrean-sands-280",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f1",
+			"x": 0.4841,
+			"y": 0.7349,
+			"pack": 41
+		},
+		{
+			"id": "empyrean-sands-281",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4857,
+			"y": 0.7237,
+			"pack": 41
+		},
+		{
+			"id": "empyrean-sands-282",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4795,
+			"y": 0.7358,
+			"pack": 41
+		},
+		{
+			"id": "empyrean-sands-283",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4751,
+			"y": 0.7315,
+			"pack": 41
+		},
+		{
+			"id": "empyrean-sands-284",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5781,
+			"y": 0.1484,
+			"pack": 43
+		},
+		{
+			"id": "empyrean-sands-285",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5811,
+			"y": 0.1508,
+			"pack": 43
+		},
+		{
+			"id": "empyrean-sands-286",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5817,
+			"y": 0.1547,
+			"pack": 43
+		},
+		{
+			"id": "empyrean-sands-287",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5836,
+			"y": 0.1517,
+			"pack": 43
+		},
+		{
+			"id": "empyrean-sands-288",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f2",
+			"x": 0.5749,
+			"y": 0.1534,
+			"pack": 43
+		},
+		{
+			"id": "empyrean-sands-289",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5669,
+			"y": 0.232,
+			"pack": 44
+		},
+		{
+			"id": "empyrean-sands-290",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5675,
+			"y": 0.2278,
+			"pack": 44
+		},
+		{
+			"id": "empyrean-sands-291",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f2",
+			"x": 0.5659,
+			"y": 0.2286,
+			"pack": 44
+		},
+		{
+			"id": "empyrean-sands-292",
+			"enemyId": "dd-arbalist",
+			"floor": "f2",
+			"x": 0.5824,
+			"y": 0.254,
+			"pack": 45
+		},
+		{
+			"id": "empyrean-sands-293",
+			"enemyId": "dd-arbalist",
+			"floor": "f2",
+			"x": 0.5825,
+			"y": 0.2736,
+			"pack": 45
+		},
+		{
+			"id": "empyrean-sands-294",
+			"enemyId": "dd-desertbrute",
+			"floor": "f2",
+			"x": 0.5842,
+			"y": 0.2477,
+			"pack": 45
+		},
+		{
+			"id": "empyrean-sands-295",
+			"enemyId": "dd-desertbrute",
+			"floor": "f2",
+			"x": 0.5845,
+			"y": 0.2768,
+			"pack": 45
+		},
+		{
+			"id": "empyrean-sands-296",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5807,
+			"y": 0.2688,
+			"pack": 45
+		},
+		{
+			"id": "empyrean-sands-297",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5798,
+			"y": 0.26,
+			"pack": 45
+		},
+		{
+			"id": "empyrean-sands-298",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5769,
+			"y": 0.2665,
+			"pack": 45
+		},
+		{
+			"id": "empyrean-sands-299",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5768,
+			"y": 0.2624,
+			"pack": 45,
+			"empowered": true
+		},
+		{
+			"id": "empyrean-sands-300",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5771,
+			"y": 0.2577,
+			"pack": 45
+		},
+		{
+			"id": "empyrean-sands-301",
+			"enemyId": "dd-nightboundmagi",
+			"floor": "f2",
+			"x": 0.5958,
+			"y": 0.2623,
+			"pack": 46
+		},
+		{
+			"id": "empyrean-sands-302",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5901,
+			"y": 0.3303,
+			"pack": 47
+		},
+		{
+			"id": "empyrean-sands-303",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5912,
+			"y": 0.336,
+			"pack": 47
+		},
+		{
+			"id": "empyrean-sands-304",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f2",
+			"x": 0.5894,
+			"y": 0.3336,
+			"pack": 47
+		},
+		{
+			"id": "empyrean-sands-305",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.563,
+			"y": 0.3664,
+			"pack": 48
+		},
+		{
+			"id": "empyrean-sands-306",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.562,
+			"y": 0.3628,
+			"pack": 48
+		},
+		{
+			"id": "empyrean-sands-307",
+			"enemyId": "dd-arbalist",
+			"floor": "f2",
+			"x": 0.6317,
+			"y": 0.3903,
+			"pack": 49
+		},
+		{
+			"id": "empyrean-sands-308",
+			"enemyId": "dd-arbalist",
+			"floor": "f2",
+			"x": 0.632,
+			"y": 0.3841,
+			"pack": 49
+		},
+		{
+			"id": "empyrean-sands-309",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.6023,
+			"y": 0.3953,
+			"pack": 50
+		},
+		{
+			"id": "empyrean-sands-310",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.6061,
+			"y": 0.3866,
+			"pack": 50
+		},
+		{
+			"id": "empyrean-sands-311",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.6029,
+			"y": 0.3868,
+			"pack": 50
+		},
+		{
+			"id": "empyrean-sands-312",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f2",
+			"x": 0.6064,
+			"y": 0.3918,
+			"pack": 50
+		},
+		{
+			"id": "empyrean-sands-313",
+			"enemyId": "dd-arbalist",
+			"floor": "f2",
+			"x": 0.4652,
+			"y": 0.4549,
+			"pack": 51
+		},
+		{
+			"id": "empyrean-sands-314",
+			"enemyId": "dd-arbalist",
+			"floor": "f2",
+			"x": 0.4626,
+			"y": 0.4594,
+			"pack": 51
+		},
+		{
+			"id": "empyrean-sands-315",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f2",
+			"x": 0.4576,
+			"y": 0.436,
+			"pack": 51
+		},
+		{
+			"id": "empyrean-sands-316",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4584,
+			"y": 0.4455,
+			"pack": 51
+		},
+		{
+			"id": "empyrean-sands-317",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.461,
+			"y": 0.4467,
+			"pack": 51
+		},
+		{
+			"id": "empyrean-sands-318",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4624,
+			"y": 0.4377,
+			"pack": 51
+		},
+		{
+			"id": "empyrean-sands-319",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4626,
+			"y": 0.4338,
+			"pack": 51
+		},
+		{
+			"id": "empyrean-sands-320",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.6112,
+			"y": 0.4384,
+			"pack": 52
+		},
+		{
+			"id": "empyrean-sands-321",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f2",
+			"x": 0.6154,
+			"y": 0.4402,
+			"pack": 53
+		},
+		{
+			"id": "empyrean-sands-322",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.6037,
+			"y": 0.4474,
+			"pack": 54
+		},
+		{
+			"id": "empyrean-sands-323",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.6012,
+			"y": 0.4545,
+			"pack": 55
+		},
+		{
+			"id": "empyrean-sands-324",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.486,
+			"y": 0.4637,
+			"pack": 56
+		},
+		{
+			"id": "empyrean-sands-325",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.4476,
+			"y": 0.4821,
+			"pack": 57
+		},
+		{
+			"id": "empyrean-sands-326",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.4404,
+			"y": 0.4922,
+			"pack": 57
+		},
+		{
+			"id": "empyrean-sands-327",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f2",
+			"x": 0.442,
+			"y": 0.4737,
+			"pack": 57,
+			"empowered": true
+		},
+		{
+			"id": "empyrean-sands-328",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4403,
+			"y": 0.4817,
+			"pack": 57
+		},
+		{
+			"id": "empyrean-sands-329",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4466,
+			"y": 0.4744,
+			"pack": 57
+		},
+		{
+			"id": "empyrean-sands-330",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4444,
+			"y": 0.4739,
+			"pack": 57
+		},
+		{
+			"id": "empyrean-sands-331",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4403,
+			"y": 0.4763,
+			"pack": 57
+		},
+		{
+			"id": "empyrean-sands-332",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.4881,
+			"y": 0.488,
+			"pack": 58
+		},
+		{
+			"id": "empyrean-sands-333",
+			"enemyId": "dd-nightboundmagi",
+			"floor": "f2",
+			"x": 0.4639,
+			"y": 0.498,
+			"pack": 59
+		},
+		{
+			"id": "empyrean-sands-334",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4683,
+			"y": 0.5017,
+			"pack": 59
+		},
+		{
+			"id": "empyrean-sands-335",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.4635,
+			"y": 0.4892,
+			"pack": 59
+		},
+		{
+			"id": "empyrean-sands-336",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5805,
+			"y": 0.4998,
+			"pack": 60
+		},
+		{
+			"id": "empyrean-sands-337",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.581,
+			"y": 0.496,
+			"pack": 60
+		},
+		{
+			"id": "empyrean-sands-338",
+			"enemyId": "dd-arbalist",
+			"floor": "f2",
+			"x": 0.5998,
+			"y": 0.5089,
+			"pack": 61
+		},
+		{
+			"id": "empyrean-sands-339",
+			"enemyId": "dd-arbalist",
+			"floor": "f2",
+			"x": 0.6047,
+			"y": 0.5228,
+			"pack": 61
+		},
+		{
+			"id": "empyrean-sands-340",
+			"enemyId": "dd-arbalist",
+			"floor": "f2",
+			"x": 0.6033,
+			"y": 0.5285,
+			"pack": 61
+		},
+		{
+			"id": "empyrean-sands-341",
+			"enemyId": "dd-arbalist",
+			"floor": "f2",
+			"x": 0.6021,
+			"y": 0.5118,
+			"pack": 61
+		},
+		{
+			"id": "empyrean-sands-342",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f2",
+			"x": 0.6038,
+			"y": 0.5164,
+			"pack": 61
+		},
+		{
+			"id": "empyrean-sands-343",
+			"enemyId": "dd-desertbrute",
+			"floor": "f2",
+			"x": 0.4342,
+			"y": 0.5235,
+			"pack": 62
+		},
+		{
+			"id": "empyrean-sands-344",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.4353,
+			"y": 0.527,
+			"pack": 62
+		},
+		{
+			"id": "empyrean-sands-345",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.4331,
+			"y": 0.52,
+			"pack": 62
+		},
+		{
+			"id": "empyrean-sands-346",
+			"enemyId": "dd-arbalist",
+			"floor": "f2",
+			"x": 0.5346,
+			"y": 0.5272,
+			"pack": 63
+		},
+		{
+			"id": "empyrean-sands-347",
+			"enemyId": "dd-arbalist",
+			"floor": "f2",
+			"x": 0.5346,
+			"y": 0.5423,
+			"pack": 63,
+			"empowered": true
+		},
+		{
+			"id": "empyrean-sands-348",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f2",
+			"x": 0.5357,
+			"y": 0.533,
+			"pack": 63
+		},
+		{
+			"id": "empyrean-sands-349",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f2",
+			"x": 0.5381,
+			"y": 0.5385,
+			"pack": 63
+		},
+		{
+			"id": "empyrean-sands-350",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f2",
+			"x": 0.5393,
+			"y": 0.5284,
+			"pack": 63
+		},
+		{
+			"id": "empyrean-sands-351",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5094,
+			"y": 0.5362,
+			"pack": 64
+		},
+		{
+			"id": "empyrean-sands-352",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5113,
+			"y": 0.5316,
+			"pack": 64
+		},
+		{
+			"id": "empyrean-sands-353",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5806,
+			"y": 0.5607,
+			"pack": 65
+		},
+		{
+			"id": "empyrean-sands-354",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5843,
+			"y": 0.5594,
+			"pack": 65
+		},
+		{
+			"id": "empyrean-sands-355",
+			"enemyId": "dd-desertwarrior",
+			"floor": "f2",
+			"x": 0.5826,
+			"y": 0.5568,
+			"pack": 65
+		},
+		{
+			"id": "empyrean-sands-356",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.563,
+			"y": 0.5658,
+			"pack": 66
+		},
+		{
+			"id": "empyrean-sands-357",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5677,
+			"y": 0.5602,
+			"pack": 66
+		},
+		{
+			"id": "empyrean-sands-358",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.4907,
+			"y": 0.5757,
+			"pack": 67
+		},
+		{
+			"id": "empyrean-sands-359",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.4914,
+			"y": 0.5642,
+			"pack": 67
+		},
+		{
+			"id": "empyrean-sands-360",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4898,
+			"y": 0.5631,
+			"pack": 67
+		},
+		{
+			"id": "empyrean-sands-361",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4886,
+			"y": 0.5734,
+			"pack": 67
+		},
+		{
+			"id": "empyrean-sands-362",
+			"enemyId": "pr-possessedarmor",
+			"floor": "f2",
+			"x": 0.4878,
+			"y": 0.5675,
+			"pack": 67
+		},
+		{
+			"id": "empyrean-sands-363",
+			"enemyId": "dd-arbalist",
+			"floor": "f2",
+			"x": 0.3929,
+			"y": 0.5687,
+			"pack": 68
+		},
+		{
+			"id": "empyrean-sands-364",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5265,
+			"y": 0.5731,
+			"pack": 69
+		},
+		{
+			"id": "empyrean-sands-365",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5288,
+			"y": 0.5766,
+			"pack": 69
+		},
+		{
+			"id": "empyrean-sands-366",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.5249,
+			"y": 0.5789,
+			"pack": 69
+		},
+		{
+			"id": "empyrean-sands-367",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f2",
+			"x": 0.6115,
+			"y": 0.5771,
+			"pack": 70
+		},
+		{
+			"id": "empyrean-sands-368",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.6091,
+			"y": 0.5873,
+			"pack": 70
+		},
+		{
+			"id": "empyrean-sands-369",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.6104,
+			"y": 0.5823,
+			"pack": 70
+		},
+		{
+			"id": "empyrean-sands-370",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5762,
+			"y": 0.6039,
+			"pack": 71
+		},
+		{
+			"id": "empyrean-sands-371",
+			"enemyId": "dd-desertnomad",
+			"floor": "f2",
+			"x": 0.5813,
+			"y": 0.5989,
+			"pack": 71
+		},
+		{
+			"id": "empyrean-sands-372",
+			"enemyId": "dd-nightboundmagi",
+			"floor": "f2",
+			"x": 0.582,
+			"y": 0.6292,
+			"pack": 71
+		},
+		{
+			"id": "empyrean-sands-373",
+			"enemyId": "dd-witheringmagi",
+			"floor": "f2",
+			"x": 0.5843,
+			"y": 0.6249,
+			"pack": 71
+		},
+		{
+			"id": "empyrean-sands-374",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5784,
+			"y": 0.6197,
+			"pack": 71
+		},
+		{
+			"id": "empyrean-sands-375",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5821,
+			"y": 0.6161,
+			"pack": 71
+		},
+		{
+			"id": "empyrean-sands-376",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5862,
+			"y": 0.6181,
+			"pack": 71
+		},
+		{
+			"id": "empyrean-sands-377",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5828,
+			"y": 0.6204,
+			"pack": 71
+		},
+		{
+			"id": "empyrean-sands-378",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5793,
+			"y": 0.6237,
+			"pack": 71
+		},
+		{
+			"id": "empyrean-sands-379",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f2",
+			"x": 0.5857,
+			"y": 0.6225,
+			"pack": 71
+		},
+		{
+			"id": "empyrean-sands-380",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4883,
+			"y": 0.619,
+			"pack": 72
+		},
+		{
+			"id": "empyrean-sands-381",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4857,
+			"y": 0.6203,
+			"pack": 72
+		},
+		{
+			"id": "empyrean-sands-382",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.485,
+			"y": 0.6151,
+			"pack": 72
+		},
+		{
+			"id": "empyrean-sands-383",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.4625,
+			"y": 0.657,
+			"pack": 73
+		},
+		{
+			"id": "empyrean-sands-384",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f2",
+			"x": 0.4632,
+			"y": 0.6626,
+			"pack": 73
+		},
+		{
+			"id": "empyrean-sands-385",
+			"enemyId": "pr-goldenconstructvolatile",
+			"floor": "f2",
+			"x": 0.483,
+			"y": 0.7595,
+			"pack": 74
+		},
+		{
+			"id": "empyrean-sands-386",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.4846,
+			"y": 0.7651,
+			"pack": 74
+		},
+		{
+			"id": "empyrean-sands-387",
+			"enemyId": "pr-pirategrunt",
+			"floor": "f2",
+			"x": 0.482,
+			"y": 0.7679,
+			"pack": 74
+		},
+		{
+			"id": "empyrean-sands-388",
+			"enemyId": "pr-possessedarmor",
+			"floor": "f2",
+			"x": 0.4816,
+			"y": 0.7627,
+			"pack": 74
+		}
+	],
+	"minibosses": [
+		{
+			"affix": "eira",
+			"floor": "f1",
+			"x": 0.4484,
+			"y": 0.3382,
+			"radius": 2000,
+			"replaces": [
+				"empyrean-sands-211",
+				"empyrean-sands-212",
+				"empyrean-sands-213",
+				"empyrean-sands-214"
+			]
+		},
+		{
+			"affix": "ghorn",
+			"floor": "f2",
+			"x": 0.4655,
+			"y": 0.4959,
+			"radius": 2500,
+			"replaces": [
+				"empyrean-sands-313",
+				"empyrean-sands-314",
+				"empyrean-sands-325",
+				"empyrean-sands-329",
+				"empyrean-sands-332",
+				"empyrean-sands-333",
+				"empyrean-sands-334",
+				"empyrean-sands-335"
+			]
+		}
+	],
+	"start": {
+		"floor": "f1",
+		"x": 0.3172,
+		"y": 0.7003
+	},
+	"checkpoints": [
+		{
+			"floor": "f2",
+			"x": 0.6012,
+			"y": 0.5213
+		},
+		{
+			"floor": "f1",
+			"x": 0.7724,
+			"y": 0.3196
+		}
+	],
+	"patrols": [
+		{
+			"id": "empyrean-sands-p1",
+			"floor": "f1",
+			"points": [
+				[
+					0.969,
+					0.1421
+				],
+				[
+					0.9451,
+					0.1615
+				],
+				[
+					0.9301,
+					0.2074
+				],
+				[
+					0.9552,
+					0.2416
+				],
+				[
+					0.9798,
+					0.2425
+				],
+				[
+					0.9938,
+					0.2064
+				],
+				[
+					0.9963,
+					0.185
+				],
+				[
+					0.9838,
+					0.1681
+				]
+			],
+			"spawns": [
+				"empyrean-sands-179",
+				"empyrean-sands-180"
+			]
+		},
+		{
+			"id": "empyrean-sands-p2",
+			"floor": "f1",
+			"points": [
+				[
+					0.6561,
+					0.3372
+				],
+				[
+					0.7695,
+					0.3017
+				]
+			],
+			"spawns": [
+				"empyrean-sands-209",
+				"empyrean-sands-210"
+			]
+		},
+		{
+			"id": "empyrean-sands-p3",
+			"floor": "f1",
+			"points": [
+				[
+					0.3935,
+					0.407
+				],
+				[
+					0.4015,
+					0.355
+				],
+				[
+					0.419,
+					0.3288
+				],
+				[
+					0.4662,
+					0.2858
+				]
+			],
+			"spawns": [
+				"empyrean-sands-219",
+				"empyrean-sands-220",
+				"empyrean-sands-221",
+				"empyrean-sands-222"
+			]
+		},
+		{
+			"id": "empyrean-sands-p4",
+			"floor": "f1",
+			"points": [
+				[
+					1.0267,
+					0.3363
+				],
+				[
+					0.9879,
+					0.3808
+				],
+				[
+					0.9701,
+					0.3847
+				]
+			],
+			"spawns": [
+				"empyrean-sands-225",
+				"empyrean-sands-226"
+			]
+		},
+		{
+			"id": "empyrean-sands-p5",
+			"floor": "f1",
+			"points": [
+				[
+					0.4291,
+					0.4531
+				],
+				[
+					0.4815,
+					0.3669
+				],
+				[
+					0.5211,
+					0.3325
+				],
+				[
+					0.5666,
+					0.3484
+				]
+			],
+			"spawns": [
+				"empyrean-sands-233",
+				"empyrean-sands-234",
+				"empyrean-sands-235",
+				"empyrean-sands-236",
+				"empyrean-sands-237"
+			]
+		},
+		{
+			"id": "empyrean-sands-p6",
+			"floor": "f1",
+			"points": [
+				[
+					0.4515,
+					0.5442
+				],
+				[
+					0.5515,
+					0.487
+				]
+			],
+			"spawns": [
+				"empyrean-sands-250",
+				"empyrean-sands-251",
+				"empyrean-sands-252"
+			]
+		},
+		{
+			"id": "empyrean-sands-p7",
+			"floor": "f2",
+			"points": [
+				[
+					0.4042,
+					0.5633
+				],
+				[
+					0.4103,
+					0.5463
+				],
+				[
+					0.4272,
+					0.5317
+				],
+				[
+					0.4354,
+					0.522
+				]
+			],
+			"spawns": [
+				"empyrean-sands-343",
+				"empyrean-sands-344",
+				"empyrean-sands-345"
+			]
+		},
+		{
+			"id": "empyrean-sands-p8",
+			"floor": "f2",
+			"points": [
+				[
+					0.6088,
+					0.5883
+				],
+				[
+					0.6179,
+					0.5271
+				]
+			],
+			"spawns": [
+				"empyrean-sands-367",
+				"empyrean-sands-368",
+				"empyrean-sands-369"
+			]
+		},
+		{
+			"id": "empyrean-sands-p9",
+			"floor": "f2",
+			"points": [
+				[
+					0.4919,
+					0.6013
+				],
+				[
+					0.4777,
+					0.6563
+				],
+				[
+					0.477,
+					0.6984
+				]
+			],
+			"spawns": [
+				"empyrean-sands-380",
+				"empyrean-sands-381",
+				"empyrean-sands-382"
+			]
+		}
+	],
+	"art": {
+		"codex": "/art/codex/empyrean-sands.webp",
+		"banner": "/art/banner/empyrean-sands.webp"
+	}
+}

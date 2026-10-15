@@ -1,0 +1,1904 @@
+{
+	"id": "cithrels-fall",
+	"slug": "cithrels-fall",
+	"name": "Cithrel's Fall",
+	"internalName": "FrozenKingdom",
+	"kind": "capstone",
+	"requiredScore": 188,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Map",
+			"image": "/maps/cithrels-fall/f1.webp",
+			"texture": "T_Map_FrozenKingdom_01",
+			"worldSize": [
+				106000,
+				53000
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "fk-elfduelist",
+			"name": "Blade of Cithrel",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 3.227,
+			"gameId": "FK_ElfDuelist",
+			"classes": [
+				"BP_NPC_FK_Elf_Duelist"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Ice Breaker",
+					"ccOnly": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Slicing Blades",
+					"ccOnly": true,
+					"channel": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Enrage"
+				}
+			],
+			"icon": "/icons/enemies/fk-elfduelist.webp"
+		},
+		{
+			"id": "ic-assassin",
+			"name": "Coldheart Assassin",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.12,
+			"gameId": "IC_Assassin",
+			"classes": [
+				"BP_NPC_IC_Assassin"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Wicked Strikes",
+					"ccOnly": true,
+					"channel": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Coldheart Poison",
+					"school": "Shadow"
+				}
+			],
+			"icon": "/icons/enemies/ic-assassin.webp"
+		},
+		{
+			"id": "fk-elfcleric",
+			"name": "Corrupter",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.256,
+			"gameId": "FK_ElfCleric",
+			"classes": [
+				"BP_NPC_FK_Elf_Cleric"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Drain Life",
+					"interruptible": true,
+					"channel": true
+				},
+				{
+					"name": "Ice Bolt",
+					"interruptible": true,
+					"school": "Frost"
+				},
+				{
+					"name": "Freezing Blood",
+					"school": "Frost"
+				}
+			],
+			"stunImmune": true,
+			"icon": "/icons/enemies/fk-elfcleric.webp"
+		},
+		{
+			"id": "fk-elfillusionist",
+			"name": "Deceitful Scholar",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.531,
+			"gameId": "FK_ElfIllusionist",
+			"classes": [
+				"BP_NPC_FK_Elf_Illusionist"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Rune of Detonation",
+					"interruptible": true,
+					"channel": true,
+					"school": "Arcane"
+				},
+				{
+					"name": "Arcane Strike",
+					"interruptible": true,
+					"school": "Arcane"
+				},
+				{
+					"name": "Volatile Orb",
+					"school": "Arcane"
+				}
+			],
+			"icon": "/icons/enemies/fk-elfillusionist.webp"
+		},
+		{
+			"id": "ic-healer",
+			"name": "Eldrin Chronomancer",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 4.169,
+			"gameId": "IC_Healer",
+			"classes": [
+				"BP_NPC_IC_Healer"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Temporal Manipulation",
+					"interruptible": true,
+					"channel": true,
+					"school": "Arcane"
+				},
+				{
+					"name": "Decripify",
+					"ccOnly": true,
+					"channel": true
+				},
+				{
+					"name": "Erosion of Time"
+				}
+			],
+			"icon": "/icons/enemies/ic-healer.webp"
+		},
+		{
+			"id": "fk-elfgoon",
+			"name": "Eldrin Recruit",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.828,
+			"gameId": "FK_ElfGoon",
+			"classes": [
+				"BP_NPC_FK_Elf_Goon"
+			],
+			"icon": "/icons/enemies/fk-elfgoon.webp"
+		},
+		{
+			"id": "fk-elfguard",
+			"name": "Eldrin Sentinel",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 3.653,
+			"gameId": "FK_ElfGuard",
+			"classes": [
+				"BP_NPC_FK_Elf_Guard"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Shattering Barrier",
+					"interruptible": true,
+					"school": "Frost"
+				}
+			],
+			"icon": "/icons/enemies/fk-elfguard.webp"
+		},
+		{
+			"id": "ic-glacialsprite",
+			"name": "Frozen Remnant",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.026,
+			"gameId": "IC_GlacialSprite",
+			"classes": [
+				"BP_NPC_IC_GlacialSprite"
+			],
+			"abilities": [
+				{
+					"name": "Freezing Melt"
+				}
+			],
+			"icon": "/icons/enemies/ic-glacialsprite.webp"
+		},
+		{
+			"id": "ic-greatericeelemental",
+			"name": "Greater Ice Elemental",
+			"score": 8,
+			"type": "trash",
+			"healthMultiplier": 5.819,
+			"gameId": "IC_GreaterIceElemental",
+			"classes": [
+				"BP_NPC_IC_GreaterIceElemental"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Avalanche"
+				},
+				{
+					"name": "Frozen Stomp",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/ic-greatericeelemental.webp"
+		},
+		{
+			"id": "fk-iceshardling",
+			"name": "Ice Shardling",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 0.688,
+			"gameId": "FK_IceShardling",
+			"classes": [
+				"BP_NPC_FK_Elf_Shardling"
+			],
+			"abilities": [
+				{
+					"name": "Shardling Explosion"
+				}
+			],
+			"icon": "/icons/enemies/fk-iceshardling.webp"
+		},
+		{
+			"id": "fk-icegolem",
+			"name": "Spellbound Golem",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.182,
+			"gameId": "FK_IceGolem",
+			"classes": [
+				"BP_NPC_FK_IceGolem"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Ice Spike",
+					"ccOnly": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Shatter"
+				}
+			],
+			"icon": "/icons/enemies/fk-icegolem.webp"
+		},
+		{
+			"id": "fk-elfranger",
+			"name": "Tundra Stalker",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 2.573,
+			"gameId": "FK_ElfRanger",
+			"classes": [
+				"BP_NPC_FK_Elf_Ranger"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Rapid Fire",
+					"ccOnly": true,
+					"channel": true,
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/fk-elfranger.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "cithrels-fall-44",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.5324,
+			"y": 0.4286,
+			"pack": 23
+		},
+		{
+			"id": "cithrels-fall-48",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.532,
+			"y": 0.4524,
+			"pack": 26
+		},
+		{
+			"id": "cithrels-fall-85",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.4008,
+			"y": 0.6841,
+			"pack": 48
+		},
+		{
+			"id": "cithrels-fall-137",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.5619,
+			"y": 0.2092,
+			"pack": 1
+		},
+		{
+			"id": "cithrels-fall-138",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5362,
+			"y": 0.2962,
+			"pack": 2,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-139",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5469,
+			"y": 0.3081,
+			"pack": 2,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-140",
+			"enemyId": "fk-elfillusionist",
+			"floor": "f1",
+			"x": 0.5412,
+			"y": 0.2932,
+			"pack": 2,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-141",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.5387,
+			"y": 0.2923,
+			"pack": 2,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-142",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.5472,
+			"y": 0.3013,
+			"pack": 2,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-143",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.5104,
+			"y": 0.2996,
+			"pack": 3,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-144",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.5006,
+			"y": 0.3085,
+			"pack": 4,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-145",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4715,
+			"y": 0.3136,
+			"pack": 5
+		},
+		{
+			"id": "cithrels-fall-146",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4756,
+			"y": 0.3252,
+			"pack": 5
+		},
+		{
+			"id": "cithrels-fall-147",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.4767,
+			"y": 0.3209,
+			"pack": 5
+		},
+		{
+			"id": "cithrels-fall-148",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.4732,
+			"y": 0.3117,
+			"pack": 5
+		},
+		{
+			"id": "cithrels-fall-149",
+			"enemyId": "ic-assassin",
+			"floor": "f1",
+			"x": 0.4767,
+			"y": 0.3147,
+			"pack": 5
+		},
+		{
+			"id": "cithrels-fall-150",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4988,
+			"y": 0.3458,
+			"pack": 6,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-151",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5009,
+			"y": 0.3329,
+			"pack": 6,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-152",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.4616,
+			"y": 0.337,
+			"pack": 7
+		},
+		{
+			"id": "cithrels-fall-153",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.4617,
+			"y": 0.3332,
+			"pack": 7
+		},
+		{
+			"id": "cithrels-fall-154",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.5578,
+			"y": 0.3374,
+			"pack": 8,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-155",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.5607,
+			"y": 0.3454,
+			"pack": 8,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-156",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5107,
+			"y": 0.3398,
+			"pack": 9,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-157",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5083,
+			"y": 0.3478,
+			"pack": 9,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-158",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.3424,
+			"y": 0.3522,
+			"pack": 10
+		},
+		{
+			"id": "cithrels-fall-159",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.3405,
+			"y": 0.3667,
+			"pack": 10
+		},
+		{
+			"id": "cithrels-fall-160",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.3401,
+			"y": 0.3628,
+			"pack": 10
+		},
+		{
+			"id": "cithrels-fall-161",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.3411,
+			"y": 0.3549,
+			"pack": 10
+		},
+		{
+			"id": "cithrels-fall-162",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5409,
+			"y": 0.3654,
+			"pack": 11,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-163",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5398,
+			"y": 0.3763,
+			"pack": 11,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-164",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5469,
+			"y": 0.3819,
+			"pack": 11,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-165",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5503,
+			"y": 0.3688,
+			"pack": 11,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-166",
+			"enemyId": "fk-elfcleric",
+			"floor": "f1",
+			"x": 0.4479,
+			"y": 0.3736,
+			"pack": 12
+		},
+		{
+			"id": "cithrels-fall-167",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.4496,
+			"y": 0.3783,
+			"pack": 12
+		},
+		{
+			"id": "cithrels-fall-168",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.4496,
+			"y": 0.3691,
+			"pack": 12
+		},
+		{
+			"id": "cithrels-fall-169",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4505,
+			"y": 0.3662,
+			"pack": 12
+		},
+		{
+			"id": "cithrels-fall-170",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4505,
+			"y": 0.38,
+			"pack": 12
+		},
+		{
+			"id": "cithrels-fall-171",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.367,
+			"y": 0.3803,
+			"pack": 13
+		},
+		{
+			"id": "cithrels-fall-172",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.3682,
+			"y": 0.3669,
+			"pack": 13
+		},
+		{
+			"id": "cithrels-fall-173",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.3759,
+			"y": 0.3833,
+			"pack": 14
+		},
+		{
+			"id": "cithrels-fall-174",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.3776,
+			"y": 0.3723,
+			"pack": 14
+		},
+		{
+			"id": "cithrels-fall-175",
+			"enemyId": "fk-elfcleric",
+			"floor": "f1",
+			"x": 0.5708,
+			"y": 0.3817,
+			"pack": 15
+		},
+		{
+			"id": "cithrels-fall-176",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.5738,
+			"y": 0.3828,
+			"pack": 15
+		},
+		{
+			"id": "cithrels-fall-177",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.5686,
+			"y": 0.3875,
+			"pack": 15
+		},
+		{
+			"id": "cithrels-fall-178",
+			"enemyId": "fk-elfcleric",
+			"floor": "f1",
+			"x": 0.3921,
+			"y": 0.3843,
+			"pack": 16
+		},
+		{
+			"id": "cithrels-fall-179",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.3901,
+			"y": 0.3833,
+			"pack": 16
+		},
+		{
+			"id": "cithrels-fall-180",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4331,
+			"y": 0.4054,
+			"pack": 17
+		},
+		{
+			"id": "cithrels-fall-181",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.434,
+			"y": 0.3928,
+			"pack": 17
+		},
+		{
+			"id": "cithrels-fall-182",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.4363,
+			"y": 0.4006,
+			"pack": 17
+		},
+		{
+			"id": "cithrels-fall-183",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.4868,
+			"y": 0.401,
+			"pack": 18
+		},
+		{
+			"id": "cithrels-fall-184",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.4824,
+			"y": 0.4155,
+			"pack": 18
+		},
+		{
+			"id": "cithrels-fall-185",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4842,
+			"y": 0.3992,
+			"pack": 18
+		},
+		{
+			"id": "cithrels-fall-186",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4808,
+			"y": 0.4139,
+			"pack": 18
+		},
+		{
+			"id": "cithrels-fall-187",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4673,
+			"y": 0.4044,
+			"pack": 19
+		},
+		{
+			"id": "cithrels-fall-188",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4631,
+			"y": 0.3993,
+			"pack": 19
+		},
+		{
+			"id": "cithrels-fall-189",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4657,
+			"y": 0.401,
+			"pack": 19
+		},
+		{
+			"id": "cithrels-fall-190",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.464,
+			"y": 0.4064,
+			"pack": 19
+		},
+		{
+			"id": "cithrels-fall-191",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4667,
+			"y": 0.4056,
+			"pack": 19
+		},
+		{
+			"id": "cithrels-fall-192",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4628,
+			"y": 0.4035,
+			"pack": 19
+		},
+		{
+			"id": "cithrels-fall-193",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5156,
+			"y": 0.408,
+			"pack": 20
+		},
+		{
+			"id": "cithrels-fall-194",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5188,
+			"y": 0.406,
+			"pack": 20
+		},
+		{
+			"id": "cithrels-fall-195",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5146,
+			"y": 0.4011,
+			"pack": 20
+		},
+		{
+			"id": "cithrels-fall-196",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5174,
+			"y": 0.4074,
+			"pack": 20
+		},
+		{
+			"id": "cithrels-fall-197",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5148,
+			"y": 0.405,
+			"pack": 20
+		},
+		{
+			"id": "cithrels-fall-198",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.411,
+			"y": 0.4264,
+			"pack": 21
+		},
+		{
+			"id": "cithrels-fall-199",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.4083,
+			"y": 0.4209,
+			"pack": 21
+		},
+		{
+			"id": "cithrels-fall-200",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.5986,
+			"y": 0.4242,
+			"pack": 22
+		},
+		{
+			"id": "cithrels-fall-201",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5966,
+			"y": 0.4267,
+			"pack": 22
+		},
+		{
+			"id": "cithrels-fall-202",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5946,
+			"y": 0.4292,
+			"pack": 22
+		},
+		{
+			"id": "cithrels-fall-203",
+			"enemyId": "fk-elfillusionist",
+			"floor": "f1",
+			"x": 0.5105,
+			"y": 0.4308,
+			"pack": 24
+		},
+		{
+			"id": "cithrels-fall-204",
+			"enemyId": "ic-greatericeelemental",
+			"floor": "f1",
+			"x": 0.5089,
+			"y": 0.4414,
+			"pack": 24
+		},
+		{
+			"id": "cithrels-fall-205",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.4304,
+			"y": 0.4495,
+			"pack": 25
+		},
+		{
+			"id": "cithrels-fall-206",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.4269,
+			"y": 0.452,
+			"pack": 25
+		},
+		{
+			"id": "cithrels-fall-207",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6336,
+			"y": 0.4627,
+			"pack": 27
+		},
+		{
+			"id": "cithrels-fall-208",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6331,
+			"y": 0.453,
+			"pack": 27
+		},
+		{
+			"id": "cithrels-fall-209",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6387,
+			"y": 0.4592,
+			"pack": 27
+		},
+		{
+			"id": "cithrels-fall-210",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.5741,
+			"y": 0.4618,
+			"pack": 28
+		},
+		{
+			"id": "cithrels-fall-211",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.5698,
+			"y": 0.4618,
+			"pack": 28
+		},
+		{
+			"id": "cithrels-fall-212",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5704,
+			"y": 0.4542,
+			"pack": 28
+		},
+		{
+			"id": "cithrels-fall-213",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5729,
+			"y": 0.4574,
+			"pack": 28
+		},
+		{
+			"id": "cithrels-fall-214",
+			"enemyId": "ic-assassin",
+			"floor": "f1",
+			"x": 0.5678,
+			"y": 0.4547,
+			"pack": 28
+		},
+		{
+			"id": "cithrels-fall-215",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5933,
+			"y": 0.4822,
+			"pack": 29
+		},
+		{
+			"id": "cithrels-fall-216",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.5965,
+			"y": 0.4735,
+			"pack": 29
+		},
+		{
+			"id": "cithrels-fall-217",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.591,
+			"y": 0.4732,
+			"pack": 29
+		},
+		{
+			"id": "cithrels-fall-218",
+			"enemyId": "fk-elfillusionist",
+			"floor": "f1",
+			"x": 0.5915,
+			"y": 0.466,
+			"pack": 29
+		},
+		{
+			"id": "cithrels-fall-219",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.594,
+			"y": 0.4636,
+			"pack": 29
+		},
+		{
+			"id": "cithrels-fall-220",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.5937,
+			"y": 0.4741,
+			"pack": 29
+		},
+		{
+			"id": "cithrels-fall-221",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5967,
+			"y": 0.4769,
+			"pack": 29
+		},
+		{
+			"id": "cithrels-fall-222",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5947,
+			"y": 0.483,
+			"pack": 29
+		},
+		{
+			"id": "cithrels-fall-223",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.491,
+			"y": 0.4649,
+			"pack": 30
+		},
+		{
+			"id": "cithrels-fall-224",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.5216,
+			"y": 0.4777,
+			"pack": 31
+		},
+		{
+			"id": "cithrels-fall-225",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6264,
+			"y": 0.4939,
+			"pack": 32
+		},
+		{
+			"id": "cithrels-fall-226",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6302,
+			"y": 0.5001,
+			"pack": 32
+		},
+		{
+			"id": "cithrels-fall-227",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.629,
+			"y": 0.4963,
+			"pack": 32
+		},
+		{
+			"id": "cithrels-fall-228",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6081,
+			"y": 0.5241,
+			"pack": 33
+		},
+		{
+			"id": "cithrels-fall-229",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6093,
+			"y": 0.5102,
+			"pack": 33
+		},
+		{
+			"id": "cithrels-fall-230",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.6078,
+			"y": 0.5139,
+			"pack": 33
+		},
+		{
+			"id": "cithrels-fall-231",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.6533,
+			"y": 0.527,
+			"pack": 34
+		},
+		{
+			"id": "cithrels-fall-232",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.6539,
+			"y": 0.5179,
+			"pack": 34
+		},
+		{
+			"id": "cithrels-fall-233",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.6516,
+			"y": 0.5147,
+			"pack": 34
+		},
+		{
+			"id": "cithrels-fall-234",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.6516,
+			"y": 0.5302,
+			"pack": 34
+		},
+		{
+			"id": "cithrels-fall-235",
+			"enemyId": "fk-elfillusionist",
+			"floor": "f1",
+			"x": 0.6528,
+			"y": 0.5226,
+			"pack": 34
+		},
+		{
+			"id": "cithrels-fall-236",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6505,
+			"y": 0.5134,
+			"pack": 34
+		},
+		{
+			"id": "cithrels-fall-237",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6504,
+			"y": 0.5312,
+			"pack": 34
+		},
+		{
+			"id": "cithrels-fall-238",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.6171,
+			"y": 0.5206,
+			"pack": 35
+		},
+		{
+			"id": "cithrels-fall-239",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.6199,
+			"y": 0.523,
+			"pack": 35
+		},
+		{
+			"id": "cithrels-fall-240",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.6184,
+			"y": 0.5246,
+			"pack": 35
+		},
+		{
+			"id": "cithrels-fall-241",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.6198,
+			"y": 0.5168,
+			"pack": 35
+		},
+		{
+			"id": "cithrels-fall-242",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5901,
+			"y": 0.5302,
+			"pack": 36
+		},
+		{
+			"id": "cithrels-fall-243",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5867,
+			"y": 0.54,
+			"pack": 36
+		},
+		{
+			"id": "cithrels-fall-244",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5877,
+			"y": 0.5332,
+			"pack": 36
+		},
+		{
+			"id": "cithrels-fall-245",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6209,
+			"y": 0.545,
+			"pack": 37
+		},
+		{
+			"id": "cithrels-fall-246",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6265,
+			"y": 0.5395,
+			"pack": 37
+		},
+		{
+			"id": "cithrels-fall-247",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.6256,
+			"y": 0.5447,
+			"pack": 37
+		},
+		{
+			"id": "cithrels-fall-248",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4545,
+			"y": 0.5643,
+			"pack": 38
+		},
+		{
+			"id": "cithrels-fall-249",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.456,
+			"y": 0.5661,
+			"pack": 38
+		},
+		{
+			"id": "cithrels-fall-250",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.6004,
+			"y": 0.5781,
+			"pack": 39
+		},
+		{
+			"id": "cithrels-fall-251",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.597,
+			"y": 0.5706,
+			"pack": 39
+		},
+		{
+			"id": "cithrels-fall-252",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.6003,
+			"y": 0.5708,
+			"pack": 39
+		},
+		{
+			"id": "cithrels-fall-253",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6018,
+			"y": 0.5785,
+			"pack": 39
+		},
+		{
+			"id": "cithrels-fall-254",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5972,
+			"y": 0.5673,
+			"pack": 39
+		},
+		{
+			"id": "cithrels-fall-255",
+			"enemyId": "ic-healer",
+			"floor": "f1",
+			"x": 0.5974,
+			"y": 0.577,
+			"pack": 39
+		},
+		{
+			"id": "cithrels-fall-256",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4453,
+			"y": 0.5721,
+			"pack": 40,
+			"promoted": true
+		},
+		{
+			"id": "cithrels-fall-257",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.4446,
+			"y": 0.5762,
+			"pack": 40
+		},
+		{
+			"id": "cithrels-fall-258",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.6194,
+			"y": 0.5917,
+			"pack": 41
+		},
+		{
+			"id": "cithrels-fall-259",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.6128,
+			"y": 0.5952,
+			"pack": 41
+		},
+		{
+			"id": "cithrels-fall-260",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.6157,
+			"y": 0.5994,
+			"pack": 41
+		},
+		{
+			"id": "cithrels-fall-261",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.6197,
+			"y": 0.6003,
+			"pack": 41
+		},
+		{
+			"id": "cithrels-fall-262",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6202,
+			"y": 0.5887,
+			"pack": 41
+		},
+		{
+			"id": "cithrels-fall-263",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6129,
+			"y": 0.5919,
+			"pack": 41
+		},
+		{
+			"id": "cithrels-fall-264",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4838,
+			"y": 0.6018,
+			"pack": 42
+		},
+		{
+			"id": "cithrels-fall-265",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4897,
+			"y": 0.5964,
+			"pack": 42
+		},
+		{
+			"id": "cithrels-fall-266",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.4826,
+			"y": 0.6025,
+			"pack": 42
+		},
+		{
+			"id": "cithrels-fall-267",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.4913,
+			"y": 0.5991,
+			"pack": 42
+		},
+		{
+			"id": "cithrels-fall-268",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.492,
+			"y": 0.6052,
+			"pack": 42
+		},
+		{
+			"id": "cithrels-fall-269",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4832,
+			"y": 0.6089,
+			"pack": 42
+		},
+		{
+			"id": "cithrels-fall-270",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4846,
+			"y": 0.6044,
+			"pack": 42
+		},
+		{
+			"id": "cithrels-fall-271",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4898,
+			"y": 0.6037,
+			"pack": 42
+		},
+		{
+			"id": "cithrels-fall-272",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4888,
+			"y": 0.5991,
+			"pack": 42
+		},
+		{
+			"id": "cithrels-fall-273",
+			"enemyId": "ic-healer",
+			"floor": "f1",
+			"x": 0.485,
+			"y": 0.5908,
+			"pack": 42
+		},
+		{
+			"id": "cithrels-fall-274",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4355,
+			"y": 0.5986,
+			"pack": 43
+		},
+		{
+			"id": "cithrels-fall-275",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4369,
+			"y": 0.5966,
+			"pack": 43
+		},
+		{
+			"id": "cithrels-fall-276",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.4649,
+			"y": 0.6116,
+			"pack": 44
+		},
+		{
+			"id": "cithrels-fall-277",
+			"enemyId": "ic-assassin",
+			"floor": "f1",
+			"x": 0.4686,
+			"y": 0.6122,
+			"pack": 44
+		},
+		{
+			"id": "cithrels-fall-278",
+			"enemyId": "fk-elfduelist",
+			"floor": "f1",
+			"x": 0.4549,
+			"y": 0.6285,
+			"pack": 45
+		},
+		{
+			"id": "cithrels-fall-279",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4562,
+			"y": 0.6329,
+			"pack": 45
+		},
+		{
+			"id": "cithrels-fall-280",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4529,
+			"y": 0.6313,
+			"pack": 45
+		},
+		{
+			"id": "cithrels-fall-281",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.5171,
+			"y": 0.641,
+			"pack": 46
+		},
+		{
+			"id": "cithrels-fall-282",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5147,
+			"y": 0.6415,
+			"pack": 46
+		},
+		{
+			"id": "cithrels-fall-283",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5122,
+			"y": 0.642,
+			"pack": 46
+		},
+		{
+			"id": "cithrels-fall-284",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5097,
+			"y": 0.6425,
+			"pack": 46
+		},
+		{
+			"id": "cithrels-fall-285",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4869,
+			"y": 0.6566,
+			"pack": 47
+		},
+		{
+			"id": "cithrels-fall-286",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4854,
+			"y": 0.6587,
+			"pack": 47
+		},
+		{
+			"id": "cithrels-fall-287",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.4885,
+			"y": 0.6545,
+			"pack": 47
+		},
+		{
+			"id": "cithrels-fall-288",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.4838,
+			"y": 0.6608,
+			"pack": 47
+		},
+		{
+			"id": "cithrels-fall-289",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.4342,
+			"y": 0.7341,
+			"pack": 49
+		},
+		{
+			"id": "cithrels-fall-290",
+			"enemyId": "fk-elfguard",
+			"floor": "f1",
+			"x": 0.4416,
+			"y": 0.7343,
+			"pack": 49
+		},
+		{
+			"id": "cithrels-fall-291",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.4355,
+			"y": 0.7313,
+			"pack": 49
+		},
+		{
+			"id": "cithrels-fall-292",
+			"enemyId": "fk-elfranger",
+			"floor": "f1",
+			"x": 0.44,
+			"y": 0.7306,
+			"pack": 49
+		},
+		{
+			"id": "cithrels-fall-293",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4351,
+			"y": 0.738,
+			"pack": 49
+		},
+		{
+			"id": "cithrels-fall-294",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4417,
+			"y": 0.7403,
+			"pack": 49
+		},
+		{
+			"id": "cithrels-fall-295",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4394,
+			"y": 0.7352,
+			"pack": 49
+		},
+		{
+			"id": "cithrels-fall-296",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.4451,
+			"y": 0.7713,
+			"pack": 50
+		},
+		{
+			"id": "cithrels-fall-297",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4466,
+			"y": 0.7696,
+			"pack": 50
+		},
+		{
+			"id": "cithrels-fall-298",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4475,
+			"y": 0.7729,
+			"pack": 50
+		},
+		{
+			"id": "cithrels-fall-299",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4436,
+			"y": 0.7729,
+			"pack": 50
+		},
+		{
+			"id": "cithrels-fall-300",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4445,
+			"y": 0.7763,
+			"pack": 50
+		},
+		{
+			"id": "cithrels-fall-301",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4823,
+			"y": 0.8233,
+			"pack": 51
+		},
+		{
+			"id": "cithrels-fall-302",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4837,
+			"y": 0.8285,
+			"pack": 51
+		},
+		{
+			"id": "cithrels-fall-303",
+			"enemyId": "fk-elfgoon",
+			"floor": "f1",
+			"x": 0.4844,
+			"y": 0.8234,
+			"pack": 51
+		},
+		{
+			"id": "cithrels-fall-304",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.4818,
+			"y": 0.8274,
+			"pack": 51
+		}
+	],
+	"minibosses": [
+		{
+			"affix": "eira",
+			"floor": "f1",
+			"x": 0.4372,
+			"y": 0.4976,
+			"radius": 4000,
+			"replaces": [
+				"cithrels-fall-205",
+				"cithrels-fall-206",
+				"cithrels-fall-248"
+			]
+		},
+		{
+			"affix": "ghorn",
+			"floor": "f1",
+			"x": 0.6196,
+			"y": 0.5151,
+			"radius": 2200,
+			"replaces": [
+				"cithrels-fall-225",
+				"cithrels-fall-226",
+				"cithrels-fall-227",
+				"cithrels-fall-228",
+				"cithrels-fall-229",
+				"cithrels-fall-230",
+				"cithrels-fall-238",
+				"cithrels-fall-239",
+				"cithrels-fall-240",
+				"cithrels-fall-241",
+				"cithrels-fall-245",
+				"cithrels-fall-246",
+				"cithrels-fall-247"
+			]
+		}
+	],
+	"start": {
+		"floor": "f1",
+		"x": 0.568,
+		"y": 0.9079
+	},
+	"checkpoints": [
+		{
+			"floor": "f1",
+			"x": 0.4665,
+			"y": 0.6158
+		},
+		{
+			"floor": "f1",
+			"x": 0.4741,
+			"y": 0.3191
+		},
+		{
+			"floor": "f1",
+			"x": 0.4871,
+			"y": 0.5941
+		},
+		{
+			"floor": "f1",
+			"x": 0.5716,
+			"y": 0.3859
+		}
+	],
+	"patrols": [
+		{
+			"id": "cithrels-fall-p1",
+			"floor": "f1",
+			"points": [
+				[
+					0.4697,
+					0.3299
+				],
+				[
+					0.4269,
+					0.3613
+				]
+			],
+			"spawns": [
+				"cithrels-fall-152",
+				"cithrels-fall-153"
+			]
+		},
+		{
+			"id": "cithrels-fall-p2",
+			"floor": "f1",
+			"points": [
+				[
+					0.4003,
+					0.3872
+				],
+				[
+					0.3513,
+					0.3643
+				]
+			],
+			"spawns": [
+				"cithrels-fall-178",
+				"cithrels-fall-179"
+			]
+		},
+		{
+			"id": "cithrels-fall-p3",
+			"floor": "f1",
+			"points": [
+				[
+					0.4456,
+					0.5446
+				],
+				[
+					0.4285,
+					0.4499
+				]
+			],
+			"spawns": [
+				"cithrels-fall-205",
+				"cithrels-fall-206"
+			]
+		},
+		{
+			"id": "cithrels-fall-p4",
+			"floor": "f1",
+			"points": [
+				[
+					0.4385,
+					0.7352
+				],
+				[
+					0.4394,
+					0.6999
+				],
+				[
+					0.455,
+					0.6275
+				]
+			],
+			"spawns": [
+				"cithrels-fall-278",
+				"cithrels-fall-279",
+				"cithrels-fall-280"
+			]
+		},
+		{
+			"id": "cithrels-fall-p5",
+			"floor": "f1",
+			"points": [
+				[
+					0.5089,
+					0.6427
+				],
+				[
+					0.528,
+					0.6379
+				],
+				[
+					0.5465,
+					0.6272
+				],
+				[
+					0.5695,
+					0.6022
+				],
+				[
+					0.5933,
+					0.5826
+				]
+			],
+			"spawns": [
+				"cithrels-fall-281",
+				"cithrels-fall-282",
+				"cithrels-fall-283",
+				"cithrels-fall-284"
+			]
+		},
+		{
+			"id": "cithrels-fall-p6",
+			"floor": "f1",
+			"points": [
+				[
+					0.4556,
+					0.7288
+				],
+				[
+					0.4891,
+					0.6534
+				]
+			],
+			"spawns": [
+				"cithrels-fall-285",
+				"cithrels-fall-286",
+				"cithrels-fall-287",
+				"cithrels-fall-288"
+			]
+		},
+		{
+			"id": "cithrels-fall-p7",
+			"floor": "f1",
+			"points": [
+				[
+					0.4816,
+					0.8457
+				],
+				[
+					0.4447,
+					0.7699
+				]
+			],
+			"spawns": [
+				"cithrels-fall-296",
+				"cithrels-fall-297",
+				"cithrels-fall-298",
+				"cithrels-fall-299",
+				"cithrels-fall-300"
+			]
+		}
+	],
+	"art": {
+		"codex": "/art/codex/cithrels-fall.webp",
+		"banner": "/art/banner/cithrels-fall.webp"
+	}
+}

@@ -1,0 +1,1771 @@
+{
+	"id": "scryers-peak",
+	"slug": "scryers-peak",
+	"name": "Scryer's Peak",
+	"internalName": "SnowPeak",
+	"kind": "adventure",
+	"requiredScore": 180,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Map",
+			"image": "/maps/scryers-peak/f1.webp",
+			"texture": "T_SP_Map_global_01",
+			"worldSize": [
+				90000,
+				45000
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "vv-coldbrinefiend",
+			"name": "Coldbrine Fiend",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.523,
+			"gameId": "VV_ColdbrineFiend",
+			"classes": [
+				"BP_NPC_VV_ColdbrineFiend"
+			],
+			"abilities": [
+				{
+					"name": "Brine Bolt",
+					"interruptible": true,
+					"school": "Frost"
+				},
+				{
+					"name": "Icy Annihilation",
+					"interruptible": true,
+					"school": "Frost"
+				}
+			],
+			"icon": "/icons/enemies/vv-coldbrinefiend.webp"
+		},
+		{
+			"id": "sp-frostwolf",
+			"name": "Dire Wolf",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 2.601,
+			"gameId": "SP_FrostWolf",
+			"classes": [
+				"BP_NPC_SP_FrostWolf"
+			],
+			"abilities": [
+				{
+					"name": "Hunt Prey"
+				},
+				{
+					"name": "Ferocious Bite"
+				}
+			],
+			"icon": "/icons/enemies/sp-frostwolf.webp"
+		},
+		{
+			"id": "ic-glacialsprite",
+			"name": "Frozen Remnant",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.026,
+			"gameId": "IC_GlacialSprite",
+			"classes": [
+				"BP_NPC_IC_GlacialSprite"
+			],
+			"abilities": [
+				{
+					"name": "Freezing Melt"
+				}
+			],
+			"icon": "/icons/enemies/ic-glacialsprite.webp"
+		},
+		{
+			"id": "sp-polarbear",
+			"name": "Glacial Bear",
+			"score": 7,
+			"type": "trash",
+			"healthMultiplier": 4.623,
+			"gameId": "SP_PolarBear",
+			"classes": [
+				"BP_NPC_SP_PolarBear"
+			],
+			"icon": "/icons/enemies/sp-polarbear.webp"
+		},
+		{
+			"id": "ic-greatericeelemental",
+			"name": "Greater Ice Elemental",
+			"score": 8,
+			"type": "trash",
+			"healthMultiplier": 5.819,
+			"gameId": "IC_GreaterIceElemental",
+			"classes": [
+				"BP_NPC_IC_GreaterIceElemental"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Avalanche"
+				},
+				{
+					"name": "Frozen Stomp",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/ic-greatericeelemental.webp"
+		},
+		{
+			"id": "mc-bloodgrunt",
+			"name": "Heskyr Brood",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.725,
+			"gameId": "MC_BloodGrunt",
+			"classes": [
+				"BP_NPC_MC_BloodGrunt"
+			],
+			"icon": "/icons/enemies/mc-bloodgrunt.webp"
+		},
+		{
+			"id": "mc-bloodcaster",
+			"name": "Heskyr Magus",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 4.134,
+			"gameId": "MC_BloodCaster",
+			"classes": [
+				"BP_NPC_MC_BloodCaster"
+			],
+			"icon": "/icons/enemies/mc-bloodcaster.webp"
+		},
+		{
+			"id": "mc-bloodguard",
+			"name": "Heskyr Zealot",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 2.953,
+			"gameId": "MC_BloodGuard",
+			"classes": [
+				"BP_NPC_MC_BloodGuard"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/mc-bloodguard.webp"
+		},
+		{
+			"id": "fk-iceshardling",
+			"name": "Ice Shardling",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 0.688,
+			"gameId": "FK_IceShardling",
+			"classes": [
+				"BP_NPC_FK_Elf_Shardling",
+				"BP_NPC_IC_Elf_Shardling"
+			],
+			"abilities": [
+				{
+					"name": "Shardling Explosion"
+				}
+			],
+			"icon": "/icons/enemies/fk-iceshardling.webp"
+		},
+		{
+			"id": "st-sanguinecrusher",
+			"name": "Sanguine Crusher",
+			"score": 6,
+			"type": "trash",
+			"healthMultiplier": 5.54,
+			"gameId": "ST_SanguineCrusher",
+			"classes": [
+				"BP_NPC_ST_SanguineCrusher"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Pulverize",
+					"ccOnly": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Sunder Earth",
+					"ccOnly": true,
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/st-sanguinecrusher.webp"
+		},
+		{
+			"id": "mc-bloodsummoner",
+			"name": "Sanguine Disciple",
+			"score": 6,
+			"type": "trash",
+			"healthMultiplier": 5.534,
+			"gameId": "MC_BloodSummoner",
+			"classes": [
+				"BP_NPC_MC_BloodSummoner"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/mc-bloodsummoner.webp"
+		},
+		{
+			"id": "fk-icegolem",
+			"name": "Spellbound Golem",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.182,
+			"gameId": "FK_IceGolem",
+			"classes": [
+				"BP_NPC_FK_IceGolem"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Ice Spike",
+					"ccOnly": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Shatter"
+				}
+			],
+			"icon": "/icons/enemies/fk-icegolem.webp"
+		},
+		{
+			"id": "mc-bloodhound",
+			"name": "Stalking Grim",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 1.961,
+			"gameId": "MC_BloodHound",
+			"classes": [
+				"BP_NPC_MC_BloodHound"
+			],
+			"icon": "/icons/enemies/mc-bloodhound.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "scryers-peak-1",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.707,
+			"y": 0.0788,
+			"pack": 1
+		},
+		{
+			"id": "scryers-peak-2",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.7123,
+			"y": 0.0643,
+			"pack": 1
+		},
+		{
+			"id": "scryers-peak-3",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.7089,
+			"y": 0.0699,
+			"pack": 1
+		},
+		{
+			"id": "scryers-peak-4",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.7338,
+			"y": 0.07,
+			"pack": 3
+		},
+		{
+			"id": "scryers-peak-5",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.7391,
+			"y": 0.075,
+			"pack": 4
+		},
+		{
+			"id": "scryers-peak-6",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.7287,
+			"y": 0.0692,
+			"pack": 2
+		},
+		{
+			"id": "scryers-peak-7",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.6337,
+			"y": 0.1957,
+			"pack": 5
+		},
+		{
+			"id": "scryers-peak-8",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.626,
+			"y": 0.2111,
+			"pack": 5
+		},
+		{
+			"id": "scryers-peak-9",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.6358,
+			"y": 0.2106,
+			"pack": 5
+		},
+		{
+			"id": "scryers-peak-10",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.6433,
+			"y": 0.2028,
+			"pack": 5
+		},
+		{
+			"id": "scryers-peak-11",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6967,
+			"y": 0.2024,
+			"pack": 6
+		},
+		{
+			"id": "scryers-peak-12",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6946,
+			"y": 0.2001,
+			"pack": 6
+		},
+		{
+			"id": "scryers-peak-13",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.6946,
+			"y": 0.2042,
+			"pack": 6
+		},
+		{
+			"id": "scryers-peak-14",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.6984,
+			"y": 0.2094,
+			"pack": 6
+		},
+		{
+			"id": "scryers-peak-15",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.6937,
+			"y": 0.2125,
+			"pack": 6
+		},
+		{
+			"id": "scryers-peak-16",
+			"enemyId": "vv-coldbrinefiend",
+			"floor": "f1",
+			"x": 0.6992,
+			"y": 0.201,
+			"pack": 6
+		},
+		{
+			"id": "scryers-peak-17",
+			"enemyId": "vv-coldbrinefiend",
+			"floor": "f1",
+			"x": 0.69,
+			"y": 0.2097,
+			"pack": 6
+		},
+		{
+			"id": "scryers-peak-18",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5916,
+			"y": 0.2299,
+			"pack": 8
+		},
+		{
+			"id": "scryers-peak-19",
+			"enemyId": "sp-polarbear",
+			"floor": "f1",
+			"x": 0.5906,
+			"y": 0.2226,
+			"pack": 7
+		},
+		{
+			"id": "scryers-peak-20",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5797,
+			"y": 0.2324,
+			"pack": 9
+		},
+		{
+			"id": "scryers-peak-21",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.5798,
+			"y": 0.2408,
+			"pack": 9
+		},
+		{
+			"id": "scryers-peak-22",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.491,
+			"y": 0.2711,
+			"pack": 10
+		},
+		{
+			"id": "scryers-peak-23",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4947,
+			"y": 0.2651,
+			"pack": 10
+		},
+		{
+			"id": "scryers-peak-24",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4865,
+			"y": 0.2681,
+			"pack": 10
+		},
+		{
+			"id": "scryers-peak-25",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.487,
+			"y": 0.2595,
+			"pack": 10,
+			"empowered": true
+		},
+		{
+			"id": "scryers-peak-26",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4922,
+			"y": 0.2573,
+			"pack": 10
+		},
+		{
+			"id": "scryers-peak-27",
+			"enemyId": "ic-greatericeelemental",
+			"floor": "f1",
+			"x": 0.588,
+			"y": 0.2606,
+			"pack": 11
+		},
+		{
+			"id": "scryers-peak-28",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5101,
+			"y": 0.2942,
+			"pack": 13
+		},
+		{
+			"id": "scryers-peak-29",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.5096,
+			"y": 0.2973,
+			"pack": 13
+		},
+		{
+			"id": "scryers-peak-30",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5139,
+			"y": 0.2922,
+			"pack": 12
+		},
+		{
+			"id": "scryers-peak-31",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4473,
+			"y": 0.3158,
+			"pack": 14
+		},
+		{
+			"id": "scryers-peak-32",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4525,
+			"y": 0.3066,
+			"pack": 14
+		},
+		{
+			"id": "scryers-peak-33",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4501,
+			"y": 0.2971,
+			"pack": 14
+		},
+		{
+			"id": "scryers-peak-34",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f1",
+			"x": 0.4442,
+			"y": 0.3043,
+			"pack": 14
+		},
+		{
+			"id": "scryers-peak-35",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4829,
+			"y": 0.3223,
+			"pack": 15
+		},
+		{
+			"id": "scryers-peak-36",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.49,
+			"y": 0.3292,
+			"pack": 15
+		},
+		{
+			"id": "scryers-peak-37",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4841,
+			"y": 0.3389,
+			"pack": 17
+		},
+		{
+			"id": "scryers-peak-38",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.7593,
+			"y": 0.3446,
+			"pack": 16
+		},
+		{
+			"id": "scryers-peak-39",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.7675,
+			"y": 0.3453,
+			"pack": 16
+		},
+		{
+			"id": "scryers-peak-40",
+			"enemyId": "sp-frostwolf",
+			"floor": "f1",
+			"x": 0.7677,
+			"y": 0.3383,
+			"pack": 16
+		},
+		{
+			"id": "scryers-peak-41",
+			"enemyId": "sp-frostwolf",
+			"floor": "f1",
+			"x": 0.7596,
+			"y": 0.3371,
+			"pack": 16
+		},
+		{
+			"id": "scryers-peak-42",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.7682,
+			"y": 0.4264,
+			"pack": 18
+		},
+		{
+			"id": "scryers-peak-43",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.7602,
+			"y": 0.4265,
+			"pack": 18
+		},
+		{
+			"id": "scryers-peak-44",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.7635,
+			"y": 0.4191,
+			"pack": 18,
+			"empowered": true
+		},
+		{
+			"id": "scryers-peak-45",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f1",
+			"x": 0.7645,
+			"y": 0.4058,
+			"pack": 18
+		},
+		{
+			"id": "scryers-peak-46",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5359,
+			"y": 0.4158,
+			"pack": 19
+		},
+		{
+			"id": "scryers-peak-47",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5343,
+			"y": 0.4311,
+			"pack": 19
+		},
+		{
+			"id": "scryers-peak-48",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f1",
+			"x": 0.5404,
+			"y": 0.4255,
+			"pack": 19
+		},
+		{
+			"id": "scryers-peak-49",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f1",
+			"x": 0.4913,
+			"y": 0.4508,
+			"pack": 20
+		},
+		{
+			"id": "scryers-peak-50",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4955,
+			"y": 0.4303,
+			"pack": 20
+		},
+		{
+			"id": "scryers-peak-51",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5032,
+			"y": 0.44,
+			"pack": 20
+		},
+		{
+			"id": "scryers-peak-52",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4976,
+			"y": 0.4476,
+			"pack": 20
+		},
+		{
+			"id": "scryers-peak-53",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4921,
+			"y": 0.4386,
+			"pack": 20
+		},
+		{
+			"id": "scryers-peak-54",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4917,
+			"y": 0.4308,
+			"pack": 20,
+			"empowered": true
+		},
+		{
+			"id": "scryers-peak-55",
+			"enemyId": "sp-frostwolf",
+			"floor": "f1",
+			"x": 0.707,
+			"y": 0.4485,
+			"pack": 22
+		},
+		{
+			"id": "scryers-peak-56",
+			"enemyId": "sp-frostwolf",
+			"floor": "f1",
+			"x": 0.7009,
+			"y": 0.4431,
+			"pack": 21
+		},
+		{
+			"id": "scryers-peak-57",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.8191,
+			"y": 0.4601,
+			"pack": 23,
+			"empowered": true
+		},
+		{
+			"id": "scryers-peak-58",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.8258,
+			"y": 0.4673,
+			"pack": 23
+		},
+		{
+			"id": "scryers-peak-59",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.8145,
+			"y": 0.4533,
+			"pack": 23
+		},
+		{
+			"id": "scryers-peak-60",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.8313,
+			"y": 0.4692,
+			"pack": 23
+		},
+		{
+			"id": "scryers-peak-61",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.7803,
+			"y": 0.4879,
+			"pack": 24
+		},
+		{
+			"id": "scryers-peak-62",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.7826,
+			"y": 0.4822,
+			"pack": 24
+		},
+		{
+			"id": "scryers-peak-63",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.7834,
+			"y": 0.4888,
+			"pack": 24
+		},
+		{
+			"id": "scryers-peak-64",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.7806,
+			"y": 0.4936,
+			"pack": 24
+		},
+		{
+			"id": "scryers-peak-65",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.3696,
+			"y": 0.4828,
+			"pack": 25
+		},
+		{
+			"id": "scryers-peak-66",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.3705,
+			"y": 0.4928,
+			"pack": 27
+		},
+		{
+			"id": "scryers-peak-67",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.365,
+			"y": 0.4835,
+			"pack": 25
+		},
+		{
+			"id": "scryers-peak-68",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.8061,
+			"y": 0.4881,
+			"pack": 26
+		},
+		{
+			"id": "scryers-peak-69",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.8097,
+			"y": 0.4986,
+			"pack": 26
+		},
+		{
+			"id": "scryers-peak-70",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.8062,
+			"y": 0.5013,
+			"pack": 26
+		},
+		{
+			"id": "scryers-peak-71",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.8025,
+			"y": 0.4914,
+			"pack": 26
+		},
+		{
+			"id": "scryers-peak-72",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.2542,
+			"y": 0.5111,
+			"pack": 28
+		},
+		{
+			"id": "scryers-peak-73",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.7647,
+			"y": 0.516,
+			"pack": 29
+		},
+		{
+			"id": "scryers-peak-74",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.7615,
+			"y": 0.5253,
+			"pack": 29
+		},
+		{
+			"id": "scryers-peak-75",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.7683,
+			"y": 0.5191,
+			"pack": 29
+		},
+		{
+			"id": "scryers-peak-76",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.7653,
+			"y": 0.5251,
+			"pack": 29
+		},
+		{
+			"id": "scryers-peak-77",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6748,
+			"y": 0.5163,
+			"pack": 30
+		},
+		{
+			"id": "scryers-peak-78",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6712,
+			"y": 0.5216,
+			"pack": 30
+		},
+		{
+			"id": "scryers-peak-79",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6742,
+			"y": 0.5255,
+			"pack": 30
+		},
+		{
+			"id": "scryers-peak-80",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6702,
+			"y": 0.5295,
+			"pack": 30
+		},
+		{
+			"id": "scryers-peak-81",
+			"enemyId": "ic-greatericeelemental",
+			"floor": "f1",
+			"x": 0.7029,
+			"y": 0.5178,
+			"pack": 31
+		},
+		{
+			"id": "scryers-peak-82",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.2392,
+			"y": 0.5226,
+			"pack": 32
+		},
+		{
+			"id": "scryers-peak-83",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3464,
+			"y": 0.5459,
+			"pack": 33
+		},
+		{
+			"id": "scryers-peak-84",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3465,
+			"y": 0.525,
+			"pack": 33
+		},
+		{
+			"id": "scryers-peak-85",
+			"enemyId": "st-sanguinecrusher",
+			"floor": "f1",
+			"x": 0.3445,
+			"y": 0.535,
+			"pack": 33,
+			"empowered": true
+		},
+		{
+			"id": "scryers-peak-86",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.7315,
+			"y": 0.5275,
+			"pack": 34
+		},
+		{
+			"id": "scryers-peak-87",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.7299,
+			"y": 0.5445,
+			"pack": 34
+		},
+		{
+			"id": "scryers-peak-88",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.7364,
+			"y": 0.5362,
+			"pack": 34
+		},
+		{
+			"id": "scryers-peak-89",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.736,
+			"y": 0.5251,
+			"pack": 34
+		},
+		{
+			"id": "scryers-peak-90",
+			"enemyId": "sp-polarbear",
+			"floor": "f1",
+			"x": 0.7245,
+			"y": 0.5462,
+			"pack": 34
+		},
+		{
+			"id": "scryers-peak-91",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.2515,
+			"y": 0.5493,
+			"pack": 37
+		},
+		{
+			"id": "scryers-peak-92",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.2553,
+			"y": 0.5332,
+			"pack": 35
+		},
+		{
+			"id": "scryers-peak-93",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.2531,
+			"y": 0.5595,
+			"pack": 40
+		},
+		{
+			"id": "scryers-peak-94",
+			"enemyId": "st-sanguinecrusher",
+			"floor": "f1",
+			"x": 0.3977,
+			"y": 0.5343,
+			"pack": 36
+		},
+		{
+			"id": "scryers-peak-95",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.24,
+			"y": 0.5505,
+			"pack": 38
+		},
+		{
+			"id": "scryers-peak-96",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.6834,
+			"y": 0.5524,
+			"pack": 39
+		},
+		{
+			"id": "scryers-peak-97",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.4029,
+			"y": 0.5754,
+			"pack": 41
+		},
+		{
+			"id": "scryers-peak-98",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.4014,
+			"y": 0.5864,
+			"pack": 41
+		},
+		{
+			"id": "scryers-peak-99",
+			"enemyId": "sp-polarbear",
+			"floor": "f1",
+			"x": 0.4074,
+			"y": 0.5862,
+			"pack": 41
+		},
+		{
+			"id": "scryers-peak-100",
+			"enemyId": "sp-polarbear",
+			"floor": "f1",
+			"x": 0.409,
+			"y": 0.573,
+			"pack": 41,
+			"empowered": true
+		},
+		{
+			"id": "scryers-peak-101",
+			"enemyId": "sp-frostwolf",
+			"floor": "f1",
+			"x": 0.6867,
+			"y": 0.5788,
+			"pack": 42
+		},
+		{
+			"id": "scryers-peak-102",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f1",
+			"x": 0.3814,
+			"y": 0.5852,
+			"pack": 43
+		},
+		{
+			"id": "scryers-peak-103",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3817,
+			"y": 0.5797,
+			"pack": 43
+		},
+		{
+			"id": "scryers-peak-104",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3789,
+			"y": 0.5878,
+			"pack": 43
+		},
+		{
+			"id": "scryers-peak-105",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.4241,
+			"y": 0.5831,
+			"pack": 44
+		},
+		{
+			"id": "scryers-peak-106",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.6989,
+			"y": 0.5898,
+			"pack": 45
+		},
+		{
+			"id": "scryers-peak-107",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.696,
+			"y": 0.5931,
+			"pack": 45
+		},
+		{
+			"id": "scryers-peak-108",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.7543,
+			"y": 0.6109,
+			"pack": 46
+		},
+		{
+			"id": "scryers-peak-109",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.763,
+			"y": 0.5916,
+			"pack": 46
+		},
+		{
+			"id": "scryers-peak-110",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.7563,
+			"y": 0.5917,
+			"pack": 46
+		},
+		{
+			"id": "scryers-peak-111",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.7549,
+			"y": 0.6027,
+			"pack": 46
+		},
+		{
+			"id": "scryers-peak-112",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.4277,
+			"y": 0.6059,
+			"pack": 47
+		},
+		{
+			"id": "scryers-peak-113",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.7737,
+			"y": 0.6314,
+			"pack": 48
+		},
+		{
+			"id": "scryers-peak-114",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.78,
+			"y": 0.6175,
+			"pack": 48
+		},
+		{
+			"id": "scryers-peak-115",
+			"enemyId": "sp-polarbear",
+			"floor": "f1",
+			"x": 0.7772,
+			"y": 0.625,
+			"pack": 48
+		},
+		{
+			"id": "scryers-peak-116",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6319,
+			"y": 0.6417,
+			"pack": 49
+		},
+		{
+			"id": "scryers-peak-117",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6303,
+			"y": 0.6311,
+			"pack": 49
+		},
+		{
+			"id": "scryers-peak-118",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.635,
+			"y": 0.6398,
+			"pack": 49
+		},
+		{
+			"id": "scryers-peak-119",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6334,
+			"y": 0.629,
+			"pack": 49
+		},
+		{
+			"id": "scryers-peak-120",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.3492,
+			"y": 0.6291,
+			"pack": 50
+		},
+		{
+			"id": "scryers-peak-121",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.3465,
+			"y": 0.6364,
+			"pack": 50
+		},
+		{
+			"id": "scryers-peak-122",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.7324,
+			"y": 0.6525,
+			"pack": 51
+		},
+		{
+			"id": "scryers-peak-123",
+			"enemyId": "fk-iceshardling",
+			"floor": "f1",
+			"x": 0.7212,
+			"y": 0.6569,
+			"pack": 51
+		},
+		{
+			"id": "scryers-peak-124",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.7164,
+			"y": 0.6714,
+			"pack": 51
+		},
+		{
+			"id": "scryers-peak-125",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.7316,
+			"y": 0.6635,
+			"pack": 51
+		},
+		{
+			"id": "scryers-peak-126",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.7271,
+			"y": 0.6703,
+			"pack": 51
+		},
+		{
+			"id": "scryers-peak-127",
+			"enemyId": "sp-frostwolf",
+			"floor": "f1",
+			"x": 0.7174,
+			"y": 0.6664,
+			"pack": 52
+		},
+		{
+			"id": "scryers-peak-128",
+			"enemyId": "fk-icegolem",
+			"floor": "f1",
+			"x": 0.6761,
+			"y": 0.7715,
+			"pack": 53
+		},
+		{
+			"id": "scryers-peak-129",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.6814,
+			"y": 0.7772,
+			"pack": 53
+		},
+		{
+			"id": "scryers-peak-130",
+			"enemyId": "ic-glacialsprite",
+			"floor": "f1",
+			"x": 0.6754,
+			"y": 0.7832,
+			"pack": 53
+		}
+	],
+	"minibosses": [
+		{
+			"affix": "eira",
+			"floor": "f1",
+			"x": 0.7628,
+			"y": 0.6015,
+			"radius": 2244,
+			"replaces": [
+				"scryers-peak-108",
+				"scryers-peak-109",
+				"scryers-peak-110",
+				"scryers-peak-111",
+				"scryers-peak-113",
+				"scryers-peak-114",
+				"scryers-peak-115"
+			]
+		},
+		{
+			"affix": "ghorn",
+			"floor": "f1",
+			"x": 0.4576,
+			"y": 0.3011,
+			"radius": 2000,
+			"replaces": [
+				"scryers-peak-31",
+				"scryers-peak-32",
+				"scryers-peak-33",
+				"scryers-peak-34"
+			]
+		}
+	],
+	"start": {
+		"floor": "f1",
+		"x": 0.7262,
+		"y": 0.8602
+	},
+	"checkpoints": [],
+	"patrols": [
+		{
+			"id": "scryers-peak-p1",
+			"floor": "f1",
+			"points": [
+				[
+					0.734,
+					0.0682
+				],
+				[
+					0.7327,
+					0.0771
+				],
+				[
+					0.7323,
+					0.0816
+				],
+				[
+					0.7302,
+					0.0862
+				]
+			],
+			"spawns": [
+				"scryers-peak-4"
+			]
+		},
+		{
+			"id": "scryers-peak-p2",
+			"floor": "f1",
+			"points": [
+				[
+					0.5895,
+					0.2209
+				],
+				[
+					0.5912,
+					0.2244
+				],
+				[
+					0.591,
+					0.2327
+				]
+			],
+			"spawns": [
+				"scryers-peak-19"
+			]
+		},
+		{
+			"id": "scryers-peak-p3",
+			"floor": "f1",
+			"points": [
+				[
+					0.5139,
+					0.2922
+				],
+				[
+					0.5096,
+					0.2952
+				],
+				[
+					0.5074,
+					0.2857
+				],
+				[
+					0.5098,
+					0.2798
+				],
+				[
+					0.513,
+					0.2787
+				],
+				[
+					0.5155,
+					0.2866
+				]
+			],
+			"spawns": [
+				"scryers-peak-30"
+			]
+		},
+		{
+			"id": "scryers-peak-p4",
+			"floor": "f1",
+			"points": [
+				[
+					0.4835,
+					0.3386
+				],
+				[
+					0.4871,
+					0.341
+				],
+				[
+					0.4884,
+					0.3503
+				]
+			],
+			"spawns": [
+				"scryers-peak-37"
+			]
+		},
+		{
+			"id": "scryers-peak-p5",
+			"floor": "f1",
+			"points": [
+				[
+					0.707,
+					0.4498
+				],
+				[
+					0.7069,
+					0.446
+				],
+				[
+					0.706,
+					0.4409
+				],
+				[
+					0.704,
+					0.4366
+				]
+			],
+			"spawns": [
+				"scryers-peak-55"
+			]
+		},
+		{
+			"id": "scryers-peak-p6",
+			"floor": "f1",
+			"points": [
+				[
+					0.7009,
+					0.4418
+				],
+				[
+					0.7006,
+					0.4505
+				],
+				[
+					0.7023,
+					0.4577
+				]
+			],
+			"spawns": [
+				"scryers-peak-56"
+			]
+		},
+		{
+			"id": "scryers-peak-p7",
+			"floor": "f1",
+			"points": [
+				[
+					0.783,
+					0.4906
+				],
+				[
+					0.7632,
+					0.4831
+				],
+				[
+					0.7411,
+					0.4684
+				]
+			],
+			"spawns": [
+				"scryers-peak-61",
+				"scryers-peak-62",
+				"scryers-peak-63",
+				"scryers-peak-64"
+			]
+		},
+		{
+			"id": "scryers-peak-p8",
+			"floor": "f1",
+			"points": [
+				[
+					0.3699,
+					0.4929
+				],
+				[
+					0.3723,
+					0.4918
+				],
+				[
+					0.3735,
+					0.4849
+				],
+				[
+					0.3706,
+					0.4749
+				]
+			],
+			"spawns": [
+				"scryers-peak-66"
+			]
+		},
+		{
+			"id": "scryers-peak-p9",
+			"floor": "f1",
+			"points": [
+				[
+					0.7017,
+					0.5194
+				],
+				[
+					0.7061,
+					0.5128
+				],
+				[
+					0.7098,
+					0.501
+				],
+				[
+					0.7126,
+					0.4968
+				],
+				[
+					0.7148,
+					0.4901
+				]
+			],
+			"spawns": [
+				"scryers-peak-81"
+			]
+		},
+		{
+			"id": "scryers-peak-p10",
+			"floor": "f1",
+			"points": [
+				[
+					0.2521,
+					0.5498
+				],
+				[
+					0.2496,
+					0.5463
+				],
+				[
+					0.2499,
+					0.534
+				]
+			],
+			"spawns": [
+				"scryers-peak-91"
+			]
+		},
+		{
+			"id": "scryers-peak-p11",
+			"floor": "f1",
+			"points": [
+				[
+					0.3965,
+					0.5344
+				],
+				[
+					0.441,
+					0.5313
+				],
+				[
+					0.4743,
+					0.4804
+				]
+			],
+			"spawns": [
+				"scryers-peak-94"
+			]
+		},
+		{
+			"id": "scryers-peak-p12",
+			"floor": "f1",
+			"points": [
+				[
+					0.6867,
+					0.5788
+				],
+				[
+					0.6754,
+					0.5802
+				],
+				[
+					0.6671,
+					0.6042
+				],
+				[
+					0.6723,
+					0.6231
+				],
+				[
+					0.6832,
+					0.6268
+				],
+				[
+					0.6915,
+					0.6173
+				],
+				[
+					0.6955,
+					0.598
+				],
+				[
+					0.6919,
+					0.5835
+				]
+			],
+			"spawns": [
+				"scryers-peak-101"
+			]
+		},
+		{
+			"id": "scryers-peak-p13",
+			"floor": "f1",
+			"points": [
+				[
+					0.424,
+					0.5841
+				],
+				[
+					0.4249,
+					0.5776
+				],
+				[
+					0.4267,
+					0.5754
+				]
+			],
+			"spawns": [
+				"scryers-peak-105"
+			]
+		},
+		{
+			"id": "scryers-peak-p14",
+			"floor": "f1",
+			"points": [
+				[
+					0.6975,
+					0.5914
+				],
+				[
+					0.6897,
+					0.579
+				],
+				[
+					0.6818,
+					0.5769
+				],
+				[
+					0.6732,
+					0.5817
+				],
+				[
+					0.6679,
+					0.5984
+				],
+				[
+					0.67,
+					0.6178
+				],
+				[
+					0.6788,
+					0.6264
+				],
+				[
+					0.6912,
+					0.62
+				],
+				[
+					0.6969,
+					0.604
+				]
+			],
+			"spawns": [
+				"scryers-peak-106",
+				"scryers-peak-107"
+			]
+		},
+		{
+			"id": "scryers-peak-p15",
+			"floor": "f1",
+			"points": [
+				[
+					0.4278,
+					0.6069
+				],
+				[
+					0.4268,
+					0.5997
+				],
+				[
+					0.4231,
+					0.5936
+				]
+			],
+			"spawns": [
+				"scryers-peak-112"
+			]
+		},
+		{
+			"id": "scryers-peak-p16",
+			"floor": "f1",
+			"points": [
+				[
+					0.7168,
+					0.6671
+				],
+				[
+					0.7201,
+					0.6639
+				],
+				[
+					0.7261,
+					0.6648
+				]
+			],
+			"spawns": [
+				"scryers-peak-127"
+			]
+		},
+		{
+			"id": "scryers-peak-p17",
+			"floor": "f1",
+			"points": [
+				[
+					0.6788,
+					0.7819
+				],
+				[
+					0.6614,
+					0.7118
+				]
+			],
+			"spawns": [
+				"scryers-peak-128",
+				"scryers-peak-129",
+				"scryers-peak-130"
+			]
+		}
+	],
+	"art": {
+		"codex": "/art/codex/scryers-peak.webp",
+		"banner": "/art/banner/scryers-peak.webp"
+	}
+}

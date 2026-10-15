@@ -1,0 +1,2181 @@
+{
+	"id": "silken-hollow",
+	"slug": "silken-hollow",
+	"name": "Silken Hollow",
+	"internalName": "SpiderForest",
+	"kind": "dungeon",
+	"requiredScore": 168,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Floor 1",
+			"image": "/maps/silken-hollow/f1.webp",
+			"texture": "T_Map_SF_01",
+			"worldSize": [
+				114000,
+				57000
+			]
+		},
+		{
+			"id": "f2",
+			"label": "Lair",
+			"image": "/maps/silken-hollow/f2.webp",
+			"texture": "T_Map_SF_Lair",
+			"worldSize": [
+				22000,
+				11000
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "np-bullybasher",
+			"name": "Bully Basher",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 3.241,
+			"gameId": "NP_BullyBasher",
+			"classes": [
+				"BP_NPC_NP_BullyBasher"
+			],
+			"abilities": [
+				{
+					"name": "Bully Bash",
+					"interruptible": true
+				},
+				{
+					"name": "Together Stronk!",
+					"interruptible": true
+				}
+			],
+			"icon": "/icons/enemies/np-bullybasher.webp"
+		},
+		{
+			"id": "sh-carrionhorror",
+			"name": "Carrion Horror",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.66,
+			"gameId": "SH_CarrionHorror",
+			"classes": [
+				"BP_NPC_SH_CarrionHorror"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Bursting Brood",
+					"ccOnly": true
+				},
+				{
+					"name": "Deathrattle",
+					"ccOnly": true
+				}
+			],
+			"icon": "/icons/enemies/sh-carrionhorror.webp"
+		},
+		{
+			"id": "sh-eggbearer",
+			"name": "Eggbearer",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.431,
+			"gameId": "SH_Eggbearer",
+			"classes": [
+				"BP_NPC_SH_Eggbearer"
+			],
+			"icon": "/icons/enemies/sh-eggbearer.webp"
+		},
+		{
+			"id": "np-facestabber",
+			"name": "Facestabber",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.74,
+			"gameId": "NP_Facestabber",
+			"classes": [
+				"BP_NPC_NP_Facestabber"
+			],
+			"abilities": [
+				{
+					"name": "Stab Yer Face!",
+					"ccOnly": true,
+					"channel": true
+				},
+				{
+					"name": "Throw Knife",
+					"ccOnly": true,
+					"channel": true
+				}
+			],
+			"icon": "/icons/enemies/np-facestabber.webp"
+		},
+		{
+			"id": "vv-frenziedlooter",
+			"name": "Frenzied Looter",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.419,
+			"gameId": "VV_FrenziedLooter",
+			"classes": [
+				"BP_NPC_VV_FrenziedLooter"
+			],
+			"icon": "/icons/enemies/vv-frenziedlooter.webp"
+		},
+		{
+			"id": "sh-gravesnarekidnapper",
+			"name": "Gravesnare Kidnapper",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 3.246,
+			"gameId": "SH_GravesnareKidnapper",
+			"classes": [
+				"BP_NPC_SH_GravesnareKidnapper"
+			],
+			"abilities": [
+				{
+					"name": "Kidnap",
+					"school": "Physical"
+				},
+				{
+					"name": "Fanged Bite",
+					"school": "Physical"
+				},
+				{
+					"name": "Razorlace Web",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/sh-gravesnarekidnapper.webp"
+		},
+		{
+			"id": "sh-rotheartrecluse",
+			"name": "Rotheart Recluse",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.011,
+			"gameId": "SH_RotheartRecluse",
+			"classes": [
+				"BP_NPC_SH_RotheartRecluse"
+			],
+			"abilities": [
+				{
+					"name": "Envenom",
+					"interruptible": true,
+					"school": "Nature"
+				},
+				{
+					"name": "Heartstopper",
+					"interruptible": true,
+					"school": "Nature"
+				}
+			],
+			"icon": "/icons/enemies/sh-rotheartrecluse.webp"
+		},
+		{
+			"id": "np-shinchopper",
+			"name": "Shinchopper",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.431,
+			"gameId": "NP_Shinchopper",
+			"classes": [
+				"BP_NPC_NP_Shinchopper"
+			],
+			"icon": "/icons/enemies/np-shinchopper.webp"
+		},
+		{
+			"id": "sh-venomdrinker",
+			"name": "Venomdrinker",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.327,
+			"gameId": "SH_Venomdrinker",
+			"classes": [
+				"BP_NPC_SH_Venomdrinker"
+			],
+			"abilities": [
+				{
+					"name": "Venom Bolt",
+					"interruptible": true,
+					"school": "Nature"
+				},
+				{
+					"name": "Poisonado",
+					"interruptible": true,
+					"school": "Nature"
+				}
+			],
+			"icon": "/icons/enemies/sh-venomdrinker.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "silken-hollow-36",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5228,
+			"y": 0.3133,
+			"pack": 19
+		},
+		{
+			"id": "silken-hollow-147",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5292,
+			"y": 0.8425,
+			"pack": 69
+		},
+		{
+			"id": "silken-hollow-148",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5284,
+			"y": 0.8406,
+			"pack": 69
+		},
+		{
+			"id": "silken-hollow-172",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4772,
+			"y": 0.0146,
+			"pack": 1
+		},
+		{
+			"id": "silken-hollow-173",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.478,
+			"y": 0.0232,
+			"pack": 2
+		},
+		{
+			"id": "silken-hollow-174",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4753,
+			"y": 0.0239,
+			"pack": 3
+		},
+		{
+			"id": "silken-hollow-175",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.489,
+			"y": 0.0603,
+			"pack": 4
+		},
+		{
+			"id": "silken-hollow-176",
+			"enemyId": "sh-venomdrinker",
+			"floor": "f1",
+			"x": 0.483,
+			"y": 0.0627,
+			"pack": 5
+		},
+		{
+			"id": "silken-hollow-177",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.4698,
+			"y": 0.0676,
+			"pack": 6
+		},
+		{
+			"id": "silken-hollow-178",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.468,
+			"y": 0.0713,
+			"pack": 6
+		},
+		{
+			"id": "silken-hollow-179",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.4687,
+			"y": 0.0693,
+			"pack": 6
+		},
+		{
+			"id": "silken-hollow-180",
+			"enemyId": "sh-venomdrinker",
+			"floor": "f1",
+			"x": 0.4922,
+			"y": 0.0745,
+			"pack": 7
+		},
+		{
+			"id": "silken-hollow-181",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.4709,
+			"y": 0.0929,
+			"pack": 8
+		},
+		{
+			"id": "silken-hollow-182",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4573,
+			"y": 0.2246,
+			"pack": 9
+		},
+		{
+			"id": "silken-hollow-183",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4536,
+			"y": 0.2276,
+			"pack": 9
+		},
+		{
+			"id": "silken-hollow-184",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4542,
+			"y": 0.2243,
+			"pack": 9
+		},
+		{
+			"id": "silken-hollow-185",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4584,
+			"y": 0.2317,
+			"pack": 10
+		},
+		{
+			"id": "silken-hollow-186",
+			"enemyId": "sh-venomdrinker",
+			"floor": "f1",
+			"x": 0.4756,
+			"y": 0.2321,
+			"pack": 11
+		},
+		{
+			"id": "silken-hollow-187",
+			"enemyId": "sh-venomdrinker",
+			"floor": "f1",
+			"x": 0.4783,
+			"y": 0.2423,
+			"pack": 11
+		},
+		{
+			"id": "silken-hollow-188",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.4583,
+			"y": 0.2373,
+			"pack": 12
+		},
+		{
+			"id": "silken-hollow-189",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4995,
+			"y": 0.2466,
+			"pack": 13
+		},
+		{
+			"id": "silken-hollow-190",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4962,
+			"y": 0.2623,
+			"pack": 14
+		},
+		{
+			"id": "silken-hollow-191",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.5151,
+			"y": 0.2694,
+			"pack": 15,
+			"empowered": true
+		},
+		{
+			"id": "silken-hollow-192",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4517,
+			"y": 0.2775,
+			"pack": 16
+		},
+		{
+			"id": "silken-hollow-193",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4509,
+			"y": 0.2845,
+			"pack": 17
+		},
+		{
+			"id": "silken-hollow-194",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4739,
+			"y": 0.2919,
+			"pack": 18
+		},
+		{
+			"id": "silken-hollow-195",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4716,
+			"y": 0.2915,
+			"pack": 18
+		},
+		{
+			"id": "silken-hollow-196",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4721,
+			"y": 0.297,
+			"pack": 18
+		},
+		{
+			"id": "silken-hollow-197",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5223,
+			"y": 0.3107,
+			"pack": 19
+		},
+		{
+			"id": "silken-hollow-198",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5232,
+			"y": 0.3071,
+			"pack": 19
+		},
+		{
+			"id": "silken-hollow-199",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.5249,
+			"y": 0.3105,
+			"pack": 20
+		},
+		{
+			"id": "silken-hollow-200",
+			"enemyId": "sh-carrionhorror",
+			"floor": "f1",
+			"x": 0.4955,
+			"y": 0.3478,
+			"pack": 21
+		},
+		{
+			"id": "silken-hollow-201",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.4952,
+			"y": 0.3553,
+			"pack": 21
+		},
+		{
+			"id": "silken-hollow-202",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.4919,
+			"y": 0.3471,
+			"pack": 21
+		},
+		{
+			"id": "silken-hollow-203",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.454,
+			"y": 0.3737,
+			"pack": 22
+		},
+		{
+			"id": "silken-hollow-204",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.4562,
+			"y": 0.3759,
+			"pack": 23
+		},
+		{
+			"id": "silken-hollow-205",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4555,
+			"y": 0.3799,
+			"pack": 24
+		},
+		{
+			"id": "silken-hollow-206",
+			"enemyId": "sh-carrionhorror",
+			"floor": "f1",
+			"x": 0.5085,
+			"y": 0.4543,
+			"pack": 25
+		},
+		{
+			"id": "silken-hollow-207",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.5109,
+			"y": 0.4632,
+			"pack": 25
+		},
+		{
+			"id": "silken-hollow-208",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.5144,
+			"y": 0.452,
+			"pack": 25
+		},
+		{
+			"id": "silken-hollow-209",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.5167,
+			"y": 0.4584,
+			"pack": 25
+		},
+		{
+			"id": "silken-hollow-210",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.5159,
+			"y": 0.4622,
+			"pack": 25
+		},
+		{
+			"id": "silken-hollow-211",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5096,
+			"y": 0.506,
+			"pack": 26
+		},
+		{
+			"id": "silken-hollow-212",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5109,
+			"y": 0.5074,
+			"pack": 27
+		},
+		{
+			"id": "silken-hollow-213",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5106,
+			"y": 0.5103,
+			"pack": 28
+		},
+		{
+			"id": "silken-hollow-214",
+			"enemyId": "np-bullybasher",
+			"floor": "f1",
+			"x": 0.5498,
+			"y": 0.5248,
+			"pack": 29
+		},
+		{
+			"id": "silken-hollow-215",
+			"enemyId": "np-bullybasher",
+			"floor": "f1",
+			"x": 0.5532,
+			"y": 0.5178,
+			"pack": 29
+		},
+		{
+			"id": "silken-hollow-216",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5534,
+			"y": 0.5248,
+			"pack": 29
+		},
+		{
+			"id": "silken-hollow-217",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5519,
+			"y": 0.5257,
+			"pack": 29
+		},
+		{
+			"id": "silken-hollow-218",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5541,
+			"y": 0.5212,
+			"pack": 29
+		},
+		{
+			"id": "silken-hollow-219",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.5493,
+			"y": 0.5171,
+			"pack": 29
+		},
+		{
+			"id": "silken-hollow-220",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5298,
+			"y": 0.5348,
+			"pack": 30
+		},
+		{
+			"id": "silken-hollow-221",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5281,
+			"y": 0.5307,
+			"pack": 30
+		},
+		{
+			"id": "silken-hollow-222",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5291,
+			"y": 0.539,
+			"pack": 30
+		},
+		{
+			"id": "silken-hollow-223",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4888,
+			"y": 0.5368,
+			"pack": 31
+		},
+		{
+			"id": "silken-hollow-224",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4757,
+			"y": 0.5482,
+			"pack": 32
+		},
+		{
+			"id": "silken-hollow-225",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5676,
+			"y": 0.5562,
+			"pack": 33
+		},
+		{
+			"id": "silken-hollow-226",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5612,
+			"y": 0.5557,
+			"pack": 33
+		},
+		{
+			"id": "silken-hollow-227",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.5643,
+			"y": 0.5582,
+			"pack": 33
+		},
+		{
+			"id": "silken-hollow-228",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.5636,
+			"y": 0.5525,
+			"pack": 33
+		},
+		{
+			"id": "silken-hollow-229",
+			"enemyId": "sh-venomdrinker",
+			"floor": "f1",
+			"x": 0.5639,
+			"y": 0.5556,
+			"pack": 33,
+			"empowered": true
+		},
+		{
+			"id": "silken-hollow-230",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5641,
+			"y": 0.5641,
+			"pack": 33
+		},
+		{
+			"id": "silken-hollow-231",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5654,
+			"y": 0.5491,
+			"pack": 33
+		},
+		{
+			"id": "silken-hollow-232",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4774,
+			"y": 0.5535,
+			"pack": 34
+		},
+		{
+			"id": "silken-hollow-233",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.5167,
+			"y": 0.5563,
+			"pack": 35
+		},
+		{
+			"id": "silken-hollow-234",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4726,
+			"y": 0.5566,
+			"pack": 36
+		},
+		{
+			"id": "silken-hollow-235",
+			"enemyId": "sh-venomdrinker",
+			"floor": "f1",
+			"x": 0.4585,
+			"y": 0.5569,
+			"pack": 37
+		},
+		{
+			"id": "silken-hollow-236",
+			"enemyId": "sh-venomdrinker",
+			"floor": "f1",
+			"x": 0.4597,
+			"y": 0.5669,
+			"pack": 37
+		},
+		{
+			"id": "silken-hollow-237",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4358,
+			"y": 0.5585,
+			"pack": 38
+		},
+		{
+			"id": "silken-hollow-238",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4753,
+			"y": 0.5593,
+			"pack": 39
+		},
+		{
+			"id": "silken-hollow-239",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4333,
+			"y": 0.5639,
+			"pack": 40
+		},
+		{
+			"id": "silken-hollow-240",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.438,
+			"y": 0.5655,
+			"pack": 41
+		},
+		{
+			"id": "silken-hollow-241",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4551,
+			"y": 0.5674,
+			"pack": 42
+		},
+		{
+			"id": "silken-hollow-242",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4358,
+			"y": 0.5682,
+			"pack": 43
+		},
+		{
+			"id": "silken-hollow-243",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.437,
+			"y": 0.5705,
+			"pack": 44
+		},
+		{
+			"id": "silken-hollow-244",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.4942,
+			"y": 0.8499,
+			"pack": 45
+		},
+		{
+			"id": "silken-hollow-245",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5896,
+			"y": 0.5825,
+			"pack": 45
+		},
+		{
+			"id": "silken-hollow-246",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5878,
+			"y": 0.5793,
+			"pack": 45
+		},
+		{
+			"id": "silken-hollow-247",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4554,
+			"y": 0.5901,
+			"pack": 46
+		},
+		{
+			"id": "silken-hollow-248",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4808,
+			"y": 0.5912,
+			"pack": 47
+		},
+		{
+			"id": "silken-hollow-249",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4536,
+			"y": 0.593,
+			"pack": 48
+		},
+		{
+			"id": "silken-hollow-250",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5261,
+			"y": 0.5945,
+			"pack": 49
+		},
+		{
+			"id": "silken-hollow-251",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5259,
+			"y": 0.5988,
+			"pack": 49
+		},
+		{
+			"id": "silken-hollow-252",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5278,
+			"y": 0.6022,
+			"pack": 49
+		},
+		{
+			"id": "silken-hollow-253",
+			"enemyId": "sh-venomdrinker",
+			"floor": "f1",
+			"x": 0.4781,
+			"y": 0.5959,
+			"pack": 50
+		},
+		{
+			"id": "silken-hollow-254",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4525,
+			"y": 0.5976,
+			"pack": 51
+		},
+		{
+			"id": "silken-hollow-255",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.481,
+			"y": 0.6005,
+			"pack": 52
+		},
+		{
+			"id": "silken-hollow-256",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.495,
+			"y": 0.6159,
+			"pack": 53
+		},
+		{
+			"id": "silken-hollow-257",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4954,
+			"y": 0.6222,
+			"pack": 53
+		},
+		{
+			"id": "silken-hollow-258",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5721,
+			"y": 0.6209,
+			"pack": 54
+		},
+		{
+			"id": "silken-hollow-259",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5773,
+			"y": 0.6224,
+			"pack": 54
+		},
+		{
+			"id": "silken-hollow-260",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.5749,
+			"y": 0.6262,
+			"pack": 54
+		},
+		{
+			"id": "silken-hollow-261",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5026,
+			"y": 0.6347,
+			"pack": 55
+		},
+		{
+			"id": "silken-hollow-262",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5021,
+			"y": 0.637,
+			"pack": 55
+		},
+		{
+			"id": "silken-hollow-263",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.5031,
+			"y": 0.6323,
+			"pack": 55
+		},
+		{
+			"id": "silken-hollow-264",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5111,
+			"y": 0.633,
+			"pack": 56
+		},
+		{
+			"id": "silken-hollow-265",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5116,
+			"y": 0.6358,
+			"pack": 56
+		},
+		{
+			"id": "silken-hollow-266",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.436,
+			"y": 0.6343,
+			"pack": 57
+		},
+		{
+			"id": "silken-hollow-267",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4358,
+			"y": 0.6375,
+			"pack": 57
+		},
+		{
+			"id": "silken-hollow-268",
+			"enemyId": "sh-gravesnarekidnapper",
+			"floor": "f1",
+			"x": 0.5226,
+			"y": 0.6354,
+			"pack": 58
+		},
+		{
+			"id": "silken-hollow-269",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.4983,
+			"y": 0.6601,
+			"pack": 59
+		},
+		{
+			"id": "silken-hollow-270",
+			"enemyId": "sh-eggbearer",
+			"floor": "f1",
+			"x": 0.497,
+			"y": 0.6625,
+			"pack": 59
+		},
+		{
+			"id": "silken-hollow-271",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4996,
+			"y": 0.6577,
+			"pack": 59
+		},
+		{
+			"id": "silken-hollow-272",
+			"enemyId": "np-bullybasher",
+			"floor": "f1",
+			"x": 0.5482,
+			"y": 0.6685,
+			"pack": 60
+		},
+		{
+			"id": "silken-hollow-273",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.549,
+			"y": 0.6703,
+			"pack": 60
+		},
+		{
+			"id": "silken-hollow-274",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.55,
+			"y": 0.6718,
+			"pack": 60
+		},
+		{
+			"id": "silken-hollow-275",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5629,
+			"y": 0.6724,
+			"pack": 61
+		},
+		{
+			"id": "silken-hollow-276",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5606,
+			"y": 0.6746,
+			"pack": 61
+		},
+		{
+			"id": "silken-hollow-277",
+			"enemyId": "sh-venomdrinker",
+			"floor": "f1",
+			"x": 0.4394,
+			"y": 0.7071,
+			"pack": 62
+		},
+		{
+			"id": "silken-hollow-278",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4371,
+			"y": 0.7084,
+			"pack": 63
+		},
+		{
+			"id": "silken-hollow-279",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.4649,
+			"y": 0.7254,
+			"pack": 64
+		},
+		{
+			"id": "silken-hollow-280",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.4644,
+			"y": 0.7305,
+			"pack": 64
+		},
+		{
+			"id": "silken-hollow-281",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.4597,
+			"y": 0.7244,
+			"pack": 64
+		},
+		{
+			"id": "silken-hollow-282",
+			"enemyId": "sh-rotheartrecluse",
+			"floor": "f1",
+			"x": 0.4698,
+			"y": 0.728,
+			"pack": 64,
+			"empowered": true
+		},
+		{
+			"id": "silken-hollow-283",
+			"enemyId": "np-bullybasher",
+			"floor": "f1",
+			"x": 0.5337,
+			"y": 0.7896,
+			"pack": 65
+		},
+		{
+			"id": "silken-hollow-284",
+			"enemyId": "np-bullybasher",
+			"floor": "f1",
+			"x": 0.5396,
+			"y": 0.7978,
+			"pack": 65
+		},
+		{
+			"id": "silken-hollow-285",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5391,
+			"y": 0.7945,
+			"pack": 65
+		},
+		{
+			"id": "silken-hollow-286",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5357,
+			"y": 0.7892,
+			"pack": 65
+		},
+		{
+			"id": "silken-hollow-287",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5157,
+			"y": 0.8013,
+			"pack": 66
+		},
+		{
+			"id": "silken-hollow-288",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5182,
+			"y": 0.7981,
+			"pack": 66
+		},
+		{
+			"id": "silken-hollow-289",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4934,
+			"y": 0.8012,
+			"pack": 67
+		},
+		{
+			"id": "silken-hollow-290",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4897,
+			"y": 0.8073,
+			"pack": 67
+		},
+		{
+			"id": "silken-hollow-291",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5121,
+			"y": 0.8418,
+			"pack": 68
+		},
+		{
+			"id": "silken-hollow-292",
+			"enemyId": "sh-venomdrinker",
+			"floor": "f1",
+			"x": 0.5104,
+			"y": 0.84,
+			"pack": 68
+		},
+		{
+			"id": "silken-hollow-293",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.4947,
+			"y": 0.8534,
+			"pack": 70
+		},
+		{
+			"id": "silken-hollow-294",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4932,
+			"y": 0.8476,
+			"pack": 70
+		},
+		{
+			"id": "silken-hollow-295",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5194,
+			"y": 0.8618,
+			"pack": 71
+		},
+		{
+			"id": "silken-hollow-296",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5208,
+			"y": 0.8619,
+			"pack": 71
+		},
+		{
+			"id": "silken-hollow-297",
+			"enemyId": "np-bullybasher",
+			"floor": "f1",
+			"x": 0.5297,
+			"y": 0.9421,
+			"pack": 72,
+			"empowered": true
+		},
+		{
+			"id": "silken-hollow-298",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5288,
+			"y": 0.9377,
+			"pack": 72
+		},
+		{
+			"id": "silken-hollow-299",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5314,
+			"y": 0.9393,
+			"pack": 72
+		},
+		{
+			"id": "silken-hollow-300",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5318,
+			"y": 0.9326,
+			"pack": 72
+		},
+		{
+			"id": "silken-hollow-301",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5492,
+			"y": 0.9392,
+			"pack": 73
+		},
+		{
+			"id": "silken-hollow-302",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5487,
+			"y": 0.9444,
+			"pack": 73
+		},
+		{
+			"id": "silken-hollow-303",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5552,
+			"y": 0.9512,
+			"pack": 74
+		},
+		{
+			"id": "silken-hollow-304",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5579,
+			"y": 0.9407,
+			"pack": 74
+		},
+		{
+			"id": "silken-hollow-305",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.5741,
+			"y": 0.9484,
+			"pack": 75
+		},
+		{
+			"id": "silken-hollow-306",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5474,
+			"y": 0.958,
+			"pack": 76
+		},
+		{
+			"id": "silken-hollow-307",
+			"enemyId": "np-facestabber",
+			"floor": "f1",
+			"x": 0.5457,
+			"y": 0.9634,
+			"pack": 76
+		},
+		{
+			"id": "silken-hollow-308",
+			"enemyId": "np-shinchopper",
+			"floor": "f1",
+			"x": 0.5474,
+			"y": 0.9653,
+			"pack": 76
+		}
+	],
+	"minibosses": [
+		{
+			"affix": "eira",
+			"floor": "f1",
+			"x": 0.5646,
+			"y": 0.5565,
+			"radius": 1500,
+			"replaces": [
+				"silken-hollow-225",
+				"silken-hollow-226",
+				"silken-hollow-227",
+				"silken-hollow-228",
+				"silken-hollow-229",
+				"silken-hollow-230",
+				"silken-hollow-231"
+			]
+		},
+		{
+			"affix": "ghorn",
+			"floor": "f1",
+			"x": 0.4922,
+			"y": 0.3519,
+			"radius": 1000,
+			"replaces": [
+				"silken-hollow-200",
+				"silken-hollow-201",
+				"silken-hollow-202"
+			]
+		}
+	],
+	"start": {
+		"floor": "f1",
+		"x": 0.5992,
+		"y": 0.977
+	},
+	"checkpoints": [
+		{
+			"floor": "f1",
+			"x": 0.4317,
+			"y": 0.5587
+		},
+		{
+			"floor": "f1",
+			"x": 0.4811,
+			"y": 0.5962
+		},
+		{
+			"floor": "f1",
+			"x": 0.5213,
+			"y": 0.2584
+		}
+	],
+	"patrols": [
+		{
+			"id": "silken-hollow-p1",
+			"floor": "f1",
+			"points": [
+				[
+					0.4775,
+					0.0164
+				],
+				[
+					0.4755,
+					0.0136
+				]
+			],
+			"spawns": [
+				"silken-hollow-172"
+			]
+		},
+		{
+			"id": "silken-hollow-p2",
+			"floor": "f1",
+			"points": [
+				[
+					0.4786,
+					0.0257
+				],
+				[
+					0.4766,
+					0.0229
+				]
+			],
+			"spawns": [
+				"silken-hollow-173"
+			]
+		},
+		{
+			"id": "silken-hollow-p3",
+			"floor": "f1",
+			"points": [
+				[
+					0.474,
+					0.0257
+				],
+				[
+					0.4754,
+					0.0217
+				]
+			],
+			"spawns": [
+				"silken-hollow-174"
+			]
+		},
+		{
+			"id": "silken-hollow-p4",
+			"floor": "f1",
+			"points": [
+				[
+					0.4878,
+					0.0613
+				],
+				[
+					0.4893,
+					0.0573
+				]
+			],
+			"spawns": [
+				"silken-hollow-175"
+			]
+		},
+		{
+			"id": "silken-hollow-p5",
+			"floor": "f1",
+			"points": [
+				[
+					0.47,
+					0.0934
+				],
+				[
+					0.4714,
+					0.0894
+				]
+			],
+			"spawns": [
+				"silken-hollow-181"
+			]
+		},
+		{
+			"id": "silken-hollow-p6",
+			"floor": "f1",
+			"points": [
+				[
+					0.4586,
+					0.2318
+				],
+				[
+					0.4559,
+					0.2361
+				]
+			],
+			"spawns": [
+				"silken-hollow-185"
+			]
+		},
+		{
+			"id": "silken-hollow-p7",
+			"floor": "f1",
+			"points": [
+				[
+					0.4987,
+					0.2485
+				],
+				[
+					0.5026,
+					0.2447
+				]
+			],
+			"spawns": [
+				"silken-hollow-189"
+			]
+		},
+		{
+			"id": "silken-hollow-p8",
+			"floor": "f1",
+			"points": [
+				[
+					0.4961,
+					0.2635
+				],
+				[
+					0.493,
+					0.2575
+				]
+			],
+			"spawns": [
+				"silken-hollow-190"
+			]
+		},
+		{
+			"id": "silken-hollow-p9",
+			"floor": "f1",
+			"points": [
+				[
+					0.5155,
+					0.2704
+				],
+				[
+					0.5159,
+					0.2607
+				]
+			],
+			"spawns": [
+				"silken-hollow-191"
+			]
+		},
+		{
+			"id": "silken-hollow-p10",
+			"floor": "f1",
+			"points": [
+				[
+					0.4516,
+					0.2788
+				],
+				[
+					0.4483,
+					0.2768
+				]
+			],
+			"spawns": [
+				"silken-hollow-192"
+			]
+		},
+		{
+			"id": "silken-hollow-p11",
+			"floor": "f1",
+			"points": [
+				[
+					0.5249,
+					0.3118
+				],
+				[
+					0.5218,
+					0.3057
+				]
+			],
+			"spawns": [
+				"silken-hollow-199"
+			]
+		},
+		{
+			"id": "silken-hollow-p12",
+			"floor": "f1",
+			"points": [
+				[
+					0.454,
+					0.3732
+				],
+				[
+					0.4547,
+					0.3769
+				]
+			],
+			"spawns": [
+				"silken-hollow-203"
+			]
+		},
+		{
+			"id": "silken-hollow-p13",
+			"floor": "f1",
+			"points": [
+				[
+					0.4567,
+					0.375
+				],
+				[
+					0.4561,
+					0.3788
+				]
+			],
+			"spawns": [
+				"silken-hollow-204"
+			]
+		},
+		{
+			"id": "silken-hollow-p14",
+			"floor": "f1",
+			"points": [
+				[
+					0.4554,
+					0.3794
+				],
+				[
+					0.4571,
+					0.3813
+				]
+			],
+			"spawns": [
+				"silken-hollow-205"
+			]
+		},
+		{
+			"id": "silken-hollow-p15",
+			"floor": "f1",
+			"points": [
+				[
+					0.5094,
+					0.5067
+				],
+				[
+					0.5075,
+					0.501
+				]
+			],
+			"spawns": [
+				"silken-hollow-211"
+			]
+		},
+		{
+			"id": "silken-hollow-p16",
+			"floor": "f1",
+			"points": [
+				[
+					0.5105,
+					0.5074
+				],
+				[
+					0.5126,
+					0.5019
+				]
+			],
+			"spawns": [
+				"silken-hollow-212"
+			]
+		},
+		{
+			"id": "silken-hollow-p17",
+			"floor": "f1",
+			"points": [
+				[
+					0.5102,
+					0.5099
+				],
+				[
+					0.5134,
+					0.5072
+				]
+			],
+			"spawns": [
+				"silken-hollow-213"
+			]
+		},
+		{
+			"id": "silken-hollow-p18",
+			"floor": "f1",
+			"points": [
+				[
+					0.483,
+					0.5438
+				],
+				[
+					0.509,
+					0.5118
+				]
+			],
+			"spawns": [
+				"silken-hollow-223"
+			]
+		},
+		{
+			"id": "silken-hollow-p19",
+			"floor": "f1",
+			"points": [
+				[
+					0.4747,
+					0.549
+				],
+				[
+					0.4768,
+					0.5429
+				]
+			],
+			"spawns": [
+				"silken-hollow-224"
+			]
+		},
+		{
+			"id": "silken-hollow-p20",
+			"floor": "f1",
+			"points": [
+				[
+					0.4766,
+					0.5516
+				],
+				[
+					0.4801,
+					0.5541
+				]
+			],
+			"spawns": [
+				"silken-hollow-232"
+			]
+		},
+		{
+			"id": "silken-hollow-p21",
+			"floor": "f1",
+			"points": [
+				[
+					0.5163,
+					0.5573
+				],
+				[
+					0.5281,
+					0.5304
+				]
+			],
+			"spawns": [
+				"silken-hollow-233"
+			]
+		},
+		{
+			"id": "silken-hollow-p22",
+			"floor": "f1",
+			"points": [
+				[
+					0.4725,
+					0.5514
+				],
+				[
+					0.4735,
+					0.5586
+				]
+			],
+			"spawns": [
+				"silken-hollow-234"
+			]
+		},
+		{
+			"id": "silken-hollow-p23",
+			"floor": "f1",
+			"points": [
+				[
+					0.4383,
+					0.5593
+				],
+				[
+					0.4346,
+					0.56
+				]
+			],
+			"spawns": [
+				"silken-hollow-237"
+			]
+		},
+		{
+			"id": "silken-hollow-p24",
+			"floor": "f1",
+			"points": [
+				[
+					0.4747,
+					0.5577
+				],
+				[
+					0.4782,
+					0.5602
+				]
+			],
+			"spawns": [
+				"silken-hollow-238"
+			]
+		},
+		{
+			"id": "silken-hollow-p25",
+			"floor": "f1",
+			"points": [
+				[
+					0.4335,
+					0.5626
+				],
+				[
+					0.4345,
+					0.5698
+				]
+			],
+			"spawns": [
+				"silken-hollow-239"
+			]
+		},
+		{
+			"id": "silken-hollow-p26",
+			"floor": "f1",
+			"points": [
+				[
+					0.4396,
+					0.5611
+				],
+				[
+					0.4381,
+					0.5679
+				]
+			],
+			"spawns": [
+				"silken-hollow-240"
+			]
+		},
+		{
+			"id": "silken-hollow-p27",
+			"floor": "f1",
+			"points": [
+				[
+					0.4552,
+					0.5625
+				],
+				[
+					0.4562,
+					0.5697
+				]
+			],
+			"spawns": [
+				"silken-hollow-241"
+			]
+		},
+		{
+			"id": "silken-hollow-p28",
+			"floor": "f1",
+			"points": [
+				[
+					0.4367,
+					0.5671
+				],
+				[
+					0.4351,
+					0.5739
+				]
+			],
+			"spawns": [
+				"silken-hollow-242"
+			]
+		},
+		{
+			"id": "silken-hollow-p29",
+			"floor": "f1",
+			"points": [
+				[
+					0.4359,
+					0.5644
+				],
+				[
+					0.4375,
+					0.5712
+				]
+			],
+			"spawns": [
+				"silken-hollow-243"
+			]
+		},
+		{
+			"id": "silken-hollow-p30",
+			"floor": "f1",
+			"points": [
+				[
+					0.4564,
+					0.5865
+				],
+				[
+					0.4558,
+					0.5938
+				]
+			],
+			"spawns": [
+				"silken-hollow-247"
+			]
+		},
+		{
+			"id": "silken-hollow-p31",
+			"floor": "f1",
+			"points": [
+				[
+					0.4809,
+					0.5903
+				],
+				[
+					0.4832,
+					0.5954
+				]
+			],
+			"spawns": [
+				"silken-hollow-248"
+			]
+		},
+		{
+			"id": "silken-hollow-p32",
+			"floor": "f1",
+			"points": [
+				[
+					0.4535,
+					0.5925
+				],
+				[
+					0.456,
+					0.5982
+				]
+			],
+			"spawns": [
+				"silken-hollow-249"
+			]
+		},
+		{
+			"id": "silken-hollow-p33",
+			"floor": "f1",
+			"points": [
+				[
+					0.4513,
+					0.5955
+				],
+				[
+					0.4549,
+					0.5973
+				]
+			],
+			"spawns": [
+				"silken-hollow-254"
+			]
+		},
+		{
+			"id": "silken-hollow-p34",
+			"floor": "f1",
+			"points": [
+				[
+					0.4808,
+					0.6001
+				],
+				[
+					0.4842,
+					0.5998
+				]
+			],
+			"spawns": [
+				"silken-hollow-255"
+			]
+		},
+		{
+			"id": "silken-hollow-p35",
+			"floor": "f1",
+			"points": [
+				[
+					0.497,
+					0.5919
+				],
+				[
+					0.5044,
+					0.5673
+				],
+				[
+					0.5131,
+					0.5926
+				],
+				[
+					0.5046,
+					0.6535
+				],
+				[
+					0.5233,
+					0.6385
+				]
+			],
+			"spawns": [
+				"silken-hollow-261",
+				"silken-hollow-262",
+				"silken-hollow-263"
+			]
+		},
+		{
+			"id": "silken-hollow-p36",
+			"floor": "f1",
+			"points": [
+				[
+					0.4805,
+					0.6901
+				],
+				[
+					0.5045,
+					0.6415
+				]
+			],
+			"spawns": [
+				"silken-hollow-269",
+				"silken-hollow-270",
+				"silken-hollow-271"
+			]
+		},
+		{
+			"id": "silken-hollow-p37",
+			"floor": "f1",
+			"points": [
+				[
+					0.5482,
+					0.6685
+				],
+				[
+					0.5609,
+					0.6315
+				],
+				[
+					0.5714,
+					0.6605
+				],
+				[
+					0.5479,
+					0.7077
+				],
+				[
+					0.5742,
+					0.6905
+				]
+			],
+			"spawns": [
+				"silken-hollow-272",
+				"silken-hollow-273",
+				"silken-hollow-274"
+			]
+		},
+		{
+			"id": "silken-hollow-p38",
+			"floor": "f1",
+			"points": [
+				[
+					0.5482,
+					0.6685
+				],
+				[
+					0.5609,
+					0.6315
+				],
+				[
+					0.5714,
+					0.6605
+				],
+				[
+					0.5479,
+					0.7077
+				],
+				[
+					0.5742,
+					0.6905
+				]
+			],
+			"spawns": [
+				"silken-hollow-275",
+				"silken-hollow-276"
+			]
+		},
+		{
+			"id": "silken-hollow-p39",
+			"floor": "f1",
+			"points": [
+				[
+					0.4381,
+					0.7129
+				],
+				[
+					0.4357,
+					0.7072
+				]
+			],
+			"spawns": [
+				"silken-hollow-278"
+			]
+		},
+		{
+			"id": "silken-hollow-p40",
+			"floor": "f1",
+			"points": [
+				[
+					0.4698,
+					0.728
+				],
+				[
+					0.4714,
+					0.6932
+				],
+				[
+					0.4573,
+					0.7219
+				]
+			],
+			"spawns": [
+				"silken-hollow-279",
+				"silken-hollow-280",
+				"silken-hollow-281",
+				"silken-hollow-282"
+			]
+		},
+		{
+			"id": "silken-hollow-p41",
+			"floor": "f1",
+			"points": [
+				[
+					0.5203,
+					0.8586
+				],
+				[
+					0.5289,
+					0.9231
+				]
+			],
+			"spawns": [
+				"silken-hollow-295",
+				"silken-hollow-296"
+			]
+		},
+		{
+			"id": "silken-hollow-p42",
+			"floor": "f1",
+			"points": [
+				[
+					0.5297,
+					0.9421
+				],
+				[
+					0.5458,
+					0.949
+				]
+			],
+			"spawns": [
+				"silken-hollow-297",
+				"silken-hollow-298",
+				"silken-hollow-299",
+				"silken-hollow-300"
+			]
+		},
+		{
+			"id": "silken-hollow-p43",
+			"floor": "f1",
+			"points": [
+				[
+					0.5476,
+					0.9398
+				],
+				[
+					0.5739,
+					0.956
+				]
+			],
+			"spawns": [
+				"silken-hollow-301",
+				"silken-hollow-302"
+			]
+		}
+	],
+	"art": {
+		"codex": "/art/codex/silken-hollow.webp",
+		"banner": "/art/banner/silken-hollow.webp"
+	}
+}

@@ -1,0 +1,12 @@
+# Files not uploaded by `gcloud run deploy --source .`
+.gcloudignore
+.git
+.claude
+node_modules/
+build/
+.svelte-kit/
+archive/
+tools/
+.env
+.env.*
+*.log

@@ -1,0 +1,1508 @@
+{
+	"id": "sailors-abyss",
+	"slug": "sailors-abyss",
+	"name": "Sailor's Abyss",
+	"internalName": "ShipGraveyard",
+	"kind": "dungeon",
+	"requiredScore": 131,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Start",
+			"image": "/maps/sailors-abyss/f1.webp",
+			"texture": "T_Map_ShipGraveyard_01",
+			"worldSize": [
+				80000,
+				40000
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "sg-ghosteruptor",
+			"name": "Deepbound Magi",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.54,
+			"gameId": "SG_GhostEruptor",
+			"classes": [
+				"BP_NPC_SG_GhostEruptor"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Call of the Abyss",
+					"interruptible": true,
+					"school": "Shadow"
+				},
+				{
+					"name": "Necrotic Bolt",
+					"interruptible": true,
+					"school": "Necromancy"
+				},
+				{
+					"name": "Harrowing Solitude",
+					"school": "Necromancy"
+				}
+			],
+			"icon": "/icons/enemies/sg-ghosteruptor.webp"
+		},
+		{
+			"id": "uc-evilspirit",
+			"name": "Dire Rat",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 0.703,
+			"gameId": "UC_EvilSpirit",
+			"classes": [
+				"BP_NPC_UC_EvilSpirit"
+			],
+			"abilities": [
+				{
+					"name": "Frenzy"
+				}
+			],
+			"icon": "/icons/enemies/uc-evilspirit.webp"
+		},
+		{
+			"id": "sg-ghostferventsoldier",
+			"name": "Fading Raider",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 2.555,
+			"gameId": "SG_GhostFerventSoldier",
+			"classes": [
+				"BP_NPC_SG_GhostFerventSoldier"
+			],
+			"icon": "/icons/enemies/sg-ghostferventsoldier.webp"
+		},
+		{
+			"id": "sg-ghostorc",
+			"name": "Hollowed Corsair",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 3.368,
+			"gameId": "SG_GhostOrc",
+			"classes": [
+				"BP_NPC_SG_GhostOrc"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Wailing Strike",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/sg-ghostorc.webp"
+		},
+		{
+			"id": "sg-ghostcorpse",
+			"name": "Lost Soul",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 0.827,
+			"gameId": "SG_GhostCorpse",
+			"classes": [
+				"BP_NPC_SG_GhostCorpse"
+			],
+			"icon": "/icons/enemies/sg-ghostcorpse.webp"
+		},
+		{
+			"id": "sg-echoingspirit",
+			"name": "Tormented Spectre",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 2.129,
+			"gameId": "SG_EchoingSpirit",
+			"classes": [
+				"BP_NPC_SG_EchoingSpirit"
+			],
+			"icon": "/icons/enemies/sg-echoingspirit.webp"
+		},
+		{
+			"id": "sg-drownedsailor",
+			"name": "Vengeful Shade",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.053,
+			"gameId": "SG_DrownedSailor",
+			"classes": [
+				"BP_NPC_SG_DrownedSailor"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/sg-drownedsailor.webp"
+		},
+		{
+			"id": "sg-waterelemental",
+			"name": "Water Elemental",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 3.685,
+			"gameId": "SG_WaterElemental",
+			"classes": [
+				"BP_NPC_SG_WaterElemental"
+			],
+			"abilities": [
+				{
+					"name": "Hydrobolt",
+					"interruptible": true,
+					"school": "Water"
+				},
+				{
+					"name": "Healing Waters",
+					"interruptible": true,
+					"school": "Water"
+				}
+			],
+			"icon": "/icons/enemies/sg-waterelemental.webp"
+		},
+		{
+			"id": "sg-corallasher",
+			"name": "Witchreef Lasher",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.113,
+			"gameId": "SG_CoralLasher",
+			"classes": [
+				"BP_NPC_SG_CoralLasher"
+			],
+			"abilities": [
+				{
+					"name": "Witchreef Toxin",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/sg-corallasher.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "sailors-abyss-93",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.3141,
+			"y": 0.6502,
+			"pack": 30
+		},
+		{
+			"id": "sailors-abyss-94",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.3145,
+			"y": 0.6441,
+			"pack": 30
+		},
+		{
+			"id": "sailors-abyss-179",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.5122,
+			"y": 0.1912,
+			"pack": 1
+		},
+		{
+			"id": "sailors-abyss-180",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.5102,
+			"y": 0.1889,
+			"pack": 1
+		},
+		{
+			"id": "sailors-abyss-181",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.5071,
+			"y": 0.2485,
+			"pack": 2
+		},
+		{
+			"id": "sailors-abyss-182",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.5023,
+			"y": 0.2455,
+			"pack": 2,
+			"empowered": true
+		},
+		{
+			"id": "sailors-abyss-183",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.5014,
+			"y": 0.2423,
+			"pack": 2
+		},
+		{
+			"id": "sailors-abyss-184",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.5088,
+			"y": 0.2452,
+			"pack": 2
+		},
+		{
+			"id": "sailors-abyss-185",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.483,
+			"y": 0.2588,
+			"pack": 3
+		},
+		{
+			"id": "sailors-abyss-186",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.4845,
+			"y": 0.2628,
+			"pack": 3
+		},
+		{
+			"id": "sailors-abyss-187",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.401,
+			"y": 0.3081,
+			"pack": 4
+		},
+		{
+			"id": "sailors-abyss-188",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4046,
+			"y": 0.2997,
+			"pack": 4
+		},
+		{
+			"id": "sailors-abyss-189",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.4086,
+			"y": 0.3052,
+			"pack": 4
+		},
+		{
+			"id": "sailors-abyss-190",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.4093,
+			"y": 0.3026,
+			"pack": 4
+		},
+		{
+			"id": "sailors-abyss-191",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.4513,
+			"y": 0.305,
+			"pack": 5
+		},
+		{
+			"id": "sailors-abyss-192",
+			"enemyId": "sg-echoingspirit",
+			"floor": "f1",
+			"x": 0.4522,
+			"y": 0.3101,
+			"pack": 5
+		},
+		{
+			"id": "sailors-abyss-193",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4539,
+			"y": 0.3047,
+			"pack": 5
+		},
+		{
+			"id": "sailors-abyss-194",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4543,
+			"y": 0.3117,
+			"pack": 5
+		},
+		{
+			"id": "sailors-abyss-195",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4505,
+			"y": 0.3004,
+			"pack": 5
+		},
+		{
+			"id": "sailors-abyss-196",
+			"enemyId": "sg-echoingspirit",
+			"floor": "f1",
+			"x": 0.6219,
+			"y": 0.3057,
+			"pack": 6
+		},
+		{
+			"id": "sailors-abyss-197",
+			"enemyId": "sg-echoingspirit",
+			"floor": "f1",
+			"x": 0.6185,
+			"y": 0.3006,
+			"pack": 6
+		},
+		{
+			"id": "sailors-abyss-198",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.5765,
+			"y": 0.3091,
+			"pack": 7
+		},
+		{
+			"id": "sailors-abyss-199",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.5764,
+			"y": 0.3106,
+			"pack": 7
+		},
+		{
+			"id": "sailors-abyss-200",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.5779,
+			"y": 0.3114,
+			"pack": 7
+		},
+		{
+			"id": "sailors-abyss-201",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.6019,
+			"y": 0.3455,
+			"pack": 8
+		},
+		{
+			"id": "sailors-abyss-202",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.6031,
+			"y": 0.3366,
+			"pack": 8
+		},
+		{
+			"id": "sailors-abyss-203",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.6008,
+			"y": 0.3402,
+			"pack": 8
+		},
+		{
+			"id": "sailors-abyss-204",
+			"enemyId": "uc-evilspirit",
+			"floor": "f1",
+			"x": 0.5582,
+			"y": 0.3466,
+			"pack": 9
+		},
+		{
+			"id": "sailors-abyss-205",
+			"enemyId": "uc-evilspirit",
+			"floor": "f1",
+			"x": 0.5673,
+			"y": 0.3531,
+			"pack": 9
+		},
+		{
+			"id": "sailors-abyss-206",
+			"enemyId": "uc-evilspirit",
+			"floor": "f1",
+			"x": 0.5664,
+			"y": 0.3414,
+			"pack": 9
+		},
+		{
+			"id": "sailors-abyss-207",
+			"enemyId": "uc-evilspirit",
+			"floor": "f1",
+			"x": 0.6409,
+			"y": 0.3518,
+			"pack": 10
+		},
+		{
+			"id": "sailors-abyss-208",
+			"enemyId": "uc-evilspirit",
+			"floor": "f1",
+			"x": 0.6392,
+			"y": 0.3488,
+			"pack": 10
+		},
+		{
+			"id": "sailors-abyss-209",
+			"enemyId": "uc-evilspirit",
+			"floor": "f1",
+			"x": 0.6403,
+			"y": 0.3438,
+			"pack": 10
+		},
+		{
+			"id": "sailors-abyss-210",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.4163,
+			"y": 0.3859,
+			"pack": 11
+		},
+		{
+			"id": "sailors-abyss-211",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.4137,
+			"y": 0.3857,
+			"pack": 11
+		},
+		{
+			"id": "sailors-abyss-212",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4198,
+			"y": 0.3619,
+			"pack": 11
+		},
+		{
+			"id": "sailors-abyss-213",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4201,
+			"y": 0.3639,
+			"pack": 11
+		},
+		{
+			"id": "sailors-abyss-214",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4186,
+			"y": 0.3647,
+			"pack": 11
+		},
+		{
+			"id": "sailors-abyss-215",
+			"enemyId": "sg-echoingspirit",
+			"floor": "f1",
+			"x": 0.36,
+			"y": 0.3889,
+			"pack": 12,
+			"empowered": true
+		},
+		{
+			"id": "sailors-abyss-216",
+			"enemyId": "sg-echoingspirit",
+			"floor": "f1",
+			"x": 0.3598,
+			"y": 0.3978,
+			"pack": 12
+		},
+		{
+			"id": "sailors-abyss-217",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.363,
+			"y": 0.4034,
+			"pack": 12
+		},
+		{
+			"id": "sailors-abyss-218",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.3648,
+			"y": 0.3907,
+			"pack": 12
+		},
+		{
+			"id": "sailors-abyss-219",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.6157,
+			"y": 0.3963,
+			"pack": 13
+		},
+		{
+			"id": "sailors-abyss-220",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.6148,
+			"y": 0.4003,
+			"pack": 13
+		},
+		{
+			"id": "sailors-abyss-221",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.641,
+			"y": 0.4047,
+			"pack": 14,
+			"empowered": true
+		},
+		{
+			"id": "sailors-abyss-222",
+			"enemyId": "sg-ghostorc",
+			"floor": "f1",
+			"x": 0.6395,
+			"y": 0.3994,
+			"pack": 14
+		},
+		{
+			"id": "sailors-abyss-223",
+			"enemyId": "sg-echoingspirit",
+			"floor": "f1",
+			"x": 0.6522,
+			"y": 0.4534,
+			"pack": 15
+		},
+		{
+			"id": "sailors-abyss-224",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.6527,
+			"y": 0.4399,
+			"pack": 15
+		},
+		{
+			"id": "sailors-abyss-225",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.6442,
+			"y": 0.4469,
+			"pack": 15
+		},
+		{
+			"id": "sailors-abyss-226",
+			"enemyId": "sg-ghosteruptor",
+			"floor": "f1",
+			"x": 0.6491,
+			"y": 0.453,
+			"pack": 15
+		},
+		{
+			"id": "sailors-abyss-227",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.646,
+			"y": 0.4502,
+			"pack": 15
+		},
+		{
+			"id": "sailors-abyss-228",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.6527,
+			"y": 0.4457,
+			"pack": 15
+		},
+		{
+			"id": "sailors-abyss-229",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.3607,
+			"y": 0.4468,
+			"pack": 16
+		},
+		{
+			"id": "sailors-abyss-230",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.3614,
+			"y": 0.4429,
+			"pack": 16
+		},
+		{
+			"id": "sailors-abyss-231",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.3598,
+			"y": 0.4505,
+			"pack": 16
+		},
+		{
+			"id": "sailors-abyss-232",
+			"enemyId": "uc-evilspirit",
+			"floor": "f1",
+			"x": 0.3266,
+			"y": 0.504,
+			"pack": 17
+		},
+		{
+			"id": "sailors-abyss-233",
+			"enemyId": "uc-evilspirit",
+			"floor": "f1",
+			"x": 0.3266,
+			"y": 0.5107,
+			"pack": 17
+		},
+		{
+			"id": "sailors-abyss-234",
+			"enemyId": "uc-evilspirit",
+			"floor": "f1",
+			"x": 0.3289,
+			"y": 0.5077,
+			"pack": 17
+		},
+		{
+			"id": "sailors-abyss-235",
+			"enemyId": "uc-evilspirit",
+			"floor": "f1",
+			"x": 0.3266,
+			"y": 0.4985,
+			"pack": 17
+		},
+		{
+			"id": "sailors-abyss-236",
+			"enemyId": "uc-evilspirit",
+			"floor": "f1",
+			"x": 0.3227,
+			"y": 0.5167,
+			"pack": 17
+		},
+		{
+			"id": "sailors-abyss-237",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.6703,
+			"y": 0.5433,
+			"pack": 18
+		},
+		{
+			"id": "sailors-abyss-238",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.6724,
+			"y": 0.5418,
+			"pack": 18
+		},
+		{
+			"id": "sailors-abyss-239",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5786,
+			"y": 0.5625,
+			"pack": 19
+		},
+		{
+			"id": "sailors-abyss-240",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5761,
+			"y": 0.5587,
+			"pack": 19
+		},
+		{
+			"id": "sailors-abyss-241",
+			"enemyId": "sg-echoingspirit",
+			"floor": "f1",
+			"x": 0.5785,
+			"y": 0.568,
+			"pack": 19
+		},
+		{
+			"id": "sailors-abyss-242",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.5769,
+			"y": 0.5643,
+			"pack": 19,
+			"empowered": true
+		},
+		{
+			"id": "sailors-abyss-243",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.5727,
+			"y": 0.5601,
+			"pack": 19
+		},
+		{
+			"id": "sailors-abyss-244",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.5741,
+			"y": 0.5633,
+			"pack": 19,
+			"empowered": true
+		},
+		{
+			"id": "sailors-abyss-245",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.6771,
+			"y": 0.5595,
+			"pack": 20
+		},
+		{
+			"id": "sailors-abyss-246",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.6731,
+			"y": 0.5595,
+			"pack": 20
+		},
+		{
+			"id": "sailors-abyss-247",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.431,
+			"y": 0.5705,
+			"pack": 21,
+			"empowered": true
+		},
+		{
+			"id": "sailors-abyss-248",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4302,
+			"y": 0.5719,
+			"pack": 21
+		},
+		{
+			"id": "sailors-abyss-249",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.4354,
+			"y": 0.5905,
+			"pack": 21
+		},
+		{
+			"id": "sailors-abyss-250",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.4343,
+			"y": 0.5878,
+			"pack": 21
+		},
+		{
+			"id": "sailors-abyss-251",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.345,
+			"y": 0.5814,
+			"pack": 22
+		},
+		{
+			"id": "sailors-abyss-252",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.346,
+			"y": 0.5851,
+			"pack": 22
+		},
+		{
+			"id": "sailors-abyss-253",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.3473,
+			"y": 0.5823,
+			"pack": 22
+		},
+		{
+			"id": "sailors-abyss-254",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.4192,
+			"y": 0.5882,
+			"pack": 23
+		},
+		{
+			"id": "sailors-abyss-255",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.4188,
+			"y": 0.5924,
+			"pack": 23
+		},
+		{
+			"id": "sailors-abyss-256",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.6641,
+			"y": 0.597,
+			"pack": 24
+		},
+		{
+			"id": "sailors-abyss-257",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4297,
+			"y": 0.6101,
+			"pack": 25,
+			"empowered": true
+		},
+		{
+			"id": "sailors-abyss-258",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4287,
+			"y": 0.61,
+			"pack": 25
+		},
+		{
+			"id": "sailors-abyss-259",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.3231,
+			"y": 0.6134,
+			"pack": 26
+		},
+		{
+			"id": "sailors-abyss-260",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.3219,
+			"y": 0.6103,
+			"pack": 26
+		},
+		{
+			"id": "sailors-abyss-261",
+			"enemyId": "sg-ghosteruptor",
+			"floor": "f1",
+			"x": 0.3213,
+			"y": 0.6162,
+			"pack": 26
+		},
+		{
+			"id": "sailors-abyss-262",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.3499,
+			"y": 0.6311,
+			"pack": 27
+		},
+		{
+			"id": "sailors-abyss-263",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.3512,
+			"y": 0.6318,
+			"pack": 27
+		},
+		{
+			"id": "sailors-abyss-264",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.3503,
+			"y": 0.6341,
+			"pack": 27
+		},
+		{
+			"id": "sailors-abyss-265",
+			"enemyId": "sg-waterelemental",
+			"floor": "f1",
+			"x": 0.6718,
+			"y": 0.6315,
+			"pack": 28
+		},
+		{
+			"id": "sailors-abyss-266",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.6827,
+			"y": 0.6517,
+			"pack": 29
+		},
+		{
+			"id": "sailors-abyss-267",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.6844,
+			"y": 0.6414,
+			"pack": 29
+		},
+		{
+			"id": "sailors-abyss-268",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.3164,
+			"y": 0.6434,
+			"pack": 30
+		},
+		{
+			"id": "sailors-abyss-269",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.6471,
+			"y": 0.645,
+			"pack": 31
+		},
+		{
+			"id": "sailors-abyss-270",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.6491,
+			"y": 0.649,
+			"pack": 31
+		},
+		{
+			"id": "sailors-abyss-271",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.3429,
+			"y": 0.6747,
+			"pack": 32
+		},
+		{
+			"id": "sailors-abyss-272",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.3439,
+			"y": 0.6807,
+			"pack": 32
+		},
+		{
+			"id": "sailors-abyss-273",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.3458,
+			"y": 0.6848,
+			"pack": 32
+		},
+		{
+			"id": "sailors-abyss-274",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.441,
+			"y": 0.6859,
+			"pack": 33
+		},
+		{
+			"id": "sailors-abyss-275",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4419,
+			"y": 0.6822,
+			"pack": 33
+		},
+		{
+			"id": "sailors-abyss-276",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4436,
+			"y": 0.688,
+			"pack": 33
+		},
+		{
+			"id": "sailors-abyss-277",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5725,
+			"y": 0.686,
+			"pack": 34
+		},
+		{
+			"id": "sailors-abyss-278",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5666,
+			"y": 0.6882,
+			"pack": 34
+		},
+		{
+			"id": "sailors-abyss-279",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.319,
+			"y": 0.6921,
+			"pack": 35
+		},
+		{
+			"id": "sailors-abyss-280",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.319,
+			"y": 0.6966,
+			"pack": 35
+		},
+		{
+			"id": "sailors-abyss-281",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.3212,
+			"y": 0.6946,
+			"pack": 35
+		},
+		{
+			"id": "sailors-abyss-282",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5659,
+			"y": 0.7253,
+			"pack": 36
+		},
+		{
+			"id": "sailors-abyss-283",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5639,
+			"y": 0.7193,
+			"pack": 36
+		},
+		{
+			"id": "sailors-abyss-284",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5701,
+			"y": 0.7165,
+			"pack": 36
+		},
+		{
+			"id": "sailors-abyss-285",
+			"enemyId": "sg-echoingspirit",
+			"floor": "f1",
+			"x": 0.5674,
+			"y": 0.721,
+			"pack": 36
+		},
+		{
+			"id": "sailors-abyss-286",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.3616,
+			"y": 0.7324,
+			"pack": 37
+		},
+		{
+			"id": "sailors-abyss-287",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.3624,
+			"y": 0.7353,
+			"pack": 37
+		},
+		{
+			"id": "sailors-abyss-288",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.6674,
+			"y": 0.7439,
+			"pack": 38
+		},
+		{
+			"id": "sailors-abyss-289",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.6703,
+			"y": 0.7487,
+			"pack": 38
+		},
+		{
+			"id": "sailors-abyss-290",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.6638,
+			"y": 0.7521,
+			"pack": 38
+		},
+		{
+			"id": "sailors-abyss-291",
+			"enemyId": "sg-waterelemental",
+			"floor": "f1",
+			"x": 0.3237,
+			"y": 0.7446,
+			"pack": 39
+		},
+		{
+			"id": "sailors-abyss-292",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4875,
+			"y": 0.7686,
+			"pack": 40
+		},
+		{
+			"id": "sailors-abyss-293",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4958,
+			"y": 0.7724,
+			"pack": 40
+		},
+		{
+			"id": "sailors-abyss-294",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4988,
+			"y": 0.763,
+			"pack": 40
+		},
+		{
+			"id": "sailors-abyss-295",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4884,
+			"y": 0.7546,
+			"pack": 40
+		},
+		{
+			"id": "sailors-abyss-296",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4985,
+			"y": 0.7555,
+			"pack": 40
+		},
+		{
+			"id": "sailors-abyss-297",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.4936,
+			"y": 0.7716,
+			"pack": 40
+		},
+		{
+			"id": "sailors-abyss-298",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.4858,
+			"y": 0.7637,
+			"pack": 40
+		},
+		{
+			"id": "sailors-abyss-299",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.4989,
+			"y": 0.7678,
+			"pack": 40
+		},
+		{
+			"id": "sailors-abyss-300",
+			"enemyId": "sg-ghostorc",
+			"floor": "f1",
+			"x": 0.4958,
+			"y": 0.7566,
+			"pack": 40
+		},
+		{
+			"id": "sailors-abyss-301",
+			"enemyId": "sg-ghostorc",
+			"floor": "f1",
+			"x": 0.4925,
+			"y": 0.7568,
+			"pack": 40
+		},
+		{
+			"id": "sailors-abyss-302",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.3276,
+			"y": 0.7568,
+			"pack": 41
+		},
+		{
+			"id": "sailors-abyss-303",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.3299,
+			"y": 0.7588,
+			"pack": 41
+		},
+		{
+			"id": "sailors-abyss-304",
+			"enemyId": "sg-waterelemental",
+			"floor": "f1",
+			"x": 0.3704,
+			"y": 0.7783,
+			"pack": 42
+		},
+		{
+			"id": "sailors-abyss-305",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.6693,
+			"y": 0.7847,
+			"pack": 43
+		},
+		{
+			"id": "sailors-abyss-306",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.6715,
+			"y": 0.782,
+			"pack": 43
+		},
+		{
+			"id": "sailors-abyss-307",
+			"enemyId": "sg-drownedsailor",
+			"floor": "f1",
+			"x": 0.6335,
+			"y": 0.7922,
+			"pack": 44
+		},
+		{
+			"id": "sailors-abyss-308",
+			"enemyId": "sg-echoingspirit",
+			"floor": "f1",
+			"x": 0.634,
+			"y": 0.8049,
+			"pack": 44
+		},
+		{
+			"id": "sailors-abyss-309",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.6362,
+			"y": 0.7879,
+			"pack": 44
+		},
+		{
+			"id": "sailors-abyss-310",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.6367,
+			"y": 0.7951,
+			"pack": 44
+		},
+		{
+			"id": "sailors-abyss-311",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.6371,
+			"y": 0.8038,
+			"pack": 44
+		},
+		{
+			"id": "sailors-abyss-312",
+			"enemyId": "sg-ghosteruptor",
+			"floor": "f1",
+			"x": 0.6314,
+			"y": 0.8,
+			"pack": 44
+		},
+		{
+			"id": "sailors-abyss-313",
+			"enemyId": "sg-echoingspirit",
+			"floor": "f1",
+			"x": 0.4044,
+			"y": 0.8099,
+			"pack": 45
+		},
+		{
+			"id": "sailors-abyss-314",
+			"enemyId": "sg-echoingspirit",
+			"floor": "f1",
+			"x": 0.4016,
+			"y": 0.8221,
+			"pack": 45
+		},
+		{
+			"id": "sailors-abyss-315",
+			"enemyId": "sg-echoingspirit",
+			"floor": "f1",
+			"x": 0.4049,
+			"y": 0.8184,
+			"pack": 45
+		},
+		{
+			"id": "sailors-abyss-316",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.3992,
+			"y": 0.8023,
+			"pack": 45
+		},
+		{
+			"id": "sailors-abyss-317",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.3932,
+			"y": 0.8172,
+			"pack": 45
+		},
+		{
+			"id": "sailors-abyss-318",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.3935,
+			"y": 0.8198,
+			"pack": 45
+		},
+		{
+			"id": "sailors-abyss-319",
+			"enemyId": "sg-ghostcorpse",
+			"floor": "f1",
+			"x": 0.4002,
+			"y": 0.8047,
+			"pack": 45
+		},
+		{
+			"id": "sailors-abyss-320",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.4739,
+			"y": 0.8114,
+			"pack": 46,
+			"empowered": true
+		},
+		{
+			"id": "sailors-abyss-321",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.4727,
+			"y": 0.8085,
+			"pack": 46
+		},
+		{
+			"id": "sailors-abyss-322",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.4524,
+			"y": 0.8147,
+			"pack": 47
+		},
+		{
+			"id": "sailors-abyss-323",
+			"enemyId": "sg-ghostferventsoldier",
+			"floor": "f1",
+			"x": 0.452,
+			"y": 0.8345,
+			"pack": 47
+		},
+		{
+			"id": "sailors-abyss-324",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.524,
+			"y": 0.8295,
+			"pack": 48
+		},
+		{
+			"id": "sailors-abyss-325",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5213,
+			"y": 0.8295,
+			"pack": 48
+		},
+		{
+			"id": "sailors-abyss-326",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5221,
+			"y": 0.822,
+			"pack": 48
+		},
+		{
+			"id": "sailors-abyss-327",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5059,
+			"y": 0.8557,
+			"pack": 49
+		},
+		{
+			"id": "sailors-abyss-328",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5051,
+			"y": 0.8496,
+			"pack": 49
+		},
+		{
+			"id": "sailors-abyss-329",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.569,
+			"y": 0.8569,
+			"pack": 50
+		},
+		{
+			"id": "sailors-abyss-330",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5669,
+			"y": 0.8609,
+			"pack": 50
+		},
+		{
+			"id": "sailors-abyss-331",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5647,
+			"y": 0.9043,
+			"pack": 51
+		},
+		{
+			"id": "sailors-abyss-332",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5624,
+			"y": 0.8998,
+			"pack": 51
+		},
+		{
+			"id": "sailors-abyss-333",
+			"enemyId": "sg-corallasher",
+			"floor": "f1",
+			"x": 0.5653,
+			"y": 0.8991,
+			"pack": 51
+		},
+		{
+			"id": "sailors-abyss-334",
+			"enemyId": "sg-waterelemental",
+			"floor": "f1",
+			"x": 0.517,
+			"y": 0.901,
+			"pack": 52
+		},
+		{
+			"id": "sailors-abyss-335",
+			"enemyId": "sg-waterelemental",
+			"floor": "f1",
+			"x": 0.5473,
+			"y": 0.9162,
+			"pack": 53,
+			"empowered": true
+		}
+	],
+	"minibosses": [
+		{
+			"affix": "eira",
+			"floor": "f1",
+			"x": 0.6506,
+			"y": 0.454,
+			"radius": 1000,
+			"replaces": [
+				"sailors-abyss-223",
+				"sailors-abyss-224",
+				"sailors-abyss-225",
+				"sailors-abyss-226",
+				"sailors-abyss-227",
+				"sailors-abyss-228"
+			]
+		},
+		{
+			"affix": "ghorn",
+			"floor": "f1",
+			"x": 0.3625,
+			"y": 0.399,
+			"radius": 1000,
+			"replaces": [
+				"sailors-abyss-215",
+				"sailors-abyss-216",
+				"sailors-abyss-217",
+				"sailors-abyss-218"
+			]
+		}
+	],
+	"start": {
+		"floor": "f1",
+		"x": 0.5385,
+		"y": 0.0485
+	},
+	"checkpoints": [
+		{
+			"floor": "f1",
+			"x": 0.4927,
+			"y": 0.7628
+		}
+	],
+	"patrols": [],
+	"art": {
+		"codex": "/art/codex/sailors-abyss.webp",
+		"banner": "/art/banner/sailors-abyss.webp"
+	}
+}

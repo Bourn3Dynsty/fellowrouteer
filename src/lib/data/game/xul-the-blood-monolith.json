@@ -1,0 +1,2075 @@
+{
+	"id": "xul-the-blood-monolith",
+	"slug": "xul-the-blood-monolith",
+	"name": "Xul, The Blood Monolith",
+	"internalName": "SandTomb",
+	"kind": "adventure",
+	"requiredScore": 265,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Exterior",
+			"image": "/maps/xul-the-blood-monolith/f1.webp",
+			"texture": "T_ST_Map_Exterior_01",
+			"worldSize": [
+				68000,
+				34000
+			]
+		},
+		{
+			"id": "f2",
+			"label": "Interior",
+			"image": "/maps/xul-the-blood-monolith/f2.webp",
+			"texture": "T_ST_Map_Interior_01",
+			"worldSize": [
+				76000,
+				38000
+			]
+		},
+		{
+			"id": "f3",
+			"label": "End",
+			"image": "/maps/xul-the-blood-monolith/f3.webp",
+			"texture": "T_ST_Map_End_01",
+			"worldSize": [
+				124000,
+				62000
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "st-bigbloodelemental",
+			"name": "Heart of Rot",
+			"score": 6,
+			"type": "trash",
+			"healthMultiplier": 4.623,
+			"gameId": "ST_BigBloodElemental",
+			"classes": [
+				"BP_NPC_ST_BigBloodElemental"
+			],
+			"abilities": [
+				{
+					"name": "Consume",
+					"interruptible": true,
+					"channel": true,
+					"school": "Blood"
+				},
+				{
+					"name": "Blood Boil",
+					"interruptible": true,
+					"school": "Blood"
+				}
+			],
+			"icon": "/icons/enemies/st-bigbloodelemental.webp"
+		},
+		{
+			"id": "mc-bloodgrunt",
+			"name": "Heskyr Brood",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.725,
+			"gameId": "MC_BloodGrunt",
+			"classes": [
+				"BP_NPC_MC_BloodGrunt"
+			],
+			"icon": "/icons/enemies/mc-bloodgrunt.webp"
+		},
+		{
+			"id": "mc-bloodcaster",
+			"name": "Heskyr Magus",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 4.134,
+			"gameId": "MC_BloodCaster",
+			"classes": [
+				"BP_NPC_MC_BloodCaster"
+			],
+			"icon": "/icons/enemies/mc-bloodcaster.webp"
+		},
+		{
+			"id": "mc-bloodguard",
+			"name": "Heskyr Zealot",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 2.953,
+			"gameId": "MC_BloodGuard",
+			"classes": [
+				"BP_NPC_MC_BloodGuard"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/mc-bloodguard.webp"
+		},
+		{
+			"id": "st-sanguinecrusher",
+			"name": "Sanguine Crusher",
+			"score": 6,
+			"type": "trash",
+			"healthMultiplier": 5.54,
+			"gameId": "ST_SanguineCrusher",
+			"classes": [
+				"BP_NPC_ST_SanguineCrusher"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Pulverize",
+					"ccOnly": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Sunder Earth",
+					"ccOnly": true,
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/st-sanguinecrusher.webp"
+		},
+		{
+			"id": "mc-bloodsummoner",
+			"name": "Sanguine Disciple",
+			"score": 6,
+			"type": "trash",
+			"healthMultiplier": 5.534,
+			"gameId": "MC_BloodSummoner",
+			"classes": [
+				"BP_NPC_MC_BloodSummoner"
+			],
+			"elite": true,
+			"icon": "/icons/enemies/mc-bloodsummoner.webp"
+		},
+		{
+			"id": "st-smallbloodelemental",
+			"name": "Sanguine Echo",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.291,
+			"gameId": "ST_SmallBloodElemental",
+			"classes": [
+				"BP_NPC_ST_SmallBloodElemental"
+			],
+			"abilities": [
+				{
+					"name": "Blood Bolt",
+					"interruptible": true,
+					"school": "Blood"
+				},
+				{
+					"name": "Shake It Off",
+					"interruptible": true,
+					"school": "Blood"
+				}
+			],
+			"icon": "/icons/enemies/st-smallbloodelemental.webp"
+		},
+		{
+			"id": "mc-bloodhound",
+			"name": "Stalking Grim",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 1.961,
+			"gameId": "MC_BloodHound",
+			"classes": [
+				"BP_NPC_MC_BloodHound"
+			],
+			"icon": "/icons/enemies/mc-bloodhound.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "xul-the-blood-monolith-1",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6274,
+			"y": 0.0177,
+			"pack": 1
+		},
+		{
+			"id": "xul-the-blood-monolith-2",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.631,
+			"y": 0.0113,
+			"pack": 1
+		},
+		{
+			"id": "xul-the-blood-monolith-3",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6333,
+			"y": 0.0186,
+			"pack": 1
+		},
+		{
+			"id": "xul-the-blood-monolith-4",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5386,
+			"y": 0.0144,
+			"pack": 2
+		},
+		{
+			"id": "xul-the-blood-monolith-5",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5335,
+			"y": 0.0202,
+			"pack": 2
+		},
+		{
+			"id": "xul-the-blood-monolith-6",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.532,
+			"y": 0.0122,
+			"pack": 2
+		},
+		{
+			"id": "xul-the-blood-monolith-7",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.557,
+			"y": 0.1756,
+			"pack": 3
+		},
+		{
+			"id": "xul-the-blood-monolith-8",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.557,
+			"y": 0.1355,
+			"pack": 3
+		},
+		{
+			"id": "xul-the-blood-monolith-9",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.5577,
+			"y": 0.1566,
+			"pack": 3
+		},
+		{
+			"id": "xul-the-blood-monolith-10",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6035,
+			"y": 0.1756,
+			"pack": 4
+		},
+		{
+			"id": "xul-the-blood-monolith-11",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6035,
+			"y": 0.1384,
+			"pack": 4
+		},
+		{
+			"id": "xul-the-blood-monolith-12",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6042,
+			"y": 0.1566,
+			"pack": 4
+		},
+		{
+			"id": "xul-the-blood-monolith-13",
+			"enemyId": "st-bigbloodelemental",
+			"floor": "f1",
+			"x": 0.5816,
+			"y": 0.1504,
+			"pack": 5
+		},
+		{
+			"id": "xul-the-blood-monolith-14",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.5677,
+			"y": 0.255,
+			"pack": 6
+		},
+		{
+			"id": "xul-the-blood-monolith-15",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.5946,
+			"y": 0.2718,
+			"pack": 7
+		},
+		{
+			"id": "xul-the-blood-monolith-16",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4928,
+			"y": 0.5623,
+			"pack": 8
+		},
+		{
+			"id": "xul-the-blood-monolith-17",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4874,
+			"y": 0.5612,
+			"pack": 8
+		},
+		{
+			"id": "xul-the-blood-monolith-18",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4824,
+			"y": 0.5585,
+			"pack": 8
+		},
+		{
+			"id": "xul-the-blood-monolith-19",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4906,
+			"y": 0.5642,
+			"pack": 8
+		},
+		{
+			"id": "xul-the-blood-monolith-20",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f1",
+			"x": 0.4888,
+			"y": 0.5515,
+			"pack": 8
+		},
+		{
+			"id": "xul-the-blood-monolith-21",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.5343,
+			"y": 0.5971,
+			"pack": 9
+		},
+		{
+			"id": "xul-the-blood-monolith-22",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6141,
+			"y": 0.6066,
+			"pack": 10
+		},
+		{
+			"id": "xul-the-blood-monolith-23",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.6408,
+			"y": 0.6075,
+			"pack": 11
+		},
+		{
+			"id": "xul-the-blood-monolith-24",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.641,
+			"y": 0.6292,
+			"pack": 11
+		},
+		{
+			"id": "xul-the-blood-monolith-25",
+			"enemyId": "st-sanguinecrusher",
+			"floor": "f1",
+			"x": 0.6438,
+			"y": 0.618,
+			"pack": 11
+		},
+		{
+			"id": "xul-the-blood-monolith-26",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3662,
+			"y": 0.6151,
+			"pack": 12
+		},
+		{
+			"id": "xul-the-blood-monolith-27",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3603,
+			"y": 0.6137,
+			"pack": 12
+		},
+		{
+			"id": "xul-the-blood-monolith-28",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.3685,
+			"y": 0.6209,
+			"pack": 12
+		},
+		{
+			"id": "xul-the-blood-monolith-29",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.3592,
+			"y": 0.6188,
+			"pack": 12
+		},
+		{
+			"id": "xul-the-blood-monolith-30",
+			"enemyId": "st-sanguinecrusher",
+			"floor": "f1",
+			"x": 0.3662,
+			"y": 0.6277,
+			"pack": 12
+		},
+		{
+			"id": "xul-the-blood-monolith-31",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f1",
+			"x": 0.4245,
+			"y": 0.6302,
+			"pack": 13
+		},
+		{
+			"id": "xul-the-blood-monolith-32",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.42,
+			"y": 0.6274,
+			"pack": 13
+		},
+		{
+			"id": "xul-the-blood-monolith-33",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.425,
+			"y": 0.6221,
+			"pack": 13
+		},
+		{
+			"id": "xul-the-blood-monolith-34",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.421,
+			"y": 0.6214,
+			"pack": 13
+		},
+		{
+			"id": "xul-the-blood-monolith-35",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.6124,
+			"y": 0.6395,
+			"pack": 14
+		},
+		{
+			"id": "xul-the-blood-monolith-36",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.5352,
+			"y": 0.6454,
+			"pack": 15
+		},
+		{
+			"id": "xul-the-blood-monolith-37",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.5903,
+			"y": 0.6712,
+			"pack": 16
+		},
+		{
+			"id": "xul-the-blood-monolith-38",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.5905,
+			"y": 0.6709,
+			"pack": 16
+		},
+		{
+			"id": "xul-the-blood-monolith-39",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.5962,
+			"y": 0.6803,
+			"pack": 16
+		},
+		{
+			"id": "xul-the-blood-monolith-40",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.5811,
+			"y": 0.68,
+			"pack": 16
+		},
+		{
+			"id": "xul-the-blood-monolith-41",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3632,
+			"y": 0.6752,
+			"pack": 17
+		},
+		{
+			"id": "xul-the-blood-monolith-42",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3593,
+			"y": 0.6828,
+			"pack": 17
+		},
+		{
+			"id": "xul-the-blood-monolith-43",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4993,
+			"y": 0.7082,
+			"pack": 18
+		},
+		{
+			"id": "xul-the-blood-monolith-44",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4984,
+			"y": 0.6974,
+			"pack": 18
+		},
+		{
+			"id": "xul-the-blood-monolith-45",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4985,
+			"y": 0.6871,
+			"pack": 18
+		},
+		{
+			"id": "xul-the-blood-monolith-46",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4978,
+			"y": 0.7043,
+			"pack": 18
+		},
+		{
+			"id": "xul-the-blood-monolith-47",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f1",
+			"x": 0.5414,
+			"y": 0.735,
+			"pack": 19
+		},
+		{
+			"id": "xul-the-blood-monolith-48",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5382,
+			"y": 0.7281,
+			"pack": 19
+		},
+		{
+			"id": "xul-the-blood-monolith-49",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5439,
+			"y": 0.7285,
+			"pack": 19
+		},
+		{
+			"id": "xul-the-blood-monolith-50",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.5405,
+			"y": 0.7239,
+			"pack": 19
+		},
+		{
+			"id": "xul-the-blood-monolith-51",
+			"enemyId": "st-sanguinecrusher",
+			"floor": "f1",
+			"x": 0.5498,
+			"y": 0.7166,
+			"pack": 19
+		},
+		{
+			"id": "xul-the-blood-monolith-52",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.6023,
+			"y": 0.7167,
+			"pack": 20
+		},
+		{
+			"id": "xul-the-blood-monolith-53",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3079,
+			"y": 0.7315,
+			"pack": 21
+		},
+		{
+			"id": "xul-the-blood-monolith-54",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3029,
+			"y": 0.7252,
+			"pack": 21
+		},
+		{
+			"id": "xul-the-blood-monolith-55",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.3008,
+			"y": 0.7289,
+			"pack": 21
+		},
+		{
+			"id": "xul-the-blood-monolith-56",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.3088,
+			"y": 0.7388,
+			"pack": 21
+		},
+		{
+			"id": "xul-the-blood-monolith-57",
+			"enemyId": "st-sanguinecrusher",
+			"floor": "f1",
+			"x": 0.3041,
+			"y": 0.7453,
+			"pack": 21
+		},
+		{
+			"id": "xul-the-blood-monolith-58",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4663,
+			"y": 0.7321,
+			"pack": 22
+		},
+		{
+			"id": "xul-the-blood-monolith-59",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.4601,
+			"y": 0.7452,
+			"pack": 22
+		},
+		{
+			"id": "xul-the-blood-monolith-60",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4726,
+			"y": 0.7322,
+			"pack": 22
+		},
+		{
+			"id": "xul-the-blood-monolith-61",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4614,
+			"y": 0.7365,
+			"pack": 22
+		},
+		{
+			"id": "xul-the-blood-monolith-62",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.3447,
+			"y": 0.7403,
+			"pack": 23
+		},
+		{
+			"id": "xul-the-blood-monolith-63",
+			"enemyId": "st-sanguinecrusher",
+			"floor": "f1",
+			"x": 0.3927,
+			"y": 0.7853,
+			"pack": 24
+		},
+		{
+			"id": "xul-the-blood-monolith-64",
+			"enemyId": "mc-bloodguard",
+			"floor": "f1",
+			"x": 0.3436,
+			"y": 0.7955,
+			"pack": 25
+		},
+		{
+			"id": "xul-the-blood-monolith-65",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f1",
+			"x": 0.4763,
+			"y": 0.8323,
+			"pack": 26
+		},
+		{
+			"id": "xul-the-blood-monolith-66",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4734,
+			"y": 0.8249,
+			"pack": 26
+		},
+		{
+			"id": "xul-the-blood-monolith-67",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4791,
+			"y": 0.8263,
+			"pack": 26
+		},
+		{
+			"id": "xul-the-blood-monolith-68",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4759,
+			"y": 0.8211,
+			"pack": 26
+		},
+		{
+			"id": "xul-the-blood-monolith-69",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3785,
+			"y": 0.8455,
+			"pack": 27
+		},
+		{
+			"id": "xul-the-blood-monolith-70",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3748,
+			"y": 0.826,
+			"pack": 27
+		},
+		{
+			"id": "xul-the-blood-monolith-71",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.375,
+			"y": 0.846,
+			"pack": 27
+		},
+		{
+			"id": "xul-the-blood-monolith-72",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.3802,
+			"y": 0.8344,
+			"pack": 27
+		},
+		{
+			"id": "xul-the-blood-monolith-73",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.3714,
+			"y": 0.8439,
+			"pack": 27
+		},
+		{
+			"id": "xul-the-blood-monolith-74",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4635,
+			"y": 0.8426,
+			"pack": 28
+		},
+		{
+			"id": "xul-the-blood-monolith-75",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f1",
+			"x": 0.4584,
+			"y": 0.8364,
+			"pack": 28
+		},
+		{
+			"id": "xul-the-blood-monolith-76",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4563,
+			"y": 0.8401,
+			"pack": 28
+		},
+		{
+			"id": "xul-the-blood-monolith-77",
+			"enemyId": "mc-bloodhound",
+			"floor": "f1",
+			"x": 0.4644,
+			"y": 0.8499,
+			"pack": 28
+		},
+		{
+			"id": "xul-the-blood-monolith-78",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.7733,
+			"y": 0.0057,
+			"pack": 29
+		},
+		{
+			"id": "xul-the-blood-monolith-79",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.7733,
+			"y": 0.033,
+			"pack": 30
+		},
+		{
+			"id": "xul-the-blood-monolith-80",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.8204,
+			"y": 0.0696,
+			"pack": 31
+		},
+		{
+			"id": "xul-the-blood-monolith-81",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f2",
+			"x": 0.774,
+			"y": 0.1094,
+			"pack": 32
+		},
+		{
+			"id": "xul-the-blood-monolith-82",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.7812,
+			"y": 0.087,
+			"pack": 32
+		},
+		{
+			"id": "xul-the-blood-monolith-83",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.7803,
+			"y": 0.1168,
+			"pack": 32
+		},
+		{
+			"id": "xul-the-blood-monolith-84",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.7854,
+			"y": 0.1119,
+			"pack": 32
+		},
+		{
+			"id": "xul-the-blood-monolith-85",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f2",
+			"x": 0.7745,
+			"y": 0.0912,
+			"pack": 32
+		},
+		{
+			"id": "xul-the-blood-monolith-86",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.7826,
+			"y": 0.1001,
+			"pack": 32
+		},
+		{
+			"id": "xul-the-blood-monolith-87",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.7802,
+			"y": 0.1075,
+			"pack": 32
+		},
+		{
+			"id": "xul-the-blood-monolith-88",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f2",
+			"x": 0.7451,
+			"y": 0.1015,
+			"pack": 33
+		},
+		{
+			"id": "xul-the-blood-monolith-89",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.8196,
+			"y": 0.1357,
+			"pack": 34
+		},
+		{
+			"id": "xul-the-blood-monolith-90",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.7728,
+			"y": 0.1674,
+			"pack": 35
+		},
+		{
+			"id": "xul-the-blood-monolith-91",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.7712,
+			"y": 0.2,
+			"pack": 36
+		},
+		{
+			"id": "xul-the-blood-monolith-92",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f2",
+			"x": 0.8932,
+			"y": 0.2398,
+			"pack": 37
+		},
+		{
+			"id": "xul-the-blood-monolith-93",
+			"enemyId": "st-bigbloodelemental",
+			"floor": "f2",
+			"x": 0.8917,
+			"y": 0.2251,
+			"pack": 37
+		},
+		{
+			"id": "xul-the-blood-monolith-94",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.8845,
+			"y": 0.2164,
+			"pack": 37
+		},
+		{
+			"id": "xul-the-blood-monolith-95",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.8959,
+			"y": 0.2156,
+			"pack": 37
+		},
+		{
+			"id": "xul-the-blood-monolith-96",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.8972,
+			"y": 0.3444,
+			"pack": 38
+		},
+		{
+			"id": "xul-the-blood-monolith-97",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.8842,
+			"y": 0.331,
+			"pack": 38
+		},
+		{
+			"id": "xul-the-blood-monolith-98",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.8884,
+			"y": 0.3495,
+			"pack": 38
+		},
+		{
+			"id": "xul-the-blood-monolith-99",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.8934,
+			"y": 0.3309,
+			"pack": 38
+		},
+		{
+			"id": "xul-the-blood-monolith-100",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.903,
+			"y": 0.3204,
+			"pack": 38
+		},
+		{
+			"id": "xul-the-blood-monolith-101",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.8766,
+			"y": 0.3204,
+			"pack": 38
+		},
+		{
+			"id": "xul-the-blood-monolith-102",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.7722,
+			"y": 0.328,
+			"pack": 39
+		},
+		{
+			"id": "xul-the-blood-monolith-103",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.7962,
+			"y": 0.3413,
+			"pack": 40
+		},
+		{
+			"id": "xul-the-blood-monolith-104",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.8785,
+			"y": 0.4059,
+			"pack": 41
+		},
+		{
+			"id": "xul-the-blood-monolith-105",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.8829,
+			"y": 0.4082,
+			"pack": 41
+		},
+		{
+			"id": "xul-the-blood-monolith-106",
+			"enemyId": "mc-bloodhound",
+			"floor": "f2",
+			"x": 0.7637,
+			"y": 0.4187,
+			"pack": 42
+		},
+		{
+			"id": "xul-the-blood-monolith-107",
+			"enemyId": "mc-bloodhound",
+			"floor": "f2",
+			"x": 0.7583,
+			"y": 0.4231,
+			"pack": 42
+		},
+		{
+			"id": "xul-the-blood-monolith-108",
+			"enemyId": "mc-bloodhound",
+			"floor": "f2",
+			"x": 0.7537,
+			"y": 0.4183,
+			"pack": 42
+		},
+		{
+			"id": "xul-the-blood-monolith-109",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.9103,
+			"y": 0.4303,
+			"pack": 43
+		},
+		{
+			"id": "xul-the-blood-monolith-110",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.91,
+			"y": 0.4394,
+			"pack": 43
+		},
+		{
+			"id": "xul-the-blood-monolith-111",
+			"enemyId": "st-bigbloodelemental",
+			"floor": "f2",
+			"x": 0.8806,
+			"y": 0.4662,
+			"pack": 44
+		},
+		{
+			"id": "xul-the-blood-monolith-112",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.8824,
+			"y": 0.4512,
+			"pack": 44
+		},
+		{
+			"id": "xul-the-blood-monolith-113",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.873,
+			"y": 0.4833,
+			"pack": 44
+		},
+		{
+			"id": "xul-the-blood-monolith-114",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.8813,
+			"y": 0.4804,
+			"pack": 44
+		},
+		{
+			"id": "xul-the-blood-monolith-115",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.7837,
+			"y": 0.4527,
+			"pack": 45
+		},
+		{
+			"id": "xul-the-blood-monolith-116",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.7826,
+			"y": 0.4615,
+			"pack": 45
+		},
+		{
+			"id": "xul-the-blood-monolith-117",
+			"enemyId": "mc-bloodhound",
+			"floor": "f2",
+			"x": 0.7862,
+			"y": 0.4617,
+			"pack": 45
+		},
+		{
+			"id": "xul-the-blood-monolith-118",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.7095,
+			"y": 0.4632,
+			"pack": 46
+		},
+		{
+			"id": "xul-the-blood-monolith-119",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.705,
+			"y": 0.473,
+			"pack": 46
+		},
+		{
+			"id": "xul-the-blood-monolith-120",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.7091,
+			"y": 0.474,
+			"pack": 46
+		},
+		{
+			"id": "xul-the-blood-monolith-121",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.7037,
+			"y": 0.4838,
+			"pack": 46
+		},
+		{
+			"id": "xul-the-blood-monolith-122",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f2",
+			"x": 0.754,
+			"y": 0.4718,
+			"pack": 47
+		},
+		{
+			"id": "xul-the-blood-monolith-123",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.8007,
+			"y": 0.4823,
+			"pack": 48
+		},
+		{
+			"id": "xul-the-blood-monolith-124",
+			"enemyId": "st-sanguinecrusher",
+			"floor": "f2",
+			"x": 0.7172,
+			"y": 0.5188,
+			"pack": 49
+		},
+		{
+			"id": "xul-the-blood-monolith-125",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.9066,
+			"y": 0.5249,
+			"pack": 50
+		},
+		{
+			"id": "xul-the-blood-monolith-126",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.9062,
+			"y": 0.534,
+			"pack": 50
+		},
+		{
+			"id": "xul-the-blood-monolith-127",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.9015,
+			"y": 0.535,
+			"pack": 50
+		},
+		{
+			"id": "xul-the-blood-monolith-128",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.8007,
+			"y": 0.5484,
+			"pack": 51
+		},
+		{
+			"id": "xul-the-blood-monolith-129",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f2",
+			"x": 0.754,
+			"y": 0.5615,
+			"pack": 52
+		},
+		{
+			"id": "xul-the-blood-monolith-130",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.7368,
+			"y": 0.5763,
+			"pack": 53
+		},
+		{
+			"id": "xul-the-blood-monolith-131",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.7312,
+			"y": 0.5622,
+			"pack": 53
+		},
+		{
+			"id": "xul-the-blood-monolith-132",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.7277,
+			"y": 0.5681,
+			"pack": 53
+		},
+		{
+			"id": "xul-the-blood-monolith-133",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.764,
+			"y": 0.613,
+			"pack": 54
+		},
+		{
+			"id": "xul-the-blood-monolith-134",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.7768,
+			"y": 0.6101,
+			"pack": 54
+		},
+		{
+			"id": "xul-the-blood-monolith-135",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.772,
+			"y": 0.6186,
+			"pack": 54
+		},
+		{
+			"id": "xul-the-blood-monolith-136",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.6101,
+			"y": 0.7484,
+			"pack": 55
+		},
+		{
+			"id": "xul-the-blood-monolith-137",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.6139,
+			"y": 0.75,
+			"pack": 55
+		},
+		{
+			"id": "xul-the-blood-monolith-138",
+			"enemyId": "mc-bloodhound",
+			"floor": "f2",
+			"x": 0.6162,
+			"y": 0.7412,
+			"pack": 55
+		},
+		{
+			"id": "xul-the-blood-monolith-139",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f2",
+			"x": 0.5736,
+			"y": 0.7626,
+			"pack": 56
+		},
+		{
+			"id": "xul-the-blood-monolith-140",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.5815,
+			"y": 0.7607,
+			"pack": 56
+		},
+		{
+			"id": "xul-the-blood-monolith-141",
+			"enemyId": "mc-bloodguard",
+			"floor": "f2",
+			"x": 0.5642,
+			"y": 0.7607,
+			"pack": 56
+		},
+		{
+			"id": "xul-the-blood-monolith-142",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f2",
+			"x": 0.5732,
+			"y": 0.8194,
+			"pack": 57
+		},
+		{
+			"id": "xul-the-blood-monolith-143",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.5685,
+			"y": 0.8085,
+			"pack": 57
+		},
+		{
+			"id": "xul-the-blood-monolith-144",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.5752,
+			"y": 0.8022,
+			"pack": 57
+		},
+		{
+			"id": "xul-the-blood-monolith-145",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f2",
+			"x": 0.5793,
+			"y": 0.8109,
+			"pack": 57
+		},
+		{
+			"id": "xul-the-blood-monolith-146",
+			"enemyId": "st-sanguinecrusher",
+			"floor": "f2",
+			"x": 0.528,
+			"y": 0.8051,
+			"pack": 58
+		},
+		{
+			"id": "xul-the-blood-monolith-147",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.6249,
+			"y": 0.8212,
+			"pack": 59
+		},
+		{
+			"id": "xul-the-blood-monolith-148",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f2",
+			"x": 0.6203,
+			"y": 0.8263,
+			"pack": 59
+		},
+		{
+			"id": "xul-the-blood-monolith-149",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f2",
+			"x": 0.6107,
+			"y": 0.8168,
+			"pack": 59
+		},
+		{
+			"id": "xul-the-blood-monolith-150",
+			"enemyId": "st-sanguinecrusher",
+			"floor": "f2",
+			"x": 0.6131,
+			"y": 0.8112,
+			"pack": 59
+		},
+		{
+			"id": "xul-the-blood-monolith-151",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f2",
+			"x": 0.5385,
+			"y": 0.8204,
+			"pack": 60
+		},
+		{
+			"id": "xul-the-blood-monolith-152",
+			"enemyId": "st-bigbloodelemental",
+			"floor": "f3",
+			"x": 0.5242,
+			"y": 0.1861,
+			"pack": 61
+		},
+		{
+			"id": "xul-the-blood-monolith-153",
+			"enemyId": "st-bigbloodelemental",
+			"floor": "f3",
+			"x": 0.5342,
+			"y": 0.1862,
+			"pack": 62
+		},
+		{
+			"id": "xul-the-blood-monolith-154",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5492,
+			"y": 0.6765,
+			"pack": 63
+		},
+		{
+			"id": "xul-the-blood-monolith-155",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5509,
+			"y": 0.6808,
+			"pack": 63
+		},
+		{
+			"id": "xul-the-blood-monolith-156",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5458,
+			"y": 0.6757,
+			"pack": 63
+		},
+		{
+			"id": "xul-the-blood-monolith-157",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f3",
+			"x": 0.5497,
+			"y": 0.6717,
+			"pack": 63
+		},
+		{
+			"id": "xul-the-blood-monolith-158",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f3",
+			"x": 0.529,
+			"y": 0.6809,
+			"pack": 64
+		},
+		{
+			"id": "xul-the-blood-monolith-159",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f3",
+			"x": 0.5253,
+			"y": 0.68,
+			"pack": 64
+		},
+		{
+			"id": "xul-the-blood-monolith-160",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f3",
+			"x": 0.5291,
+			"y": 0.6738,
+			"pack": 64
+		},
+		{
+			"id": "xul-the-blood-monolith-161",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f3",
+			"x": 0.5328,
+			"y": 0.6788,
+			"pack": 64
+		},
+		{
+			"id": "xul-the-blood-monolith-162",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f3",
+			"x": 0.5126,
+			"y": 0.6757,
+			"pack": 65
+		},
+		{
+			"id": "xul-the-blood-monolith-163",
+			"enemyId": "mc-bloodhound",
+			"floor": "f3",
+			"x": 0.5086,
+			"y": 0.6752,
+			"pack": 65
+		},
+		{
+			"id": "xul-the-blood-monolith-164",
+			"enemyId": "mc-bloodhound",
+			"floor": "f3",
+			"x": 0.5148,
+			"y": 0.6758,
+			"pack": 65
+		},
+		{
+			"id": "xul-the-blood-monolith-165",
+			"enemyId": "st-sanguinecrusher",
+			"floor": "f3",
+			"x": 0.603,
+			"y": 0.688,
+			"pack": 66
+		},
+		{
+			"id": "xul-the-blood-monolith-166",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5045,
+			"y": 0.7063,
+			"pack": 67
+		},
+		{
+			"id": "xul-the-blood-monolith-167",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5066,
+			"y": 0.7096,
+			"pack": 67
+		},
+		{
+			"id": "xul-the-blood-monolith-168",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5065,
+			"y": 0.7043,
+			"pack": 67
+		},
+		{
+			"id": "xul-the-blood-monolith-169",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.522,
+			"y": 0.7147,
+			"pack": 68
+		},
+		{
+			"id": "xul-the-blood-monolith-170",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.5367,
+			"y": 0.7147,
+			"pack": 69
+		},
+		{
+			"id": "xul-the-blood-monolith-171",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.6033,
+			"y": 0.7313,
+			"pack": 70
+		},
+		{
+			"id": "xul-the-blood-monolith-172",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.6014,
+			"y": 0.7267,
+			"pack": 70
+		},
+		{
+			"id": "xul-the-blood-monolith-173",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.4767,
+			"y": 0.745,
+			"pack": 71
+		},
+		{
+			"id": "xul-the-blood-monolith-174",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.4779,
+			"y": 0.7423,
+			"pack": 71
+		},
+		{
+			"id": "xul-the-blood-monolith-175",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.4794,
+			"y": 0.7421,
+			"pack": 71
+		},
+		{
+			"id": "xul-the-blood-monolith-176",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.4795,
+			"y": 0.7542,
+			"pack": 71
+		},
+		{
+			"id": "xul-the-blood-monolith-177",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.4808,
+			"y": 0.754,
+			"pack": 71
+		},
+		{
+			"id": "xul-the-blood-monolith-178",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.4957,
+			"y": 0.747,
+			"pack": 72
+		},
+		{
+			"id": "xul-the-blood-monolith-179",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.4937,
+			"y": 0.7469,
+			"pack": 72
+		},
+		{
+			"id": "xul-the-blood-monolith-180",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.4938,
+			"y": 0.7541,
+			"pack": 72
+		},
+		{
+			"id": "xul-the-blood-monolith-181",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.4981,
+			"y": 0.754,
+			"pack": 72
+		},
+		{
+			"id": "xul-the-blood-monolith-182",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.496,
+			"y": 0.757,
+			"pack": 72
+		},
+		{
+			"id": "xul-the-blood-monolith-183",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.611,
+			"y": 0.7534,
+			"pack": 73
+		},
+		{
+			"id": "xul-the-blood-monolith-184",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.6095,
+			"y": 0.7492,
+			"pack": 73
+		},
+		{
+			"id": "xul-the-blood-monolith-185",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f3",
+			"x": 0.6085,
+			"y": 0.7546,
+			"pack": 73
+		},
+		{
+			"id": "xul-the-blood-monolith-186",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f3",
+			"x": 0.6114,
+			"y": 0.759,
+			"pack": 73
+		},
+		{
+			"id": "xul-the-blood-monolith-187",
+			"enemyId": "mc-bloodhound",
+			"floor": "f3",
+			"x": 0.4635,
+			"y": 0.7629,
+			"pack": 74
+		},
+		{
+			"id": "xul-the-blood-monolith-188",
+			"enemyId": "mc-bloodhound",
+			"floor": "f3",
+			"x": 0.4636,
+			"y": 0.7571,
+			"pack": 74
+		},
+		{
+			"id": "xul-the-blood-monolith-189",
+			"enemyId": "mc-bloodhound",
+			"floor": "f3",
+			"x": 0.4637,
+			"y": 0.7529,
+			"pack": 74
+		},
+		{
+			"id": "xul-the-blood-monolith-190",
+			"enemyId": "mc-bloodhound",
+			"floor": "f3",
+			"x": 0.4666,
+			"y": 0.7607,
+			"pack": 74
+		},
+		{
+			"id": "xul-the-blood-monolith-191",
+			"enemyId": "st-sanguinecrusher",
+			"floor": "f3",
+			"x": 0.5673,
+			"y": 0.7633,
+			"pack": 75
+		},
+		{
+			"id": "xul-the-blood-monolith-192",
+			"enemyId": "mc-bloodhound",
+			"floor": "f3",
+			"x": 0.5576,
+			"y": 0.7776,
+			"pack": 76
+		},
+		{
+			"id": "xul-the-blood-monolith-193",
+			"enemyId": "mc-bloodhound",
+			"floor": "f3",
+			"x": 0.5592,
+			"y": 0.7718,
+			"pack": 76
+		},
+		{
+			"id": "xul-the-blood-monolith-194",
+			"enemyId": "mc-bloodhound",
+			"floor": "f3",
+			"x": 0.5639,
+			"y": 0.7784,
+			"pack": 76
+		},
+		{
+			"id": "xul-the-blood-monolith-195",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.4972,
+			"y": 0.7986,
+			"pack": 77
+		},
+		{
+			"id": "xul-the-blood-monolith-196",
+			"enemyId": "mc-bloodhound",
+			"floor": "f3",
+			"x": 0.4932,
+			"y": 0.7892,
+			"pack": 77
+		},
+		{
+			"id": "xul-the-blood-monolith-197",
+			"enemyId": "mc-bloodhound",
+			"floor": "f3",
+			"x": 0.4949,
+			"y": 0.7835,
+			"pack": 77
+		},
+		{
+			"id": "xul-the-blood-monolith-198",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5208,
+			"y": 0.7944,
+			"pack": 78
+		},
+		{
+			"id": "xul-the-blood-monolith-199",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5221,
+			"y": 0.7897,
+			"pack": 78
+		},
+		{
+			"id": "xul-the-blood-monolith-200",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5205,
+			"y": 0.7856,
+			"pack": 78
+		},
+		{
+			"id": "xul-the-blood-monolith-201",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.6251,
+			"y": 0.7933,
+			"pack": 79
+		},
+		{
+			"id": "xul-the-blood-monolith-202",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.6228,
+			"y": 0.7906,
+			"pack": 79
+		},
+		{
+			"id": "xul-the-blood-monolith-203",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f3",
+			"x": 0.6214,
+			"y": 0.79,
+			"pack": 79
+		},
+		{
+			"id": "xul-the-blood-monolith-204",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f3",
+			"x": 0.6247,
+			"y": 0.7972,
+			"pack": 79
+		},
+		{
+			"id": "xul-the-blood-monolith-205",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f3",
+			"x": 0.627,
+			"y": 0.7919,
+			"pack": 79
+		},
+		{
+			"id": "xul-the-blood-monolith-206",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.5378,
+			"y": 0.7962,
+			"pack": 80
+		},
+		{
+			"id": "xul-the-blood-monolith-207",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.477,
+			"y": 0.7986,
+			"pack": 81
+		},
+		{
+			"id": "xul-the-blood-monolith-208",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.5628,
+			"y": 0.7986,
+			"pack": 82
+		},
+		{
+			"id": "xul-the-blood-monolith-209",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.5829,
+			"y": 0.7986,
+			"pack": 83
+		},
+		{
+			"id": "xul-the-blood-monolith-210",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.6345,
+			"y": 0.8067,
+			"pack": 84
+		},
+		{
+			"id": "xul-the-blood-monolith-211",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.6074,
+			"y": 0.8112,
+			"pack": 85
+		},
+		{
+			"id": "xul-the-blood-monolith-212",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f3",
+			"x": 0.5295,
+			"y": 0.8142,
+			"pack": 86
+		},
+		{
+			"id": "xul-the-blood-monolith-213",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f3",
+			"x": 0.558,
+			"y": 0.8168,
+			"pack": 87
+		},
+		{
+			"id": "xul-the-blood-monolith-214",
+			"enemyId": "st-sanguinecrusher",
+			"floor": "f3",
+			"x": 0.6461,
+			"y": 0.8237,
+			"pack": 88
+		},
+		{
+			"id": "xul-the-blood-monolith-215",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.6074,
+			"y": 0.8311,
+			"pack": 89
+		},
+		{
+			"id": "xul-the-blood-monolith-216",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.4915,
+			"y": 0.8349,
+			"pack": 90
+		},
+		{
+			"id": "xul-the-blood-monolith-217",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.4939,
+			"y": 0.8374,
+			"pack": 90
+		},
+		{
+			"id": "xul-the-blood-monolith-218",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.4932,
+			"y": 0.8323,
+			"pack": 90
+		},
+		{
+			"id": "xul-the-blood-monolith-219",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.4972,
+			"y": 0.8362,
+			"pack": 90
+		},
+		{
+			"id": "xul-the-blood-monolith-220",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.477,
+			"y": 0.8362,
+			"pack": 91
+		},
+		{
+			"id": "xul-the-blood-monolith-221",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.5628,
+			"y": 0.8362,
+			"pack": 92
+		},
+		{
+			"id": "xul-the-blood-monolith-222",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.575,
+			"y": 0.8442,
+			"pack": 93
+		},
+		{
+			"id": "xul-the-blood-monolith-223",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5772,
+			"y": 0.8409,
+			"pack": 93
+		},
+		{
+			"id": "xul-the-blood-monolith-224",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5746,
+			"y": 0.8399,
+			"pack": 93
+		},
+		{
+			"id": "xul-the-blood-monolith-225",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.5829,
+			"y": 0.8362,
+			"pack": 93
+		},
+		{
+			"id": "xul-the-blood-monolith-226",
+			"enemyId": "mc-bloodguard",
+			"floor": "f3",
+			"x": 0.6345,
+			"y": 0.8409,
+			"pack": 94
+		},
+		{
+			"id": "xul-the-blood-monolith-227",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5189,
+			"y": 0.8419,
+			"pack": 95
+		},
+		{
+			"id": "xul-the-blood-monolith-228",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5211,
+			"y": 0.8452,
+			"pack": 95
+		},
+		{
+			"id": "xul-the-blood-monolith-229",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5357,
+			"y": 0.8466,
+			"pack": 96
+		},
+		{
+			"id": "xul-the-blood-monolith-230",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.5387,
+			"y": 0.8452,
+			"pack": 96
+		},
+		{
+			"id": "xul-the-blood-monolith-231",
+			"enemyId": "mc-bloodsummoner",
+			"floor": "f3",
+			"x": 0.6228,
+			"y": 0.8549,
+			"pack": 97
+		},
+		{
+			"id": "xul-the-blood-monolith-232",
+			"enemyId": "st-bigbloodelemental",
+			"floor": "f3",
+			"x": 0.6256,
+			"y": 0.8585,
+			"pack": 97
+		},
+		{
+			"id": "xul-the-blood-monolith-233",
+			"enemyId": "mc-bloodcaster",
+			"floor": "f3",
+			"x": 0.6055,
+			"y": 0.864,
+			"pack": 98
+		},
+		{
+			"id": "xul-the-blood-monolith-234",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.6036,
+			"y": 0.8612,
+			"pack": 98
+		},
+		{
+			"id": "xul-the-blood-monolith-235",
+			"enemyId": "mc-bloodgrunt",
+			"floor": "f3",
+			"x": 0.6037,
+			"y": 0.8568,
+			"pack": 98
+		},
+		{
+			"id": "xul-the-blood-monolith-236",
+			"enemyId": "st-smallbloodelemental",
+			"floor": "f3",
+			"x": 0.6065,
+			"y": 0.8587,
+			"pack": 98
+		}
+	],
+	"minibosses": [],
+	"checkpoints": [],
+	"patrols": [],
+	"art": {
+		"codex": "/art/codex/xul-the-blood-monolith.webp",
+		"banner": "/art/banner/xul-the-blood-monolith.webp"
+	}
+}

@@ -1,0 +1,2568 @@
+{
+	"id": "urrak-markets",
+	"slug": "urrak-markets",
+	"name": "Urrak Markets",
+	"internalName": "UrrakMarkets",
+	"kind": "dungeon",
+	"requiredScore": 160,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Map",
+			"image": "/maps/urrak-markets/f1.webp",
+			"texture": "T_Map_UrrakMarkets_Global",
+			"worldSize": [
+				88000,
+				44000
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "pr-barbarouslasher",
+			"name": "Barbarous Lasher",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.143,
+			"gameId": "PR_BarbarousLasher",
+			"classes": [
+				"BP_NPC_PR_BarbarousLasher"
+			],
+			"icon": "/icons/enemies/pr-barbarouslasher.webp"
+		},
+		{
+			"id": "dr-bloodfangmauler",
+			"name": "Bloodfang",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.261,
+			"gameId": "DR_BloodfangMauler",
+			"classes": [
+				"BP_NPC_DR_BloodfangMauler"
+			],
+			"abilities": [
+				{
+					"name": "Shred",
+					"school": "Physical"
+				},
+				{
+					"name": "Pounce",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/dr-bloodfangmauler.webp"
+		},
+		{
+			"id": "dr-mancatcher",
+			"name": "Bloodfang Raider",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.33,
+			"gameId": "DR_Mancatcher",
+			"classes": [
+				"BP_NPC_DR_Mancatcher"
+			],
+			"abilities": [
+				{
+					"name": "Grip"
+				},
+				{
+					"name": "Shred"
+				}
+			],
+			"icon": "/icons/enemies/dr-mancatcher.webp"
+		},
+		{
+			"id": "um-desecrater",
+			"name": "Desecrator",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.307,
+			"gameId": "UM_Desecrater",
+			"classes": [
+				"BP_NPC_UM_Desecrater"
+			],
+			"abilities": [
+				{
+					"name": "Volley",
+					"ccOnly": true,
+					"channel": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Infernal Explosive",
+					"school": "Fire"
+				}
+			],
+			"icon": "/icons/enemies/um-desecrater.webp"
+		},
+		{
+			"id": "cm-elfgoon",
+			"name": "Dredge",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.324,
+			"gameId": "CM_ElfGoon",
+			"classes": [
+				"BP_NPC_CM_Elf_Goon"
+			],
+			"abilities": [
+				{
+					"name": "Throw Stone",
+					"ccOnly": true,
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/cm-elfgoon.webp"
+		},
+		{
+			"id": "vv-frenziedlooter",
+			"name": "Frenzied Looter",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.419,
+			"gameId": "VV_FrenziedLooter",
+			"classes": [
+				"BP_NPC_VV_FrenziedLooter"
+			],
+			"icon": "/icons/enemies/vv-frenziedlooter.webp"
+		},
+		{
+			"id": "um-gorestainedbutcher",
+			"name": "Gorestained Butcher",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.377,
+			"gameId": "UM_GorestainedButcher",
+			"classes": [
+				"BP_NPC_UM_GorestainedButcher"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Mince",
+					"interruptible": true,
+					"channel": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Furious Tantrum",
+					"interruptible": true,
+					"channel": true,
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/um-gorestainedbutcher.webp"
+		},
+		{
+			"id": "dr-cultistmajorcaster",
+			"name": "Hellcaller",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 3.088,
+			"gameId": "DR_CultistMajorCaster",
+			"classes": [
+				"BP_NPC_DR_CultistMajorCaster"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Demonic Lash",
+					"interruptible": true,
+					"school": "Demonic"
+				},
+				{
+					"name": "Armaggedon",
+					"interruptible": true
+				},
+				{
+					"name": "Restore Vitality",
+					"interruptible": true,
+					"school": "Demonic"
+				}
+			],
+			"icon": "/icons/enemies/dr-cultistmajorcaster.webp"
+		},
+		{
+			"id": "um-hornedseer",
+			"name": "Horned Seer",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.41,
+			"gameId": "UM_HornedSeer",
+			"classes": [
+				"BP_NPC_UM_HornedSeer"
+			],
+			"abilities": [
+				{
+					"name": "Orb of Blood",
+					"interruptible": true,
+					"school": "Blood"
+				},
+				{
+					"name": "Sanguine Offering",
+					"interruptible": true,
+					"school": "Blood"
+				},
+				{
+					"name": "Pain Bolt",
+					"interruptible": true,
+					"school": "Blood"
+				}
+			],
+			"icon": "/icons/enemies/um-hornedseer.webp"
+		},
+		{
+			"id": "dr-cultistinitiate",
+			"name": "Initiate",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 0.669,
+			"gameId": "DR_CultistInitiate",
+			"classes": [
+				"BP_NPC_DR_CultistSickle_Praying"
+			],
+			"icon": "/icons/enemies/dr-cultistinitiate.webp"
+		},
+		{
+			"id": "np-halfmancatcher",
+			"name": "Mancatcher",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.494,
+			"gameId": "NP_HalfMancatcher",
+			"classes": [
+				"BP_NPC_NP_HalfMancatcher"
+			],
+			"icon": "/icons/enemies/np-halfmancatcher.webp"
+		},
+		{
+			"id": "mf-mangybrute",
+			"name": "Mangy Brute",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.39,
+			"gameId": "MF_MangyBrute",
+			"classes": [
+				"BP_NPC_MF_MangyBrute"
+			],
+			"icon": "/icons/enemies/mf-mangybrute.webp"
+		},
+		{
+			"id": "um-outrunner",
+			"name": "Outrunner",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.494,
+			"gameId": "UM_Outrunner",
+			"classes": [
+				"BP_NPC_UM_Outrunner"
+			],
+			"abilities": [
+				{
+					"name": "Bola Throw",
+					"school": "Physical"
+				},
+				{
+					"name": "Charge",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/um-outrunner.webp"
+		},
+		{
+			"id": "dr-ruinslasher",
+			"name": "Ruins Lasher",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.353,
+			"gameId": "DR_RuinsLasher",
+			"classes": [
+				"BP_NPC_DR_RuinsLasher"
+			],
+			"abilities": [
+				{
+					"name": "Acidic Sap"
+				}
+			],
+			"icon": "/icons/enemies/dr-ruinslasher.webp"
+		},
+		{
+			"id": "dr-slaughtervine",
+			"name": "Slaughtervine",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.44,
+			"gameId": "DR_Slaughtervine",
+			"classes": [
+				"BP_NPC_DR_Slaughtervine"
+			],
+			"icon": "/icons/enemies/dr-slaughtervine.webp"
+		},
+		{
+			"id": "um-urrakslaver",
+			"name": "Urrak Slaver",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.885,
+			"gameId": "UM_UrrakSlaver",
+			"classes": [
+				"BP_NPC_UM_UrrakSlaver"
+			],
+			"abilities": [
+				{
+					"name": "Bloodlash Wake",
+					"interruptible": true
+				},
+				{
+					"name": "Barbed Chain",
+					"interruptible": true
+				},
+				{
+					"name": "Shackle Chuck",
+					"interruptible": true
+				}
+			],
+			"icon": "/icons/enemies/um-urrakslaver.webp"
+		},
+		{
+			"id": "um-urrakwitch",
+			"name": "Urrak Witch",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 2.936,
+			"gameId": "UM_UrrakWitch",
+			"classes": [
+				"BP_NPC_UM_UrrakWitch"
+			],
+			"abilities": [
+				{
+					"name": "Mossfire Bolt",
+					"interruptible": true,
+					"school": "Demonic"
+				},
+				{
+					"name": "Grasping Vines",
+					"interruptible": true,
+					"school": "Demonic"
+				},
+				{
+					"name": "Jungle Rot",
+					"interruptible": true,
+					"school": "Demonic"
+				}
+			],
+			"icon": "/icons/enemies/um-urrakwitch.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "urrak-markets-44",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4407,
+			"y": 0.3622,
+			"pack": 22
+		},
+		{
+			"id": "urrak-markets-45",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3306,
+			"y": 0.3817,
+			"pack": 23
+		},
+		{
+			"id": "urrak-markets-53",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3877,
+			"y": 0.3955,
+			"pack": 26
+		},
+		{
+			"id": "urrak-markets-62",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.6156,
+			"y": 0.4378,
+			"pack": 34
+		},
+		{
+			"id": "urrak-markets-102",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4459,
+			"y": 0.5723,
+			"pack": 49
+		},
+		{
+			"id": "urrak-markets-110",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4637,
+			"y": 0.5803,
+			"pack": 56
+		},
+		{
+			"id": "urrak-markets-116",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4045,
+			"y": 0.5909,
+			"pack": 57
+		},
+		{
+			"id": "urrak-markets-117",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4054,
+			"y": 0.5964,
+			"pack": 57
+		},
+		{
+			"id": "urrak-markets-120",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3937,
+			"y": 0.6016,
+			"pack": 60
+		},
+		{
+			"id": "urrak-markets-135",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.4382,
+			"y": 0.1317,
+			"pack": 1
+		},
+		{
+			"id": "urrak-markets-136",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4402,
+			"y": 0.1474,
+			"pack": 1
+		},
+		{
+			"id": "urrak-markets-137",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4437,
+			"y": 0.1467,
+			"pack": 1
+		},
+		{
+			"id": "urrak-markets-138",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4472,
+			"y": 0.1406,
+			"pack": 1
+		},
+		{
+			"id": "urrak-markets-139",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4368,
+			"y": 0.1439,
+			"pack": 1
+		},
+		{
+			"id": "urrak-markets-140",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4467,
+			"y": 0.1293,
+			"pack": 1
+		},
+		{
+			"id": "urrak-markets-141",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.4421,
+			"y": 0.1277,
+			"pack": 1
+		},
+		{
+			"id": "urrak-markets-142",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4846,
+			"y": 0.1513,
+			"pack": 2
+		},
+		{
+			"id": "urrak-markets-143",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4953,
+			"y": 0.1582,
+			"pack": 2
+		},
+		{
+			"id": "urrak-markets-144",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4978,
+			"y": 0.1515,
+			"pack": 2
+		},
+		{
+			"id": "urrak-markets-145",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4889,
+			"y": 0.1531,
+			"pack": 2
+		},
+		{
+			"id": "urrak-markets-146",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4914,
+			"y": 0.1547,
+			"pack": 2
+		},
+		{
+			"id": "urrak-markets-147",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4947,
+			"y": 0.1531,
+			"pack": 2
+		},
+		{
+			"id": "urrak-markets-148",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4919,
+			"y": 0.1605,
+			"pack": 2
+		},
+		{
+			"id": "urrak-markets-149",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4886,
+			"y": 0.1593,
+			"pack": 2
+		},
+		{
+			"id": "urrak-markets-150",
+			"enemyId": "dr-cultistmajorcaster",
+			"floor": "f1",
+			"x": 0.4902,
+			"y": 0.1366,
+			"pack": 2
+		},
+		{
+			"id": "urrak-markets-151",
+			"enemyId": "dr-cultistmajorcaster",
+			"floor": "f1",
+			"x": 0.4941,
+			"y": 0.1366,
+			"pack": 2
+		},
+		{
+			"id": "urrak-markets-152",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3896,
+			"y": 0.1886,
+			"pack": 3
+		},
+		{
+			"id": "urrak-markets-153",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3899,
+			"y": 0.1977,
+			"pack": 3
+		},
+		{
+			"id": "urrak-markets-154",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3862,
+			"y": 0.2076,
+			"pack": 3
+		},
+		{
+			"id": "urrak-markets-155",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3823,
+			"y": 0.2091,
+			"pack": 3
+		},
+		{
+			"id": "urrak-markets-156",
+			"enemyId": "um-urrakwitch",
+			"floor": "f1",
+			"x": 0.385,
+			"y": 0.1856,
+			"pack": 3
+		},
+		{
+			"id": "urrak-markets-157",
+			"enemyId": "um-urrakwitch",
+			"floor": "f1",
+			"x": 0.3794,
+			"y": 0.2047,
+			"pack": 3,
+			"empowered": true
+		},
+		{
+			"id": "urrak-markets-158",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4715,
+			"y": 0.2038,
+			"pack": 4
+		},
+		{
+			"id": "urrak-markets-159",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4685,
+			"y": 0.2094,
+			"pack": 4
+		},
+		{
+			"id": "urrak-markets-160",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4717,
+			"y": 0.21,
+			"pack": 4
+		},
+		{
+			"id": "urrak-markets-161",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4772,
+			"y": 0.2417,
+			"pack": 4
+		},
+		{
+			"id": "urrak-markets-162",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.5578,
+			"y": 0.2426,
+			"pack": 5
+		},
+		{
+			"id": "urrak-markets-163",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.5534,
+			"y": 0.2417,
+			"pack": 5
+		},
+		{
+			"id": "urrak-markets-164",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.5601,
+			"y": 0.2491,
+			"pack": 5
+		},
+		{
+			"id": "urrak-markets-165",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.5552,
+			"y": 0.2503,
+			"pack": 5
+		},
+		{
+			"id": "urrak-markets-166",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.5173,
+			"y": 0.2461,
+			"pack": 6
+		},
+		{
+			"id": "urrak-markets-167",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5209,
+			"y": 0.2452,
+			"pack": 6
+		},
+		{
+			"id": "urrak-markets-168",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5136,
+			"y": 0.2516,
+			"pack": 6
+		},
+		{
+			"id": "urrak-markets-169",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.4794,
+			"y": 0.2457,
+			"pack": 7
+		},
+		{
+			"id": "urrak-markets-170",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4813,
+			"y": 0.2496,
+			"pack": 7
+		},
+		{
+			"id": "urrak-markets-171",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.437,
+			"y": 0.2513,
+			"pack": 8
+		},
+		{
+			"id": "urrak-markets-172",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4396,
+			"y": 0.2487,
+			"pack": 8
+		},
+		{
+			"id": "urrak-markets-173",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.4263,
+			"y": 0.2704,
+			"pack": 9
+		},
+		{
+			"id": "urrak-markets-174",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.4241,
+			"y": 0.2601,
+			"pack": 9
+		},
+		{
+			"id": "urrak-markets-175",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.5428,
+			"y": 0.2852,
+			"pack": 10
+		},
+		{
+			"id": "urrak-markets-176",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.5446,
+			"y": 0.2907,
+			"pack": 10
+		},
+		{
+			"id": "urrak-markets-177",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.5474,
+			"y": 0.2943,
+			"pack": 10
+		},
+		{
+			"id": "urrak-markets-178",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.551,
+			"y": 0.2953,
+			"pack": 10
+		},
+		{
+			"id": "urrak-markets-179",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.5455,
+			"y": 0.2868,
+			"pack": 10
+		},
+		{
+			"id": "urrak-markets-180",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.5482,
+			"y": 0.2893,
+			"pack": 10
+		},
+		{
+			"id": "urrak-markets-181",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.5477,
+			"y": 0.2726,
+			"pack": 10
+		},
+		{
+			"id": "urrak-markets-182",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.5539,
+			"y": 0.2789,
+			"pack": 10
+		},
+		{
+			"id": "urrak-markets-183",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.5919,
+			"y": 0.2882,
+			"pack": 11
+		},
+		{
+			"id": "urrak-markets-184",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.5894,
+			"y": 0.2919,
+			"pack": 11
+		},
+		{
+			"id": "urrak-markets-185",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.5928,
+			"y": 0.2954,
+			"pack": 11
+		},
+		{
+			"id": "urrak-markets-186",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.5891,
+			"y": 0.2815,
+			"pack": 11
+		},
+		{
+			"id": "urrak-markets-187",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.5911,
+			"y": 0.2836,
+			"pack": 11
+		},
+		{
+			"id": "urrak-markets-188",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.5885,
+			"y": 0.2859,
+			"pack": 11
+		},
+		{
+			"id": "urrak-markets-189",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.3461,
+			"y": 0.3071,
+			"pack": 12
+		},
+		{
+			"id": "urrak-markets-190",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.3582,
+			"y": 0.2984,
+			"pack": 12
+		},
+		{
+			"id": "urrak-markets-191",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3358,
+			"y": 0.3181,
+			"pack": 12
+		},
+		{
+			"id": "urrak-markets-192",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3437,
+			"y": 0.3181,
+			"pack": 12
+		},
+		{
+			"id": "urrak-markets-193",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3348,
+			"y": 0.3272,
+			"pack": 12
+		},
+		{
+			"id": "urrak-markets-194",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3446,
+			"y": 0.3036,
+			"pack": 12
+		},
+		{
+			"id": "urrak-markets-195",
+			"enemyId": "um-urrakwitch",
+			"floor": "f1",
+			"x": 0.3456,
+			"y": 0.2964,
+			"pack": 12
+		},
+		{
+			"id": "urrak-markets-196",
+			"enemyId": "um-urrakwitch",
+			"floor": "f1",
+			"x": 0.353,
+			"y": 0.2979,
+			"pack": 12
+		},
+		{
+			"id": "urrak-markets-197",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.411,
+			"y": 0.3,
+			"pack": 13
+		},
+		{
+			"id": "urrak-markets-198",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4084,
+			"y": 0.3014,
+			"pack": 13
+		},
+		{
+			"id": "urrak-markets-199",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4116,
+			"y": 0.3061,
+			"pack": 13
+		},
+		{
+			"id": "urrak-markets-200",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3709,
+			"y": 0.3104,
+			"pack": 14
+		},
+		{
+			"id": "urrak-markets-201",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3735,
+			"y": 0.3121,
+			"pack": 14
+		},
+		{
+			"id": "urrak-markets-202",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5287,
+			"y": 0.3158,
+			"pack": 15
+		},
+		{
+			"id": "urrak-markets-203",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5339,
+			"y": 0.3304,
+			"pack": 15
+		},
+		{
+			"id": "urrak-markets-204",
+			"enemyId": "um-urrakslaver",
+			"floor": "f1",
+			"x": 0.5311,
+			"y": 0.3241,
+			"pack": 15
+		},
+		{
+			"id": "urrak-markets-205",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4895,
+			"y": 0.3243,
+			"pack": 16
+		},
+		{
+			"id": "urrak-markets-206",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4953,
+			"y": 0.3229,
+			"pack": 16
+		},
+		{
+			"id": "urrak-markets-207",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4925,
+			"y": 0.324,
+			"pack": 16
+		},
+		{
+			"id": "urrak-markets-208",
+			"enemyId": "um-urrakslaver",
+			"floor": "f1",
+			"x": 0.4926,
+			"y": 0.3291,
+			"pack": 16
+		},
+		{
+			"id": "urrak-markets-209",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.4003,
+			"y": 0.3353,
+			"pack": 17
+		},
+		{
+			"id": "urrak-markets-210",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.3955,
+			"y": 0.3302,
+			"pack": 17
+		},
+		{
+			"id": "urrak-markets-211",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.395,
+			"y": 0.3404,
+			"pack": 17
+		},
+		{
+			"id": "urrak-markets-212",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.3966,
+			"y": 0.3353,
+			"pack": 17
+		},
+		{
+			"id": "urrak-markets-213",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4387,
+			"y": 0.3387,
+			"pack": 18
+		},
+		{
+			"id": "urrak-markets-214",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.437,
+			"y": 0.3319,
+			"pack": 18
+		},
+		{
+			"id": "urrak-markets-215",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4343,
+			"y": 0.3376,
+			"pack": 18
+		},
+		{
+			"id": "urrak-markets-216",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.3739,
+			"y": 0.3387,
+			"pack": 19
+		},
+		{
+			"id": "urrak-markets-217",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.3758,
+			"y": 0.3359,
+			"pack": 19
+		},
+		{
+			"id": "urrak-markets-218",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3508,
+			"y": 0.3537,
+			"pack": 20
+		},
+		{
+			"id": "urrak-markets-219",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3545,
+			"y": 0.3459,
+			"pack": 20
+		},
+		{
+			"id": "urrak-markets-220",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3251,
+			"y": 0.3542,
+			"pack": 21
+		},
+		{
+			"id": "urrak-markets-221",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3362,
+			"y": 0.3711,
+			"pack": 23
+		},
+		{
+			"id": "urrak-markets-222",
+			"enemyId": "um-gorestainedbutcher",
+			"floor": "f1",
+			"x": 0.5495,
+			"y": 0.3714,
+			"pack": 24
+		},
+		{
+			"id": "urrak-markets-223",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3515,
+			"y": 0.4181,
+			"pack": 25
+		},
+		{
+			"id": "urrak-markets-224",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3548,
+			"y": 0.4032,
+			"pack": 25
+		},
+		{
+			"id": "urrak-markets-225",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3526,
+			"y": 0.3939,
+			"pack": 25
+		},
+		{
+			"id": "urrak-markets-226",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.3463,
+			"y": 0.4208,
+			"pack": 25
+		},
+		{
+			"id": "urrak-markets-227",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3476,
+			"y": 0.4301,
+			"pack": 25
+		},
+		{
+			"id": "urrak-markets-228",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.358,
+			"y": 0.3795,
+			"pack": 25
+		},
+		{
+			"id": "urrak-markets-229",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3596,
+			"y": 0.3902,
+			"pack": 25
+		},
+		{
+			"id": "urrak-markets-230",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f1",
+			"x": 0.3463,
+			"y": 0.4027,
+			"pack": 25
+		},
+		{
+			"id": "urrak-markets-231",
+			"enemyId": "um-urrakwitch",
+			"floor": "f1",
+			"x": 0.3555,
+			"y": 0.4132,
+			"pack": 25
+		},
+		{
+			"id": "urrak-markets-232",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3905,
+			"y": 0.3873,
+			"pack": 26
+		},
+		{
+			"id": "urrak-markets-233",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3909,
+			"y": 0.3937,
+			"pack": 26
+		},
+		{
+			"id": "urrak-markets-234",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.3707,
+			"y": 0.3948,
+			"pack": 27
+		},
+		{
+			"id": "urrak-markets-235",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3143,
+			"y": 0.4094,
+			"pack": 28
+		},
+		{
+			"id": "urrak-markets-236",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3143,
+			"y": 0.4032,
+			"pack": 28
+		},
+		{
+			"id": "urrak-markets-237",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3268,
+			"y": 0.4032,
+			"pack": 29
+		},
+		{
+			"id": "urrak-markets-238",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.4332,
+			"y": 0.4326,
+			"pack": 30
+		},
+		{
+			"id": "urrak-markets-239",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.4337,
+			"y": 0.4128,
+			"pack": 30
+		},
+		{
+			"id": "urrak-markets-240",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.4345,
+			"y": 0.4223,
+			"pack": 30
+		},
+		{
+			"id": "urrak-markets-241",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4278,
+			"y": 0.4281,
+			"pack": 30
+		},
+		{
+			"id": "urrak-markets-242",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4268,
+			"y": 0.4126,
+			"pack": 30
+		},
+		{
+			"id": "urrak-markets-243",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.429,
+			"y": 0.4154,
+			"pack": 30
+		},
+		{
+			"id": "urrak-markets-244",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4291,
+			"y": 0.4236,
+			"pack": 30
+		},
+		{
+			"id": "urrak-markets-245",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4257,
+			"y": 0.4196,
+			"pack": 30
+		},
+		{
+			"id": "urrak-markets-246",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.3692,
+			"y": 0.419,
+			"pack": 31
+		},
+		{
+			"id": "urrak-markets-247",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.5364,
+			"y": 0.4232,
+			"pack": 32
+		},
+		{
+			"id": "urrak-markets-248",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.3312,
+			"y": 0.437,
+			"pack": 33
+		},
+		{
+			"id": "urrak-markets-249",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.3289,
+			"y": 0.4451,
+			"pack": 33
+		},
+		{
+			"id": "urrak-markets-250",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.3322,
+			"y": 0.4447,
+			"pack": 33
+		},
+		{
+			"id": "urrak-markets-251",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3298,
+			"y": 0.4272,
+			"pack": 33
+		},
+		{
+			"id": "urrak-markets-252",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.6173,
+			"y": 0.4507,
+			"pack": 34
+		},
+		{
+			"id": "urrak-markets-253",
+			"enemyId": "um-urrakslaver",
+			"floor": "f1",
+			"x": 0.6115,
+			"y": 0.4466,
+			"pack": 34
+		},
+		{
+			"id": "urrak-markets-254",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.5366,
+			"y": 0.444,
+			"pack": 35
+		},
+		{
+			"id": "urrak-markets-255",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.5534,
+			"y": 0.458,
+			"pack": 36,
+			"empowered": true
+		},
+		{
+			"id": "urrak-markets-256",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5489,
+			"y": 0.4573,
+			"pack": 36
+		},
+		{
+			"id": "urrak-markets-257",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5482,
+			"y": 0.4493,
+			"pack": 36
+		},
+		{
+			"id": "urrak-markets-258",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5485,
+			"y": 0.466,
+			"pack": 36
+		},
+		{
+			"id": "urrak-markets-259",
+			"enemyId": "um-urrakslaver",
+			"floor": "f1",
+			"x": 0.5526,
+			"y": 0.4641,
+			"pack": 36
+		},
+		{
+			"id": "urrak-markets-260",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.4491,
+			"y": 0.4624,
+			"pack": 37
+		},
+		{
+			"id": "urrak-markets-261",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.4494,
+			"y": 0.4563,
+			"pack": 37
+		},
+		{
+			"id": "urrak-markets-262",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.5777,
+			"y": 0.4571,
+			"pack": 38
+		},
+		{
+			"id": "urrak-markets-263",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.5785,
+			"y": 0.477,
+			"pack": 38
+		},
+		{
+			"id": "urrak-markets-264",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.6149,
+			"y": 0.4851,
+			"pack": 39
+		},
+		{
+			"id": "urrak-markets-265",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.6175,
+			"y": 0.4926,
+			"pack": 39
+		},
+		{
+			"id": "urrak-markets-266",
+			"enemyId": "cm-elfgoon",
+			"floor": "f1",
+			"x": 0.6162,
+			"y": 0.4889,
+			"pack": 39
+		},
+		{
+			"id": "urrak-markets-267",
+			"enemyId": "um-urrakslaver",
+			"floor": "f1",
+			"x": 0.6137,
+			"y": 0.4813,
+			"pack": 39
+		},
+		{
+			"id": "urrak-markets-268",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.582,
+			"y": 0.5065,
+			"pack": 40
+		},
+		{
+			"id": "urrak-markets-269",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5824,
+			"y": 0.4973,
+			"pack": 40
+		},
+		{
+			"id": "urrak-markets-270",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5856,
+			"y": 0.5026,
+			"pack": 40
+		},
+		{
+			"id": "urrak-markets-271",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.4527,
+			"y": 0.5071,
+			"pack": 41
+		},
+		{
+			"id": "urrak-markets-272",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5301,
+			"y": 0.5131,
+			"pack": 42
+		},
+		{
+			"id": "urrak-markets-273",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5249,
+			"y": 0.5247,
+			"pack": 42
+		},
+		{
+			"id": "urrak-markets-274",
+			"enemyId": "um-urrakslaver",
+			"floor": "f1",
+			"x": 0.5283,
+			"y": 0.5215,
+			"pack": 42,
+			"empowered": true
+		},
+		{
+			"id": "urrak-markets-275",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4301,
+			"y": 0.5328,
+			"pack": 43
+		},
+		{
+			"id": "urrak-markets-276",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4259,
+			"y": 0.5279,
+			"pack": 43,
+			"empowered": true
+		},
+		{
+			"id": "urrak-markets-277",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4284,
+			"y": 0.5196,
+			"pack": 43
+		},
+		{
+			"id": "urrak-markets-278",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4631,
+			"y": 0.5243,
+			"pack": 44
+		},
+		{
+			"id": "urrak-markets-279",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4684,
+			"y": 0.5235,
+			"pack": 44
+		},
+		{
+			"id": "urrak-markets-280",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f1",
+			"x": 0.4657,
+			"y": 0.5207,
+			"pack": 44
+		},
+		{
+			"id": "urrak-markets-281",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4075,
+			"y": 0.5225,
+			"pack": 45
+		},
+		{
+			"id": "urrak-markets-282",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.5685,
+			"y": 0.5253,
+			"pack": 46
+		},
+		{
+			"id": "urrak-markets-283",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.5661,
+			"y": 0.5337,
+			"pack": 46
+		},
+		{
+			"id": "urrak-markets-284",
+			"enemyId": "um-gorestainedbutcher",
+			"floor": "f1",
+			"x": 0.4921,
+			"y": 0.5256,
+			"pack": 47
+		},
+		{
+			"id": "urrak-markets-285",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.3957,
+			"y": 0.5287,
+			"pack": 48
+		},
+		{
+			"id": "urrak-markets-286",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3909,
+			"y": 0.5257,
+			"pack": 48
+		},
+		{
+			"id": "urrak-markets-287",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.4532,
+			"y": 0.569,
+			"pack": 49
+		},
+		{
+			"id": "urrak-markets-288",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.4445,
+			"y": 0.5447,
+			"pack": 49
+		},
+		{
+			"id": "urrak-markets-289",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4475,
+			"y": 0.5462,
+			"pack": 49
+		},
+		{
+			"id": "urrak-markets-290",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4532,
+			"y": 0.5603,
+			"pack": 49
+		},
+		{
+			"id": "urrak-markets-291",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4522,
+			"y": 0.5525,
+			"pack": 49
+		},
+		{
+			"id": "urrak-markets-292",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4975,
+			"y": 0.5489,
+			"pack": 50
+		},
+		{
+			"id": "urrak-markets-293",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4927,
+			"y": 0.5523,
+			"pack": 50
+		},
+		{
+			"id": "urrak-markets-294",
+			"enemyId": "vv-frenziedlooter",
+			"floor": "f1",
+			"x": 0.4925,
+			"y": 0.5469,
+			"pack": 50
+		},
+		{
+			"id": "urrak-markets-295",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.3985,
+			"y": 0.5505,
+			"pack": 51
+		},
+		{
+			"id": "urrak-markets-296",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4075,
+			"y": 0.5547,
+			"pack": 51
+		},
+		{
+			"id": "urrak-markets-297",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.3585,
+			"y": 0.5723,
+			"pack": 52
+		},
+		{
+			"id": "urrak-markets-298",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.352,
+			"y": 0.5802,
+			"pack": 52
+		},
+		{
+			"id": "urrak-markets-299",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3556,
+			"y": 0.5956,
+			"pack": 52
+		},
+		{
+			"id": "urrak-markets-300",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3535,
+			"y": 0.5877,
+			"pack": 52
+		},
+		{
+			"id": "urrak-markets-301",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.363,
+			"y": 0.5706,
+			"pack": 52
+		},
+		{
+			"id": "urrak-markets-302",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3554,
+			"y": 0.5907,
+			"pack": 52
+		},
+		{
+			"id": "urrak-markets-303",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3657,
+			"y": 0.5691,
+			"pack": 52
+		},
+		{
+			"id": "urrak-markets-304",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.3547,
+			"y": 0.551,
+			"pack": 52
+		},
+		{
+			"id": "urrak-markets-305",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.3448,
+			"y": 0.5638,
+			"pack": 52
+		},
+		{
+			"id": "urrak-markets-306",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.351,
+			"y": 0.5757,
+			"pack": 52
+		},
+		{
+			"id": "urrak-markets-307",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.3573,
+			"y": 0.5677,
+			"pack": 52
+		},
+		{
+			"id": "urrak-markets-308",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.3489,
+			"y": 0.5551,
+			"pack": 52
+		},
+		{
+			"id": "urrak-markets-309",
+			"enemyId": "um-urrakwitch",
+			"floor": "f1",
+			"x": 0.3564,
+			"y": 0.5803,
+			"pack": 52
+		},
+		{
+			"id": "urrak-markets-310",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.529,
+			"y": 0.5564,
+			"pack": 53
+		},
+		{
+			"id": "urrak-markets-311",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.5325,
+			"y": 0.5536,
+			"pack": 53
+		},
+		{
+			"id": "urrak-markets-312",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.5942,
+			"y": 0.5645,
+			"pack": 54
+		},
+		{
+			"id": "urrak-markets-313",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.5909,
+			"y": 0.5782,
+			"pack": 54
+		},
+		{
+			"id": "urrak-markets-314",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.5953,
+			"y": 0.5729,
+			"pack": 54
+		},
+		{
+			"id": "urrak-markets-315",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.6053,
+			"y": 0.5768,
+			"pack": 54
+		},
+		{
+			"id": "urrak-markets-316",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.6028,
+			"y": 0.5722,
+			"pack": 54
+		},
+		{
+			"id": "urrak-markets-317",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.61,
+			"y": 0.5604,
+			"pack": 54
+		},
+		{
+			"id": "urrak-markets-318",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.6122,
+			"y": 0.5642,
+			"pack": 54
+		},
+		{
+			"id": "urrak-markets-319",
+			"enemyId": "um-urrakslaver",
+			"floor": "f1",
+			"x": 0.6108,
+			"y": 0.5855,
+			"pack": 54,
+			"empowered": true
+		},
+		{
+			"id": "urrak-markets-320",
+			"enemyId": "um-urrakslaver",
+			"floor": "f1",
+			"x": 0.5999,
+			"y": 0.5614,
+			"pack": 54
+		},
+		{
+			"id": "urrak-markets-321",
+			"enemyId": "um-urrakslaver",
+			"floor": "f1",
+			"x": 0.6028,
+			"y": 0.5773,
+			"pack": 54
+		},
+		{
+			"id": "urrak-markets-322",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4255,
+			"y": 0.593,
+			"pack": 55
+		},
+		{
+			"id": "urrak-markets-323",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4287,
+			"y": 0.588,
+			"pack": 55
+		},
+		{
+			"id": "urrak-markets-324",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.4217,
+			"y": 0.5917,
+			"pack": 55
+		},
+		{
+			"id": "urrak-markets-325",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.4285,
+			"y": 0.5791,
+			"pack": 55
+		},
+		{
+			"id": "urrak-markets-326",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4242,
+			"y": 0.5866,
+			"pack": 55
+		},
+		{
+			"id": "urrak-markets-327",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4267,
+			"y": 0.582,
+			"pack": 55
+		},
+		{
+			"id": "urrak-markets-328",
+			"enemyId": "um-urrakwitch",
+			"floor": "f1",
+			"x": 0.4238,
+			"y": 0.5792,
+			"pack": 55
+		},
+		{
+			"id": "urrak-markets-329",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.4663,
+			"y": 0.5797,
+			"pack": 56
+		},
+		{
+			"id": "urrak-markets-330",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.4697,
+			"y": 0.5797,
+			"pack": 56
+		},
+		{
+			"id": "urrak-markets-331",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3744,
+			"y": 0.5929,
+			"pack": 58
+		},
+		{
+			"id": "urrak-markets-332",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.4008,
+			"y": 0.5947,
+			"pack": 59
+		},
+		{
+			"id": "urrak-markets-333",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.4009,
+			"y": 0.5997,
+			"pack": 59
+		},
+		{
+			"id": "urrak-markets-334",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.5831,
+			"y": 0.6185,
+			"pack": 61
+		},
+		{
+			"id": "urrak-markets-335",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3599,
+			"y": 0.6237,
+			"pack": 62
+		},
+		{
+			"id": "urrak-markets-336",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3758,
+			"y": 0.6285,
+			"pack": 63
+		},
+		{
+			"id": "urrak-markets-337",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.5914,
+			"y": 0.6313,
+			"pack": 64
+		},
+		{
+			"id": "urrak-markets-338",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.5118,
+			"y": 0.6378,
+			"pack": 65
+		},
+		{
+			"id": "urrak-markets-339",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.5175,
+			"y": 0.6511,
+			"pack": 65
+		},
+		{
+			"id": "urrak-markets-340",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3724,
+			"y": 0.6574,
+			"pack": 66
+		},
+		{
+			"id": "urrak-markets-341",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.4021,
+			"y": 0.669,
+			"pack": 67
+		},
+		{
+			"id": "urrak-markets-342",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.467,
+			"y": 0.6747,
+			"pack": 68
+		},
+		{
+			"id": "urrak-markets-343",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4653,
+			"y": 0.6717,
+			"pack": 68
+		},
+		{
+			"id": "urrak-markets-344",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4676,
+			"y": 0.6794,
+			"pack": 68
+		},
+		{
+			"id": "urrak-markets-345",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4633,
+			"y": 0.6732,
+			"pack": 68
+		},
+		{
+			"id": "urrak-markets-346",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4665,
+			"y": 0.6833,
+			"pack": 68
+		},
+		{
+			"id": "urrak-markets-347",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4959,
+			"y": 0.6877,
+			"pack": 69
+		},
+		{
+			"id": "urrak-markets-348",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4802,
+			"y": 0.6861,
+			"pack": 69
+		},
+		{
+			"id": "urrak-markets-349",
+			"enemyId": "um-gorestainedbutcher",
+			"floor": "f1",
+			"x": 0.4885,
+			"y": 0.6745,
+			"pack": 69
+		},
+		{
+			"id": "urrak-markets-350",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4931,
+			"y": 0.6842,
+			"pack": 69,
+			"empowered": true
+		},
+		{
+			"id": "urrak-markets-351",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.484,
+			"y": 0.6842,
+			"pack": 69
+		},
+		{
+			"id": "urrak-markets-352",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.4311,
+			"y": 0.6761,
+			"pack": 70
+		},
+		{
+			"id": "urrak-markets-353",
+			"enemyId": "dr-ruinslasher",
+			"floor": "f1",
+			"x": 0.4345,
+			"y": 0.6751,
+			"pack": 70
+		},
+		{
+			"id": "urrak-markets-354",
+			"enemyId": "pr-barbarouslasher",
+			"floor": "f1",
+			"x": 0.4278,
+			"y": 0.6772,
+			"pack": 70
+		},
+		{
+			"id": "urrak-markets-355",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3887,
+			"y": 0.6912,
+			"pack": 71
+		},
+		{
+			"id": "urrak-markets-356",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3829,
+			"y": 0.676,
+			"pack": 71
+		},
+		{
+			"id": "urrak-markets-357",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4442,
+			"y": 0.6918,
+			"pack": 72
+		},
+		{
+			"id": "urrak-markets-358",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4406,
+			"y": 0.6895,
+			"pack": 72
+		},
+		{
+			"id": "urrak-markets-359",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4376,
+			"y": 0.6952,
+			"pack": 72
+		},
+		{
+			"id": "urrak-markets-360",
+			"enemyId": "um-urrakwitch",
+			"floor": "f1",
+			"x": 0.4413,
+			"y": 0.696,
+			"pack": 72
+		},
+		{
+			"id": "urrak-markets-361",
+			"enemyId": "dr-slaughtervine",
+			"floor": "f1",
+			"x": 0.3971,
+			"y": 0.7045,
+			"pack": 73
+		},
+		{
+			"id": "urrak-markets-362",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.4885,
+			"y": 0.7589,
+			"pack": 74
+		},
+		{
+			"id": "urrak-markets-363",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.5135,
+			"y": 0.7679,
+			"pack": 75
+		},
+		{
+			"id": "urrak-markets-364",
+			"enemyId": "np-halfmancatcher",
+			"floor": "f1",
+			"x": 0.511,
+			"y": 0.7644,
+			"pack": 75
+		},
+		{
+			"id": "urrak-markets-365",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4703,
+			"y": 0.7801,
+			"pack": 76
+		},
+		{
+			"id": "urrak-markets-366",
+			"enemyId": "dr-cultistinitiate",
+			"floor": "f1",
+			"x": 0.4726,
+			"y": 0.7744,
+			"pack": 76
+		},
+		{
+			"id": "urrak-markets-367",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.4905,
+			"y": 0.7831,
+			"pack": 77
+		},
+		{
+			"id": "urrak-markets-368",
+			"enemyId": "dr-bloodfangmauler",
+			"floor": "f1",
+			"x": 0.4847,
+			"y": 0.7827,
+			"pack": 77
+		},
+		{
+			"id": "urrak-markets-369",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4931,
+			"y": 0.7868,
+			"pack": 77
+		},
+		{
+			"id": "urrak-markets-370",
+			"enemyId": "dr-mancatcher",
+			"floor": "f1",
+			"x": 0.4821,
+			"y": 0.7872,
+			"pack": 77
+		},
+		{
+			"id": "urrak-markets-371",
+			"enemyId": "um-urrakslaver",
+			"floor": "f1",
+			"x": 0.5102,
+			"y": 0.7954,
+			"pack": 78
+		},
+		{
+			"id": "urrak-markets-372",
+			"enemyId": "um-urrakslaver",
+			"floor": "f1",
+			"x": 0.5123,
+			"y": 0.7902,
+			"pack": 78
+		}
+	],
+	"minibosses": [
+		{
+			"affix": "eira",
+			"floor": "f1",
+			"x": 0.3863,
+			"y": 0.1987,
+			"radius": 1000,
+			"replaces": [
+				"urrak-markets-152",
+				"urrak-markets-153",
+				"urrak-markets-154",
+				"urrak-markets-155",
+				"urrak-markets-156",
+				"urrak-markets-157"
+			]
+		},
+		{
+			"affix": "ghorn",
+			"floor": "f1",
+			"x": 0.4377,
+			"y": 0.6841,
+			"radius": 2000,
+			"replaces": [
+				"urrak-markets-352",
+				"urrak-markets-353",
+				"urrak-markets-354",
+				"urrak-markets-357",
+				"urrak-markets-358",
+				"urrak-markets-359",
+				"urrak-markets-360"
+			]
+		}
+	],
+	"start": {
+		"floor": "f1",
+		"x": 0.5224,
+		"y": 0.9377
+	},
+	"checkpoints": [
+		{
+			"floor": "f1",
+			"x": 0.3494,
+			"y": 0.4061
+		},
+		{
+			"floor": "f1",
+			"x": 0.5156,
+			"y": 0.1516
+		},
+		{
+			"floor": "f1",
+			"x": 0.5834,
+			"y": 0.502
+		}
+	],
+	"patrols": [
+		{
+			"id": "urrak-markets-p1",
+			"floor": "f1",
+			"points": [
+				[
+					0.4114,
+					0.2988
+				],
+				[
+					0.4022,
+					0.3473
+				],
+				[
+					0.3771,
+					0.4095
+				]
+			],
+			"spawns": [
+				"urrak-markets-197",
+				"urrak-markets-198",
+				"urrak-markets-199"
+			]
+		},
+		{
+			"id": "urrak-markets-p2",
+			"floor": "f1",
+			"points": [
+				[
+					0.5815,
+					0.3968
+				],
+				[
+					0.5676,
+					0.3608
+				],
+				[
+					0.5483,
+					0.371
+				]
+			],
+			"spawns": [
+				"urrak-markets-222"
+			]
+		},
+		{
+			"id": "urrak-markets-p3",
+			"floor": "f1",
+			"points": [
+				[
+					0.4299,
+					0.5258
+				],
+				[
+					0.3978,
+					0.5424
+				]
+			],
+			"spawns": [
+				"urrak-markets-275",
+				"urrak-markets-276",
+				"urrak-markets-277"
+			]
+		},
+		{
+			"id": "urrak-markets-p4",
+			"floor": "f1",
+			"points": [
+				[
+					0.5683,
+					0.5233
+				],
+				[
+					0.5576,
+					0.5597
+				],
+				[
+					0.5422,
+					0.597
+				],
+				[
+					0.5236,
+					0.6318
+				]
+			],
+			"spawns": [
+				"urrak-markets-282",
+				"urrak-markets-283"
+			]
+		},
+		{
+			"id": "urrak-markets-p5",
+			"floor": "f1",
+			"points": [
+				[
+					0.4975,
+					0.5489
+				],
+				[
+					0.5383,
+					0.4366
+				],
+				[
+					0.4946,
+					0.3354
+				],
+				[
+					0.4423,
+					0.4448
+				]
+			],
+			"spawns": [
+				"urrak-markets-292",
+				"urrak-markets-293",
+				"urrak-markets-294"
+			]
+		},
+		{
+			"id": "urrak-markets-p6",
+			"floor": "f1",
+			"points": [
+				[
+					0.4009,
+					0.6005
+				],
+				[
+					0.3986,
+					0.544
+				],
+				[
+					0.3954,
+					0.4829
+				]
+			],
+			"spawns": [
+				"urrak-markets-332",
+				"urrak-markets-333"
+			]
+		},
+		{
+			"id": "urrak-markets-p7",
+			"floor": "f1",
+			"points": [
+				[
+					0.4357,
+					0.6748
+				],
+				[
+					0.4105,
+					0.6805
+				],
+				[
+					0.3876,
+					0.6694
+				],
+				[
+					0.3675,
+					0.6253
+				]
+			],
+			"spawns": [
+				"urrak-markets-352",
+				"urrak-markets-353",
+				"urrak-markets-354"
+			]
+		}
+	],
+	"art": {
+		"codex": "/art/codex/urrak-markets.webp",
+		"banner": "/art/banner/urrak-markets.webp"
+	}
+}

@@ -1,0 +1,2576 @@
+{
+	"id": "everdawn-grove",
+	"slug": "everdawn-grove",
+	"name": "Everdawn Grove",
+	"internalName": "MythicForest",
+	"kind": "dungeon",
+	"requiredScore": 110,
+	"floors": [
+		{
+			"id": "f1",
+			"label": "Map",
+			"image": "/maps/everdawn-grove/f1.webp",
+			"texture": "T_Map_MythicForest_Global",
+			"worldSize": [
+				96000,
+				48000
+			]
+		}
+	],
+	"enemies": [
+		{
+			"id": "mf-blightedmorningglory",
+			"name": "Blighted Dawnbloom",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.599,
+			"gameId": "MF_BlightedMorningGlory",
+			"classes": [
+				"BP_NPC_MF_BlightedMorningGlory"
+			],
+			"abilities": [
+				{
+					"name": "Blighted Ichor",
+					"school": "Nature"
+				},
+				{
+					"name": "Glory",
+					"school": "Nature"
+				}
+			],
+			"icon": "/icons/enemies/mf-blightedmorningglory.webp"
+		},
+		{
+			"id": "mf-dawnstoneguardian",
+			"name": "Bloodstone Goliath",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.837,
+			"gameId": "MF_DawnstoneGuardian",
+			"classes": [
+				"BP_NPC_MF_DawnstoneGuardian"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Earthcore Upheaval",
+					"interruptible": true,
+					"school": "Holy"
+				},
+				{
+					"name": "Bloodstone Erruption",
+					"interruptible": true,
+					"school": "Holy"
+				}
+			],
+			"stunImmune": true,
+			"icon": "/icons/enemies/mf-dawnstoneguardian.webp"
+		},
+		{
+			"id": "mf-foultotemic",
+			"name": "Corrupted Totemic",
+			"score": 4,
+			"type": "trash",
+			"healthMultiplier": 3.202,
+			"gameId": "MF_FoulTotemic",
+			"classes": [
+				"BP_NPC_MF_FoulTotemic"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Restoration",
+					"interruptible": true,
+					"school": "Frost"
+				},
+				{
+					"name": "Shadow Lob",
+					"interruptible": true,
+					"school": "Frost"
+				},
+				{
+					"name": "Bloodstone Totem",
+					"interruptible": true,
+					"school": "Frost"
+				},
+				{
+					"name": "Corrupted Prayer",
+					"interruptible": true,
+					"school": "Frost"
+				}
+			],
+			"icon": "/icons/enemies/mf-foultotemic.webp"
+		},
+		{
+			"id": "um-desecrater",
+			"name": "Desecrator",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.307,
+			"gameId": "UM_Desecrater",
+			"classes": [
+				"BP_NPC_UM_Desecrater"
+			],
+			"abilities": [
+				{
+					"name": "Volley",
+					"ccOnly": true,
+					"channel": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Infernal Explosive",
+					"school": "Fire"
+				}
+			],
+			"icon": "/icons/enemies/um-desecrater.webp"
+		},
+		{
+			"id": "um-gorestainedbutcher",
+			"name": "Gorestained Butcher",
+			"score": 5,
+			"type": "trash",
+			"healthMultiplier": 4.377,
+			"gameId": "UM_GorestainedButcher",
+			"classes": [
+				"BP_NPC_UM_GorestainedButcher"
+			],
+			"elite": true,
+			"abilities": [
+				{
+					"name": "Mince",
+					"interruptible": true,
+					"channel": true,
+					"school": "Physical"
+				},
+				{
+					"name": "Furious Tantrum",
+					"interruptible": true,
+					"channel": true,
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/um-gorestainedbutcher.webp"
+		},
+		{
+			"id": "um-hornedseer",
+			"name": "Horned Seer",
+			"score": 3,
+			"type": "trash",
+			"healthMultiplier": 2.41,
+			"gameId": "UM_HornedSeer",
+			"classes": [
+				"BP_NPC_UM_HornedSeer"
+			],
+			"abilities": [
+				{
+					"name": "Orb of Blood",
+					"interruptible": true,
+					"school": "Blood"
+				},
+				{
+					"name": "Sanguine Offering",
+					"interruptible": true,
+					"school": "Blood"
+				},
+				{
+					"name": "Pain Bolt",
+					"interruptible": true,
+					"school": "Blood"
+				}
+			],
+			"icon": "/icons/enemies/um-hornedseer.webp"
+		},
+		{
+			"id": "mf-mangybrute",
+			"name": "Mangy Brute",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 1.39,
+			"gameId": "MF_MangyBrute",
+			"classes": [
+				"BP_NPC_MF_MangyBrute"
+			],
+			"icon": "/icons/enemies/mf-mangybrute.webp"
+		},
+		{
+			"id": "um-outrunner",
+			"name": "Outrunner",
+			"score": 2,
+			"type": "trash",
+			"healthMultiplier": 1.494,
+			"gameId": "UM_Outrunner",
+			"classes": [
+				"BP_NPC_UM_Outrunner"
+			],
+			"abilities": [
+				{
+					"name": "Bola Throw",
+					"school": "Physical"
+				},
+				{
+					"name": "Charge",
+					"school": "Physical"
+				}
+			],
+			"icon": "/icons/enemies/um-outrunner.webp"
+		},
+		{
+			"id": "mf-skittershard",
+			"name": "Skittershard",
+			"score": 1,
+			"type": "trash",
+			"healthMultiplier": 0.797,
+			"gameId": "MF_Skittershard",
+			"classes": [
+				"BP_NPC_MF_Skittershard"
+			],
+			"abilities": [
+				{
+					"name": "Crystalline Corruption",
+					"school": "Nature"
+				},
+				{
+					"name": "Crystaline Corruption",
+					"school": "Nature"
+				}
+			],
+			"icon": "/icons/enemies/mf-skittershard.webp"
+		}
+	],
+	"spawns": [
+		{
+			"id": "everdawn-grove-57",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.5586,
+			"y": 0.2924,
+			"pack": 15
+		},
+		{
+			"id": "everdawn-grove-58",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.5635,
+			"y": 0.2801,
+			"pack": 15
+		},
+		{
+			"id": "everdawn-grove-69",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4924,
+			"y": 0.2895,
+			"pack": 17
+		},
+		{
+			"id": "everdawn-grove-86",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.6183,
+			"y": 0.3496,
+			"pack": 23
+		},
+		{
+			"id": "everdawn-grove-194",
+			"enemyId": "mf-blightedmorningglory",
+			"floor": "f1",
+			"x": 0.5455,
+			"y": 0.703,
+			"pack": 72
+		},
+		{
+			"id": "everdawn-grove-200",
+			"enemyId": "mf-foultotemic",
+			"floor": "f1",
+			"x": 0.5414,
+			"y": 0.084,
+			"pack": 1
+		},
+		{
+			"id": "everdawn-grove-201",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.5423,
+			"y": 0.0901,
+			"pack": 1
+		},
+		{
+			"id": "everdawn-grove-202",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.536,
+			"y": 0.0859,
+			"pack": 1
+		},
+		{
+			"id": "everdawn-grove-203",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.538,
+			"y": 0.083,
+			"pack": 1
+		},
+		{
+			"id": "everdawn-grove-204",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.5099,
+			"y": 0.1239,
+			"pack": 2
+		},
+		{
+			"id": "everdawn-grove-205",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.5061,
+			"y": 0.1285,
+			"pack": 2
+		},
+		{
+			"id": "everdawn-grove-206",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.5083,
+			"y": 0.1258,
+			"pack": 2
+		},
+		{
+			"id": "everdawn-grove-207",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.5069,
+			"y": 0.1208,
+			"pack": 2
+		},
+		{
+			"id": "everdawn-grove-208",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5387,
+			"y": 0.155,
+			"pack": 3
+		},
+		{
+			"id": "everdawn-grove-209",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5376,
+			"y": 0.1461,
+			"pack": 3
+		},
+		{
+			"id": "everdawn-grove-210",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5357,
+			"y": 0.152,
+			"pack": 3
+		},
+		{
+			"id": "everdawn-grove-211",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.535,
+			"y": 0.1476,
+			"pack": 3
+		},
+		{
+			"id": "everdawn-grove-212",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5364,
+			"y": 0.1563,
+			"pack": 3
+		},
+		{
+			"id": "everdawn-grove-213",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5788,
+			"y": 0.149,
+			"pack": 4
+		},
+		{
+			"id": "everdawn-grove-214",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5806,
+			"y": 0.1592,
+			"pack": 4
+		},
+		{
+			"id": "everdawn-grove-215",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5832,
+			"y": 0.1518,
+			"pack": 4
+		},
+		{
+			"id": "everdawn-grove-216",
+			"enemyId": "mf-dawnstoneguardian",
+			"floor": "f1",
+			"x": 0.5043,
+			"y": 0.1649,
+			"pack": 5
+		},
+		{
+			"id": "everdawn-grove-217",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5044,
+			"y": 0.1571,
+			"pack": 5
+		},
+		{
+			"id": "everdawn-grove-218",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5065,
+			"y": 0.1607,
+			"pack": 5
+		},
+		{
+			"id": "everdawn-grove-219",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5073,
+			"y": 0.1674,
+			"pack": 5
+		},
+		{
+			"id": "everdawn-grove-220",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5057,
+			"y": 0.1697,
+			"pack": 5
+		},
+		{
+			"id": "everdawn-grove-221",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.365,
+			"y": 0.1867,
+			"pack": 6
+		},
+		{
+			"id": "everdawn-grove-222",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3721,
+			"y": 0.1744,
+			"pack": 6,
+			"empowered": true
+		},
+		{
+			"id": "everdawn-grove-223",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3726,
+			"y": 0.1709,
+			"pack": 6
+		},
+		{
+			"id": "everdawn-grove-224",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3643,
+			"y": 0.1899,
+			"pack": 6
+		},
+		{
+			"id": "everdawn-grove-225",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.369,
+			"y": 0.1664,
+			"pack": 6
+		},
+		{
+			"id": "everdawn-grove-226",
+			"enemyId": "um-gorestainedbutcher",
+			"floor": "f1",
+			"x": 0.368,
+			"y": 0.1793,
+			"pack": 6
+		},
+		{
+			"id": "everdawn-grove-227",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.3624,
+			"y": 0.179,
+			"pack": 6
+		},
+		{
+			"id": "everdawn-grove-228",
+			"enemyId": "mf-blightedmorningglory",
+			"floor": "f1",
+			"x": 0.4234,
+			"y": 0.1807,
+			"pack": 7
+		},
+		{
+			"id": "everdawn-grove-229",
+			"enemyId": "mf-blightedmorningglory",
+			"floor": "f1",
+			"x": 0.4265,
+			"y": 0.1783,
+			"pack": 7
+		},
+		{
+			"id": "everdawn-grove-230",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4293,
+			"y": 0.1803,
+			"pack": 7
+		},
+		{
+			"id": "everdawn-grove-231",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4261,
+			"y": 0.1849,
+			"pack": 7
+		},
+		{
+			"id": "everdawn-grove-232",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.345,
+			"y": 0.1993,
+			"pack": 8
+		},
+		{
+			"id": "everdawn-grove-233",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3477,
+			"y": 0.1966,
+			"pack": 8
+		},
+		{
+			"id": "everdawn-grove-234",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.3441,
+			"y": 0.2031,
+			"pack": 8
+		},
+		{
+			"id": "everdawn-grove-235",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.348,
+			"y": 0.2031,
+			"pack": 8,
+			"empowered": true
+		},
+		{
+			"id": "everdawn-grove-236",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.402,
+			"y": 0.2039,
+			"pack": 9
+		},
+		{
+			"id": "everdawn-grove-237",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4028,
+			"y": 0.2227,
+			"pack": 9
+		},
+		{
+			"id": "everdawn-grove-238",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.4014,
+			"y": 0.2083,
+			"pack": 9
+		},
+		{
+			"id": "everdawn-grove-239",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.4026,
+			"y": 0.2174,
+			"pack": 9
+		},
+		{
+			"id": "everdawn-grove-240",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.5559,
+			"y": 0.2273,
+			"pack": 10
+		},
+		{
+			"id": "everdawn-grove-241",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.5581,
+			"y": 0.2249,
+			"pack": 10
+		},
+		{
+			"id": "everdawn-grove-242",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.5621,
+			"y": 0.2149,
+			"pack": 10
+		},
+		{
+			"id": "everdawn-grove-243",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.5622,
+			"y": 0.2197,
+			"pack": 10
+		},
+		{
+			"id": "everdawn-grove-244",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5574,
+			"y": 0.2315,
+			"pack": 10
+		},
+		{
+			"id": "everdawn-grove-245",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4495,
+			"y": 0.22,
+			"pack": 11
+		},
+		{
+			"id": "everdawn-grove-246",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4571,
+			"y": 0.2219,
+			"pack": 11
+		},
+		{
+			"id": "everdawn-grove-247",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4536,
+			"y": 0.2267,
+			"pack": 11
+		},
+		{
+			"id": "everdawn-grove-248",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4511,
+			"y": 0.2264,
+			"pack": 11
+		},
+		{
+			"id": "everdawn-grove-249",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3786,
+			"y": 0.2225,
+			"pack": 12
+		},
+		{
+			"id": "everdawn-grove-250",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3823,
+			"y": 0.2236,
+			"pack": 12
+		},
+		{
+			"id": "everdawn-grove-251",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3801,
+			"y": 0.2271,
+			"pack": 12
+		},
+		{
+			"id": "everdawn-grove-252",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4134,
+			"y": 0.2399,
+			"pack": 13
+		},
+		{
+			"id": "everdawn-grove-253",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4072,
+			"y": 0.2423,
+			"pack": 13
+		},
+		{
+			"id": "everdawn-grove-254",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4114,
+			"y": 0.2469,
+			"pack": 13
+		},
+		{
+			"id": "everdawn-grove-255",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4101,
+			"y": 0.2349,
+			"pack": 13
+		},
+		{
+			"id": "everdawn-grove-256",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3645,
+			"y": 0.2484,
+			"pack": 14
+		},
+		{
+			"id": "everdawn-grove-257",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3598,
+			"y": 0.2467,
+			"pack": 14
+		},
+		{
+			"id": "everdawn-grove-258",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3631,
+			"y": 0.2423,
+			"pack": 14
+		},
+		{
+			"id": "everdawn-grove-259",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3621,
+			"y": 0.2532,
+			"pack": 14
+		},
+		{
+			"id": "everdawn-grove-260",
+			"enemyId": "mf-dawnstoneguardian",
+			"floor": "f1",
+			"x": 0.4151,
+			"y": 0.2948,
+			"pack": 16
+		},
+		{
+			"id": "everdawn-grove-261",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4181,
+			"y": 0.2974,
+			"pack": 16
+		},
+		{
+			"id": "everdawn-grove-262",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4176,
+			"y": 0.2916,
+			"pack": 16
+		},
+		{
+			"id": "everdawn-grove-263",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4146,
+			"y": 0.2874,
+			"pack": 16
+		},
+		{
+			"id": "everdawn-grove-264",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4165,
+			"y": 0.2873,
+			"pack": 16
+		},
+		{
+			"id": "everdawn-grove-265",
+			"enemyId": "mf-blightedmorningglory",
+			"floor": "f1",
+			"x": 0.4956,
+			"y": 0.3061,
+			"pack": 17
+		},
+		{
+			"id": "everdawn-grove-266",
+			"enemyId": "mf-blightedmorningglory",
+			"floor": "f1",
+			"x": 0.4946,
+			"y": 0.3017,
+			"pack": 17
+		},
+		{
+			"id": "everdawn-grove-267",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4984,
+			"y": 0.3022,
+			"pack": 17
+		},
+		{
+			"id": "everdawn-grove-268",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4975,
+			"y": 0.3085,
+			"pack": 17
+		},
+		{
+			"id": "everdawn-grove-269",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4959,
+			"y": 0.2971,
+			"pack": 17
+		},
+		{
+			"id": "everdawn-grove-270",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4955,
+			"y": 0.291,
+			"pack": 17
+		},
+		{
+			"id": "everdawn-grove-271",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.502,
+			"y": 0.3053,
+			"pack": 17
+		},
+		{
+			"id": "everdawn-grove-272",
+			"enemyId": "um-gorestainedbutcher",
+			"floor": "f1",
+			"x": 0.5191,
+			"y": 0.294,
+			"pack": 18,
+			"empowered": true
+		},
+		{
+			"id": "everdawn-grove-273",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5217,
+			"y": 0.2979,
+			"pack": 18
+		},
+		{
+			"id": "everdawn-grove-274",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5197,
+			"y": 0.303,
+			"pack": 18
+		},
+		{
+			"id": "everdawn-grove-275",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5172,
+			"y": 0.2991,
+			"pack": 18
+		},
+		{
+			"id": "everdawn-grove-276",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4433,
+			"y": 0.2945,
+			"pack": 19
+		},
+		{
+			"id": "everdawn-grove-277",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4411,
+			"y": 0.2987,
+			"pack": 19
+		},
+		{
+			"id": "everdawn-grove-278",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.4426,
+			"y": 0.3007,
+			"pack": 19
+		},
+		{
+			"id": "everdawn-grove-279",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.6094,
+			"y": 0.3216,
+			"pack": 20
+		},
+		{
+			"id": "everdawn-grove-280",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.6103,
+			"y": 0.3265,
+			"pack": 20
+		},
+		{
+			"id": "everdawn-grove-281",
+			"enemyId": "mf-foultotemic",
+			"floor": "f1",
+			"x": 0.4071,
+			"y": 0.3384,
+			"pack": 21
+		},
+		{
+			"id": "everdawn-grove-282",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4105,
+			"y": 0.3348,
+			"pack": 21
+		},
+		{
+			"id": "everdawn-grove-283",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4065,
+			"y": 0.3299,
+			"pack": 21
+		},
+		{
+			"id": "everdawn-grove-284",
+			"enemyId": "mf-blightedmorningglory",
+			"floor": "f1",
+			"x": 0.5722,
+			"y": 0.3361,
+			"pack": 22
+		},
+		{
+			"id": "everdawn-grove-285",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.573,
+			"y": 0.3468,
+			"pack": 22
+		},
+		{
+			"id": "everdawn-grove-286",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5758,
+			"y": 0.333,
+			"pack": 22
+		},
+		{
+			"id": "everdawn-grove-287",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5702,
+			"y": 0.3431,
+			"pack": 22
+		},
+		{
+			"id": "everdawn-grove-288",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.6267,
+			"y": 0.3494,
+			"pack": 23
+		},
+		{
+			"id": "everdawn-grove-289",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.6205,
+			"y": 0.3481,
+			"pack": 23
+		},
+		{
+			"id": "everdawn-grove-290",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.6256,
+			"y": 0.3541,
+			"pack": 23
+		},
+		{
+			"id": "everdawn-grove-291",
+			"enemyId": "um-gorestainedbutcher",
+			"floor": "f1",
+			"x": 0.6202,
+			"y": 0.3361,
+			"pack": 23
+		},
+		{
+			"id": "everdawn-grove-292",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.5504,
+			"y": 0.3371,
+			"pack": 24
+		},
+		{
+			"id": "everdawn-grove-293",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5502,
+			"y": 0.3463,
+			"pack": 24
+		},
+		{
+			"id": "everdawn-grove-294",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5498,
+			"y": 0.3553,
+			"pack": 24
+		},
+		{
+			"id": "everdawn-grove-295",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.55,
+			"y": 0.3508,
+			"pack": 24
+		},
+		{
+			"id": "everdawn-grove-296",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5504,
+			"y": 0.3417,
+			"pack": 24
+		},
+		{
+			"id": "everdawn-grove-297",
+			"enemyId": "mf-dawnstoneguardian",
+			"floor": "f1",
+			"x": 0.3688,
+			"y": 0.3616,
+			"pack": 25
+		},
+		{
+			"id": "everdawn-grove-298",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3608,
+			"y": 0.3758,
+			"pack": 25
+		},
+		{
+			"id": "everdawn-grove-299",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3722,
+			"y": 0.3853,
+			"pack": 25
+		},
+		{
+			"id": "everdawn-grove-300",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.373,
+			"y": 0.3922,
+			"pack": 25
+		},
+		{
+			"id": "everdawn-grove-301",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3586,
+			"y": 0.3816,
+			"pack": 25
+		},
+		{
+			"id": "everdawn-grove-302",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.3707,
+			"y": 0.379,
+			"pack": 25,
+			"empowered": true
+		},
+		{
+			"id": "everdawn-grove-303",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.3629,
+			"y": 0.3721,
+			"pack": 25
+		},
+		{
+			"id": "everdawn-grove-304",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5972,
+			"y": 0.383,
+			"pack": 26
+		},
+		{
+			"id": "everdawn-grove-305",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.6222,
+			"y": 0.384,
+			"pack": 27
+		},
+		{
+			"id": "everdawn-grove-306",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.6233,
+			"y": 0.3887,
+			"pack": 27
+		},
+		{
+			"id": "everdawn-grove-307",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5973,
+			"y": 0.3855,
+			"pack": 28
+		},
+		{
+			"id": "everdawn-grove-308",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3447,
+			"y": 0.3903,
+			"pack": 29
+		},
+		{
+			"id": "everdawn-grove-309",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.347,
+			"y": 0.3949,
+			"pack": 29
+		},
+		{
+			"id": "everdawn-grove-310",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.6021,
+			"y": 0.3911,
+			"pack": 30
+		},
+		{
+			"id": "everdawn-grove-311",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5971,
+			"y": 0.3938,
+			"pack": 31
+		},
+		{
+			"id": "everdawn-grove-312",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5421,
+			"y": 0.3984,
+			"pack": 32
+		},
+		{
+			"id": "everdawn-grove-313",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5409,
+			"y": 0.4074,
+			"pack": 33
+		},
+		{
+			"id": "everdawn-grove-314",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5471,
+			"y": 0.4107,
+			"pack": 34
+		},
+		{
+			"id": "everdawn-grove-315",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5383,
+			"y": 0.411,
+			"pack": 35
+		},
+		{
+			"id": "everdawn-grove-316",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5422,
+			"y": 0.4161,
+			"pack": 36
+		},
+		{
+			"id": "everdawn-grove-317",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3749,
+			"y": 0.4194,
+			"pack": 37
+		},
+		{
+			"id": "everdawn-grove-318",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.3768,
+			"y": 0.4242,
+			"pack": 37
+		},
+		{
+			"id": "everdawn-grove-319",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.3768,
+			"y": 0.4196,
+			"pack": 37
+		},
+		{
+			"id": "everdawn-grove-320",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.4711,
+			"y": 0.45,
+			"pack": 38
+		},
+		{
+			"id": "everdawn-grove-321",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.4617,
+			"y": 0.4522,
+			"pack": 39
+		},
+		{
+			"id": "everdawn-grove-322",
+			"enemyId": "um-gorestainedbutcher",
+			"floor": "f1",
+			"x": 0.3895,
+			"y": 0.4894,
+			"pack": 40
+		},
+		{
+			"id": "everdawn-grove-323",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.3931,
+			"y": 0.4739,
+			"pack": 40
+		},
+		{
+			"id": "everdawn-grove-324",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.3965,
+			"y": 0.4695,
+			"pack": 40
+		},
+		{
+			"id": "everdawn-grove-325",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.3981,
+			"y": 0.4742,
+			"pack": 40
+		},
+		{
+			"id": "everdawn-grove-326",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.3628,
+			"y": 0.4712,
+			"pack": 41
+		},
+		{
+			"id": "everdawn-grove-327",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.3597,
+			"y": 0.4705,
+			"pack": 41
+		},
+		{
+			"id": "everdawn-grove-328",
+			"enemyId": "um-gorestainedbutcher",
+			"floor": "f1",
+			"x": 0.4373,
+			"y": 0.4785,
+			"pack": 42
+		},
+		{
+			"id": "everdawn-grove-329",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4405,
+			"y": 0.4885,
+			"pack": 42
+		},
+		{
+			"id": "everdawn-grove-330",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4418,
+			"y": 0.4838,
+			"pack": 42
+		},
+		{
+			"id": "everdawn-grove-331",
+			"enemyId": "mf-foultotemic",
+			"floor": "f1",
+			"x": 0.3356,
+			"y": 0.4836,
+			"pack": 43
+		},
+		{
+			"id": "everdawn-grove-332",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3397,
+			"y": 0.4897,
+			"pack": 43
+		},
+		{
+			"id": "everdawn-grove-333",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.338,
+			"y": 0.4909,
+			"pack": 43
+		},
+		{
+			"id": "everdawn-grove-334",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.5761,
+			"y": 0.4942,
+			"pack": 44
+		},
+		{
+			"id": "everdawn-grove-335",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.575,
+			"y": 0.4925,
+			"pack": 44
+		},
+		{
+			"id": "everdawn-grove-336",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5719,
+			"y": 0.4961,
+			"pack": 44
+		},
+		{
+			"id": "everdawn-grove-337",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5753,
+			"y": 0.5011,
+			"pack": 44
+		},
+		{
+			"id": "everdawn-grove-338",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4781,
+			"y": 0.5047,
+			"pack": 45
+		},
+		{
+			"id": "everdawn-grove-339",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4764,
+			"y": 0.5037,
+			"pack": 45
+		},
+		{
+			"id": "everdawn-grove-340",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.478,
+			"y": 0.5008,
+			"pack": 45
+		},
+		{
+			"id": "everdawn-grove-341",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4032,
+			"y": 0.5029,
+			"pack": 46
+		},
+		{
+			"id": "everdawn-grove-342",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4041,
+			"y": 0.5079,
+			"pack": 46
+		},
+		{
+			"id": "everdawn-grove-343",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.4,
+			"y": 0.5188,
+			"pack": 46
+		},
+		{
+			"id": "everdawn-grove-344",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.3987,
+			"y": 0.5128,
+			"pack": 46
+		},
+		{
+			"id": "everdawn-grove-345",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5143,
+			"y": 0.5092,
+			"pack": 47
+		},
+		{
+			"id": "everdawn-grove-346",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.512,
+			"y": 0.5113,
+			"pack": 47
+		},
+		{
+			"id": "everdawn-grove-347",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5136,
+			"y": 0.5177,
+			"pack": 47
+		},
+		{
+			"id": "everdawn-grove-348",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3578,
+			"y": 0.5321,
+			"pack": 48
+		},
+		{
+			"id": "everdawn-grove-349",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3608,
+			"y": 0.5335,
+			"pack": 48
+		},
+		{
+			"id": "everdawn-grove-350",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3551,
+			"y": 0.5291,
+			"pack": 48
+		},
+		{
+			"id": "everdawn-grove-351",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4761,
+			"y": 0.5305,
+			"pack": 49
+		},
+		{
+			"id": "everdawn-grove-352",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4708,
+			"y": 0.5305,
+			"pack": 49
+		},
+		{
+			"id": "everdawn-grove-353",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.4735,
+			"y": 0.5347,
+			"pack": 49
+		},
+		{
+			"id": "everdawn-grove-354",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4486,
+			"y": 0.5494,
+			"pack": 50
+		},
+		{
+			"id": "everdawn-grove-355",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.45,
+			"y": 0.5319,
+			"pack": 50
+		},
+		{
+			"id": "everdawn-grove-356",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4486,
+			"y": 0.5346,
+			"pack": 50
+		},
+		{
+			"id": "everdawn-grove-357",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4471,
+			"y": 0.5482,
+			"pack": 50
+		},
+		{
+			"id": "everdawn-grove-358",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.452,
+			"y": 0.5444,
+			"pack": 50
+		},
+		{
+			"id": "everdawn-grove-359",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3767,
+			"y": 0.5607,
+			"pack": 51
+		},
+		{
+			"id": "everdawn-grove-360",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3802,
+			"y": 0.5616,
+			"pack": 52
+		},
+		{
+			"id": "everdawn-grove-361",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.3549,
+			"y": 0.5643,
+			"pack": 53
+		},
+		{
+			"id": "everdawn-grove-362",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.3533,
+			"y": 0.5623,
+			"pack": 53
+		},
+		{
+			"id": "everdawn-grove-363",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3703,
+			"y": 0.5631,
+			"pack": 54
+		},
+		{
+			"id": "everdawn-grove-364",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.3761,
+			"y": 0.5686,
+			"pack": 55
+		},
+		{
+			"id": "everdawn-grove-365",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4715,
+			"y": 0.5716,
+			"pack": 56
+		},
+		{
+			"id": "everdawn-grove-366",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4057,
+			"y": 0.5761,
+			"pack": 57
+		},
+		{
+			"id": "everdawn-grove-367",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4093,
+			"y": 0.5751,
+			"pack": 57
+		},
+		{
+			"id": "everdawn-grove-368",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4074,
+			"y": 0.5806,
+			"pack": 57
+		},
+		{
+			"id": "everdawn-grove-369",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4944,
+			"y": 0.5991,
+			"pack": 58
+		},
+		{
+			"id": "everdawn-grove-370",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4968,
+			"y": 0.5934,
+			"pack": 58
+		},
+		{
+			"id": "everdawn-grove-371",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4928,
+			"y": 0.5964,
+			"pack": 58
+		},
+		{
+			"id": "everdawn-grove-372",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4924,
+			"y": 0.5908,
+			"pack": 58
+		},
+		{
+			"id": "everdawn-grove-373",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.4952,
+			"y": 0.5907,
+			"pack": 58
+		},
+		{
+			"id": "everdawn-grove-374",
+			"enemyId": "um-gorestainedbutcher",
+			"floor": "f1",
+			"x": 0.472,
+			"y": 0.5954,
+			"pack": 59
+		},
+		{
+			"id": "everdawn-grove-375",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4694,
+			"y": 0.5935,
+			"pack": 59
+		},
+		{
+			"id": "everdawn-grove-376",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4706,
+			"y": 0.6004,
+			"pack": 59
+		},
+		{
+			"id": "everdawn-grove-377",
+			"enemyId": "mf-foultotemic",
+			"floor": "f1",
+			"x": 0.4356,
+			"y": 0.6165,
+			"pack": 60
+		},
+		{
+			"id": "everdawn-grove-378",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4355,
+			"y": 0.625,
+			"pack": 60
+		},
+		{
+			"id": "everdawn-grove-379",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.4302,
+			"y": 0.6166,
+			"pack": 60
+		},
+		{
+			"id": "everdawn-grove-380",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4329,
+			"y": 0.6046,
+			"pack": 60,
+			"empowered": true
+		},
+		{
+			"id": "everdawn-grove-381",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.4343,
+			"y": 0.6278,
+			"pack": 60
+		},
+		{
+			"id": "everdawn-grove-382",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5572,
+			"y": 0.6078,
+			"pack": 61
+		},
+		{
+			"id": "everdawn-grove-383",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5626,
+			"y": 0.6124,
+			"pack": 62
+		},
+		{
+			"id": "everdawn-grove-384",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.5315,
+			"y": 0.6385,
+			"pack": 63
+		},
+		{
+			"id": "everdawn-grove-385",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.5343,
+			"y": 0.6139,
+			"pack": 63
+		},
+		{
+			"id": "everdawn-grove-386",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5343,
+			"y": 0.6187,
+			"pack": 63
+		},
+		{
+			"id": "everdawn-grove-387",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.532,
+			"y": 0.635,
+			"pack": 63
+		},
+		{
+			"id": "everdawn-grove-388",
+			"enemyId": "mf-blightedmorningglory",
+			"floor": "f1",
+			"x": 0.5941,
+			"y": 0.6232,
+			"pack": 64
+		},
+		{
+			"id": "everdawn-grove-389",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5919,
+			"y": 0.6218,
+			"pack": 64
+		},
+		{
+			"id": "everdawn-grove-390",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5923,
+			"y": 0.6142,
+			"pack": 64
+		},
+		{
+			"id": "everdawn-grove-391",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5609,
+			"y": 0.6166,
+			"pack": 65
+		},
+		{
+			"id": "everdawn-grove-392",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.3641,
+			"y": 0.6247,
+			"pack": 66
+		},
+		{
+			"id": "everdawn-grove-393",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.364,
+			"y": 0.6185,
+			"pack": 66
+		},
+		{
+			"id": "everdawn-grove-394",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.3662,
+			"y": 0.621,
+			"pack": 66
+		},
+		{
+			"id": "everdawn-grove-395",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4724,
+			"y": 0.6198,
+			"pack": 67
+		},
+		{
+			"id": "everdawn-grove-396",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4696,
+			"y": 0.6198,
+			"pack": 67
+		},
+		{
+			"id": "everdawn-grove-397",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.5095,
+			"y": 0.6316,
+			"pack": 68
+		},
+		{
+			"id": "everdawn-grove-398",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.5098,
+			"y": 0.6353,
+			"pack": 68
+		},
+		{
+			"id": "everdawn-grove-399",
+			"enemyId": "um-desecrater",
+			"floor": "f1",
+			"x": 0.5472,
+			"y": 0.6469,
+			"pack": 69,
+			"empowered": true
+		},
+		{
+			"id": "everdawn-grove-400",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5468,
+			"y": 0.64,
+			"pack": 69
+		},
+		{
+			"id": "everdawn-grove-401",
+			"enemyId": "um-outrunner",
+			"floor": "f1",
+			"x": 0.5443,
+			"y": 0.6476,
+			"pack": 69
+		},
+		{
+			"id": "everdawn-grove-402",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.4002,
+			"y": 0.6515,
+			"pack": 70
+		},
+		{
+			"id": "everdawn-grove-403",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3982,
+			"y": 0.6517,
+			"pack": 70
+		},
+		{
+			"id": "everdawn-grove-404",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3961,
+			"y": 0.6513,
+			"pack": 70
+		},
+		{
+			"id": "everdawn-grove-405",
+			"enemyId": "um-hornedseer",
+			"floor": "f1",
+			"x": 0.4023,
+			"y": 0.6506,
+			"pack": 70
+		},
+		{
+			"id": "everdawn-grove-406",
+			"enemyId": "mf-foultotemic",
+			"floor": "f1",
+			"x": 0.3716,
+			"y": 0.6717,
+			"pack": 71
+		},
+		{
+			"id": "everdawn-grove-407",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3759,
+			"y": 0.6746,
+			"pack": 71
+		},
+		{
+			"id": "everdawn-grove-408",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.374,
+			"y": 0.6666,
+			"pack": 71
+		},
+		{
+			"id": "everdawn-grove-409",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3763,
+			"y": 0.6713,
+			"pack": 71
+		},
+		{
+			"id": "everdawn-grove-410",
+			"enemyId": "mf-mangybrute",
+			"floor": "f1",
+			"x": 0.3717,
+			"y": 0.6646,
+			"pack": 71
+		},
+		{
+			"id": "everdawn-grove-411",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5462,
+			"y": 0.698,
+			"pack": 72
+		},
+		{
+			"id": "everdawn-grove-412",
+			"enemyId": "mf-skittershard",
+			"floor": "f1",
+			"x": 0.5422,
+			"y": 0.6925,
+			"pack": 72
+		}
+	],
+	"minibosses": [
+		{
+			"affix": "eira",
+			"floor": "f1",
+			"x": 0.6193,
+			"y": 0.3475,
+			"radius": 2000,
+			"replaces": [
+				"everdawn-grove-86",
+				"everdawn-grove-279",
+				"everdawn-grove-280",
+				"everdawn-grove-288",
+				"everdawn-grove-289",
+				"everdawn-grove-290",
+				"everdawn-grove-291",
+				"everdawn-grove-305"
+			]
+		},
+		{
+			"affix": "ghorn",
+			"floor": "f1",
+			"x": 0.3502,
+			"y": 0.393,
+			"radius": 2000,
+			"replaces": [
+				"everdawn-grove-298",
+				"everdawn-grove-301",
+				"everdawn-grove-303",
+				"everdawn-grove-308",
+				"everdawn-grove-309"
+			]
+		}
+	],
+	"start": {
+		"floor": "f1",
+		"x": 0.6173,
+		"y": 0.8399
+	},
+	"checkpoints": [
+		{
+			"floor": "f1",
+			"x": 0.4231,
+			"y": 0.2885
+		},
+		{
+			"floor": "f1",
+			"x": 0.5388,
+			"y": 0.0882
+		},
+		{
+			"floor": "f1",
+			"x": 0.3388,
+			"y": 0.4866
+		}
+	],
+	"patrols": [
+		{
+			"id": "everdawn-grove-p1",
+			"floor": "f1",
+			"points": [
+				[
+					0.5584,
+					0.1525
+				],
+				[
+					0.5285,
+					0.1609
+				],
+				[
+					0.5352,
+					0.2272
+				],
+				[
+					0.5566,
+					0.2149
+				]
+			],
+			"spawns": [
+				"everdawn-grove-208",
+				"everdawn-grove-209",
+				"everdawn-grove-210",
+				"everdawn-grove-211",
+				"everdawn-grove-212"
+			]
+		},
+		{
+			"id": "everdawn-grove-p2",
+			"floor": "f1",
+			"points": [
+				[
+					0.3809,
+					0.2179
+				],
+				[
+					0.3784,
+					0.2782
+				]
+			],
+			"spawns": [
+				"everdawn-grove-249",
+				"everdawn-grove-250",
+				"everdawn-grove-251"
+			]
+		},
+		{
+			"id": "everdawn-grove-p3",
+			"floor": "f1",
+			"points": [
+				[
+					0.4114,
+					0.2469
+				],
+				[
+					0.4305,
+					0.2705
+				],
+				[
+					0.4449,
+					0.2635
+				],
+				[
+					0.4528,
+					0.2185
+				],
+				[
+					0.4274,
+					0.2138
+				],
+				[
+					0.4135,
+					0.2164
+				]
+			],
+			"spawns": [
+				"everdawn-grove-252",
+				"everdawn-grove-253",
+				"everdawn-grove-254",
+				"everdawn-grove-255"
+			]
+		},
+		{
+			"id": "everdawn-grove-p4",
+			"floor": "f1",
+			"points": [
+				[
+					0.5189,
+					0.2919
+				],
+				[
+					0.523,
+					0.3299
+				],
+				[
+					0.538,
+					0.3488
+				]
+			],
+			"spawns": [
+				"everdawn-grove-272",
+				"everdawn-grove-273",
+				"everdawn-grove-274",
+				"everdawn-grove-275"
+			]
+		},
+		{
+			"id": "everdawn-grove-p5",
+			"floor": "f1",
+			"points": [
+				[
+					0.5504,
+					0.3358
+				],
+				[
+					0.5507,
+					0.3655
+				],
+				[
+					0.5618,
+					0.3888
+				]
+			],
+			"spawns": [
+				"everdawn-grove-292",
+				"everdawn-grove-293",
+				"everdawn-grove-294",
+				"everdawn-grove-295",
+				"everdawn-grove-296"
+			]
+		},
+		{
+			"id": "everdawn-grove-p6",
+			"floor": "f1",
+			"points": [
+				[
+					0.5972,
+					0.3834
+				],
+				[
+					0.5942,
+					0.3776
+				]
+			],
+			"spawns": [
+				"everdawn-grove-304"
+			]
+		},
+		{
+			"id": "everdawn-grove-p7",
+			"floor": "f1",
+			"points": [
+				[
+					0.6001,
+					0.3546
+				],
+				[
+					0.6225,
+					0.3854
+				],
+				[
+					0.6231,
+					0.4255
+				],
+				[
+					0.5983,
+					0.4517
+				]
+			],
+			"spawns": [
+				"everdawn-grove-305",
+				"everdawn-grove-306"
+			]
+		},
+		{
+			"id": "everdawn-grove-p8",
+			"floor": "f1",
+			"points": [
+				[
+					0.6008,
+					0.3911
+				],
+				[
+					0.6037,
+					0.3852
+				]
+			],
+			"spawns": [
+				"everdawn-grove-310"
+			]
+		},
+		{
+			"id": "everdawn-grove-p9",
+			"floor": "f1",
+			"points": [
+				[
+					0.5971,
+					0.3925
+				],
+				[
+					0.6003,
+					0.3978
+				]
+			],
+			"spawns": [
+				"everdawn-grove-311"
+			]
+		},
+		{
+			"id": "everdawn-grove-p10",
+			"floor": "f1",
+			"points": [
+				[
+					0.5434,
+					0.4056
+				],
+				[
+					0.5416,
+					0.3981
+				]
+			],
+			"spawns": [
+				"everdawn-grove-312"
+			]
+		},
+		{
+			"id": "everdawn-grove-p11",
+			"floor": "f1",
+			"points": [
+				[
+					0.5456,
+					0.407
+				],
+				[
+					0.5495,
+					0.4099
+				]
+			],
+			"spawns": [
+				"everdawn-grove-314"
+			]
+		},
+		{
+			"id": "everdawn-grove-p12",
+			"floor": "f1",
+			"points": [
+				[
+					0.5384,
+					0.4113
+				],
+				[
+					0.5343,
+					0.4106
+				]
+			],
+			"spawns": [
+				"everdawn-grove-315"
+			]
+		},
+		{
+			"id": "everdawn-grove-p13",
+			"floor": "f1",
+			"points": [
+				[
+					0.5453,
+					0.4183
+				],
+				[
+					0.5412,
+					0.4175
+				]
+			],
+			"spawns": [
+				"everdawn-grove-316"
+			]
+		},
+		{
+			"id": "everdawn-grove-p14",
+			"floor": "f1",
+			"points": [
+				[
+					0.3612,
+					0.4719
+				],
+				[
+					0.3643,
+					0.4193
+				]
+			],
+			"spawns": [
+				"everdawn-grove-326",
+				"everdawn-grove-327"
+			]
+		},
+		{
+			"id": "everdawn-grove-p15",
+			"floor": "f1",
+			"points": [
+				[
+					0.5773,
+					0.5704
+				],
+				[
+					0.5699,
+					0.5138
+				],
+				[
+					0.5835,
+					0.4728
+				]
+			],
+			"spawns": [
+				"everdawn-grove-334",
+				"everdawn-grove-335",
+				"everdawn-grove-336",
+				"everdawn-grove-337"
+			]
+		},
+		{
+			"id": "everdawn-grove-p16",
+			"floor": "f1",
+			"points": [
+				[
+					0.3608,
+					0.5335
+				],
+				[
+					0.3788,
+					0.5093
+				],
+				[
+					0.3676,
+					0.4798
+				],
+				[
+					0.3664,
+					0.4307
+				],
+				[
+					0.3558,
+					0.4806
+				],
+				[
+					0.3468,
+					0.5086
+				]
+			],
+			"spawns": [
+				"everdawn-grove-348",
+				"everdawn-grove-349",
+				"everdawn-grove-350"
+			]
+		},
+		{
+			"id": "everdawn-grove-p17",
+			"floor": "f1",
+			"points": [
+				[
+					0.3775,
+					0.563
+				],
+				[
+					0.3734,
+					0.5615
+				]
+			],
+			"spawns": [
+				"everdawn-grove-359"
+			]
+		},
+		{
+			"id": "everdawn-grove-p18",
+			"floor": "f1",
+			"points": [
+				[
+					0.3789,
+					0.562
+				],
+				[
+					0.3813,
+					0.5553
+				]
+			],
+			"spawns": [
+				"everdawn-grove-360"
+			]
+		},
+		{
+			"id": "everdawn-grove-p19",
+			"floor": "f1",
+			"points": [
+				[
+					0.472,
+					0.5954
+				],
+				[
+					0.4768,
+					0.5687
+				],
+				[
+					0.4647,
+					0.5532
+				],
+				[
+					0.453,
+					0.5905
+				]
+			],
+			"spawns": [
+				"everdawn-grove-374",
+				"everdawn-grove-375",
+				"everdawn-grove-376"
+			]
+		},
+		{
+			"id": "everdawn-grove-p20",
+			"floor": "f1",
+			"points": [
+				[
+					0.5583,
+					0.6062
+				],
+				[
+					0.5576,
+					0.6144
+				]
+			],
+			"spawns": [
+				"everdawn-grove-382"
+			]
+		},
+		{
+			"id": "everdawn-grove-p21",
+			"floor": "f1",
+			"points": [
+				[
+					0.5615,
+					0.6142
+				],
+				[
+					0.5619,
+					0.606
+				]
+			],
+			"spawns": [
+				"everdawn-grove-383"
+			]
+		},
+		{
+			"id": "everdawn-grove-p22",
+			"floor": "f1",
+			"points": [
+				[
+					0.5617,
+					0.6189
+				],
+				[
+					0.5576,
+					0.6174
+				]
+			],
+			"spawns": [
+				"everdawn-grove-391"
+			]
+		},
+		{
+			"id": "everdawn-grove-p23",
+			"floor": "f1",
+			"points": [
+				[
+					0.5451,
+					0.6432
+				],
+				[
+					0.5696,
+					0.6842
+				],
+				[
+					0.5718,
+					0.6446
+				],
+				[
+					0.576,
+					0.6092
+				]
+			],
+			"spawns": [
+				"everdawn-grove-399",
+				"everdawn-grove-400",
+				"everdawn-grove-401"
+			]
+		},
+		{
+			"id": "everdawn-grove-p24",
+			"floor": "f1",
+			"points": [
+				[
+					0.4023,
+					0.6506
+				],
+				[
+					0.4145,
+					0.6081
+				],
+				[
+					0.3939,
+					0.5897
+				],
+				[
+					0.3799,
+					0.6346
+				]
+			],
+			"spawns": [
+				"everdawn-grove-402",
+				"everdawn-grove-403",
+				"everdawn-grove-404",
+				"everdawn-grove-405"
+			]
+		}
+	],
+	"art": {
+		"codex": "/art/codex/everdawn-grove.webp",
+		"banner": "/art/banner/everdawn-grove.webp"
+	}
+}

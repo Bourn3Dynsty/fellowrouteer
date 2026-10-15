@@ -1,0 +1,6794 @@
+{
+	"source": {
+		"url": "https://codex.frazl.tech/",
+		"buildChangelist": "CL-115701",
+		"dumpedAt": "2026-10-02T11:23:58+00:00"
+	},
+	"baseHealth": 2999.0,
+	"health": [
+		[
+			1,
+			1.0
+		],
+		[
+			2,
+			1.31
+		],
+		[
+			3,
+			1.85
+		],
+		[
+			4,
+			2.6
+		],
+		[
+			5,
+			3.67
+		],
+		[
+			6,
+			4.05
+		],
+		[
+			7,
+			4.66
+		],
+		[
+			8,
+			6.11
+		],
+		[
+			9,
+			8.0
+		],
+		[
+			10,
+			10.49
+		],
+		[
+			11,
+			11.23
+		],
+		[
+			12,
+			11.96
+		],
+		[
+			13,
+			14.47
+		],
+		[
+			14,
+			17.51
+		],
+		[
+			15,
+			21.18
+		],
+		[
+			16,
+			21.92
+		],
+		[
+			17,
+			22.98
+		],
+		[
+			18,
+			26.77
+		],
+		[
+			19,
+			31.19
+		],
+		[
+			20,
+			36.34
+		],
+		[
+			21,
+			37.37
+		],
+		[
+			22,
+			39.61
+		],
+		[
+			23,
+			41.99
+		],
+		[
+			24,
+			44.51
+		],
+		[
+			25,
+			47.18
+		],
+		[
+			26,
+			50.01
+		],
+		[
+			27,
+			53.01
+		],
+		[
+			28,
+			56.19
+		],
+		[
+			29,
+			59.56
+		],
+		[
+			30,
+			63.13
+		],
+		[
+			31,
+			66.92
+		],
+		[
+			32,
+			68.93
+		],
+		[
+			33,
+			71.0
+		],
+		[
+			34,
+			73.12
+		],
+		[
+			35,
+			75.32
+		],
+		[
+			36,
+			77.58
+		],
+		[
+			37,
+			79.91
+		],
+		[
+			38,
+			82.3
+		],
+		[
+			39,
+			84.77
+		],
+		[
+			40,
+			87.32
+		],
+		[
+			41,
+			89.93
+		],
+		[
+			42,
+			92.63
+		],
+		[
+			43,
+			95.41
+		],
+		[
+			44,
+			98.27
+		],
+		[
+			45,
+			101.22
+		],
+		[
+			46,
+			104.26
+		],
+		[
+			47,
+			107.39
+		],
+		[
+			48,
+			110.61
+		],
+		[
+			49,
+			113.93
+		],
+		[
+			50,
+			117.34
+		],
+		[
+			51,
+			120.86
+		],
+		[
+			52,
+			124.49
+		],
+		[
+			53,
+			128.23
+		],
+		[
+			54,
+			132.07
+		],
+		[
+			55,
+			136.03
+		],
+		[
+			56,
+			140.11
+		],
+		[
+			57,
+			144.32
+		],
+		[
+			58,
+			148.65
+		],
+		[
+			59,
+			153.11
+		],
+		[
+			60,
+			157.7
+		],
+		[
+			61,
+			162.43
+		],
+		[
+			62,
+			167.3
+		],
+		[
+			63,
+			172.32
+		],
+		[
+			64,
+			177.49
+		],
+		[
+			65,
+			182.82
+		],
+		[
+			66,
+			188.3
+		],
+		[
+			67,
+			193.95
+		],
+		[
+			68,
+			199.77
+		],
+		[
+			69,
+			205.76
+		],
+		[
+			70,
+			211.94
+		],
+		[
+			71,
+			218.29
+		],
+		[
+			72,
+			224.84
+		],
+		[
+			73,
+			231.59
+		],
+		[
+			74,
+			238.54
+		],
+		[
+			75,
+			245.69
+		],
+		[
+			76,
+			250.61
+		],
+		[
+			77,
+			255.62
+		],
+		[
+			78,
+			260.73
+		],
+		[
+			79,
+			265.95
+		],
+		[
+			80,
+			271.26
+		],
+		[
+			81,
+			276.69
+		],
+		[
+			82,
+			282.22
+		],
+		[
+			83,
+			287.87
+		],
+		[
+			84,
+			293.63
+		],
+		[
+			85,
+			299.5
+		],
+		[
+			86,
+			305.49
+		],
+		[
+			87,
+			311.6
+		],
+		[
+			88,
+			317.83
+		],
+		[
+			89,
+			324.19
+		],
+		[
+			90,
+			330.67
+		],
+		[
+			91,
+			337.28
+		],
+		[
+			92,
+			344.03
+		],
+		[
+			93,
+			350.91
+		],
+		[
+			94,
+			357.93
+		],
+		[
+			95,
+			365.09
+		],
+		[
+			96,
+			372.39
+		],
+		[
+			97,
+			379.84
+		],
+		[
+			98,
+			387.43
+		],
+		[
+			99,
+			395.18
+		],
+		[
+			100,
+			403.08
+		],
+		[
+			101,
+			411.15
+		],
+		[
+			102,
+			419.37
+		],
+		[
+			103,
+			427.76
+		],
+		[
+			104,
+			436.31
+		],
+		[
+			105,
+			445.04
+		],
+		[
+			106,
+			453.94
+		],
+		[
+			107,
+			463.02
+		],
+		[
+			108,
+			472.28
+		],
+		[
+			109,
+			481.72
+		],
+		[
+			110,
+			491.36
+		],
+		[
+			111,
+			501.18
+		],
+		[
+			112,
+			511.21
+		],
+		[
+			113,
+			521.43
+		],
+		[
+			114,
+			531.86
+		],
+		[
+			115,
+			542.5
+		],
+		[
+			116,
+			553.35
+		],
+		[
+			117,
+			564.42
+		],
+		[
+			118,
+			575.7
+		],
+		[
+			119,
+			587.22
+		],
+		[
+			120,
+			598.96
+		],
+		[
+			121,
+			610.94
+		],
+		[
+			122,
+			623.16
+		],
+		[
+			123,
+			635.62
+		],
+		[
+			124,
+			648.34
+		],
+		[
+			125,
+			661.3
+		],
+		[
+			126,
+			674.53
+		],
+		[
+			127,
+			688.02
+		],
+		[
+			128,
+			701.78
+		],
+		[
+			129,
+			715.82
+		],
+		[
+			130,
+			730.13
+		],
+		[
+			131,
+			744.73
+		],
+		[
+			132,
+			759.63
+		],
+		[
+			133,
+			774.82
+		],
+		[
+			134,
+			790.32
+		],
+		[
+			135,
+			806.12
+		],
+		[
+			136,
+			822.25
+		],
+		[
+			137,
+			838.69
+		],
+		[
+			138,
+			855.47
+		],
+		[
+			139,
+			872.57
+		],
+		[
+			140,
+			890.03
+		],
+		[
+			141,
+			907.83
+		],
+		[
+			142,
+			925.98
+		],
+		[
+			143,
+			944.5
+		],
+		[
+			144,
+			963.39
+		],
+		[
+			145,
+			982.66
+		],
+		[
+			146,
+			1002.31
+		],
+		[
+			147,
+			1022.36
+		],
+		[
+			148,
+			1042.81
+		],
+		[
+			149,
+			1063.66
+		],
+		[
+			150,
+			1084.94
+		],
+		[
+			151,
+			1106.64
+		]
+	],
+	"modifiers": {
+		"Ascension1": {
+			"name": "Sahril's Madness",
+			"description": "Enemies receive 30% Increased Threat from Damage Dealers and Healers.",
+			"type": "Ascension"
+		},
+		"Ascension2": {
+			"name": "Elheryn's Exile",
+			"description": "Enemy's Interruptable abilities and Dispellable effects deal 20% more damage.",
+			"type": "Ascension"
+		},
+		"Ascension3": {
+			"name": "Vayr's Legacy",
+			"description": "Enemies have learned New Abilities.",
+			"type": "Ascension"
+		},
+		"Ascension4": {
+			"name": "Asha's Dilemma",
+			"description": "Dungeons have a Time Limit.",
+			"type": "Ascension"
+		},
+		"Ascension5": {
+			"name": "Asha's Regret",
+			"description": "Dungeons have a Time Limit.",
+			"type": "Ascension"
+		},
+		"Ascension6": {
+			"name": "Pathfinder's Guidance",
+			"description": "Elheryn, the Pathfinder, guides you through the dungeon.",
+			"type": "Ascension"
+		},
+		"BloodShardVolley": {
+			"name": "Blood Shards",
+			"description": "Blood Shards erupt from dying enemies, dealing 0.7% of their maximum health in damage to all heroes.",
+			"type": "Dungeon"
+		},
+		"MeteorRain": {
+			"name": "Meteor Rain",
+			"description": "Periodically, burning meteors crash down on heroes, splitting up into fragments that damage and stun on impact.",
+			"type": "Dungeon"
+		},
+		"ColdSnap": {
+			"name": "Binding Ice",
+			"description": "Periodically, one hero is afflicted by an icy curse. After 5 seconds the curse erupts, dealing magic damage to all heroes within the radius and rooting them for 3 seconds.",
+			"type": "Dungeon"
+		},
+		"MalevolentSpirits": {
+			"name": "Malevolent Shade",
+			"description": "As heroes kill enemies, eventually a Malevolent Shade will appear, reducing all damage taken by other nearby enemies by 50% and increasing their Haste by 20% until the shade is killed.",
+			"type": "Dungeon"
+		},
+		"StoneSkin": {
+			"name": "Stone Skin",
+			"description": "Non-boss enemies have 30% increased Maximum Health",
+			"type": "Dungeon"
+		},
+		"Carnage": {
+			"name": "Carnage",
+			"description": "All incoming damage applies a bleed for 6% of damage taken on all heroes divided evenly. When a hero's health is above 90% the Carnage bleed is removed.",
+			"type": "Dungeon"
+		},
+		"Challenge": {
+			"name": "Challenge",
+			"description": "Non-boss enemies deal 10% more damage and have 10% more health.",
+			"type": "Dungeon"
+		},
+		"Ultimatum": {
+			"name": "Ultimatum",
+			"description": "Bosses deal 5% more damage and have 10% more health.",
+			"type": "Dungeon"
+		},
+		"WinterTrickster": {
+			"name": "Krumbug the Naughty",
+			"description": "Krumbug the Naughty is waiting for you somewhere in the dungeon. If you challenge him in combat and defeat him, you will gain access to his bag of tricks.",
+			"type": "Dungeon"
+		},
+		"AnomalousOrbs": {
+			"name": "Anomalous Orbs",
+			"description": "Three Anomalous Orbs spawn near enemies periodically. The orbs are targetable and can be damaged.",
+			"type": "Dungeon"
+		},
+		"StormShield": {
+			"name": "Storm Shield",
+			"description": "Periodically, players will charge up with red lightning for 8 seconds, after which a massive bolt strikes all players, dealing lethal damage.",
+			"type": "Dungeon"
+		},
+		"Truesight": {
+			"name": "Truesight",
+			"description": "Every 30% of Kill Score, an enemy will drop a Truesight Orb. Collecting a Truesight Orb will grant Truesight, revealing the next enemy marked by the Heskyr. This enemy will deal pulsating damage until killed.",
+			"type": "Dungeon"
+		}
+	},
+	"dungeons": {
+		"the-heart-of-tuzari": {
+			"timer": 1485.0,
+			"listed": true,
+			"mobCount": 309,
+			"keyLevels": [
+				{
+					"level": 4,
+					"affixes": [],
+					"other": [
+						"Ascension6"
+					]
+				},
+				{
+					"level": 5,
+					"affixes": [],
+					"other": [
+						"Ascension6"
+					]
+				},
+				{
+					"level": 21,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 25,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 29,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 33,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 37,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 41,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 45,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 49,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 53,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 57,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 61,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 65,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 69,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 73,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 77,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 81,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 85,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 89,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 93,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 97,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 101,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 105,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 109,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 113,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 117,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 121,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 125,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 129,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 133,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 137,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 141,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 145,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 149,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				}
+			]
+		},
+		"empyrean-sands": {
+			"timer": 744.0,
+			"listed": true,
+			"mobCount": 232,
+			"keyLevels": [
+				{
+					"level": 6,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 11,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 16,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 22,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 25,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 28,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 32,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 35,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 38,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 42,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 45,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 48,
+					"affixes": [
+						"empowered",
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 52,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 55,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 58,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 62,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 65,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 68,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 72,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 75,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 78,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 82,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 85,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 88,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 92,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 95,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 98,
+					"affixes": [
+						"empowered",
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 102,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 105,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 108,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 112,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 115,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 118,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 122,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 125,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 128,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 132,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 135,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 138,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 142,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 145,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 148,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				}
+			]
+		},
+		"godfall-quarry": {
+			"timer": 738.0,
+			"listed": true,
+			"mobCount": 132,
+			"keyLevels": [
+				{
+					"level": 3,
+					"affixes": [],
+					"other": [
+						"Ascension6"
+					]
+				},
+				{
+					"level": 8,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension6",
+						"Truesight"
+					]
+				},
+				{
+					"level": 16,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 21,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 24,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 28,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 31,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 34,
+					"affixes": [
+						"empowered",
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 38,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 41,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 44,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 48,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 51,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 54,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 58,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 61,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 64,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 68,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 71,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 74,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 78,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 81,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 84,
+					"affixes": [
+						"empowered",
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 88,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 91,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 94,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 98,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 101,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 104,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 108,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 111,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 114,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 118,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 121,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 124,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 128,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 131,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 134,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 138,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 141,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 144,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 148,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				}
+			]
+		},
+		"cithrels-fall": {
+			"timer": 1671.0,
+			"listed": true,
+			"mobCount": 171,
+			"keyLevels": [
+				{
+					"level": 19,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 20,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 24,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 28,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 32,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 36,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 40,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 44,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 48,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 52,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 56,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 60,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 64,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 68,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 72,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 76,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 80,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 84,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 88,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 92,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 96,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 100,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 104,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 108,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 112,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 116,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 120,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 124,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 128,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 132,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 136,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 140,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 144,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 148,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				}
+			]
+		},
+		"wyrmheart": {
+			"timer": 806.0,
+			"listed": true,
+			"mobCount": 105,
+			"keyLevels": [
+				{
+					"level": 1,
+					"affixes": [],
+					"other": [
+						"Ascension6"
+					]
+				},
+				{
+					"level": 6,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 12,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 17,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 22,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 26,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 29,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 32,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 36,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 39,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 42,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 46,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 49,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 52,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 56,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 59,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 62,
+					"affixes": [
+						"empowered",
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 66,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 69,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 72,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 76,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 79,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 82,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 86,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 89,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 92,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 96,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 99,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 102,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 106,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 109,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 112,
+					"affixes": [
+						"empowered",
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 116,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 119,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 122,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 126,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 129,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 132,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 136,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 139,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 142,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 146,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 149,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				}
+			]
+		},
+		"ruins-of-regath": {
+			"timer": null,
+			"listed": true,
+			"mobCount": 210,
+			"keyLevels": [
+				{
+					"level": 3,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Truesight"
+					]
+				},
+				{
+					"level": 11,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 16,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension6",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 21,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 25,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 28,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 31,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 35,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 38,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 41,
+					"affixes": [
+						"empowered",
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 45,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 48,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 51,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 55,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 58,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 61,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 65,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 68,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 71,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 75,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 78,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 81,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 85,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 88,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 91,
+					"affixes": [
+						"empowered",
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 95,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 98,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 101,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 105,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 108,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 111,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 115,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 118,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 121,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 125,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 128,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 131,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 135,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 138,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 141,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 145,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 148,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				}
+			]
+		},
+		"everdawn-grove": {
+			"timer": 708.0,
+			"listed": true,
+			"mobCount": 219,
+			"keyLevels": [
+				{
+					"level": 3,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Truesight"
+					]
+				},
+				{
+					"level": 8,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension6"
+					]
+				},
+				{
+					"level": 13,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 21,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 24,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 27,
+					"affixes": [
+						"empowered",
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 31,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 34,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 37,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 41,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 44,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 47,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 51,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 54,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 57,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 61,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 64,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 67,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 71,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 74,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 77,
+					"affixes": [
+						"empowered",
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 81,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 84,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 87,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 91,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 94,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 97,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 101,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 104,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 107,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 111,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 114,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 117,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 121,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 124,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 127,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 131,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 134,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 137,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 141,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 144,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 147,
+					"affixes": [
+						"empowered",
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				}
+			]
+		},
+		"stormwatch": {
+			"timer": 848.0,
+			"listed": true,
+			"mobCount": 158,
+			"keyLevels": [
+				{
+					"level": 1,
+					"affixes": [],
+					"other": [
+						"Ascension6"
+					]
+				},
+				{
+					"level": 7,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension6"
+					]
+				},
+				{
+					"level": 12,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 17,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 23,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 26,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 29,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 33,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 36,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 39,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 43,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 46,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 49,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 53,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 56,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 59,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 63,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 66,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 69,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 73,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 76,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 79,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 83,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 86,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 89,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 93,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 96,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 99,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 103,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 106,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 109,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 113,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 116,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 119,
+					"affixes": [
+						"empowered",
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 123,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 126,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 129,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 133,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 136,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 139,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 143,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 146,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 149,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				}
+			]
+		},
+		"wraithtide-vault": {
+			"timer": 1782.0,
+			"listed": true,
+			"mobCount": 264,
+			"keyLevels": [
+				{
+					"level": 14,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 15,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 23,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 27,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 31,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 35,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 39,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 43,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 47,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 51,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 55,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 59,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 63,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 67,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 71,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 75,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 79,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 83,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 87,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 91,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 95,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 99,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 103,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 107,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 111,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 115,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 119,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 123,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 127,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 131,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 135,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 139,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 143,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 147,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				}
+			]
+		},
+		"xul-the-blood-monolith": {
+			"timer": null,
+			"listed": false,
+			"mobCount": 236,
+			"keyLevels": []
+		},
+		"sailors-abyss": {
+			"timer": 717.0,
+			"listed": true,
+			"mobCount": 159,
+			"keyLevels": [
+				{
+					"level": 1,
+					"affixes": [],
+					"other": [
+						"Ascension6"
+					]
+				},
+				{
+					"level": 6,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 11,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 17,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 22,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 25,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 29,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 32,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 35,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 39,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 42,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 45,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 49,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 52,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 55,
+					"affixes": [
+						"empowered",
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 59,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 62,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 65,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 69,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 72,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 75,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 79,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 82,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 85,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 89,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 92,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 95,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 99,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 102,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 105,
+					"affixes": [
+						"empowered",
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 109,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 112,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 115,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 119,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 122,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 125,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 129,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 132,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 135,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 139,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 142,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 145,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 149,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				}
+			]
+		},
+		"scryers-peak": {
+			"timer": null,
+			"listed": true,
+			"mobCount": 130,
+			"keyLevels": [
+				{
+					"level": 2,
+					"affixes": [],
+					"other": [
+						"Ascension6"
+					]
+				},
+				{
+					"level": 8,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Truesight",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 13,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 18,
+					"affixes": [
+						"empowered",
+						"ghorn"
+					],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 24,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 27,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 30,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 34,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 37,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 40,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 44,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 47,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 50,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 54,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 57,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 60,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 64,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 67,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 70,
+					"affixes": [
+						"empowered",
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 74,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 77,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 80,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 84,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 87,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 90,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 94,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 97,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 100,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 104,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 107,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 110,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 114,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 117,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 120,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 124,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 127,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 130,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 134,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 137,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 140,
+					"affixes": [
+						"empowered",
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 144,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 147,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 150,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				}
+			]
+		},
+		"silken-hollow": {
+			"timer": 812.0,
+			"listed": true,
+			"mobCount": 140,
+			"keyLevels": [
+				{
+					"level": 2,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Truesight"
+					]
+				},
+				{
+					"level": 7,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"StormShield"
+					]
+				},
+				{
+					"level": 13,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 18,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 23,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 27,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 30,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 33,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 37,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 40,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 43,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 47,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 50,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 53,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 57,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 60,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 63,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 67,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 70,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 73,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 77,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 80,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 83,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 87,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 90,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 93,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 97,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 100,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 103,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 107,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 110,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 113,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 117,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 120,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 123,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 127,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 130,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 133,
+					"affixes": [
+						"empowered",
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 137,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 140,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 143,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 147,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 150,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				}
+			]
+		},
+		"urrak-markets": {
+			"timer": 781.0,
+			"listed": true,
+			"mobCount": 247,
+			"keyLevels": [
+				{
+					"level": 2,
+					"affixes": [],
+					"other": [
+						"Ascension6"
+					]
+				},
+				{
+					"level": 7,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 12,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 18,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 23,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 26,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 30,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 33,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 36,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 40,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 43,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 46,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 50,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 53,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 56,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 60,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 63,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 66,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 70,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 73,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 76,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 80,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 83,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 86,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 90,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 93,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 96,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 100,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 103,
+					"affixes": [
+						"empowered",
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 106,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs"
+					]
+				},
+				{
+					"level": 110,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 113,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 116,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 120,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 123,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 126,
+					"affixes": [
+						"empowered",
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 130,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"AnomalousOrbs",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 133,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 136,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 140,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap",
+						"Ultimatum"
+					]
+				},
+				{
+					"level": 143,
+					"affixes": [
+						"shadow-lord"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StoneSkin"
+					]
+				},
+				{
+					"level": 146,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 150,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Ultimatum"
+					]
+				}
+			]
+		},
+		"ransack-of-drakheim": {
+			"timer": 1740.0,
+			"listed": true,
+			"mobCount": 226,
+			"keyLevels": [
+				{
+					"level": 9,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 10,
+					"affixes": [],
+					"other": [
+						"Ascension6",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 22,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 26,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 30,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 34,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 38,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 42,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 46,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 50,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 54,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 58,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 62,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 66,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 70,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 74,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 78,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 82,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 86,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 90,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 94,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 98,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 102,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"StormShield"
+					]
+				},
+				{
+					"level": 106,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 110,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 114,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 118,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 122,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 126,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight",
+						"BloodShardVolley"
+					]
+				},
+				{
+					"level": 130,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"StormShield"
+					]
+				},
+				{
+					"level": 134,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"ColdSnap"
+					]
+				},
+				{
+					"level": 138,
+					"affixes": [
+						"eira"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				},
+				{
+					"level": 142,
+					"affixes": [],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"MeteorRain"
+					]
+				},
+				{
+					"level": 146,
+					"affixes": [
+						"ghorn"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5"
+					]
+				},
+				{
+					"level": 150,
+					"affixes": [
+						"empowered"
+					],
+					"other": [
+						"Ascension3",
+						"Ascension5",
+						"Truesight"
+					]
+				}
+			]
+		}
+	}
+}

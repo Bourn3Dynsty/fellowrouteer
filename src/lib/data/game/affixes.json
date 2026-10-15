@@ -1,0 +1,48 @@
+[
+	{
+		"id": "shadow-lord",
+		"kind": "score",
+		"name": "Shadow Lord's Trial",
+		"description": "The Shadow Lord has intervened, accumulating all kill score. As enemies are killed, Shadow Orbs are spawned nearby that can be collected by heroes.\n\nUpon collecting 30x Shadow Orbs, an Emissary of the Shadow Lord will arrive to challenge you. Defeating it will reward Kill Score.\n\nBONUS\nEach time an Emissary of the Shadow Lord is defeated, heroes gain Shadow's Defeat for 60 seconds, increased all damage dealt by 20% and increasing Haste and Movement Speed by 20%.",
+		"icon": "/icons/affixes/shadow-lord.webp",
+		"portrait": null,
+		"emissaryHealthMultiplier": 4.84,
+		"orbsPerEmissary": 30,
+		"emissaries": {
+			"dungeon": 3,
+			"adventure": 2
+		}
+	},
+	{
+		"id": "empowered",
+		"kind": "enemies",
+		"name": "Empowered Minions",
+		"description": "Several enemies in each dungeon are empowered, gaining +100% Health and +150% Power.\n\nBONUS\nEmpowered Minions award triple Kill Score, and upon defeating an Empowered Minion heroes gain +20% Haste and +20% Movement Speed for 40 seconds.",
+		"icon": "/icons/affixes/empowered.webp",
+		"portrait": null,
+		"scoreMultiplier": 3.0,
+		"healthMultiplier": 2.0
+	},
+	{
+		"id": "ghorn",
+		"kind": "miniboss",
+		"name": "Ghorn the Avalanche",
+		"description": "Ghorn the Avalanche is waiting for you somewhere in the dungeon. If you challenge him in combat and defeat him, he will assist you.\n\nBONUS\nDefeat Ghorn to gain Ghorn's Boon and gain back 20 seconds to the Dungeon Timer.\n\nGhorn's Boon\nGhorn will join you periodically while in boss encounters and help you.",
+		"icon": "/icons/affixes/ghorn.webp",
+		"portrait": "/icons/minibosses/ghorn.webp",
+		"killScore": 20.0,
+		"healthMultiplier": 8.37,
+		"timeBonus": 20
+	},
+	{
+		"id": "eira",
+		"kind": "miniboss",
+		"name": "Eira the White Witch",
+		"description": "Eira the White Witch is waiting for you somewhere in the dungeon. If you challenge her in combat and defeat her, she will assist you.\n\nBONUS\nDefeat Eira to gain The White Witch's Boon and gain back 90 seconds to the Dungeon Timer.\n\nThe White Witch's Boon\nEira will appear near you every 120 seconds and spawn a Winter Rune on the ground that persists for up to 30 seconds. When a player steps on the rune, they gain an absorb shield equal to 25% of their maximum health. While the shield is active, they take 50% reduced damage and are slowly healed.\n\nDamage taken by the shield is reduced by 50%.",
+		"icon": "/icons/affixes/eira.webp",
+		"portrait": "/icons/minibosses/eira.webp",
+		"killScore": 20.0,
+		"healthMultiplier": 7.115,
+		"timeBonus": 90
+	}
+]

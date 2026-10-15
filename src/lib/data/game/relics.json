@@ -1,0 +1,62 @@
+[
+	{
+		"id": "stealth",
+		"name": "Orb of Shadows",
+		"description": "Major Invisibility for nearby allies for 15s. Out of combat only: sneak past packs.",
+		"icon": "/icons/relics/stealth.webp"
+	},
+	{
+		"id": "chicken",
+		"name": "Ancient Poultry Fetish",
+		"description": "Chickenize! turns an enemy into a chicken. Charges are shared by the party; chickenized enemies give no kill score.",
+		"icon": "/icons/relics/chicken.webp"
+	},
+	{
+		"id": "portal",
+		"name": "Humming Portalstone",
+		"description": "Conjures two linked portals the party can travel between. One active portal at a time.",
+		"icon": "/icons/relics/portal.webp"
+	},
+	{
+		"id": "drums",
+		"name": "Bloodrite Drums",
+		"description": "Increases party movement speed.",
+		"icon": "/icons/relics/drums.webp"
+	},
+	{
+		"id": "battle-res",
+		"name": "Grimoire of Resurrection",
+		"description": "Resurrects a dead ally in combat.",
+		"icon": "/icons/relics/battle-res.webp"
+	},
+	{
+		"id": "dispel",
+		"name": "Ancient Wardstone",
+		"description": "Dispels magic effects from the party.",
+		"icon": "/icons/relics/dispel.webp"
+	},
+	{
+		"id": "interrupt",
+		"name": "Shard of Antimatter",
+		"description": "Interrupts the target and locks out casting for 4s (healers).",
+		"icon": "/icons/relics/interrupt.webp"
+	},
+	{
+		"id": "dr-party",
+		"name": "Sinbinding Stone",
+		"description": "Reduces damage taken by an ally.",
+		"icon": "/icons/relics/dr-party.webp"
+	},
+	{
+		"id": "health-potion",
+		"name": "Saltwash Elixir",
+		"description": "Recover health.",
+		"icon": "/icons/relics/health-potion.webp"
+	},
+	{
+		"id": "mana-potion",
+		"name": "Chalice of Al’zerac’s Essence",
+		"description": "Instantly restore 30% of your maximum mana.",
+		"icon": "/icons/relics/mana-potion.webp"
+	}
+]
